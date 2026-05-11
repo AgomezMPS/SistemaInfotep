@@ -32,7 +32,7 @@ Sustituye usuario y nombre del repo:
 
 **`https://github.com/TU_USUARIO/mantenimiento-productos-csharp-curso/tree/main`**
 
-Deberías ver `README.md`, `docs/`, `codigo/`, los `.srt`, etc. La carpeta de vídeos solo contendrá este `README.md` (los `.mp4` están en `.gitignore`).
+Deberías ver `README.md`, `docs/`, `codigo/`, los `.srt` en `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/`, etc. La carpeta de vídeos solo contendrá este `README.md` (los `.mp4` están en `.gitignore`).
 
 ## 4. Reglas de rama en GitHub (opcional)
 

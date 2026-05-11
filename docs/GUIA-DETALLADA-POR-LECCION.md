@@ -1,6 +1,6 @@
 # Guía detallada por lección (según subtítulos del curso)
 
-Documento orientado a **desarrolladores**: resume **qué se hace en cada parte** del curso según el texto de los archivos `subtitles1.srt` … `subtitles20.srt`. Los nombres de vídeo del proyecto pueden no coincidir al 100 % con el audio (p. ej. lección 12); aquí prima el **contenido hablado**.
+Documento orientado a **desarrolladores**: resume **qué se hace en cada parte** del curso según el texto de los archivos `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles1.srt` … `subtitles20.srt`. Los nombres de vídeo del proyecto pueden no coincidir al 100 % con el audio (p. ej. lección 12); aquí prima el **contenido hablado**.
 
 **Stack del curso:** C# (WinForms), SQL Server, arquitectura en **capas** (entidades, datos, negocio, presentación), procedimientos almacenados, **Bunifu** / Uniform UI, iconos (**Icons8**), colores (**Just Color Picker**), recursos gráficos con **PowerPoint**, exportación a **Excel** (interop).
 
@@ -334,26 +334,26 @@ Documento orientado a **desarrolladores**: resume **qué se hace en cada parte**
 
 | Parte | Subtítulo | Tema principal |
 |------:|-----------|----------------|
-| 1 | `subtitles1.srt` | Intro, requisitos, alcance |
-| 2 | `subtitles2.srt` | Teoría de capas y entidades |
-| 3 | `subtitles3.srt` | BD + tabla Categoría |
-| 4 | `subtitles4.srt` | SP Categoría |
-| 5 | `subtitles5.srt` | Solución VS + conexión |
-| 6 | `subtitles6.srt` | Entidad Categoría |
-| 7 | `subtitles7.srt` | Datos Categoría |
-| 8 | `subtitles8.srt` | Negocio Categoría |
-| 9 | `subtitles9.srt` | UI Categoría |
-| 10 | `subtitles10.srt` | CRUD Categoría |
-| 11 | `subtitles11.srt` | Marca (todo el stack) |
-| 12 | `subtitles12.srt` | Notificación éxito |
-| 13 | `subtitles13.srt` | Confirmación eliminar |
-| 14 | `subtitles14.srt` | Form principal / MDI |
-| 15 | `subtitles15.srt` | Producto + INNER JOIN |
-| 16 | `subtitles16.srt` | Panel productos (I) |
-| 17 | `subtitles17.srt` | Panel productos (II) |
-| 18 | `subtitles18.srt` | SP buscar + combos + form |
-| 19 | `subtitles19.srt` | Clicks grilla + guardar/editar |
-| 20 | `subtitles20.srt` | Totales OUTPUT + Excel |
+| 1 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles1.srt` | Intro, requisitos, alcance |
+| 2 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles2.srt` | Teoría de capas y entidades |
+| 3 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles3.srt` | BD + tabla Categoría |
+| 4 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles4.srt` | SP Categoría |
+| 5 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles5.srt` | Solución VS + conexión |
+| 6 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles6.srt` | Entidad Categoría |
+| 7 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles7.srt` | Datos Categoría |
+| 8 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles8.srt` | Negocio Categoría |
+| 9 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles9.srt` | UI Categoría |
+| 10 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles10.srt` | CRUD Categoría |
+| 11 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles11.srt` | Marca (todo el stack) |
+| 12 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles12.srt` | Notificación éxito |
+| 13 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles13.srt` | Confirmación eliminar |
+| 14 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles14.srt` | Form principal / MDI |
+| 15 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles15.srt` | Producto + INNER JOIN |
+| 16 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles16.srt` | Panel productos (I) |
+| 17 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles17.srt` | Panel productos (II) |
+| 18 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles18.srt` | SP buscar + combos + form |
+| 19 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles19.srt` | Clicks grilla + guardar/editar |
+| 20 | `Diseño y Programación de un mantenimiento de Productos en C#/transcripciones/subtitles20.srt` | Totales OUTPUT + Excel |
 
 ---
 
