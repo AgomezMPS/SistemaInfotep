@@ -1,0 +1,19 @@
+# Build / IDE (.NET)
+**/bin/
+**/obj/
+*.user
+.vs/
+*.suo
+
+# Vídeos del curso (muy pesados para GitHub; conservar en local o usar Git LFS aparte)
+*.mp4
+
+# Python / transcripción local (si se instalan deps aquí)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,729 @@
+Hola amigos, ¿cómo están?
+Bueno, espero
+que bien ya faltan muy poco
+para terminar este mini curso y la
+verdad es que a pocos videos pues
+veis que me decirles que mi lácto
+se murió de nuevo y pues como que
+ya no querías esperar más o bueno,
+o la verdad es que no querías
+hacerlos esperar más porque ya
+faltaba pocos videos pues lo que
+hice fue como último recurso
+instalarme en mi mad window 10 y
+bueno he estado instalando
+visual estudio de nuevo,
+SQL Server y pues para no hacerlo
+tan tanta demora pues tuve que
+hacer el proyecto
+de nuevo, tenía que ver mis propios
+videos
+para poder guiarme y pues lo hice
+como pueden ver todo en inglés,
+la base de datos,
+he hecho todo en inglés,
+capaz lo único que se ha cambiado
+en sí es que está todo en inglés,
+acá
+pueden ver pues la tabla categoría,
+los procedimientos
+almacenados de la tabla categoría,
+la tabla de marcas,
+los procedimientos almacenados de
+la tabla de marcas
+y también la tabla de productos,
+lo que hicimos en la clase pasada
+y el procedimiento almacenado del
+estar productos,
+quésimos en la clase pasada,
+que cambia
+aquí con todo lo que hemos
+hecho hasta ahora en el curso
+pues
+que solo está basado en inglés,
+la verdad es que no lo pude hacer
+en español,
+capaz el parece carrar ustedes
+pero la verdad es que yo estoy
+acostumbrado un programador de web
+programar en inglés,
+no en español y pues
+yo estoy acostumbrado a hacerlo en
+inglés,
+para hacerlo más rápido pues lo
+hice en inglés,
+así que no
+hay ningún cambio de que he hecho,
+o sea todo sí igual,
+pero claramente obvio en el código
+que
+yo le voy a enseñar hoy día pues
+va a cambiar en esa forma,
+en que bueno ustedes sigan
+con los mismos valores en español,
+no hay ningún problema, yo
+lo voy a hacer en inglés pero la
+explicación va a ser la misma,
+este y nada vamos a seguir con el
+curso,
+entonces quedamos en el
+procedimiento almacenado
+de
+las listas de productos como pueden
+ver,
+entonces este procedimiento
+almacenado lo único que
+hacía era mostrar los productos,
+listaba los productos,
+pero no boniún parámetro como en
+los demás en los demás
+procedimientos almacenados que
+bueno que es de la
+tabla categoría como la de marcas,
+en el cual listábamos,
+pero también le pasamos un
+parámetro,
+así que es muy diferente porque
+este
+el de productos pues solo lista,
+más no está el parámetro
+de la búsqueda,
+entonces lo que
+tenemos que
+hacer es crear otro procedimiento
+almacenado que se dedique solo a
+buscar,
+entonces es una forma
+o bueno dos formas de hacerlo,
+la primera forma bueno te ahorra
+más tiempo obviamente,
+pero como
+te decía el comienzo del curso,
+te iba a enseñar
+varias formas de poder buscar,
+crear, editar
+y bueno es una forma de
+ellos crear
+un procedimiento almacenado aparte,
+este procedimiento almacenado
+como puedes ver para buscar es,
+se podría
+decir grande, o sea la verdad
+es que no es solo
+estamos repitiendo esta
+parte de aquí,
+lo
+que hicimos en listas productos y
+me vas a preguntar pero ¿por qué?
+¿por qué lo repites?
+Es que lo que pasa es que acuerrate
+que este procedimiento
+almacenado lista los productos,
+entonces a la hora de listar te va
+a votar como puedes ver en el vídeo
+pasado,
+te va a votar el código,
+el producto, el aire de categoría,
+una columna nueva, la
+categoría,
+el aire de la marca,
+la marca,
+el
+precio compra, el precio y venta
+y el stock,
+entonces yo normal
+hubiese puesto, bueno hubiese
+sacado todo esto,
+no lo hubiese puesto, pero
+más adelante hubiamos tenido
+un error, ¿por qué?
+Porque bueno no, no un error,
+sino una falla a la
+hora de que busquemos un producto,
+¿por qué?
+Porque si yo busco un producto,
+a la hora que busca pues ya no me
+va a tomar estas columnas de acá,
+las columnas de acá no
+me la va a tomar,
+solo me va a tomar las columnas
+que en sí en sí están en la tabla
+productos, o sea ya no,
+ya cuando busque pues
+se va a desaparecer la columna de
+categoría,
+la columna de marca y es lo que
+nosotros no queremos, queremos que
+bueno que tanto como
+cuando se liste pues nos aparezca
+la tabla normal tanto como como se
+busque, ¿no?
+Entonces
+por eso que cuando busquemos,
+cuando vamos a escribir una palabra
+de busqueda pues queremos que la
+misma tabla
+nos aparezca con los mismos datos,
+pero la diferencia es que bueno
+vamos a buscar por el nombre de
+producto y
+bueno va a ser de forma ascendente,
+entonces espero
+que me entendí esa parte,
+eso es lo único que tenemos que
+hacer en el procedimiento de buscar
+productos,
+luego está el procedimiento de
+crear productos,
+como puedes ver es lo mismo,
+lo mismo lo mismo que que hemos
+hecho en procedimientos para crear
+tanto en categorías como marcas,
+ponemos los parámetros
+correspondientes y bueno solo le
+ponemos bueno que inserte en cada
+producto
+los valores de esos parámetros,
+es lo mismo igual con la hora de
+editar y también lo mismo a la hora
+de eliminar,
+como puedes ver no ha cambiado ni
+nada,
+solo que yo lo tengo en inglés nada
+más o bueno
+todos ten inglés,
+entonces eso es todo por los
+procedimientos almacenados y bueno
+vamos a ir a la hora o a la parte
+de las capas, ¿no?
+¿qué
+bueno que he hecho yo en las capas?
+Entonces estamos en
+la capa de productos de entidades,
+como puedes ver he declarado
+las variable privadas,
+como el ID, el código,
+el producto, el precio,
+como puedes ver nada a cambio, solo
+que esté en inglés y pues le
+damos los g de nancenders,
+como puedes darte cuenta para poner
+los públicos, ¿no?
+Entonces es todo lo que lo que
+se puede hacer aquí en entidades,
+luego bueno en la capa de datos,
+si pues está todo el desarrollo de
+mi
+de lo que tiene que ver con
+bueno con la capa de datos y lo que
+se relaciona con la base de datos,
+¿no?
+¿Cómo puedes ver como siempre
+ponemos la conexión nada más y
+bueno esto ya habíamos
+hecho el estado de productos,
+como puedes darte
+cuenta no ha cambiado ni nada,
+como te digo, solo
+lo ha cambiado en inglés y
+bueno aquí viene la parte
+donde pues conectamos la parte del
+procedimiento almacenado
+para buscar un producto,
+¿no?
+obviamente vamos a buscar en una
+tabla por eso que es data
+table y creamos un método de buscar
+productos,
+el cual pues le pasamos el estado
+procedidor correspondiente
+con su conexión,
+le decimos
+que comando es que es un estado
+procedidor,
+abrimos la conexión y
+le damos aquí el parámetro,
+¿no?
+el parámetro search que bueno que
+como puedes ver está aquí aquí,
+entonces
+no ha cambiado ni nada es
+igual al final retornamos la tabla,
+la misma tabla que le vamos a dar
+un filtro,
+este es una nueva forma de buscar
+sin tener que
+listar ya así que como puedes ver
+este es la parte
+para buscar productos,
+luego pues tenemos para eliminar,
+como ya sabemos si queremos
+eliminar tenemos que tener una idea
+así que le vamos a pasar una idea,
+bueno como puedes ver le paso el
+procedimiento almacenado de
+eliminar productos,
+obviamente como te decía solo
+necesitamos el ID para eliminar y
+pues le pasamos el ID,
+luego voy a ejecutar el comando y
+al final vamos a
+cerrar como siempre lo hemos hecho,
+luego para crear productos es igual
+igual igual como lo hicimos con
+marca y categoría,
+no cambia para nada,
+también el de editar producto,
+la única diferencia como sabes es
+que en producto pues no necesitamos
+el ID pero en editar si necesitamos
+el ID,
+entonces eso es lo que he hecho en
+la capa
+de datos, como puedes ver no es
+como si más
+algo nuevo es como ya prácticamente
+lo hemos visto en el curso,
+ahora
+vamos a ir a la capa de negocio,
+la capa de negocio es lo mismo,
+igual obviamente tenemos que
+importar
+o usar pues la capa de entidades
+y la capa de existente
+data
+porque acá también vamos a utilizar
+data table y bueno quiero
+que sepas
+que nuestros objetos o bueno
+a todos mis objetos que yo
+le
+he puesto ya no le pudo,
+tú lo tienes como objeto data y
+como objeto entidad,
+yo solo lo tengo como data y
+entities,
+así que es lo único que cambia o
+bueno que te puede confundir, pero
+bueno para como ves todo es lo
+mismo,
+en la capa de negocio pues tengo el
+método de buscando productos,
+también tengo para crear productos
+y pues también tengo para editar
+productos y bueno tú es tú esto ya
+sabes este para que es no,
+también tengo preliminar productos
+como puedes ver aquí estoy
+obteniendo el ID y todo esto pues
+viene de los métodos
+que he hecho en la capa de datos,
+por eso que me odcé todo dato
+está entrando a cada uno de ellos,
+ahora esto es lo que vamos a
+utilizar en la parte de la vista y
+esto se va a trasladar a la capa de
+presentación,
+entonces la capa
+de presentación como puedes ver,
+está igual,
+lo he hecho igual como lo tenía en
+el curso,
+nada cambiado,
+claro obviamente
+hay algunas cosas que se me pasó,
+¿no? Hay algunos
+comentarios que veía de
+que pues este,
+por ejemplo en la parte de tanto
+como la vista de categoría,
+como la vista de de marcas,
+esta
+parte del código pues era editable,
+pero no tenía que ser editable, esa
+parte se me había escapado de
+las manos,
+así que en esta parte bueno en esta
+parte de aquí lo único que teníamos
+que hacer era ponerle en ebolo,
+seguro que tuya la expuesto porque
+no creo que me ya has esperado que
+yo
+lo haga y bueno seguro que te has
+dado cuenta,
+yo le puesto que sea en ebolo,
+le puesto esta parte está en trupe
+pero debe ser false y bueno así
+deberías colocarlo tanto como en la
+tabla de categorías como la tabla
+en marcas,
+deberías ponerle false porque
+obviamente el código no debe
+editarse,
+entonces bueno vamos a seguir
+seguimos en la parte del diseño,
+entonces qué es lo primero que
+vamos a ver o que te voy a enseñar,
+lo primero que te voy a enseñar es
+que como yo hice para
+buscar, ¿no?
+entonces vamos a ir al código de
+adentro,
+entonces como puedes artecuentando
+a cambiada de nada,
+aquí está el método que hicimos en
+el vídeo pasado donde ocultamos y
+le pusimos un ancho a cada columna,
+así que bueno yo le puesto estos
+anchos,
+no creo que te sea igual para ti,
+seguro que tú ya lo tienes ya de
+una forma establecida,
+así que lo mejor será que no lo
+toques,
+entonces acá tengo mi método
+de demostrar productos en lo que me
+mostrará, hasta aquí
+nos hemos quedado,
+ahora para buscar productos no es
+casi igual como lo hicimos con los
+demás métodos
+para buscar productos,
+viene un parámetro,
+un parámetro string y aquí es donde
+creamos el objeto de negocio
+para traer nuestra tabla producto,
+el data source para que cuando
+pongamos el objeto de negocio pues
+ya vemos
+al método de buscar productos,
+el cual recibió un parámetro, que
+es el parámetro que le hemos
+agregado, que viene desde
+la base de datos,
+¿no? entonces
+este método de acá como
+puedesarte cuenta
+es el text shangit,
+el cual hace
+función cuando nosotros escribimos,
+¿no? que es la parte de aquí,
+como ya sabrás,
+es la parte de aquí,
+es el
+método text shangit de es el label,
+de esa caja de texto,
+el cual le decimos que este método
+de buscar productos pues le vamos
+a dar como parámetro esa caja de
+texto, para que cuando nosotros
+escribamos,
+pues me busque tanto como cuando
+está listado para
+que no haiga un error de diseño,
+¿no? entonces
+vamos a iniciar para que
+vean a qué me refiero,
+entonces en esa parte,
+hasta esa parte
+si han escrito bien,
+vamos a ver,
+entonces vamos a ver que bueno yo
+he agregado este registros como
+puedesarte cuenta y bueno cada vez
+que nosotros escribimos lo
+mismo que pasó en categoría como en
+marca, si nosotros escribimos,
+por ejemplo voy a escribir súper
+taladro y bueno ya está encontrando
+lo que tiene que ver referenciado
+con la letra s y bueno como
+puedesarte cuenta es porque he
+hecho el procedimiento almacenado
+de buscar correctamente,
+si no te si tú no ponías este bueno
+o si yo no ponía la parte de aquí,
+esta parte de aquí pues no me
+contaba,
+no me contaba algunas columnas,
+me las quitaba,
+como por ejemplo la columna de
+marca,
+la columna de categoría,
+me las quitaba
+cada vez que yo buscaba,
+pues si yo buscaba esta
+desaparecía,
+esta parte
+de
+acá desaparecía, esta parte de acá
+desaparecía,
+entonces obligatoriamente teníamos
+que agregar esa búsqueda que nos
+entregara
+también esas columnas, a eso es lo
+que me refería,
+entonces como puedesarte cuenta,
+eso es lo que hace la parte de la
+búsqueda,
+ahora lo que tenemos que hacer que
+falta,
+bueno el nuevo producto,
+yo ya lo tengo hecho,
+pero te voy a enseñar paso a paso,
+que se refiere cada código,
+bueno para hacer un nuevo producto
+pues al dark
+click pues ya voy a tener el for,
+este for nuevo,
+este for nuevo que bueno,
+que yo le puesto,
+como puedes ver aquí,
+pero este for
+nuevo que le he llamado producto,
+mantenimiento de producto,
+ya que aquí va a ver,
+bueno, este como se podría decir,
+este formulario
+va a tener dos funciones,
+¿cuáles son sus dos funciones?
+va a guardar y editar,
+obviamente,
+entonces por eso le puesto este
+formulario mantenimiento de
+producto,
+entonces como puedes ver,
+este es el diseño,
+no es tan difícil que lo hagas,
+ya prácticamente estas cajas ya las
+puedes reutilizar,
+lo único que se diferencia es que
+ya viene el combo box,
+estas dos partes de aquí,
+que ahorita
+te voy a enseñar como llenarlas,
+entonces este combo box tiene
+el diseño de esta parte de aquí,
+yo le puesto que tenga un flat
+style de versión flat y también le
+puesto que tenga un
+style de
+drop down list y como puedes darte
+cuenta,
+también le puesto un for color de
+gris también como en todos lados,
+le puesto este nombre,
+cmb categorías, bueno que viene
+a decir como combo
+box
+y le puesto popings
+y creo que nada más le puse,
+no nada más le puse,
+entonces también quiero que a
+también le puse que no tenga claro
+que no tenga ese borde y debes de
+colocarlo bien,
+así que debes tener paciencia,
+entonces vamos a seguir,
+entonces lo primero que tenemos que
+hacer obviamente es ver lo que hice
+al dar este clic al nuevo producto,
+si yo le pongo double click vamos
+a ver lo que yo hice dentro,
+lo único que hice fue instanciarlo,
+me distanciar ese for,
+que es el for de acá,
+lo instancié,
+como puedes
+ver en la instanciera y bueno,
+al instanciarlo con este objeto,
+pues voy a primero,
+llamarlo para que se vea,
+para que se vea este al dar le
+click,
+estas dos partes pues le voy a dar
+de acá un rato para que,
+pero bueno ya sabes que gracias a
+estos dos a instanciarlos
+y de al e -show de algo,
+pues ya estoy llamando a
+mi botón de nuevo producto ha dicho
+formulario,
+entonces vamos a correr de nuevo y
+vamos a ver que a poner nuevo
+producto pues todas mis cajas están
+pues como queremos vacías,
+pero hay dos cajas que son el combo
+box que están llenas,
+entonces como puedo llenar estas
+dos cajas,
+porque en realidad obviamente deben
+estar llenas,
+para poder yo elegir cada vez que
+quiero guardar un producto,
+entonces voy a cerrar y vamos a ir
+a esas dos partes,
+obviamente estas dos partes le
+pertenecen al mantenimiento
+de productos al formulario de
+mantenimiento de productos,
+entonces vamos a ver el código,
+qué hicimos en este código,
+bueno lo que hice fue crear dos dos
+métodos,
+cada método va a ser función de
+traerte todos los datos o todas
+las listas de categorías y marcas,
+entonces como puedes darte cuenta,
+ya tenemos un como que se dice un
+método que
+te trae toda la lista de productos,
+bueno que te trae toda la lista de
+marcas en este caso y toda la lista
+de categorías,
+esas listas provienen,
+bueno, la
+que proviene de categorías,
+proviene de
+un método que contiene a negocio,
+que contiene
+de la capa de negocio de categoría,
+si instanciamos esa capa de negocio
+que venía hacer de categoría,
+debería hacer esta parte de acá,
+este objeto,
+entonces así como
+tú llenas una tabla de productos
+con data source,
+lo mismo lo mismo lo
+haces llenando desde el combo box,
+entonces el
+combo box recuerda que lo
+llame con bocategorías,
+este es el combo box,
+entonces le digo que ahora con data
+source me lo llene,
+cómo pues llamó el objeto de
+negocio y ese objeto de negocio
+obviamente tiene un método que es
+listar categorías,
+entonces este listar categorías
+pues me da la oportunidad
+de llenar ese combo box,
+ahora ese listar categorías me pide
+un stream pero obviamente en el
+combo box no
+puedo hacer una búsqueda,
+entonces le hago una mage y le
+pongo una cadena de stream vacía,
+entonces
+aquí es donde se va a llenar,
+hasta aquí es donde
+se va a llenar y eso está muy bien,
+está muy claro, entonces
+para que son estos dos
+líneas de abajo, bueno,
+nosotros o bueno acuérdate muy bien
+que en nuestro en nuestra base de
+datos cada vez que nosotros
+vamos a guardar un producto,
+cada vez que nosotros vamos a
+guardar un producto,
+tenemos que entregar o darle un ID,
+o sea un valor del ID,
+no le podemos dar un valor,
+como se puede decir,
+una herramienta,
+herramienta de herramienta,
+bueno de cerámica,
+no le podemos dar un valor del
+nombre, tenemos que darle
+un valor de ID,
+entonces tanto como categoría
+y marca tenemos que darle ese ID,
+entonces como podemos darle ese ID,
+si a la hora de elegir pues a la
+hora de elegir en nuestro
+en nuestra formulario de producto,
+le estamos dando un nombre,
+entonces hay una mage para hacer
+esto,
+cuál es la mage,
+con value number,
+como bueno,
+valor con el value member,
+este me dice que en el combo
+categoría con value member,
+o sea el valor de el miembro,
+principal,
+quiero que sea el ID,
+el ID de mi categoría,
+ahora,
+cual quiero
+que sea la referencia o bueno,
+como se podría decir,
+cual quiero que sea el que lo
+suplante, bueno,
+el que lo va a suplantar va
+a ser con el display member,
+le voy a decir que sea con name,
+ahora capaz tú no tienes ID y name,
+cierto,
+obviamente no lo tienes porque yo
+esto es en inglés,
+pero este ID y este name vienen de
+mi tabla categoría,
+esta es la tabla categoría como
+puedes ver acá, aquí,
+entonces este
+es el name y este es el ID,
+ves,
+sólo que aquí está en mayúscula
+porque acuerrate que bueno,
+el get anseders pues lo pone en
+mayúscula,
+así que lo único que le estoy
+diciendo aquí es,
+este voy a elegir yo un nombre,
+pero quiero que me lo reemplazes a
+ese nombre que le pertenece por el
+ID,
+por el valor de ese miembro,
+que va a ser ID,
+entonces como que va a ser el
+amago,
+yo elijo es herramienta cerámica,
+pero
+herramienta cerámica es el ID 4,
+entonces
+me va a guardar el valor 4,
+así es lo que va a ser, lo
+mismo hecho al listar marcas,
+he creado pues que viene de
+instanciado que viene desde el de
+la capa de marcas de negocio y pues
+lo he llenado en el combo box y
+bueno he hecho el mismo amago, me
+puede darte cuenta,
+va a elegir una marca,
+pero cada vez que va a elegir una
+marca en sí se va a guardar el ID
+de dicha marca y también he puesto
+lo mismo con el mismo nombre,
+el name y bueno el ID,
+sólo que los
+get anseders lo pone en mayúscula,
+esta parte de aquí,
+entonces es por eso que gracias a
+esto bueno hasta aquí se llena,
+pero el hora de guardar si es muy
+importante colocar estos dos
+valores o bueno estas dos líneas de
+código,
+entonces bueno esta parte es para
+cerrar el
+for del formulario del productos,
+de mantenimiento de productos
+y bueno hasta aquí pues sería la
+parte de bueno de cómo llenarnos,
+listar categorías y listar marcas.

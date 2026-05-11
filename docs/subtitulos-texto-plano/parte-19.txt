@@ -1,0 +1,661 @@
+¿Cómo hemos visto?
+Hemos podido ver cómo listar
+categorías
+y listar marcas en los con box.
+Ahora tenemos que ver algunas cosas
+que es muy necesaria que la veas.
+Por ejemplo,
+hay una parte aquí en productos.
+Por ejemplo,
+¿cómo poder hacer que al darklick
+en la parte del icono
+de evitar me abra el formulario?
+Y pues los datos de los campos de
+mi tabla de productos se pasen a el
+nuevo formulario que he creado
+el de mantenimiento de productos.
+Eso
+es lo que ahora te voy a explicar.
+¿Cómo hacer ese traslado de
+datos de una tabla a un formulario?
+Entonces,
+tienes que darte cuenta de algo.
+Este es una tabla.
+Este es nuestro data grid view.
+Entonces, en el vídeo anterior,
+te dije que en la parte de,
+por ejemplo,
+vamos a ver en la parte
+de acá de nuestro data grid view.
+Vamos a ver aquí.
+Vamos a ver que en la parte donde
+te dije que
+era Select Road o Selection Mode,
+te he
+dicho que coloque Full Road Select,
+pero
+tenemos que ponerle que sea Select.
+O sea que seleccione sólo una Zelda
+que no seleccione toda la Zelda.
+Ahora, esto
+porque porque obviamente
+cuando nosotros vamos a querer
+editar una fila de nuestra tabla de
+productos,
+nosotros tenemos que elegir una
+Zelda de ellas. Entonces,
+la Zelda que vamos a elegir
+va a ser la de editar y obviamente
+también la de eliminar
+porque va a cumplir dos funciones.
+Al ayudar un clic al editar,
+pues obviamente el botón de editar
+de cada una de estas,
+de cada una de estas filas en esta
+Zelda,
+pues su función va a ser que
+podamos de esa fila
+del cual yo he puesto de editar,
+pues los datos sean traslados
+a mi mantenimiento de productos.
+Como puedes darte cuenta si
+yo pongo acá al del último que ha
+agregado,
+que es regilla de 5 octavos,
+pues doy en editar y pues
+me muestra todos los datos que que
+bueno que que
+equivalen a lo que es en verdad.
+Entonces, eso es lo que
+vamos a ver y lo que
+vamos a hacer. Como puedes
+darte cuenta me ha
+faltado colocar pues
+la parte de los lejos de arriba,
+pero es un interés ahora. Lo
+que te quiero explicar es que
+ahora como podemos trasladar
+esos datos hacia otro fumulario.
+Entonces, vamos a ir al código.
+Vamos a ir al código,
+voy a ocultar esta parte de aquí y
+ese
+código
+es en la parte obviamente de aquí.
+Ahora vamos a hacer una cosa.
+En
+nuestro tabla productos
+acuérdate que en nuestra tabla
+productos acuérate que esa Zelda
+pertenece
+a nuestra tabla productos.
+Entonces,
+hay una parte de nuestra tabla
+productos que es un evento
+que se llama Cell Content Click,
+o sea,
+el contenido de la Zelda.
+Entonces,
+este evento prácticamente nos va a
+dar la chance
+o la oportunidad de al dar click.
+Vamos a ver qué función podemos
+darle a ese contenido de esa Zelda.
+Entonces,
+le damos double click y como puedes
+darte cuenta,
+aquí está el código que estamos
+haciendo.
+Tables,
+Cell Content
+Click que vendría a ser el evento.
+Ahora, qué hacemos o bueno,
+qué hace este evento?
+Lebo,
+acá te voy a explicar.
+Dice,
+si en la
+tabla de productos en nuestra fila,
+en nuestra en el índice de la fila,
+en la Zelda,
+o sea, en la Zelda,
+podemos
+darle el nombre de esa Zelda.
+Por ejemplo,
+yo esa Zelda,
+pues, bueno,
+creo que es la única parte
+que le puse en español.
+Le puse eliminar.
+Bueno,
+tú
+creo que lo pusiste en mayúscula,
+así que le despono en
+mayúscula acá.
+Entonces, este
+es la parte de eliminar,
+ok? Entonces,
+yo digo en
+la tabla de productos en mi fila,
+en la Zelda,
+de eliminar,
+o sea, en
+la parte en donde aparece la X,
+si yo selecciono, pues quiero que
+suceda lo
+siguiente. Quiero instanciar el
+formulario
+de
+pregunta, te acuerdas
+la performulario de
+notificación, quiero estacionar
+esa formulario de
+notificación
+y pues quiero mandarle un mensaje.
+Quiero que aparezca y quiero que me
+mande un mensaje donde me diga,
+está seguro de eliminar el
+producto,
+pues,
+en ese objeto voy a
+editarle que,
+bueno, que
+se vea y también con diálogo
+resulto voy a crear un objeto,
+el cual va a ser equivalente a lo
+que cuando aparezca
+el formulario de notificación,
+pues
+ya sea si doy ok o doy cancelar,
+pues va a suceder algo, ¿no?
+Entonces si es resultado, te midiá
+luego resulta,
+es ok,
+pues si yo quiero que se cansele,
+o sea, más bien dicho,
+si yo quiero que se elimine, pues
+quiero que suceda lo
+siguiente, pues como puedes ver,
+le doy una variable entera,
+porque obviamente es un número
+entero,
+nuestro,
+nuestro primer aquí,
+y bueno le digo,
+pues, ¿no?
+¿Qué? La
+tabla productos de mi fila en el
+índice de la celda 2,
+¿por qué la celda 2?
+¿Por qué acuerrate que la celda 2
+es el que tiene el primer aquí?
+O sea, es el que tiene,
+pues,
+el id del producto original,
+entonces es lo que nosotros estamos
+obteniendo acá,
+ahora acá le estamos
+convirtiendo en un string,
+o bueno,
+mejor dicho es un string lo que
+tenemos,
+pero vamos a convertirlo a un
+entero,
+porque acuerrate que es un entero,
+entonces con nuestro,
+bueno,
+con nuestro objeto de negocio,
+ya he instanciado de arriba,
+le vamos a decir que elimine el
+se dicho producto y solo le pasamos
+bueno el objeto del cual aquí
+ya está referenciado nuestro id,
+no el id,
+el id que corresponde a dicha fila
+seleccionada,
+ya sea el número 1,
+el 2,
+el 3,
+el 4,
+o bueno,
+el id que le compete a esa fila,
+entonces llamo,
+llamo a mi
+notificación de confirmado y bueno,
+pues le mando
+el mensaje que ha sido eliminado,
+luego ya que se eliminó,
+pues le digo que se refresque mi
+tabla de productos,
+que es el showproducts que vendría
+a ser bueno, ya sabes,
+para mostrar los productos, ¿no?
+Entonces con
+showproducts,
+pues que vendría a ser este tabla
+de productos o mostrar
+tabla de productos,
+pues me refresca en mi nueva
+tabla de productos ya actualizado,
+ahora lo mismo esto pasa cuando
+yo apreto el botón de eliminar,
+cuando yo apreto el
+botón de eliminar en dicha celda,
+ahora si no, o sea,
+si no vos, si
+no apreto el botón de eliminar,
+pues quiero que pase lo
+siguiente con el botón en la celda
+de editar,
+yo le
+puesto editar también aquí, bueno,
+era para ponerlo en inglés,
+no sé qué me pasó,
+pero bueno, tú,
+estas dos cosas,
+creo que la tienes que poner en
+mayúscula porque es
+así como está en el vídeo pasado,
+entonces lo mismo,
+si en la tabla si yo doy clic en la
+tabla de la
+celda de que representa al editar,
+o sea, el botón de editar si
+selecciono,
+pues ya no llamo al bueno,
+en este caso yo llamaba la
+notificación, pero
+acá yo no quiero llamar a la
+notificación, qué quiero hacer,
+quiero llamar al formulario
+de mantenimiento de productos,
+entonces aquí es donde voy a
+trasladar todos los campos de dicha
+fila hacia las cajas
+de texto correspondientes,
+entonces aquí instancia,
+aquí instancia y en mi objeto en mi
+objeto frm esta parte de aquí
+verdad,
+se me olvidó decirte,
+así como en los vídeos pasados
+cuando editamos o eliminamos,
+habíamos creado pues una variable
+buliana,
+una variable buliana en el cual
+pues si editabas
+pues era true
+y si no editabas pues era false,
+entonces hay una parte,
+entonces esta parte de aquí
+del
+cual yo obtengo el frm update es
+lo que yo estoy obteniendo desde mi
+frm de mantenimiento de productos,
+entonces es por eso que aquí en
+mantenimiento de productos,
+aquí en esta parte vamos a ver el
+código, yo
+creo una variable buliana,
+vez que comiencen
+false y le digo que es pública,
+ahora
+cuando yo le digo que es pública,
+ayúd instanciar en otro formulario
+que vendría a ser la parte de aquí
+obviamente el que contiene,
+que sería esta parte de aquí,
+quiero ponerlo pública, puedo
+obtener esa,
+o sea ya partir de decirles si
+sigue siendo false o sigue siendo
+true, pero como es editar,
+o sea como estoy editando,
+entonces desde mi frm puedo decirle
+que
+upday va a comenzar siendo true,
+lo mismo,
+ahora también quiero depositar
+todos
+los datos de mi fila a las cajas,
+entonces estoy de positar esos
+datos a las cajas pero de un lugar
+hacia otro,
+entonces como puedo depositar esas
+cajas,
+ahora tienes que depositarlas,
+pero primero antes de eso debe
+decir a tu diseño de mantenimiento
+de productos y quiero que te
+des cuenta de que la única forma de
+depositarlas
+es que todas tus cajas,
+todas
+tus cajas tienen que ser públicas,
+al comienzo van a ser privadas,
+así que tú debes decirle que en el
+evento de modificar,
+bueno en la propia vez de
+modificadores, debes decirle que
+sea pública,
+tú lo vas a tener en privada,
+tienes que ponerle en pública
+porque si no
+va a reconocer en la parte de aquí,
+no lo va a reconocer,
+te va a decir que no puedes
+utilizar la caja porque bueno le
+pertenece al de mantenimiento
+producto,
+aún así,
+tú lo has instanciado,
+no te va a dejar porque las cajas
+no son públicas,
+actualmente son privadas para ti,
+entonces te desponernas las
+públicas,
+entonces ya que ahora son públicas,
+ahora sí podemos depositar desde mi
+fila
+de mi tabla a las cajas de texto,
+entonces le voy a decir
+por ejemplo en el primer ejemplo,
+le voy a decir que en mi caja de
+takest id que vendría a ser el id,
+le voy a decir que en
+mi tabla de productos de la fila,
+en mi celda id que vendría a ser el
+nombre del id como lo tengo yo de
+la base de datos del SQL server,
+quiero que el valor se deposite en
+esta caja de
+texto, quiero que lo obtenga ahí,
+lo mismo con
+el código, de mi tabla de productos
+en la
+fila,
+en el índice de la celda que tiene
+que
+ver,
+por ejemplo el mío está en mi
+núscula porque obviamente
+el depósito de cajas de cada fila
+depende del nombre de la cabezera,
+del nombre de dicha columna,
+ahora por ejemplo,
+pues en mi SQL server de la base de
+datos, por ejemplo,
+todas mi parte
+de la cabezera esté en mi núscula,
+es por
+en el vídeo anterior,
+como puedes ver esto lo tiene
+estuve en mi núscula, así que tú
+tienes que ponerlo en mi
+núscula para que puedas
+depositar las cajas de texto,
+como están establecidas,
+ahora luego después de ponerlo
+obviamente
+ya cuando están colocadas,
+pues vamos a decir que se abra que
+sin instancia ese mantenimiento de
+productos de formulario que se abra
+y pues obviamente el formulario se
+va a
+abrir, entonces eso es lo que hace
+prácticamente ya tenemos las
+dos funciones de eliminar y editar,
+aquí eliminamos y aquí pasamos
+al darle clic al icono de editar,
+aquí pasamos todos los campos
+de las filas de data review a las
+cajas correspondientes del
+otro formulario de mantenimiento de
+productos,
+pero obviamente aquí no hemos
+editado nada,
+pero eso no,
+esto nos va a servir para que en
+el formulario de mantenimiento de
+productos pues evitemos ya
+por
+último lo último que vamos a hacer
+y que quiero que
+veas es que solamente en el botón,
+bueno estas son los métodos de los
+dos botones de nuevo categoría y
+nueva marca pues como puedes ver
+solo la asistancia y aquí lo sabro
+a cada uno de ellos,
+bueno vamos a ver la última parte
+que es
+en el mantenimiento de
+productos que vendría a ser ya el
+guardado o editado gracias a
+este botón de acá que vamos a darle
+double clic,
+entonces es lo que hicimos en el
+vídeo santerio,
+no cambia de nada para nada es lo
+mismo si vamos a guardar o bueno si
+vamos a acudar clic en nuevo se va
+a
+abrir
+el nuevo formulario
+entonces como va a ser nuevo pues
+obviamente un day que vendría a ser
+el buliano de aquí que comienza en
+false pues
+va a seguir su curso, va a decir
+bueno si es false no va
+a editar entonces va a guardar,
+entonces damos los datos
+correspondientes de cada
+uno de ellos ya sea el producto,
+el precio compra que viene
+de lojeto de entidades y bueno le
+damos lo que corresponde cada uno
+de ellos no y también obviamente
+tenemos que convertir cada cada
+caja de texto que vino de la fila
+obviamente era un string
+acuérdate, la habíamos llevado
+como string,
+aquí tenemos que
+convertirlo por ejemplo,
+el precio compra, precio y venta
+son desimales tienes
+que convertirlo,
+el stock,
+tienes que convertirlo en un entero
+igual con el ID,
+aquí es donde esta cuarras
+que habíamos dicho que la parte le
+llevamos a darle el nombre pero
+con ese amague con esa jugada pues
+actualmente se deposita
+el ID de dicha de dicha categoría,
+entonces pues aquí ya tenemos el ID
+de dicha categoría pero acuérdate
+que
+también viene como un string, así
+que debemos convertirlo a un
+entero ya que cuando referenciamos
+en la base de datos acuérate que
+tanto como ID de entonces después
+de esto obviamente por mi objeto
+negocio tenemos el método de crear
+los productos o bueno de insertar
+productos entonces ya con mi objeto
+de entidades que contiene a todos a
+todos sus datos pues solo
+le entrego pues le doy a entregar
+todos esos
+datos, les pueden entregar todos
+esos
+datos pues voy a guardar y
+pues me va a salir la notificación,
+la notificación
+que el producto ha sido guardado,
+aquí tú lo tienes de otra forma,
+yo le cuento con firmform pero tú
+debes tenerlo de otro método así
+que no te preocupes luego cerramos
+el formulario de aguardado entonces
+aquí también por ejemplo aquí
+cerramos pero no refrescamos el la
+tabla de productos porque acuérate
+que para guardar depende del botón
+de nuevo producto como puedes ver
+aquí ya que al apretar
+doble, el plato un clic a nuevo
+producto
+obviamente se va a abrir el
+de mantenimiento de productos para
+guardar entonces es por eso que
+aquí cuando les decimos que vamos a
+bueno a tener un nuevo producto
+pues le decimos que comiense con
+Dave Falls porque no vamos a editar
+entonces le vamos a poner que sea
+un Dave Falls y bueno cuando se
+cierre cuando se cierre dicho pero
+dicho este ya cuando ya cabe el
+procedimiento de todo le ponemos un
+shot product para que se actualice
+la tabla cuando se haya guardado es
+aquí en donde hace el guardado y el
+actualizado de nuestro data gripeo
+entonces vamos a seguir con
+el mantenimiento de productos ya
+explicamos lo que hace que cuando
+guarde ahora hemos dicho que cuando
+aprete el botón de lícono de editar
+pues date se va a convertir en true
+entonces aquí damos la condicional
+que si es true entonces es porque
+si va a editarse entonces como se
+va a editar es lo mismo de lo que
+vemos aquí todo
+lo mismo como puedes
+darte cuenta lo hemos hecho
+igual como en categoría y marca el
+lo mismo pero tú ya sabes que hay
+una cosa que es diferencia que
+vendría ser el id el id de dicho
+producto lo necesitamos si o si
+entonces acuérdate que yo tengo una
+caja de texto que le ha agregado es
+muy diferente a lo que hicimos en
+en en marca como en categoría esta
+caja de texto está agregado aquí y
+es que lo necesitamos si o si
+y pues es como una ayuda para que
+podamos guardar este editar el
+producto estos no son visibles en
+los campos si te das cuentas si yo
+le doy play y pues pongo un nuevo
+producto esto no se ve y es que en
+verdad no se tiene que ver y esto
+el código sí se ve pero bueno
+como como ya te dije tiene que ser
+desabilitado ya que no
+se puede editar ese campo entonces
+ya le
+ditarse pues llamamos bueno aquí
+como puedes ver guardar te cuenta
+aquí creamos pero aquí
+hacemos
+la actualización ahora ya que se
+actualizó pues llamamos
+al notificación de suces o sea la
+notificación en donde vamos a
+confirmar que se ha editado o no y
+le ponemos que el producto ha sido
+editado igual cerramos y cuando
+acabe esto le decimos que vuelva
+a falso ya que ha sido true que
+comiencen de nuevo como false
+así como lo hicimos en la tabla de
+categorías y marcas
+entonces como puedes
+ver me he tomado el tiempo
+de ya ponerle las etiquetas arriba
+y colocarlas adecuadamente entonces
+vamos a hacer una comprobación
+vamos a poner un nuevo producto y
+entonces vamos a decirle que bueno
+vamos a decirle que vamos a agregar
+tornillo de media presí el compra
+le vamos a poner que sea de un sol
+presiventa de dos o sea que
+hay 200 tornillos bueno también que
+sea
+para serámica bueno cualquier
+cosa ya está en lí que sea de igual
+y si
+guardamos vamos a ver que ya sale
+producto guardado como puedes te
+cuento también bueno
+este rediseñado en la parte de la
+notificación el puesto como que
+un poco un poco más un poco de otra
+forma
+y bueno se sectamos vamos
+a ver que se guarda automáticamente
+ahora vamos a editar vamos a editar
+esto vamos a decirle que lleno sea
+200 sino que tenga 300 y lleno
+sea de limpio si no para madería y
+vamos a guardar y vamos a ver que
+dice producto evitado aceptamos ha
+cambiado madería y ahora el esto
+es 300 si eliminamos o es decir que
+está seguro eliminar el producto y
+bueno vamos a aceptar se dice que
+sea eliminado y bueno
+va desaparecido ahora con nueva
+categoría si damos click bueno
+ahora ya podemos ver todo lo que
+hicimos en las primeras tablas
+podemos editar podemos poner un
+nuevo bueno todo está igual como lo
+hemos hecho puedo poner nueva marca
+entonces acá
+ya tenemos a nuestras marcas
+entonces ya está acabando
+este curso ya estamos terminando
+y bueno lo único que faltaría sería
+las partes ya que arriba las partes
+totales de aquí bueno que te puedo
+decir la verdad es que lo siento
+mucho capaz y no te pareció que
+bueno esta explicación hayas visto
+pues que lo hay ha hecho de nuevo
+en inglés la verdad es que por esa
+parte me disculpo pero espero que
+me has entendido cualquier cosa si
+bueno si tienes alguna duda puedes
+preguntarme yo con gusto pues te
+voy a responder y pues también que
+te lleva como un ideano de
+que ya no programas en español sino
+programas también en inglés porque
+actualmente las empresas necesitan
+personas programadoras que sepan
+inglés y pues si no sabes inglés
+pues estudia y pues si lo estás
+haciendo pues termínalo y bueno son
+consejos que uno te lo dice por
+experiencia y espero que lo tome
+sabía lo digo con mucho gusto
+entonces ya nos vemos en el próximo
+en el próximo vídeo y bueno espero
+que me hayas entendido de nuevo y
+bueno este el código fuente
+y todo el script lo vas a tener la
+descripción del vídeo y bueno
+también los síconos como ya sabes
+bueno
+practica cuídate mucho y nos vemos

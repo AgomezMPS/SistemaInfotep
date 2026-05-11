@@ -1,0 +1,424 @@
+Bueno, vamos
+a hacer nuestro CRUDD en el
+cual vamos a crear, mostrar,
+actualizar y eliminar nuestros
+registros de la tabla categoría.
+Primero, daremos,
+tuve click a nuestro formulario y
+se abrirá un evento LOWAT.
+El evento LOWAT nos permite
+inicializar nuestros métodos de
+acciones que
+tengan nuestro formulario.
+Después, vamos a referenciar
+las capas que
+están referenciadas
+a nuestra capa de presentación.
+Como puedes ver,
+estamos yendo desde la capa de
+datos a la capa de negocio y así
+comunicando método tras métodos.
+Para finalmente llevar los datos
+de los métodos a mi capa de
+presentación
+para mostrarlos en pantalla.
+Entonces, vamos a
+dar inicio a mostrar en
+nuestra tabla los datos de nuestra
+base de datos.
+Crearemos
+un método la cual yo lo llamaré,
+mostrar, buscar tabla.
+Este
+tendrá un parámetro string buscar.
+Luego instanceré mi objeto con
+n categoría que contiene el método
+del listando categoría.
+Entonces,
+digo que mi tabla categoría con
+data source traigo los datos y que
+esos datos sean lo que mi objeto
+negocio tiene como método que es
+listando categoría,
+que tiene como parámetro lo cual yo
+le pondré mi parámetro de
+referencia que es mi string buscar.
+Y bueno, así de fácil ya
+podemos ver
+nuestros datos de nuestra tabla.
+Pero para que esto ocurra debemos
+iniciar nuestro método en el evento
+LOWAT y como me pide un string,
+colocaré una cadena vacía.
+Ahora ejecutamos y vemos los datos
+mostrados tal cual cómo lo tenemos
+en nuestra base de datos.
+Ahora
+habíamos quedado en ocultar también
+nuestra primera columna.
+Entonces,
+voy a crear un método donde estarán
+acciones
+de mi tabla que va a tener.
+Decimos que
+mi tabla categoría en la columna 0,
+o sea,
+la del ID en su propiedad visible
+que sea
+false en este caso que se oculte.
+Acúérdate que para que esto tenga
+efecto tenemos que llamar este
+método
+en el evento LOWAT. Si ejecutamos,
+vemos que ya no está. Pero
+si te das cuenta nuestra tabla
+y sus columnas quedan
+algo disparajas y no alineadas.
+Entonces, vamos a cambiar
+el ancho de cada
+columna.
+Decimos,
+mi tabla categoría en
+la columna 1 tengo un ancho de 60.
+Y qué mi tabla categoría
+en
+la columna 2 tengo un ancho de 170.
+Ejecutamos y puedes
+ver que está quedando bien.
+Si a ti no te estás aliendo igual,
+tomate tu tiempo en alinearlas
+correctamente.
+Ahora vamos a buscar un registro en
+tiempo
+real.
+Vamos a nuestra caja de texto te
+quiste buscar y en su evento text
+changuet es donde compirá con esa
+función.
+Acúérate de que no solo mi método
+mostrar buscar tabla tiene como
+función mostrar los datos,
+sino buscar,
+ya que es gracias al parámetro que
+tiene
+que viene de la base de datos,
+la cual buscará
+nuestros registros. Entonces,
+solo lo
+que haremos será poner nuestro
+método,
+mostrar buscar tabla y le daremos
+cómo parámetro string nuestro tex
+de buscar, ya que es el que
+cuando escribamos,
+compirá con esa función.
+Si ejecutamos y escribimos
+cualquier dato que tenga
+que ver con nuestros registros,
+verás que busca automáticamente.
+Ahora vamos por nuestro método
+nuevo. Su función será que cuando
+cualquier caja de texto esté llena
+a la pretar el botón nuevo,
+este limpie esas cajas.
+Entonces,
+damos doble clic y le diré que mi
+caja de texto tex teciste código.
+Con la propiedad
+text se asigne a un estrimvasivo,
+lo mismo haré con las demás cajas,
+que es el nombre y la descripción.
+Por último,
+diré que también mi tex te nombre
+tenga en su propiedad focus, o sea,
+me dará el
+chance de empezar a escribir ahí.
+Si ejecutamos y
+escribimos cualquier cosa
+y apretamos el botón
+nuevo, verás cómo
+se limpia nuestras
+cajas.
+Una forma,
+esa se habla así.
+Otra es crear un método y le pondré
+el limpiar cajas y lo que había
+puesto en el botón nuevo,
+copio y pego el código aquí y en
+nuestro botón le paso este método.
+Y al final será lo mismo. Vamos a
+ver que si ejecutamos,
+vamos a ver que será igual.
+Ahora vamos a pasar a nuestro botón
+editar.
+La función de este botón será que
+cuando,
+demos clic en una fila,
+este al dark click en editar los
+datos de cada celda vayan a las
+cajas que les corresponde.
+Antes de comenzar,
+vamos a
+declarar
+una variable estrim privada,
+la cual se llamará a idica teoría.
+Este va a tomar el papel de un
+reflejo como si tuviéramos una caja
+de texto en nuestro formulario.
+Si deseas
+puedes crearlo tu en tu formulario,
+pero esta
+es una forma de hacerlo también.
+Entonces,
+vamos a decir que en nuestra tabla
+de categoría la fila seleccionada,
+si el conteo es mayor que cero,
+o sea que si hemos seleccionado,
+siquiera una sola fila,
+entonces digo que mi idica
+teoría se le asigne a las filas
+seleccionada
+de mitad a la categoría,
+que sería el valor
+de la celda de su propio índice,
+que les corresponden en este caso.
+Y lo mismo haremos con los demás,
+pero en este
+caso con nuestras cajas de texto,
+con tex tecó digó tex
+tec y le damos el papel de texto.
+Ahora,
+¿qué pasa si no elegimos una fila?
+Entonces pondremos un mensaje que
+nos diga que seleccione la fila que
+deseamos editar.
+Ahora,
+este mensaje nunca me saldrá ya que
+si te das cuenta cuando ejecuto mi
+tabla
+ya está una fila seleccionada.
+Lo queremos será decirle en nuestro
+método de acciones de mi tabla,
+que aquí al empezar mi tabla
+categoría con la propiedad Clear
+Selection,
+o sea que limpia la selección de
+nuestra tabla. Ahora,
+si ejecutamos, vamos a
+ver que mi tabla no está
+seleccionada y si ponemos editar,
+nos dirá que seleccionemos una
+fila.
+Al seleccionar y apretar de nuevo
+editar verás cómo se pasan los
+datos de mi tabla a las cajas de
+texto correspondiente.
+Ahora vamos por nuestro botón
+guardar.
+Aquí la función del botón guardar
+será
+que al apretarlo guarde y edite.
+¿Cómo hacemos eso?
+Me voy a ver.
+Entonces decimos
+primero en nuestro botón guardar.
+Si editarse es igual a false,
+entonces es porque no lo vamos a
+editar
+si no lo que haremos es guardar.
+Entonces ponemos un treecatch
+y en el tree irá nuestro código de
+ejecución.
+Aquí es donde nuestras capas
+comunicadas hacen
+su trabajo. Primero instanciaremos
+que,
+loualmente, nuestra
+capa de entidades como
+objeto entidad.
+Con mi objeto entidad,
+ya hemos los atributos que necesito
+para referenciar cómo habíamos
+dicho
+con mis controles correspondientes.
+En este caso te equiste
+nombre y te equiste de ejecución.
+Vamos a darle la propiedad a parte
+de text la propiedad tu operator
+para que al guardar nuestros
+registros estén en mayúscula.
+Y si decíamos en mi inúscula,
+bueno si tú deseas es tu lower,
+acuérdate que al guardar
+solo necesitamos estos dos valores.
+Lo siguiente es llamar a nuestra
+otra capa que contiene nuestro
+método de insertando categoría, que
+es nuestra capa de negocio,
+en la clase N categoría.
+Así que lo instanciamos y gracias a
+mi objeto llamo a mi método y por
+último le paso como parámetro mi
+objeto entidad que contiene ya los
+atributos referenciados con mis
+controles.
+Ahora si todo esto está bien le
+dire que mande un mensaje
+que diga que guardó el registro.
+Al guardar quiero que refresque mi
+tabla con mi método mostrar buscar
+tabla.
+Y acá en mi cache,
+capturo el error, si es que llega
+a ocurrir algo
+colocaré
+este mensaje.
+Ahora ¿qué pasa si editarse?
+Es true. Si editarse es un true,
+entonces al apretar guardar
+editará,
+entonces es
+casi lo mismo que guardar,
+así que vamos a copiar y
+vamos a pegar todo este código.
+Y sólo agregaremos nuestro
+id de categoría.
+Que trae nuestro J20dad y le
+decimos que asigne a mi variable id
+de categoría.
+Pero mi id de categoría de mi
+objeto entidad me está diciendo
+que él es un entero y no un string,
+ya que mi variable id de categoría
+lo declaré como un string,
+así que lo voy
+a convertir de string a un entero.
+Acuérdate que necesitamos a
+nuestro id de categoría
+para poder editar
+nuestros registros.
+Luego abajo ya no sería insertando
+categoría,
+si no editando categoría,
+ya que viene de nuestra clase en la
+categoría que lo contiene.
+Entonces el mensaje que nos
+mostrará será édito el registro y
+después refrescará nuestra tabla.
+Y en el cach para capturar el error
+pondré
+que no se pudo editar el registro.
+Ahora,
+para que esto surge efecto,
+o sea para que
+editemos nuestra tabla,
+es aquí donde en el botón
+de editar la variable editarse,
+cambie en un true.
+Y cada vez que termine de editarse
+aquí abajo,
+pondré que se cambia false.
+También lo pondré en
+nuestro método limpiar cajas,
+ya que al poner en nuevo nos dará
+entender que queremos guardar un
+registro. También quiero que
+después de
+guardar un registro limpia
+nuestra caja de texto.
+Y lo
+mismo cuando edito un registro.
+Se ejecutamos,
+vamos a poner a editar y me dice
+que elija una fila.
+Si le elijo y edito,
+editar
+esta columna y como puedes ver,
+edita correctamente.
+Seguido limpia las cajas y me da la
+opción si deseo de continuar
+guardando un registro en mi caja.
+Nombres. Ahora
+guardaré un nuevo registro,
+ponga en tensión que
+estoy escribiendo de mi nóscula y
+al
+guardar guardo
+un nuevo registro en mayúsculas.
+Voy a agregar
+otro y de nuevo voy a editarlo.
+Y como puedes ver,
+todo está quedando bien.
+Ahora por último
+vamos por nuestro botón eliminar.
+Le diremos casi
+lo mismo que nuestro botón
+y editar.
+Si nuestra fila seleccionada
+el conteo es mayor que cero,
+entonces
+si hemos seleccionado una fila,
+acuérdate que para borrar una fila
+solo nos necesitamos nuestro id de
+categoría.
+Así que decimos que nuestro objeto
+de entidad de mayriz de categoría
+de la círnea,
+la celdad de mitabla categoría,
+del valor de mi fila seleccionada.
+¿Qué es el índice cero?
+Y al cual el valor es un string.
+Como sabrás, nuestro
+jentidad nos dice que
+nuestro id de categoría
+es un entero.
+Así que todo esto lo
+convertiremos de string a entero.
+Ahora gracias a nuestro objeto
+negocio,
+llamamos a nuestro método
+eliminando categoría y le pasamos
+como parámetro
+nuestro objeto de entidad.
+¿Qué contiene dichos atributos ya
+referenciados?
+Luego,
+si elimina mi registro,
+quiero que me muestre un
+mensaje que se eliminó el registro
+correctamente.
+Y llamo a mi método mostrar,
+buscar tabla
+para refrescar mis registros.
+Para ya acabar,
+le decimos que si no ha sido
+seleccionado que
+me muestro un mensaje que diga que
+seleccione la
+fila crece a eliminar.
+Entonces vamos a ejecutar por
+último, voy a eliminar este
+y se elimina
+este registro.
+Borraré otro y así puedo ir
+eliminando,
+editando,
+guardando registros
+y también puedo buscar registros
+en nuestro
+formulario. Y bueno,
+espero que me hayan entendido de
+aquí pueden hacer solo todo el
+mantenimiento de la tabla de marcas
+como práctica para que se vayan
+acostumbrando a
+programar en E -CAPAS.
+Igual yo subíro
+a
+los
+videos del mantenimiento de marcas
+y cualquier
+duda ya saben me preguntan,
+estudien y bueno,
+un
+saludo.

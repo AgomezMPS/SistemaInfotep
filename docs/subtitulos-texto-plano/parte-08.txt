@@ -1,0 +1,154 @@
+Bueno,
+vamos a ver ahora nuestra capa de
+negocio.
+La capa de negocio también conocida
+como la capa de dominio cumple como
+función de nuestra arquitectura de
+patrones en capas en encargarse de
+obtener los datos enviados desde la
+capa de datos.
+Aquí la capa de negocio hace de
+intermediario,
+entre la capa de datos y la capa de
+presentación, este
+se comunica con la capa de
+entidades y la capa de datos
+para obtener los adributos de este.
+En el cual referencia y confirma al
+traer los métodos que se han creado
+en la capa de datos, en este patrón
+de arquitectura se
+ve muy poca lógica de negocio.
+Hay otros patrones de arquitectura
+en donde la capa de negocio cumple
+otros roles importantes.
+Hay patrones en donde aquí también
+se aplica la extracción y él en
+caxulamiento.
+Eso depende del patrón de
+arquitectura
+que usemos. Pero bueno,
+en este patrón lo que haría última
+nuestra capa de negocio es enviar
+los datos a petición de nuestra
+capa de presentación a una interfaz
+mostrando
+los datos a petición de un usuario.
+Entonces estamos aquí en nuestra
+capa de negocio y voy a crear una
+nueva clase
+que la llamaré N Categoría.
+Ahora, aquí como
+ya habíamos dicho nuestra
+capa de negocio se comunica con
+nuestra capa de datos y también con
+la capa de entidades.
+Como podemos notar en nuestras
+referencias.
+Entonces vamos a usar las
+referencias.
+Vamos a poner juzing capa de
+entidades y juventud
+de datos.
+Ahora quiero que sepas que aquí
+podemos ver el porqué del llamado
+programación orientado a objetos y
+que son mediante los objetos en
+el cual todo esto tiene sentido.
+Sabemos que hasta aquí nuestra capa
+de negocio se comunica con la capa
+de datos y entidades.
+Es mediante que los objetos es
+necesario instanciarlos para que
+nuestras clases correspondientes en
+este caso sería la clase de
+de categoría para traer todos los
+métodos que
+hemos usado en la capa de datos.
+Entonces creo
+primero mi instancia de mi clase,
+o sea el objeto de mi clase de
+categoría y a esto objeto lo
+llamaré objeto datos y gracias
+a este objeto yo otra haré a mis
+métodos de mi
+clase de la capa de datos.
+Como puedes darte cuenta nuestro
+primer método es una clase list.
+Entonces nuestro método también
+sería un public list y bueno
+también listará mis objetos de
+lista que en este caso están en mi
+clase e categoría
+y la llamaré listando categoría.
+También darte cuenta que si
+voy a traer mi método debo tener el
+parámetro que él tiene.
+En este caso voy a poner como
+parámetro buscar y será un string.
+Ahora la único que tengo que hacer
+para traerlo es lo siguiente.
+Primero como tengo un método public
+con la clase list necesito retornar
+un objeto de la clase list.
+Así que diré retur
+y diré que mediante mi instancia.
+Ovejo datos que es mi objeto de
+mi clase de categoría llamaré a mi
+método listar categoría en el cual
+le paso como parámetro el parámetro
+que me pide en este caso mi buscar.
+Ahora vamos a traer el segundo
+método que fue insertar categoría.
+Entonces public voy y lo llamaré
+insertando categoría.
+Como ese método me pide un
+parámetro de clase le pondré mi
+parámetro de mi clase y categoría y
+mi
+objeto de referencia categoría. Tú
+puedes ponerle cualquier nombre
+si tú deseas y bueno ahora
+que es un boy no retornará nada.
+Así que de frente le digo de nuevo
+por mi objeto o bejo data llamo a
+mi método insertar categoría el
+cual tiene como parámetro un objeto
+de clase al cualice referencia
+y contiene todos estos atributos.
+Lo mismo haremos con mi
+tercer método
+que es editar categoría.
+También es un boy y
+lo llamaré editando categoría.
+También le pondré como parámetro un
+objeto de mi clase y categoría.
+Gracias a mi objeto
+llamaré el método editar categoría.
+Pasándole
+nuestro parámetro de clases.
+Y por último haremos lo mismo
+con un nuestro último método a cual
+vamos a llamar
+que será el deliminar categoría.
+Mi método en donde
+lo llamaré en eliminando categoría.
+Pongo como
+parámetro un objeto de mi clase y
+categoría y digo que
+mediante mi objeto o bejo
+data me traiga mi método eliminar
+categoría.
+A este también le pasó como
+parámetro mi objeto de mi clase
+lo cual tiene el atributo que tiene
+como referencia.
+Bueno como puedes darte cuenta así
+de fácil hemos llevado y comunicado
+nuestros métodos que tenían
+comunicación a nuestra base
+de datos desde la capa de datos y
+llevando nuestra capa de negocio
+para finalmente llevarlos así a
+nuestra capa de presentación
+en donde estará nuestra interface.

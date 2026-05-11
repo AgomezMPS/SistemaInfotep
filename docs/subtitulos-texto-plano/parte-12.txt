@@ -1,0 +1,304 @@
+Hola amigos, siguiendo con el
+curso,
+hoy aprenderemos cómo
+hacer nuestras notificaciones,
+diseñarlas e
+implementarlas en nuestro proyecto.
+Vamos a crear nuestra primera
+notificación,
+esta será la de suces
+o la de aprobado.
+Aquí estarán algunas cosas como
+el mensaje personalizado en editar,
+igualrar.
+Y bueno,
+cuando yo esté creada,
+no es trabajo formulario,
+vamos a diseñarlo.
+Lo primero que haremos como siempre
+es quitarle
+el borde, darlo un ancho y un alto.
+Luego ponerle un fondo de color
+blanco y que cuando se muestre este
+formulario,
+este en el centro,
+le colocaré un beautiful elix,
+el beautiful for,
+fade transition.
+Quiere decir transición desde
+banicimiento.
+Primero le pondré un nombre,
+acuérate
+que es muy importante darle
+nombre a tus controles.
+Y
+bueno, aquí en el ley es el tiempo
+que
+quieres que tome tu formulario
+en cuanto le va a tomar al for a
+aclararse.
+Yo le pondré en un segundo nomás,
+así que bueno, ahora,
+cómo
+funciona
+o cómo podemos ver este efecto,
+es muy sencillo.
+Vamos a darle doble clic a nuestro
+formulario y
+nuestro método formloat,
+que
+se encarga de ejecutar métodos o
+funciones antes de lanzar nuestro
+for,
+le diremos que lance ese efecto.
+Ya que este método me permite
+lanzar el efecto al componente que
+deseo.
+Como quiero lanzar a mi mismo
+formulario este
+efecto, pues solo pongo la palabra
+reservada diz.
+Ahora,
+lo único que queremos es
+ejecutar para ver si es cierto.
+A ejecutar
+me sale el formulario de marca,
+lo cual no quiero que se ejecute
+primero,
+acuérate que en programs
+debemos cambiar el formulario,
+que arrancará primero.
+Y en este caso nuestra notificación
+de formulario.
+Ahora sí,
+voy a dar ejecutar
+y mira lo que sucede con nuestro
+formulario.
+A ejecutarse le tomo un segundo
+a nuestro formulario a aclararse
+completamente.
+Y así de sencillo hemos hecho este
+efecto. Ahora vamos
+a diseñar nuestro
+formulario.
+Lo primero que haré es ponerle un
+panel
+en la posición del doc en top.
+Este tendrá este color de aquí
+y es aquí donde irá nuestra imagen,
+que
+nos involesa que todo está bien.
+En este caso el check.
+Tú puedes ponerle una imagen que tú
+deseas,
+puedes ir a Google y poner un
+imagen como un check en png
+y puedes ponerle la imagen que tú
+deseas.
+Pero primero pondré un label.
+Este label es muy importante,
+ya que será el indicador de
+nuestros mensajes. O sea,
+al
+final de este label, si
+el label estará guardado o
+editado o también mensajes
+como eliminado y bueno mensajes de
+error, le
+pondremos un nombre a nuestro
+label y haremos estos cambios.
+Después de esto,
+copiaré y pegaré otro para ponerle
+un mensaje personalizado a tu
+notificación.
+Si tú
+deseas,
+puedes poner este mensaje o
+si no quieres no puedes poner nada,
+yo lo hago porque le quiero dar en
+entender al usuario de que el
+sistema estará bien.
+Después de esto colocamos nuestro
+botón y lo personalizaremos.
+Ahora,
+vamos
+a poner el imagen dentro de nuestro
+panel que habíamos creado
+previamente.
+Este imagen lo hacemos en
+PowerPoint. Como puedes ver,
+yo ya los tengo hecho.
+Tengo el primero que es el sombrado
+que tiene nuestro
+form, o que va a tener
+nuestro form de
+notificación.
+El segundo es el check que irá en
+nuestro formulario actual, que
+estamos haciendo y el último
+que será para nuestro formulario de
+información.
+Voy a enseñarte y
+demuestra cómo hacer uno de ellos.
+No te preocupes por los demás, ya
+que estas imágenes lo tendrás en
+la
+descripción de este video. Así que,
+comenzamos
+con escoger la figura del círculo.
+Le quitamos el contorno
+y lo ponemos de relleno en blanco.
+Por último, solo le damos una
+sombra y ahora
+vamos a
+dibujar el palito de arriba.
+Para eso seleccionaremos la figura
+de trapezo.
+Lo alargo un poco y lo acomodándole
+la vuelta y hago lo mismo como lo
+hice con el círculo.
+Después de terminar,
+la figura seleccionamos
+todo y lo guardamos en la
+carpeta donde están
+nuestras imágenes.
+Como puedes ver,
+las demás yo ya las tengo guardada.
+Y entonces,
+en nuestro formulario vamos a poner
+nuestra imagen en nuestro picture
+box.
+Y también para terminar nuestro
+formulario tendrá el imagen de
+sombrado.
+Me había olvidado de darle
+un nombre a nuestro botón y ahora
+vamos a programar.
+Vamos a programar mi botón a
+sectar, solo
+le pondré que al darle clic
+bueno, este formulario se cerrará.
+Y ahora vamos a ejecutar nuestro
+formulario para ver cómo está
+quedando.
+Como puedes ver,
+está quedando muy bien. Ahora
+falta programar ese label de
+mensaje.
+Y ahora vamos a crear un método
+estático llamado Confirmación Form.
+Este método estático tendrá un
+parámetro,
+ese parámetro serón string y le
+pondré mensaje.
+Aquí dentro de este método
+instancia de mi propio formulario,
+al que le daré ese mensaje que
+tenemos como parámetro.
+Después le diré que gracias a mi
+instancia al ser llamado
+este método se abrirá este mismo
+formulario que será un diálogo.
+Ahora,
+por
+qué instancia mi propio formulario
+y cómo es lo posible?
+Es porque
+le he puesto a mi método que es
+estático y
+ahora lo he
+hecho.
+Este editic cumple funciones como
+estas y muy aparte que interactúa
+con el formulario principal.
+En este caso es el FRM suces.
+Y como interactúa es que cuando un
+método se estático ya no
+necesitamos instanciar de la forma
+normal,
+así como hemos usado anteriormente
+usando new.
+Ya que ese estático solo desde el
+otro formulario llamaríamos
+a este formulario que es público y
+libremente
+podremos usar este método.
+Pero ojo aquí
+este método te pedirá un parámetro.
+Este parámetro es nuestro mensaje.
+Este mensaje es el mensaje que
+nosotros queremos que se muestre
+dependiendo de que acción sea y ha
+sido guardado,
+eliminado o editado.
+Entonces llegará un momento en
+que nosotros le daremos ese mensaje
+o
+en ese caso ese ser que nos pide.
+Pero la hora de ejecutar el
+formulario
+nuestro mensaje no se verá.
+Pero por qué? Porque
+no basta componer el mensaje
+que le hemos dado como parámetro.
+Necesitamos iniciarlo en el
+constructor de nuestra clase,
+que en este caso sería FRM suces.
+Entonces aquí es donde también
+le pasaré el parámetro string y
+ponerle
+la misma variable de mensaje.
+Y aquí ya estamos pasándole
+el mensaje a nuestro formulario que
+viene desde el otro formulario.
+Pero este mensaje que viene del
+otro formulario
+aquí en se le asignó.
+Aquí abajo es donde
+inicializaremos los componentes.
+Le diré que mi label mensaje,
+el texto,
+será asignado.
+Ahora por último vamos a nuestro
+formulario de marca y
+aquí cambiaremos algunas cosas.
+Como ya
+tenemos nuestros notificaciones de
+mensajes,
+ya no necesitaremos nuestro
+mensaje box.
+Así que borrarémos esto
+y aquí si pondremos lo siguiente.
+Llamamos a nuestro FRM suces
+y como tiene un método estático lo
+llamamos y acuérdate que
+esto método su función es abrir el
+formulario que es mi notificación.
+Como puedes ver nos pide el
+parámetro
+de mensaje y aquí es donde le
+pondremos nuestro mensaje
+que queremos en este caso.
+Como está guardando,
+bueno yo
+le pondré que se ha guardado.
+Lo
+mismo podemos hacer cuando edite,
+entonces le pondré editado y ahora
+solo falta ejecutarlo y probarlo.
+Bueno voy a guardar un producto.
+Y bueno vamos a ver qué pasa si
+apretó a guardar y mira se abre
+nuestra notificación y nos sale que
+el mensaje se ha guardado.
+Ahora vamos a ver si editamos.
+Y bueno ya está,
+ahora nos sale que el mensaje se ha
+editado. Y bueno amigos
+así hemos creado
+nuestra notificación de guardado y
+editado y al deliminado no es igual
+es un poco parecido pero eso
+lo vamos a ver en el otro video.
+Espero que me haya se entendido y
+bueno un saludo.

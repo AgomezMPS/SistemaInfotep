@@ -1,0 +1,185 @@
+Hola amigos, hoy vamos a crear
+nuestro proyecto
+desde cero y ya saben que va a ser
+en el patrador de arquitectura en
+capas y también vamos a conectarnos
+a nuestra base de datos,
+como ya sabemos nuestras capas
+trabajan en conjunto comunicándose
+entre así y respetando
+los principios de programación
+orientado jethos.
+También sabemos que aparte de estas
+capas existía una capa la cual
+se comunicará con las demás capas.
+Entonces vamos a abrir nuestro viso
+el estudio y al entrar en él vamos
+a ir a nuevo proyecto
+y vamos a esperar que se abre una
+ventana.
+Habrá varias opciones pero nosotros
+vamos a buscar otros tipos de
+proyecto la
+cual elegiremos solución en blanco.
+Aquí abajo vamos a escribir
+el nombre de nuestro proyecto.
+Yo lo elegí donde guardar
+los ideeseas y bueno aceptamos.
+Entonces vamos a ver
+que nuestro proyecto estaba sido.
+Vamos a darle clic derecho y
+vamos a agregar un proyecto.
+Asegúrate de que nuestro proyecto
+sea una biblioteca de clases de
+punto de adfrengo y bueno este
+proyecto será nuestra primera capa,
+la capa de datos.
+Asegtamos y esperamos que sea haya
+creado.
+Lo mismo haremos con nuestra otra
+capa
+que ahora será la capa de negocio.
+Ahora lo mismo voy a hacerlo otra
+vez agridamos un nuevo proyecto que
+sea biblioteca de clases punto
+adfrengo y este se llamará nuestra
+capa en tidades.
+Por último vamos a crear nuestra
+última capa que ya no será
+una biblioteca de clases sino una
+aplicación de Windows 4 ya que aquí
+estarán todos los domularios y este
+será nuestra capa de
+presentación.
+Muy aparte que hayamos creado
+nuestras capas, estas
+también son bibliotecas de
+clases porque van a contener
+las clases con las cuales vamos a
+trabajar. Entonces
+cada capa debe tener que
+referenciarse
+con la capa que se debe.
+Entonces habíamos dicho que nuestra
+capa de datos debe referenciarse a
+la capa de entidades y bueno
+nuestra capa de entidades no se
+referencia
+con nadie.
+Más bien es la capa la cual es
+referenciada.
+Nuestra capa de negocio si se
+referencia con mi capa de datos
+y mi capa de entidades y por último
+mi capa de presentación se
+referencia con mi capa de entidades
+y mi capa de negocio.
+Y bueno haci hemos cumplido con
+nuestro
+patrón de arquitectura en capas.
+Lo queremos es eliminar
+estas clases que se han creado por
+defecto
+y el formulario también.
+Ahora ya que tenemos toda la
+arquitectura vamos a conectarnos
+a la base de datos.
+Hay muchas formas de hacerlo una
+de ellas es mediante el app config.
+Así que vamos a nuestro app config
+y aquí abajo es donde escribiremos
+nuestra cadena de conexión.
+Ponemos la etiqueta con
+NexionString,
+un tap,
+otro
+tap y dentro escribamos at name.
+Aquí vamos a escribir el nombre
+de la conexión que nos permitirá
+conectarnos con otras clases.
+Puedes poner cualquier nombre que
+tú desees.
+Yo le voy a poner conectar.
+Luego vamos a escribir esa cadena
+de conexión con ConnectionString y
+aquí vamos a escribir el
+nombre de nuestro servidor.
+¿Cuál es el nombre de nuestro
+servidor?
+Es el que está aquí
+por autentificación de Windows.
+Vamos a decirle también que
+la seguridad integrada va a ser sí
+porque hemos entrado por
+autentificación de Windows y por
+último vamos a poner en nombre
+de nuestra base de datos.
+¿Qué es el mismo que
+hemos creado en la base de datos?
+Debes ponerlo como está no te
+olvides y bueno lo que hemos hecho
+es escribir nuestra cadena de
+conexión que es el más senar aquí
+en conectar para que pueda
+comunicarse con nuestras clases en
+la
+capa de datos. Ahora lo que vamos
+a hacer es
+conectarnos con nuestra clase que
+vamos a crear,
+vamos a nuestra capa de datos y
+bueno crearemos una clase la cual
+yo la llamaré de categoría.
+Aquí es donde nos conectaremos.
+Lo primero que haremos será poner
+en public a nuestra clase ya que no
+te olvides que está se comunicará
+con nuestra capa de negocio.
+Si yo lo pondría en private,
+aunque esté referenciado,
+mi capa de negocio con mi capa
+de datos no se podrán comunicar.
+Entonces para conectarse a nuestra
+base de datos necesitamos dos
+cosas.
+Una de ellas es referenciar nuestro
+system .data .sqlClient ya que este
+contiene la clase SQL connection,
+la cual nos ayuda a
+conectarnos con nuestra clase.
+La segunda es referenciar system
+.confibration que en nuestra capa
+de datos como puedes darte
+cuenta en las
+referencias no lo tenemos.
+Entonces vamos a agregar en
+referencias esa biblioteca la cual
+está en nuestro framework
+lo buscamos y marcamos y aceptamos.
+Ahora si podemos conectarnos.
+Vamos a agregar también entonces
+nuestra
+biblioteca que hemos referenciado y
+bueno ahora ponemos
+la clase SQL connection y haremos
+una instancia con ella la cual yo
+la llamaré con exión.
+Luego
+le damos como parámetro
+nuestra cadena de conexión y
+gracias a nuestro administrador de
+configuración que es
+el configuración manager le diremos
+que nuestra cadena de conexión con
+la cual queremos comunicar será la
+misma que la
+tenemos acá en nuestro app .conf,
+lo cual tiene nuestra cadena de
+conexión.
+Toda esta línea que hemos hecho
+aquí siempre vamos a escribirla en
+cada clase que nosotros creáramos
+en nuestra capa de datos la cual
+gracias a nuestra instancia
+controlaremos cuando abrir y cuando
+cerrar nuestras conexiones.

@@ -1,0 +1,103 @@
+Hoy vamos a ver qué información
+debe tener nuestra capa de
+entidades.
+Nuestra capa de entidades es un
+emisor
+de atributos de nuestras clases.
+Gracias a esta
+capa, como ya lo habíamos dicho,
+están nuestros atributos donde
+podemos aplicar el primer principio
+de la programación
+orientado a objetos,
+que es la extracción.
+Pero ¿qué comprendemos por nuestros
+atributos de nuestra clase?
+Como puedes ver en la imagen
+podemos ver un cliente.
+Este tiene características únicas
+como un código, un nombre,
+apellido, dirección,
+de NEI y bueno, muchas cosas más.
+A esto se le llama atributos.
+Las cuales tienen una entidad
+única,
+estas entidades o atributos son
+llamadas o relacionadas
+desde nuestra base de datos,
+aunque hay algunas que
+son excepciones que cumplen otras
+funciones
+que en su momento ya veremos.
+La cual tiene la misma lógica
+de las colonas de nuestra tabla.
+Estos atributos son llevados
+y comunicados a nuestras clases de
+nuestras capas.
+Para llevar información segura y
+directa,
+siempre Judicar a otros atributos
+de otras clases.
+A esta acción se le llama
+encapsular la cual se encarga el
+segundo pilar de la programación de
+orientado a objetos, el
+encapsulamiento.
+Entonces amigos,
+vamos a crear una nueva clase en
+nuestras capas entidades y
+esta clase,
+yo la voy a llamar E Categoria.
+Agregamos esa clase y bueno,
+en esta clase vamos a
+poner en práctica los principios de
+astracción y de encapsulamiento.
+Lo primero lo que vamos a hacer,
+vamos a poner que
+nuestra clase sea pública,
+ya que esta
+se comunicará con todas las clases.
+Ahora vamos a definir todos los
+atributos que tiene nuestra tabla
+categoría.
+Entonces yo le voy a poner Pre
+-Bate,
+Int y de categoría.
+La segunda
+columna viene a ser nuestro código.
+Entonces
+vamos a poner Pre -Bate y como
+nuestra columna es un barchar,
+entonces vamos a poner la string y
+le ponemos código de categoría.
+El tercero también es un barchar
+ya que hablamos de nuestra columna
+nombre. Entonces vamos
+a poner Pre -Bate
+String,
+nombre de categoría.
+Y el último también es un barchar,
+en el cual es la columna de
+descripción.
+Le ponemos Pre -Bate String de
+descripción categoría.
+Ahora que hemos terminado de
+completar nuestros atributos, lo
+segundo que vamos a hacer vamos
+a encapsular nuestros campos.
+Vamos a sombrer todos nuestros
+campos y vamos
+a poner click derecho.
+Vamos a poner acciones
+rápidas y de refactorizaciones.
+Y en la opción Accular
+Campos vamos a incacularlos.
+En el cual nos está dando una
+manera más rápida de encapsular
+nuestro campos y como puedes ver
+son públicos y es así como hemos
+creado en nuestra capa
+de entidades de categoría.
+Una manera más sencilla y segura
+para que tengan comunicación con
+nuestras demás capas.

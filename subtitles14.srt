@@ -1,0 +1,1860 @@
+1
+00:00:02,000 --> 00:00:03,460
+Hola amigos, ¿cómo están?
+
+2
+00:00:03,740 --> 00:00:06,240
+Me alegro que estén bien y vamos a
+
+3
+00:00:06,240 --> 00:00:08,360
+comenzar rápidamente con este mini
+
+4
+00:00:08,360 --> 00:00:11,500
+curso de cómo crear el formulario
+
+5
+00:00:11,500 --> 00:00:13,740
+principal y vamos a hacerlos
+
+6
+00:00:13,740 --> 00:00:14,300
+rápidamente.
+
+7
+00:00:14,460 --> 00:00:16,480
+Vamos a crear nuestro formulario
+
+8
+00:00:16,480 --> 00:00:16,960
+principal,
+
+9
+00:00:17,600 --> 00:00:20,140
+vamos a escribir que se va a llamar
+
+10
+00:00:20,140 --> 00:00:21,320
+FMR, FMR,
+
+11
+00:00:21,480 --> 00:00:23,520
+me principal y como siempre vamos
+
+12
+00:00:23,520 --> 00:00:27,300
+a quitar el borde del formulario,
+
+13
+00:00:27,440 --> 00:00:28,680
+voy a darle
+
+14
+00:00:28,680 --> 00:00:32,860
+este ancho y esta altura de 1440
+
+15
+00:00:34,660 --> 00:00:37,860
+con 940 y voy a
+
+16
+00:00:37,860 --> 00:00:39,480
+crear tres paneles principales,
+
+17
+00:00:39,500 --> 00:00:40,600
+los lo más importantes
+
+18
+00:00:41,980 --> 00:00:42,920
+estos tres
+
+19
+00:00:42,920 --> 00:00:46,300
+paneles ocupan las tres partes
+
+20
+00:00:46,300 --> 00:00:48,300
+de nuestro formulario principal,
+
+21
+00:00:48,500 --> 00:00:49,840
+el primero es el Sidebar
+
+22
+00:00:51,500 --> 00:00:52,820
+y así
+
+23
+00:00:52,820 --> 00:00:55,180
+que con la propiedad doc vamos a
+
+24
+00:00:55,180 --> 00:00:56,620
+ponerlo a la izquierda
+
+25
+00:00:56,620 --> 00:00:59,180
+y vamos a darle un ancho de 270
+
+26
+00:01:01,120 --> 00:01:02,400
+también voy a
+
+27
+00:01:02,400 --> 00:01:05,840
+ponerle este mat crown de
+
+28
+00:01:05,840 --> 00:01:11,200
+este color y ahora vamos por el GDR
+
+29
+00:01:12,020 --> 00:01:14,340
+vamos a escribir o bueno vamos a
+
+30
+00:01:14,340 --> 00:01:17,360
+llamar el GDR y vamos a decirle la
+
+31
+00:01:17,360 --> 00:01:19,580
+propiedad doc que va ahí en top y
+
+32
+00:01:19,580 --> 00:01:21,520
+que tenga una altura de 60
+
+33
+00:01:22,500 --> 00:01:24,000
+y el más
+
+34
+00:01:24,000 --> 00:01:25,240
+importante el Brapper,
+
+35
+00:01:25,680 --> 00:01:25,680
+el
+
+36
+00:01:25,680 --> 00:01:26,980
+contenedor que va a contener
+
+37
+00:01:26,980 --> 00:01:28,180
+todos nuestros formularios que
+
+38
+00:01:28,180 --> 00:01:29,620
+deseamos abrir con los botones
+
+39
+00:01:29,620 --> 00:01:31,080
+vamos a escribir en el doc
+
+40
+00:01:31,080 --> 00:01:35,580
+que se ha fil y bueno ya estaría la
+
+41
+00:01:35,580 --> 00:01:38,660
+primera parte ya hecha vamos
+
+42
+00:01:38,660 --> 00:01:42,240
+a darle también estos bat crowns a
+
+43
+00:01:42,240 --> 00:01:43,000
+nuestro GDR
+
+44
+00:01:43,000 --> 00:01:46,940
+y a nuestro Brapper como pueden ver
+
+45
+00:01:49,580 --> 00:01:51,700
+y vamos después a
+
+46
+00:01:51,700 --> 00:01:52,500
+ponerle
+
+47
+00:01:52,500 --> 00:01:54,340
+un botón, vamos a crear un botón en
+
+48
+00:01:54,340 --> 00:01:54,720
+la parte
+
+49
+00:01:54,720 --> 00:01:56,620
+de la cabezera del GDR
+
+50
+00:01:58,600 --> 00:01:59,460
+el icono
+
+51
+00:01:59,460 --> 00:02:02,400
+de este botón que bueno que van a
+
+52
+00:02:02,400 --> 00:02:03,600
+tener como todos los iconos
+
+53
+00:02:03,600 --> 00:02:04,820
+que van a ver este video
+
+54
+00:02:05,740 --> 00:02:06,560
+están en la
+
+55
+00:02:06,560 --> 00:02:07,680
+descripción de este video así
+
+56
+00:02:07,680 --> 00:02:09,320
+que no se preocupen ya está todos
+
+57
+00:02:09,320 --> 00:02:11,380
+descargados para que bueno
+
+58
+00:02:11,380 --> 00:02:14,100
+prácticamente solo lo copen y lo
+
+59
+00:02:14,100 --> 00:02:15,960
+peguen y puedan usarlo a su
+
+60
+00:02:15,960 --> 00:02:18,460
+disposición y para que se le hagas
+
+61
+00:02:18,460 --> 00:02:20,640
+más fácil entonces vamos a
+
+62
+00:02:20,640 --> 00:02:23,100
+escribirle un nombre a este botón,
+
+63
+00:02:23,240 --> 00:02:27,140
+lo vamos a poner a salir y no se
+
+64
+00:02:27,140 --> 00:02:29,340
+olviden que deben ponerle un centro
+
+65
+00:02:29,340 --> 00:02:40,460
+al screen para que el formulario
+
+66
+00:02:40,460 --> 00:02:40,460
+principal esté en el medio
+
+67
+00:02:41,280 --> 00:02:42,160
+está en
+
+68
+00:02:42,160 --> 00:02:46,800
+el medio pero el botón no funciona
+
+69
+00:02:46,800 --> 00:02:52,420
+por ahora así que vamos a salir y
+
+70
+00:02:52,420 --> 00:02:54,080
+bueno vamos a decirle también a
+
+71
+00:02:54,080 --> 00:02:55,900
+este botón que bueno que esté en la
+
+72
+00:02:55,900 --> 00:02:57,940
+parte de la derecha y la parte
+
+73
+00:02:57,940 --> 00:02:59,660
+de arriba así es que se agranda,
+
+74
+00:03:00,120 --> 00:03:01,480
+entonces para grandar esto
+
+75
+00:03:01,480 --> 00:03:03,140
+esta parte bueno nosotros
+
+76
+00:03:03,140 --> 00:03:03,800
+queremos que
+
+77
+00:03:03,800 --> 00:03:07,020
+sea pantalla completa pero que
+
+78
+00:03:07,020 --> 00:03:08,820
+no cupe toda la barretaria entonces
+
+79
+00:03:08,820 --> 00:03:11,580
+vamos a decirle que el tamaño que
+
+80
+00:03:11,580 --> 00:03:13,880
+queremos que esta pantalla ocupe
+
+81
+00:03:13,880 --> 00:03:18,080
+sea que sea en el área de trabajo
+
+82
+00:03:18,080 --> 00:03:21,680
+tanto como el tamaño como su
+
+83
+00:03:21,680 --> 00:03:24,520
+locación o sea en que parte
+
+84
+00:03:24,520 --> 00:03:27,600
+de nosotros queremos colocarlo
+
+85
+00:03:28,340 --> 00:03:29,020
+este es
+
+86
+00:03:29,020 --> 00:03:30,660
+la configuración para que cuando
+
+87
+00:03:30,660 --> 00:03:35,620
+nosotros querramos poner un
+
+88
+00:03:35,620 --> 00:03:36,160
+formulario
+
+89
+00:03:36,160 --> 00:03:37,860
+que ocupe toda la pantalla pues
+
+90
+00:03:37,860 --> 00:03:38,840
+que no sea en la
+
+91
+00:03:38,840 --> 00:03:41,140
+barretaria bueno ya sabes que este
+
+92
+00:03:41,140 --> 00:03:44,000
+método que hemos creado tiene que
+
+93
+00:03:44,000 --> 00:03:47,200
+correr en el load y bueno cuando
+
+94
+00:03:47,200 --> 00:03:49,080
+corramos vamos a ver que bueno como
+
+95
+00:03:49,080 --> 00:03:51,300
+puedes darte cuenta no cupa
+
+96
+00:03:51,300 --> 00:03:53,240
+la barretaria así que está quedando
+
+97
+00:03:53,240 --> 00:03:54,100
+muy bien entonces
+
+98
+00:03:54,100 --> 00:03:55,340
+ahora vamos a programar
+
+99
+00:03:55,340 --> 00:03:58,600
+nuestro botón de salir es
+
+100
+00:03:58,600 --> 00:04:00,020
+muy sencillo
+
+101
+00:04:00,800 --> 00:04:02,360
+te acuerdas cuando habíamos
+
+102
+00:04:02,360 --> 00:04:05,060
+helado de un chance para
+
+103
+00:04:05,060 --> 00:04:07,460
+que nuestro botón cuando queremos
+
+104
+00:04:07,460 --> 00:04:09,660
+eliminar algo pues no de la chance
+
+105
+00:04:09,660 --> 00:04:10,700
+de eliminar lo mismo
+
+106
+00:04:10,700 --> 00:04:12,580
+es ahora con este botón queremos
+
+107
+00:04:12,580 --> 00:04:13,260
+que no de la
+
+108
+00:04:13,260 --> 00:04:15,980
+chance de bueno de saber de querer
+
+109
+00:04:15,980 --> 00:04:19,060
+si queremos salir o no querer o no
+
+110
+00:04:19,060 --> 00:04:21,840
+salir entonces vamos a traer ese
+
+111
+00:04:21,840 --> 00:04:26,720
+formulario de el cual queremos que
+
+112
+00:04:26,720 --> 00:04:28,440
+nos denle la opción y bueno sabes
+
+113
+00:04:28,440 --> 00:04:30,360
+que ese formulario pues nos da un
+
+114
+00:04:30,360 --> 00:04:30,860
+mensaje
+
+115
+00:04:31,560 --> 00:04:33,300
+ese mensaje es de que
+
+116
+00:04:33,300 --> 00:04:35,060
+que nosotros queremos problemas que
+
+117
+00:04:35,060 --> 00:04:36,820
+seguro que deseas salir del sistema
+
+118
+00:04:36,820 --> 00:04:39,920
+y bueno con el diálogo resulta
+
+119
+00:04:39,920 --> 00:04:41,840
+vamos a introducir el ese resultado
+
+120
+00:04:41,840 --> 00:04:44,000
+en ese mensaje de diálogo no
+
+121
+00:04:44,000 --> 00:04:45,480
+entonces si el resultado que
+
+122
+00:04:45,480 --> 00:04:47,660
+nosotros pongamos es ok o sea que
+
+123
+00:04:47,660 --> 00:04:49,500
+está bien entonces queremos que
+
+124
+00:04:49,500 --> 00:04:52,420
+la aplicación pues salga o sea ya
+
+125
+00:04:52,420 --> 00:04:53,720
+bueno de una vez salgamos de
+
+126
+00:04:53,720 --> 00:04:54,360
+la aplicación
+
+127
+00:04:55,220 --> 00:04:58,580
+a veces hay acciones que
+
+128
+00:04:58,580 --> 00:05:00,720
+no pasa esto queremos salir pero
+
+129
+00:05:00,720 --> 00:05:02,700
+puede ser que ya vemos aún no sé
+
+130
+00:05:02,700 --> 00:05:02,900
+pues
+
+131
+00:05:02,900 --> 00:05:04,380
+si tienes un formulario como un loy
+
+132
+00:05:04,380 --> 00:05:06,120
+sino de para que te
+
+133
+00:05:06,120 --> 00:05:07,200
+registres de nuevo si es que
+
+134
+00:05:07,200 --> 00:05:08,740
+quieres entrar a un loy pues sólo
+
+135
+00:05:08,740 --> 00:05:11,920
+pondrías este disc hate ya no sería
+
+136
+00:05:11,920 --> 00:05:14,100
+la aplicación de exit ya bueno pero
+
+137
+00:05:14,100 --> 00:05:14,760
+en ese caso
+
+138
+00:05:16,940 --> 00:05:18,140
+entonces como puedes
+
+139
+00:05:18,140 --> 00:05:20,220
+ver todo está yendo bien ahora lo
+
+140
+00:05:20,220 --> 00:05:21,980
+que vamos a hacer vamos a
+
+141
+00:05:23,900 --> 00:05:24,380
+entonces
+
+142
+00:05:24,380 --> 00:05:25,960
+vamos a probar como puedes darte
+
+143
+00:05:25,960 --> 00:05:27,260
+cuenta no da la chance
+
+144
+00:05:28,360 --> 00:05:29,560
+y no dice que si queremos
+
+145
+00:05:29,560 --> 00:05:30,260
+salir entonces
+
+146
+00:05:30,260 --> 00:05:32,700
+ponemos ok y bueno ya hemos salido
+
+147
+00:05:32,700 --> 00:05:35,660
+entonces todo está yendo muy bien
+
+148
+00:05:35,660 --> 00:05:37,940
+ahora vamos a hacer toda la parte
+
+149
+00:05:37,940 --> 00:05:41,660
+de nuestro cidebar nuestra parte de
+
+150
+00:05:41,660 --> 00:05:43,000
+nuestra saidebar pero antes
+
+151
+00:05:43,000 --> 00:05:43,860
+de esto bueno voy
+
+152
+00:05:43,860 --> 00:05:45,800
+a colocarle este label
+
+153
+00:05:45,800 --> 00:05:47,500
+que me diga que bueno que todo
+
+154
+00:05:47,500 --> 00:05:49,240
+esto es un panel de administración
+
+155
+00:05:49,240 --> 00:05:49,440
+que
+
+156
+00:05:49,440 --> 00:05:53,700
+en inglés para lo que no saben
+
+157
+00:05:53,700 --> 00:05:57,060
+pues se le conoce como un dashboard
+
+158
+00:05:57,060 --> 00:06:02,240
+entonces voy a poner este label de
+
+159
+00:06:02,240 --> 00:06:03,940
+dashboard y le voy a dar este color
+
+160
+00:06:07,440 --> 00:06:09,440
+y lo voy a colocar bien así
+
+161
+00:06:09,440 --> 00:06:11,620
+que bueno ya está quedando entonces
+
+162
+00:06:11,620 --> 00:06:16,010
+vamos a a rellenar todo nuestro
+
+163
+00:06:16,010 --> 00:06:19,590
+cidebar vamos a bueno yo le voy a
+
+164
+00:06:19,590 --> 00:06:21,770
+poner este logo bueno mi logo tú
+
+165
+00:06:21,770 --> 00:06:24,330
+puedes ponerle tu logo así que no
+
+166
+00:06:24,330 --> 00:06:28,790
+hay ningún problema vamos a darles
+
+167
+00:06:28,790 --> 00:06:31,290
+este tamaño y voy a copiar este
+
+168
+00:06:31,290 --> 00:06:31,770
+label
+
+169
+00:06:31,770 --> 00:06:36,770
+y lo voy a pegar aquí para no ser
+
+170
+00:06:38,330 --> 00:06:41,510
+para ponerle bueno pues el
+
+171
+00:06:41,510 --> 00:06:47,330
+nombre del canal y también le voy a
+
+172
+00:06:47,330 --> 00:06:51,690
+dar un light shape o sea una línea
+
+173
+00:06:51,690 --> 00:06:57,370
+para que dar un estilo a esa línea
+
+174
+00:06:57,370 --> 00:07:04,130
+le voy a dar el color blanco y voy
+
+175
+00:07:04,130 --> 00:07:10,130
+a colocar ahora voy a colocar
+
+176
+00:07:10,130 --> 00:07:21,410
+un imagen que bueno que bueno
+
+177
+00:07:22,090 --> 00:07:22,610
+capaz
+
+178
+00:07:22,610 --> 00:07:24,790
+más adelante les enseñé a cómo
+
+179
+00:07:24,790 --> 00:07:28,710
+introducir imágenes bueno pero ya
+
+180
+00:07:28,710 --> 00:07:30,490
+salidas de la base de datos y que
+
+181
+00:07:30,490 --> 00:07:33,570
+cada vez que el usuario entre al
+
+182
+00:07:33,570 --> 00:07:35,670
+panel de administración pues la
+
+183
+00:07:35,670 --> 00:07:37,930
+base de datos es reconocer cuál es
+
+184
+00:07:37,930 --> 00:07:40,650
+el usuario y en vez de que sea una
+
+185
+00:07:40,650 --> 00:07:45,770
+imagen como se llama estática pues
+
+186
+00:07:45,770 --> 00:07:47,990
+que sea un imagen que reconozca
+
+187
+00:07:47,990 --> 00:07:49,830
+la base de datos entonces vamos a
+
+188
+00:07:49,830 --> 00:07:51,410
+seguir con con con los botones
+
+189
+00:07:51,410 --> 00:07:55,850
+vamos a utilizar uniform uniform
+
+190
+00:07:55,850 --> 00:07:59,310
+flat button y vamos a darles
+
+191
+00:08:03,410 --> 00:08:04,410
+un
+
+192
+00:08:04,410 --> 00:08:11,690
+color transparente y también vamos
+
+193
+00:08:11,690 --> 00:08:16,130
+a decirle que está se atro esto
+
+194
+00:08:16,130 --> 00:08:19,890
+es muy importante vamos a darle un
+
+195
+00:08:19,890 --> 00:08:29,290
+nombre a nuestro
+
+196
+00:08:35,990 --> 00:08:37,130
+ahora vamos
+
+197
+00:08:37,130 --> 00:08:39,810
+a decirle que en econ ima eche pues
+
+198
+00:08:39,810 --> 00:08:43,890
+vamos a darle el icono
+
+199
+00:08:43,890 --> 00:08:46,010
+de la primera entrada como el icono
+
+200
+00:08:46,010 --> 00:08:47,430
+cuando esté seleccionado que
+
+201
+00:08:47,430 --> 00:08:49,290
+va a ser gris
+
+202
+00:08:52,270 --> 00:08:53,630
+cuando esté normal va a
+
+203
+00:08:53,630 --> 00:08:54,830
+ser el icono gris pero cuando esté
+
+204
+00:08:54,830 --> 00:08:55,950
+seleccionado va a ser el icono
+
+205
+00:08:55,950 --> 00:08:57,550
+verde vamos a darle también
+
+206
+00:08:57,550 --> 00:08:59,190
+un espaciado al dashboard para que
+
+207
+00:08:59,190 --> 00:09:02,930
+pues esté más entrado vamos a darle
+
+208
+00:09:02,930 --> 00:09:05,850
+cuando cuando le de click pues que
+
+209
+00:09:05,850 --> 00:09:07,030
+no se active el color vamos a
+
+210
+00:09:07,030 --> 00:09:09,770
+ponerlo transparente también y
+
+211
+00:09:09,770 --> 00:09:12,790
+vamos como puedes ver así va a ser
+
+212
+00:09:12,790 --> 00:09:14,550
+todos los botones todos los botones
+
+213
+00:09:14,550 --> 00:09:16,030
+lo vamos a hacer así vamos
+
+214
+00:09:16,030 --> 00:09:18,290
+a cambiarlo bueno tú solo sigue los
+
+215
+00:09:18,290 --> 00:09:24,690
+pasos del video y pues es lo mismo
+
+216
+00:09:24,690 --> 00:09:27,670
+como como está en el formulario del
+
+217
+00:09:27,670 --> 00:09:30,410
+cual al comienzo del curso pues
+
+218
+00:09:30,410 --> 00:09:32,310
+te mostré para no estar perdiendo
+
+219
+00:09:32,310 --> 00:09:33,170
+tiempo en estar
+
+220
+00:09:33,170 --> 00:09:35,030
+poniendo todos los icons o o sea
+
+221
+00:09:35,030 --> 00:09:38,150
+creo que creo que
+
+222
+00:09:38,150 --> 00:09:39,290
+puedes hacerlo tú
+
+223
+00:09:39,290 --> 00:09:41,830
+solo y pues lo único que tienes
+
+224
+00:09:41,830 --> 00:09:42,810
+que hacer es poner
+
+225
+00:09:42,810 --> 00:09:45,690
+bueno los iconos correspondientes
+
+226
+00:09:45,690 --> 00:09:49,350
+en su lugar ya tanto sea para los
+
+227
+00:09:49,350 --> 00:09:51,990
+normales como para gris y pues
+
+228
+00:09:51,990 --> 00:09:54,630
+cuando yo esté pues pausa el video
+
+229
+00:09:54,630 --> 00:09:56,230
+y pues ya podemos continuar
+
+230
+00:09:56,230 --> 00:10:00,290
+entonces vamos a seleccionar todos
+
+231
+00:10:00,290 --> 00:10:03,530
+los los botones porque vamos
+
+232
+00:10:03,530 --> 00:10:06,570
+a programarlos pero antes de ello
+
+233
+00:10:06,570 --> 00:10:09,850
+pues vamos a ponerle que cuando
+
+234
+00:10:09,850 --> 00:10:12,450
+pasemos el mouse por cada uno de
+
+235
+00:10:12,450 --> 00:10:14,170
+ellos pues tenga este color este
+
+236
+00:10:14,170 --> 00:10:35,570
+mouse over este tech el color verde
+
+237
+00:10:35,570 --> 00:10:36,870
+que le hemos puesto
+
+238
+00:10:36,870 --> 00:10:39,690
+entonces ahora lo que nosotros
+
+239
+00:10:39,690 --> 00:10:40,670
+queremos es que
+
+240
+00:10:40,670 --> 00:10:42,850
+cuando nosotros le apretemos bueno
+
+241
+00:10:42,850 --> 00:10:46,070
+apretemos click a cada botón pues
+
+242
+00:10:46,070 --> 00:10:50,850
+el color cambio no porque solo
+
+243
+00:10:50,850 --> 00:10:52,950
+cambia cuando pasamos por el mouse
+
+244
+00:10:52,950 --> 00:10:55,890
+pasamos el mouse por el botón
+
+245
+00:10:55,890 --> 00:10:58,130
+pero no cuando está seleccionado
+
+246
+00:10:58,130 --> 00:11:02,070
+entonces para hacerlo lo primero
+
+247
+00:11:02,070 --> 00:11:04,950
+que tenemos que es es ponerle a
+
+248
+00:11:04,950 --> 00:11:16,110
+todos los botones un hombre como lo
+
+249
+00:11:23,190 --> 00:11:31,770
+que es el color verde que es lo que
+
+250
+00:11:31,770 --> 00:11:32,990
+nosotros queremos queremos que
+
+251
+00:11:32,990 --> 00:11:34,970
+cambia el color del botón pues no
+
+252
+00:11:34,970 --> 00:11:38,190
+entonces qué botón entonces
+
+253
+00:11:38,190 --> 00:11:41,330
+este este método es en el sitio un
+
+254
+00:11:41,330 --> 00:11:43,770
+parámetro este parámetro es el
+
+255
+00:11:43,770 --> 00:11:45,830
+botón pues es el botón que nosotros
+
+256
+00:11:45,830 --> 00:11:47,870
+queremos cambiarle de color que
+
+257
+00:11:47,870 --> 00:11:51,290
+viene a ser el uniformo entonces le
+
+258
+00:11:51,290 --> 00:11:52,610
+vamos a pasar como parámetro el
+
+259
+00:11:52,610 --> 00:11:56,810
+uniform y con el objeto sender
+
+260
+00:11:56,810 --> 00:12:01,090
+vamos a hacer estas cosas entonces
+
+261
+00:12:01,090 --> 00:12:03,570
+cada vez que nosotros seleccionemos
+
+262
+00:12:03,570 --> 00:12:05,070
+vamos a querer
+
+263
+00:12:05,070 --> 00:12:06,950
+que bueno cada uno de nuestros
+
+264
+00:12:06,950 --> 00:12:07,850
+botones que le hemos
+
+265
+00:12:07,850 --> 00:12:10,070
+puesto que al comienzo que
+
+266
+00:12:10,070 --> 00:12:15,330
+al comienzo de cada uno de estos
+
+267
+00:12:15,330 --> 00:12:18,310
+botones pues su color principal
+
+268
+00:12:18,310 --> 00:12:22,010
+se a blanco eso eso eso eso eso eso
+
+269
+00:12:22,010 --> 00:12:23,630
+que nosotros queremos al comienzo
+
+270
+00:12:25,190 --> 00:12:27,310
+que todos los botones se han de
+
+271
+00:12:27,310 --> 00:12:29,810
+color blanco incluyendo incluyendo
+
+272
+00:12:29,810 --> 00:12:31,790
+al que nosotros hemos dado click
+
+273
+00:12:31,790 --> 00:12:34,170
+entonces pero como entonces
+
+274
+00:12:34,170 --> 00:12:39,470
+cambiamos de color vamos a ver que
+
+275
+00:12:39,470 --> 00:12:39,970
+cuando
+
+276
+00:12:40,870 --> 00:12:42,410
+nuestro método sender
+
+277
+00:12:42,410 --> 00:12:45,190
+obtiene todas las propiedades del
+
+278
+00:12:45,190 --> 00:12:46,810
+uniform entonces le vamos a decir
+
+279
+00:12:46,810 --> 00:12:50,330
+que sender con la propiedad selecto
+
+280
+00:12:50,330 --> 00:12:51,570
+o sea cuando está seleccionado es
+
+281
+00:12:51,570 --> 00:12:52,970
+true cuando es verdadero si un
+
+282
+00:12:52,970 --> 00:12:56,670
+botón está seleccionado entonces
+
+283
+00:12:56,670 --> 00:13:00,550
+decimos no si un botón si el botón
+
+284
+00:13:00,550 --> 00:13:03,550
+que está seleccionado pues quiero
+
+285
+00:13:03,550 --> 00:13:05,790
+que ese botón que esté seleccionado
+
+286
+00:13:05,790 --> 00:13:08,750
+pues con su propiedad text
+
+287
+00:13:08,750 --> 00:13:14,250
+color pues le cambiamos de color le
+
+288
+00:13:14,250 --> 00:13:17,610
+ponemos un fron RGB para cambiar
+
+289
+00:13:17,610 --> 00:13:20,230
+le voy a ponerle un color de RGB de
+
+290
+00:13:20,230 --> 00:13:20,450
+este
+
+291
+00:13:20,450 --> 00:13:20,850
+color no
+
+292
+00:13:20,850 --> 00:13:22,550
+que vendría ser el verde el verde
+
+293
+00:13:22,550 --> 00:13:23,350
+que nosotros le
+
+294
+00:13:23,350 --> 00:13:25,290
+hemos colocado entonces para que
+
+295
+00:13:25,290 --> 00:13:30,270
+esto surge efecto tenemos que ir a
+
+296
+00:13:30,270 --> 00:13:33,050
+nuestra a nuestros botones y
+
+297
+00:13:33,050 --> 00:13:34,770
+seleccionar cada uno de ellos para
+
+298
+00:13:34,770 --> 00:13:37,350
+poder introducir los dentro de
+
+299
+00:13:37,350 --> 00:13:39,790
+ellos a este método este método que
+
+300
+00:13:39,790 --> 00:13:40,970
+nosotros hemos puesto que
+
+301
+00:13:40,970 --> 00:13:42,730
+seleccionando botones lo vamos a
+
+302
+00:13:42,730 --> 00:13:43,490
+colocar dentro de
+
+303
+00:13:43,490 --> 00:13:45,210
+ellos entonces le vamos a decir que
+
+304
+00:13:45,210 --> 00:13:45,910
+seleccionando
+
+305
+00:13:45,910 --> 00:13:49,070
+botones recibe por parámetro un
+
+306
+00:13:49,070 --> 00:13:51,130
+botón entonces que viene a ser el
+
+307
+00:13:51,130 --> 00:13:53,370
+mismo botón de uniform y de uniform
+
+308
+00:13:53,370 --> 00:13:56,030
+y y entonces le ponemos como
+
+309
+00:13:56,030 --> 00:13:58,790
+parámetro ese botón y le ponemos lo
+
+310
+00:13:58,790 --> 00:14:01,890
+mismo a todos los botones para que
+
+311
+00:14:01,890 --> 00:14:02,250
+surge
+
+312
+00:14:02,250 --> 00:14:13,370
+ese efecto entonces a lo hora de
+
+313
+00:14:13,370 --> 00:14:14,370
+iniciar vamos a darnos cuenta
+
+314
+00:14:14,370 --> 00:14:15,390
+que efectivamente cuando
+
+315
+00:14:15,390 --> 00:14:17,030
+nosotros damos click pues
+
+316
+00:14:17,030 --> 00:14:18,070
+el botón el cual
+
+317
+00:14:18,070 --> 00:14:20,850
+nosotros le damos click pues cambia
+
+318
+00:14:20,850 --> 00:14:23,170
+de color más los demás pues se
+
+319
+00:14:23,170 --> 00:14:24,790
+quedan igual de igual manera
+
+320
+00:14:24,790 --> 00:14:28,150
+de color blanco entonces todo está
+
+321
+00:14:28,150 --> 00:14:29,870
+yendo muy bien todo está yendo
+
+322
+00:14:29,870 --> 00:14:31,350
+perfecto entonces la hora de lo que
+
+323
+00:14:31,350 --> 00:14:34,410
+le falta es vamos a crear la
+
+324
+00:14:34,410 --> 00:14:37,370
+vigneta la flecha el cual pues da
+
+325
+00:14:37,370 --> 00:14:38,850
+el seguimiento de que cuando
+
+326
+00:14:38,850 --> 00:14:40,550
+nosotros damos click a un botón
+
+327
+00:14:40,550 --> 00:14:42,410
+pues la flecha no sigue como
+
+328
+00:14:42,410 --> 00:14:44,950
+diciendo dando una indicación que
+
+329
+00:14:44,950 --> 00:14:47,750
+estás en tal formulario entonces
+
+330
+00:14:47,750 --> 00:14:52,910
+con picture box vamos a introducir
+
+331
+00:14:52,910 --> 00:14:56,770
+esa imagen de esa flecha como
+
+332
+00:14:56,770 --> 00:14:59,230
+puedes ver está quedando la flecha
+
+333
+00:14:59,230 --> 00:15:00,210
+si pero si te das cuenta
+
+334
+00:15:00,210 --> 00:15:02,050
+si yo te va a yquílica los demás
+
+335
+00:15:02,050 --> 00:15:02,370
+botones
+
+336
+00:15:02,370 --> 00:15:04,230
+pues ni se mueve entonces vamos
+
+337
+00:15:04,230 --> 00:15:06,790
+a hacer que se mueva a esa a esa
+
+338
+00:15:06,790 --> 00:15:08,450
+flecha vamos a darle el nombre de
+
+339
+00:15:08,450 --> 00:15:12,110
+flecha y bueno vamos a crear un
+
+340
+00:15:12,110 --> 00:15:13,890
+método el cual vamos a llamarlo
+
+341
+00:15:13,890 --> 00:15:16,770
+seguir botón este seguir botón pues
+
+342
+00:15:16,770 --> 00:15:18,790
+obviamente recibió un parámetro
+
+343
+00:15:18,790 --> 00:15:23,250
+ese parámetro es ese parámetro que
+
+344
+00:15:23,250 --> 00:15:25,350
+recibe va a ser el mismo o sea va a
+
+345
+00:15:25,350 --> 00:15:29,010
+ser un botón porque el botón es el
+
+346
+00:15:29,010 --> 00:15:31,810
+que el que va a dar es acción de la
+
+347
+00:15:31,810 --> 00:15:34,070
+flecha entonces solo le digo que mi
+
+348
+00:15:34,070 --> 00:15:35,910
+flecha en su propiedad top sea
+
+349
+00:15:35,910 --> 00:15:38,010
+igual a la locación en top de mi
+
+350
+00:15:38,010 --> 00:15:39,050
+sender recuerda que
+
+351
+00:15:39,050 --> 00:15:41,010
+sender representa mi botón que yo
+
+352
+00:15:41,010 --> 00:15:42,770
+seleccione entonces cada vez que
+
+353
+00:15:42,770 --> 00:15:44,650
+yo seleccione un botón la flecha
+
+354
+00:15:44,650 --> 00:15:44,990
+estará
+
+355
+00:15:44,990 --> 00:15:48,170
+en su parte más alta o sea en top
+
+356
+00:15:49,140 --> 00:15:51,790
+ahora como en el método
+
+357
+00:15:51,790 --> 00:15:53,170
+anterior deselucionando botones
+
+358
+00:15:53,170 --> 00:15:55,910
+igual lo llamaré este método que
+
+359
+00:15:55,910 --> 00:15:57,830
+hemos creado a cada botón creceo
+
+360
+00:15:57,830 --> 00:15:59,470
+que la flecha tenga esta acción
+
+361
+00:16:00,170 --> 00:16:02,110
+entonces sería en mi botón de
+
+362
+00:16:02,110 --> 00:16:04,310
+productos bueno sería en todos los
+
+363
+00:16:04,310 --> 00:16:05,830
+botones prácticamente para ver
+
+364
+00:16:05,830 --> 00:16:09,270
+que cuando yo seleccione cada botón
+
+365
+00:16:09,270 --> 00:16:11,850
+pues la flecha se mueva en su parte
+
+366
+00:16:11,850 --> 00:16:16,850
+más alta entonces vamos a probar y
+
+367
+00:16:16,850 --> 00:16:19,810
+si yo selecciono puede darte cuenta
+
+368
+00:16:19,810 --> 00:16:23,070
+que la flecha no sigue y bueno está
+
+369
+00:16:23,070 --> 00:16:25,530
+quedando bueno vacan está quedando
+
+370
+00:16:25,530 --> 00:16:27,610
+chebre ahora voy a crear dos
+
+371
+00:16:27,610 --> 00:16:29,310
+fórmularios para que puedas
+
+372
+00:16:29,310 --> 00:16:32,910
+aprender a cómo pues insertar cómo
+
+373
+00:16:32,910 --> 00:16:35,950
+insertar un fórmulario dentro
+
+374
+00:16:35,950 --> 00:16:38,530
+de un panel entonces voy a crear un
+
+375
+00:16:38,530 --> 00:16:42,330
+fórmulario de dashboard le voy
+
+376
+00:16:42,330 --> 00:16:45,210
+a poner un y voy a crear también un
+
+377
+00:16:45,210 --> 00:16:47,710
+fórmulario de productos este
+
+378
+00:16:47,710 --> 00:16:49,810
+de productos si lo vamos a estar
+
+379
+00:16:49,810 --> 00:16:51,590
+utilizando y si lo vamos a estar
+
+380
+00:16:51,590 --> 00:16:54,290
+completando ya que para este es el
+
+381
+00:16:54,290 --> 00:16:54,890
+minucurso
+
+382
+00:16:56,210 --> 00:16:58,210
+el bueno el fórmulario de dashboard
+
+383
+00:16:58,210 --> 00:16:59,490
+bueno lo creo para que
+
+384
+00:16:59,490 --> 00:17:02,490
+este puedas ver una prueba
+
+385
+00:17:02,490 --> 00:17:06,710
+de que cuando yo de en el botón de
+
+386
+00:17:06,710 --> 00:17:08,210
+dashboard pues me va a abrir este
+
+387
+00:17:08,210 --> 00:17:10,030
+fórmulario que estoy creando y lo
+
+388
+00:17:10,030 --> 00:17:12,730
+mismo no si cuando ponga en
+
+389
+00:17:12,730 --> 00:17:15,150
+el botón de productos pues me abra
+
+390
+00:17:15,150 --> 00:17:16,610
+este fórmulario de productos
+
+391
+00:17:16,610 --> 00:17:19,770
+el cual yo estoy creando también
+
+392
+00:17:19,770 --> 00:17:21,650
+entonces estoy poniendo estos
+
+393
+00:17:21,650 --> 00:17:25,250
+labels para que bueno nos diga no
+
+394
+00:17:25,250 --> 00:17:26,030
+bueno nos
+
+395
+00:17:26,030 --> 00:17:27,970
+señale en qué fórmulario estamos
+
+396
+00:17:36,050 --> 00:17:37,390
+entonces ahora vamos a
+
+397
+00:17:37,390 --> 00:17:38,990
+aprender cómo abrir un fórmulario
+
+398
+00:17:38,990 --> 00:17:41,050
+dentro de nuestro panel que es el
+
+399
+00:17:41,050 --> 00:17:42,470
+panel wrapper en este caso el
+
+400
+00:17:42,470 --> 00:17:45,130
+wrapper como no queremos que se
+
+401
+00:17:45,130 --> 00:17:57,950
+abran varios fórmularios a la vez
+
+402
+00:18:03,830 --> 00:18:05,970
+ahora creamos un método para poder
+
+403
+00:18:05,970 --> 00:18:06,610
+abrir nuestro
+
+404
+00:18:06,610 --> 00:18:07,770
+fórmulario dentro de él
+
+405
+00:18:07,770 --> 00:18:10,990
+y bueno este tendrá como para
+
+406
+00:18:10,990 --> 00:18:12,410
+metro un fórmulario ahora
+
+407
+00:18:12,410 --> 00:18:14,010
+si nuestro objeto que no tiene
+
+408
+00:18:14,010 --> 00:18:15,690
+fórmulario de detecta que hay un
+
+409
+00:18:15,690 --> 00:18:17,690
+fórmulario o sea que es diferente
+
+410
+00:18:17,690 --> 00:18:19,990
+de null pues primero que se había
+
+411
+00:18:19,990 --> 00:18:22,210
+un otro abierto pues que este se
+
+412
+00:18:22,210 --> 00:18:22,610
+cierre
+
+413
+00:18:27,750 --> 00:18:29,270
+también le decimos que este
+
+414
+00:18:29,270 --> 00:18:32,150
+nuevo sea igual a un fórm también
+
+415
+00:18:32,150 --> 00:18:32,670
+le decimos
+
+416
+00:18:32,670 --> 00:18:34,290
+que en su propiedad todo level pues
+
+417
+00:18:34,290 --> 00:18:36,490
+le decimos que no es que
+
+418
+00:18:36,490 --> 00:18:38,150
+bueno que el fórmulario que no es
+
+419
+00:18:38,150 --> 00:18:40,670
+un fórmulario padre sino un hijo de
+
+420
+00:18:40,670 --> 00:18:43,150
+nuestro panel le decimos en
+
+421
+00:18:43,150 --> 00:18:46,130
+false y también le decimos que este
+
+422
+00:18:46,130 --> 00:18:48,310
+fórmulario hijo que se muestre y
+
+423
+00:18:48,310 --> 00:18:50,890
+ocúpe todo el espacio con fil ahora
+
+424
+00:18:50,890 --> 00:18:52,430
+nuestro panel wrapper en su
+
+425
+00:18:52,430 --> 00:18:54,090
+propiedad control nos da la chance
+
+426
+00:18:54,090 --> 00:18:55,010
+o la oportunidad de
+
+427
+00:18:55,010 --> 00:18:56,190
+agregar este fórmulario
+
+428
+00:18:56,190 --> 00:18:57,350
+le decimos también que
+
+429
+00:18:57,350 --> 00:18:59,830
+gracias a su propiedad tag que
+
+430
+00:18:59,830 --> 00:19:01,950
+ahora se establezca y obtenga todos
+
+431
+00:19:01,950 --> 00:19:03,970
+los datos del nuevo fórmulario
+
+432
+00:19:04,930 --> 00:19:05,530
+este
+
+433
+00:19:05,530 --> 00:19:07,730
+nuevo fórm cada vez que lo llamemos
+
+434
+00:19:07,730 --> 00:19:09,970
+lo pondremos al frente siempre
+
+435
+00:19:09,970 --> 00:19:13,250
+adelante y bueno por último lo
+
+436
+00:19:13,250 --> 00:19:13,870
+vamos
+
+437
+00:19:13,870 --> 00:19:17,730
+a mostrar y bueno eso sería todo
+
+438
+00:19:19,230 --> 00:19:22,490
+y ahora para que esto funcione
+
+439
+00:19:22,490 --> 00:19:22,790
+para
+
+440
+00:19:22,790 --> 00:19:24,550
+que esto funcione entonces tenemos
+
+441
+00:19:24,550 --> 00:19:26,670
+que bueno instanciar no
+
+442
+00:19:26,670 --> 00:19:28,590
+este método entonces llamamos
+
+443
+00:19:28,590 --> 00:19:30,690
+al método que nosotros hemos creado
+
+444
+00:19:30,690 --> 00:19:33,450
+abre fórmulario wrapper y bueno
+
+445
+00:19:33,450 --> 00:19:35,850
+vamos a instanciar bueno en el caso
+
+446
+00:19:35,850 --> 00:19:37,290
+del botón de productos bueno
+
+447
+00:19:37,290 --> 00:19:39,970
+este nuestro fórmulario productos y
+
+448
+00:19:39,970 --> 00:19:40,930
+bueno en el caso de
+
+449
+00:19:40,930 --> 00:19:43,210
+nuestro botón de esboar vamos
+
+450
+00:19:43,210 --> 00:19:43,870
+a instanciar el
+
+451
+00:19:43,870 --> 00:19:46,070
+fórmulario del dashboard entonces
+
+452
+00:19:46,070 --> 00:19:56,610
+ya para finalizar vamos a iniciar y
+
+453
+00:19:56,610 --> 00:19:59,110
+bueno para como te das cuenta si
+
+454
+00:19:59,110 --> 00:20:01,950
+nosotros damos click en el botón de
+
+455
+00:20:01,950 --> 00:20:03,770
+dashboard pues me enseñala que
+
+456
+00:20:03,770 --> 00:20:07,050
+estoy en el fórmulario dashboard y
+
+457
+00:20:07,050 --> 00:20:15,110
+si como hemos terminado toda la
+
+458
+00:20:15,110 --> 00:20:17,390
+parte de prácticamente la mayoría
+
+459
+00:20:17,390 --> 00:20:19,370
+de nuestro fórmulario principal en
+
+460
+00:20:19,370 --> 00:20:22,270
+la próxima clase vamos a ver ya la
+
+461
+00:20:22,270 --> 00:20:24,650
+base de datos de los productos
+
+462
+00:20:24,650 --> 00:20:26,650
+y vamos a aplicar inergón para ver
+
+463
+00:20:26,650 --> 00:20:28,590
+como podemos crear productos usando
+
+464
+00:20:28,590 --> 00:20:31,770
+datos de nuestra tabla categorías y
+
+465
+00:20:31,770 --> 00:20:32,170
+marcas
+

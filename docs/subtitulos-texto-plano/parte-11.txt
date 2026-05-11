@@ -1,0 +1,411 @@
+Bueno,
+hoy vamos a dar un repaso de todo
+lo que
+hemos hecho, que mejor que hacerlo
+con nuestro
+mantenimiento de
+nuestra tabla marca,
+ya que es idéntica nuestra
+tabla a la categoría.
+Como sabemos, el proyecto está
+basado
+en
+el
+patrón de arquitectura en NKPAS
+y también con el patrón de diseño
+MBC,
+lo segundo es que este patrón nos
+permite usar la programación
+orientada objetos,
+también se usa
+la reutilización de código,
+ya que el mismo código de nuestro
+mantenimiento de la categoría es el
+mismo
+de nuestro mantenimiento de marcas,
+el
+cual cuando hagas un proyecto real,
+la verdad es que solo copiarás y
+pegarás código y reemplazar con los
+nombres correctos y bueno,
+entonces vamos a comenzar con el
+repaso.
+Y aquí lo primero que hicimos es
+crear nuestra tabla y añadir
+nuestras colonas de dicha tabla.
+No varían mucho con nuestra tabla
+categoría como puedes ver,
+lo único diferente es nuestro ID,
+el cual es auto y crementable y
+gracias al identity, que le dije
+que
+vayan un
+en
+uno.
+Y también los resultables que
+la columna código le agregamos para
+tener nuestro código personalizado
+de nuestra tabla marca,
+como lo hicimos en nuestra
+tabla de categoría,
+cuando le puse un CT,
+aquí le puesto un MR,
+entonces le dije que mi columna
+código será personalizado como un
+barchar que
+tenga el comienzo un MR,
+a la derecha lo con CT N con 2 0,
+que si te das cuenta bien hacer un
+string aquí en la base de
+datos viene a ser un barchar,
+a estos 2 0 los convierto
+y como me pide 2 parámetros,
+el primero es
+el tipo de dato que es mi 2 0,
+que es un barchar y el otro
+parámetro es la referencia de una
+columna para que pueda convertirse
+a ese tipo de dato de esa columna,
+en pocas palabras a
+un entero y un auto incrementable,
+al lado
+le puse cuánto 0 sabe agregado,
+que es 2 y bueno después
+viene las columnas que le siguen.
+Después de esto creo nuestros
+procedimientos almacenados,
+el primero es el de buscar que
+gracias a un parámetro de busqueda,
+este
+buscaría y traería a todos nuestros
+registros por su nombre
+gracias al parámetro buscar,
+al concatenar el apócrifo quiero
+decir que después de buscar
+por una letra este traiga todos los
+caracteres o las palabras
+que coinciden al comienzo con esa
+letra,
+el segundo procedimiento fue
+insertar para insertar creamos
+2 parámetros ya que son los únicos
+valores que más adelante
+vamos a guardar en nuestra tabla,
+ya que las columnas y de marca
+y código son út incrementables,
+por
+lo tanto no son necesarios, es por
+eso que insertaremos en
+nuestra tabla marca estos
+valores, que son nuestros
+parámetros,
+en el procedimiento de editar marca
+pasa casi exactamente lo mismo,
+en esta tabla vemos un parámetro
+más y que es gracias a nuestra
+columna
+y de marca que podremos editar,
+ya que le decimos por consulta que
+actualice nuestra tabla marca con
+los valores que son mis columnas
+y que hace referencia a mis
+parámetros,
+en donde se deditará gracias a mi
+columna y de marca y por último
+procedimiento de eliminar marca
+aquí sólo
+necesitamos la columna y de marca,
+ya que al igual
+que procedimiento el
+más senado de editar es nuestra
+columna clave para hacerlo y si
+te preguntas por qué es porque idem
+marca es nuestra
+llave primaria de nuestra tabla,
+entonces le decimos que elimine
+en mi tabla marca en mis registros,
+donde mi columna y de marca
+toma referencia a mi parámetro y de
+marca,
+ejecutamos nuestra consulta uno por
+uno
+y como puedes ver ya tenemos
+nuestra tabla marcas y nuestros
+procedimientos almacenados listos
+para usarlos en código en nuestro
+proyecto, te consejo que si eres
+nuevo
+haciendo consultas,
+tú escribas y no copias y pegas
+estas consultas y es por tu bien
+para que se quede grabado este cruz
+para que más adelante no
+tengas problemas en olvidarte,
+entonces vamos a nuestro proyecto y
+como verás yo he creado mi clase de
+entidades,
+en esta clase de entidades vamos a
+ver todos nuestros atributos
+y bueno vamos a ver que hemos
+descrito todos los atributos que
+estaban en la base de datos y de
+marca código,
+nombre y descripción,
+esta parte como ya sabrá
+se llama la extracción y en el
+encaxplamiento hemos puesto
+seguridad con las propiedades get y
+sets,
+ahora vamos a nuestra capa datos y
+bueno y como puedes darte cuenta
+lo que he hecho ha sido referenciar
+ese que le cláee en para la
+comunicación de la base de datos,
+ese que le data para mis
+clases como ese que le data rider,
+ese que le coman y data table,
+existe en configuration para la
+conexión de la base de datos y
+obtener la cadena de conexión y
+bueno lo único que tú tienes que
+hacer es reemplazar por los nombres
+correctos, aquí abajo está nuestra
+cadena
+de
+conexión,
+es gracias a este objeto de
+conexión que lo llamaremos como
+parámetro en cada instancia de mi
+SQL ecoman,
+acuérate que ese que el ecoman nos
+sirve para las transacciones
+y para las conversaciones
+que tenemos con
+nuestra base de datos, le
+damos como parámetro no solo el
+objeto de conexión sino también
+el nombre de nuestro procedimiento
+almacenado,
+quiero recordarte que en cada
+momento en cada método debemos
+abrir la conexión y después de
+haber especificado
+el tipo de procedimiento
+que tenemos en
+nuestra base de datos, en
+este caso un store proceduro,
+nuestro primer método de listar
+marcas no solo se encarga de solo
+buscar
+un registro sino también gracias
+a un list,
+listar todo nuestro registro,
+primero ser leídas y quien los le
+este proceso
+se encarga SQL e data reader,
+él cual
+tiene una variable y esta variable
+tendrá la función y se
+encargará de ejecutar en cada ciclo
+leer cada fila de nuestra columna
+de nuestras tablas,
+gracias a execute reader que le
+habíamos asignado y así podremos
+mostrar más adelante nuestros
+registros, no es la única
+forma de hacerlo
+también podemos hacer con un data
+table y si me preguntas cuál es la
+diferencia bueno
+eso depende de la cantidad
+de registros que tienes,
+si hablamos de más de mis registros
+a más pues la mejor acción será
+llamarlos y mostrarlos con un list
+pues con un list la velocidad de
+traerte los datos es
+mucho más rápido que un data table,
+con los data table puedes hacerlo
+pero con poco registros y eso
+depende de ti y bueno después
+de todo esto cerramos la conexión,
+ahora con los métodos de insertar
+editar y eliminar le daremos como
+parámetro nuestra clase que por
+intermedio de un objeto traeremos
+los atributos que están en nuestra
+capa de entidades y dándoles como
+referencia a los parámetros que
+están en la base de datos que les
+corresponden,
+después de esto ejecutaremos la
+consulta por intermedio
+de nuestro SQL no query,
+acuérdate que ellos trabajan con él
+y para traer datos es SQL reader,
+entonces vemos después que ya hemos
+ejecutado y cerrarémos la conexión
+en cada método,
+lo siguiente es pasar estos métodos
+a nuestra capa de negocio,
+estamos en nuestra capa de negocio
+donde esta capa tiene relación
+e instanciamos nuestro objeto de la
+clase de la capa de datos para
+traer a cada método en el método
+que les corresponde,
+respetando que si tiene una clase
+pues traerlo llamándolo con la
+misma clase y por ejemplo aquí le
+pongo un list porque en mi clase de
+de marca estoy trayendo ese mismo
+método que tiene un list y cuando
+traes una clase o creas un método
+con una clase
+ya sea un list, un data table,
+un in,
+un bullion siempre vas a retornar a
+algo como puedes ver aquí lo mismo
+con lo demás métodos pero estos
+métodos no tienen una clase en la
+clase de nuestra capa de datos de
+de marca por eso que no retornan
+nada y es por eso que les pongo un
+void cada uno de estos métodos
+también tienen sus parámetros y
+estos parámetros son iguales como
+están en la otra clase como puedes
+ver
+y lo último que en cada método
+es por intermedo de esto objeto que
+traigo a mis métodos
+correspondientes de la otra clase
+dándole como objeto que tengo
+como parámetro en cada método y por
+último estos son llevados a mi capa
+de presentación ya en mi capa de
+presentación puedes ver que es el
+mismo fórmulario que hemos hecho en
+nuestro fórmulario de categoría
+entonces lo primero que vemos son
+las referencias el cual mi capa de
+presentación se comunica con las
+demás capas lo segundo es que
+instanciamos globalmente gracias a
+esas referencias nuestros objetos
+para traer tanto como los métodos
+de mi capa negocio y mis atributos
+de mi capa entidades después
+creamos una variable string para
+reservar algunos datos y bueno un
+bullyan de variable editarse
+el cual comenzaba en false al dar
+doble clic a nuestro fórmulario se
+abría también un método frmlodat el
+cual colocamos nuestros métodos que
+tenía funciones para dar acciones
+ni bien corría nuestro proyecto
+tenemos el demostrar buscar tabla
+el cual lo tenemos aquí este método
+muestra nuestras tablas gracias al
+datasource y gracias a nuestra
+instancia para traer nuestro método
+de listar marcas que viene con
+el parámetro de búsqueda en el cual
+usamos aquí en mi evento text
+changuete para darle nuestro mismo
+método con el parámetro el cual
+quería que se dé esa acción que es
+mi tex te buscar también vemos
+un método más aquí que eran las
+acciones que tenía en mi tabla o
+cultivaba nuestra columna y le daba
+un ancho a ellas para que se
+vean ordenadas y bien alineadas y
+después creamos un método que tiene
+como función limpiar nuestra caja
+de texto que están en el método
+al nuestro botón nuevo nosotros
+guardaremos un producto y también
+irá directamente para escribir en
+nuestra caja de texto nombre por
+la propiedad focus luego en nuestro
+botón guita le decimos que se
+habíamos elegido una fila que los
+valores de la celda de las filas se
+vayan a las cajas de texto y pues
+si no habíamos elegido una fila
+pues que no dieron mensaje de que
+elija una en nuestro botón eliminar
+pasa lo mismo sólo que aquí sítimos
+que el acción de eliminar nuestro
+registro por intermedio de nuestro
+id de marca traiendo como nuestro
+método eliminando marca desde mi
+instancia
+objeto negocio y pasador en la
+instancia de mi objeto
+entidad que ya tiene mi id de marca
+referenciada a mi fila si no la
+habíamos elegido una fila pues
+también nos mostraba un mensaje el
+cual teníamos que
+por último mi
+botón guardar en mi botón guardar
+iba a tener double función que era
+guardar y editar que si comenzaba
+con mi variable editar false
+guardaría y si editarse sería true
+editaria como puedes ver en guardar
+lo hacía con un trick catch y en
+nuestro 3 ponía el código de
+ejecución primero referencia a mis
+atributos con los controles y estos
+controles yo les da buena propiedad
+de que si guardara o como editara
+serían en el trasmayúculas que
+serían con un to opera después
+estos atributos referenciados eran
+llevados a mi objeto de negocio que
+tenía mi método de insertando marca
+después mandaba un mensaje que
+si se había guardado el registro y
+también traía mi método de
+demostrar buscar tabla para que se
+actualice mi tabla y el método
+de limpiar cajas para que se limpia
+las cajas después en mi catch daba
+una sección si es que por a o b
+habría ocurrir un error que me lo
+diga y lo mismo hacía bajo cuando
+editarse era true o sea cuando
+íbamos a editar y puedes darte
+cuenta
+que es casi lo mismo la única
+diferencia es que le damos el
+atributo de mi divina marca ya que
+sin él nuestra tabla nunca de los
+nunca editaría como puedes
+ver lo demás es lo mismo y al final
+editarse se volvería un false de
+nuevo para que se repita cada vez
+para vez que si queremos guardar
+editar y eliminar un registro al
+final por ahora le
+pusimos nuestro botón
+cerrar que al dar clic salga
+de nuestra aplicación ahora para
+ejecutar nuestro programa tenemos
+que ir a nuestra clase program y
+cambiar de frm categoría a fr marca
+así que no te voy a olvidar
+ejecutamos y pues podemos ver que
+yo ya tengo dos registros
+y podemos guardar
+una vez más podemos editar
+y podemos eliminar
+y así ya tenemos
+nuestras dos tablas listas para
+empezar con nuestra tabla de
+productos los cuales tendrán estas
+dos tablas relacionadas

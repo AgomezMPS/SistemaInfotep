@@ -1,0 +1,1287 @@
+1
+00:00:01,310 --> 00:00:02,339
+Hola amigos, ¿cómo están?
+
+2
+00:00:02,339 --> 00:00:03,859
+Hoy vamos a crear la base de datos
+
+3
+00:00:03,859 --> 00:00:04,419
+y también vamos
+
+4
+00:00:04,419 --> 00:00:06,500
+a crear nuestra tabla categoría.
+
+5
+00:00:06,500 --> 00:00:08,580
+Entonces me encuentro en ese QL Server
+
+6
+00:00:08,580 --> 00:00:09,699
+y lo primero que vamos a hacer,
+
+7
+00:00:09,699 --> 00:00:09,859
+vamos
+
+8
+00:00:09,859 --> 00:00:11,349
+a conectarnos a nuestro servidor.
+
+9
+00:00:12,800 --> 00:00:13,830
+Ahora voy a poner
+
+10
+00:00:13,830 --> 00:00:15,429
+a una nueva consulta, ya
+
+11
+00:00:15,429 --> 00:00:17,510
+que por intermedio de consultas
+
+12
+00:00:17,510 --> 00:00:20,230
+y código, vamos a crear nuestra base
+
+13
+00:00:20,230 --> 00:00:21,030
+de datos.
+
+14
+00:00:21,030 --> 00:00:22,230
+Entonces, lo que tenemos
+
+15
+00:00:22,230 --> 00:00:23,344
+que escribir va a ser
+
+16
+00:00:29,670 --> 00:00:31,179
+Y ponemos aquí el nombre
+
+17
+00:00:31,179 --> 00:00:32,700
+de nuestra base de datos.
+
+18
+00:00:32,700 --> 00:00:32,939
+Yo
+
+19
+00:00:32,939 --> 00:00:35,229
+en este caso le voy a poner mantenimiento.
+
+20
+00:00:36,710 --> 00:00:37,710
+Productos.
+
+21
+00:00:39,229 --> 00:00:40,420
+Ahora lo que vamos a hacer,
+
+22
+00:00:40,420 --> 00:00:41,420
+vamos a ejecutar
+
+23
+00:00:42,240 --> 00:00:43,240
+Esta consulta
+
+24
+00:00:45,810 --> 00:00:47,530
+Y si te das cuenta nos está diciendo
+
+25
+00:00:47,530 --> 00:00:49,179
+que se ha completado correctamente.
+
+26
+00:00:50,414 --> 00:00:52,149
+Al actualizar nuestras bases de datos,
+
+27
+00:00:55,750 --> 00:00:56,219
+Vamos a ver
+
+28
+00:00:56,219 --> 00:00:57,494
+que mi base de datos
+
+29
+00:00:57,494 --> 00:00:58,909
+se ha creado correctamente.
+
+30
+00:00:59,460 --> 00:01:00,450
+Ahora.
+
+31
+00:01:00,450 --> 00:01:01,560
+Actualmente estamos
+
+32
+00:01:01,560 --> 00:01:03,799
+utilizando la base de datos Master,
+
+33
+00:01:03,799 --> 00:01:04,359
+así que lo
+
+34
+00:01:04,359 --> 00:01:05,400
+que nosotros queremos
+
+35
+00:01:05,400 --> 00:01:07,239
+es utilizar nuestra base de datos
+
+36
+00:01:07,239 --> 00:01:08,239
+que hemos creado.
+
+37
+00:01:08,640 --> 00:01:11,030
+que tenemos que hacer es escribir use
+
+38
+00:01:11,030 --> 00:01:12,230
+y nuestra base de datos
+
+39
+00:01:12,230 --> 00:01:13,230
+que queremos usar
+
+40
+00:01:14,545 --> 00:01:15,510
+Que sería en mi caso
+
+41
+00:01:15,510 --> 00:01:16,709
+mantenimiento de productos,
+
+42
+00:01:16,709 --> 00:01:17,269
+así que vamos
+
+43
+00:01:17,269 --> 00:01:19,189
+a ejecutar de nuevo esta consulta,
+
+44
+00:01:19,189 --> 00:01:19,750
+y bueno,
+
+45
+00:01:19,750 --> 00:01:20,465
+puedes darte cuenta
+
+46
+00:01:20,465 --> 00:01:21,349
+que se ha ejecutado
+
+47
+00:01:21,349 --> 00:01:22,349
+correctamente de nuevo.
+
+48
+00:01:23,109 --> 00:01:24,700
+Porque ya no sale la
+
+49
+00:01:24,700 --> 00:01:25,900
+base de datos master,
+
+50
+00:01:25,900 --> 00:01:26,909
+sino la de nosotros.
+
+51
+00:01:27,650 --> 00:01:29,640
+Ahora vamos a crear nuestras tablas.
+
+52
+00:01:29,640 --> 00:01:30,760
+La primera tabla que vamos
+
+53
+00:01:30,760 --> 00:01:32,200
+a crear va a ser la tabla
+
+54
+00:01:32,200 --> 00:01:34,359
+de categorías, en la cual vamos
+
+55
+00:01:34,359 --> 00:01:34,680
+a ver
+
+56
+00:01:34,680 --> 00:01:36,920
+que nuestra tabla categoría se comprende
+
+57
+00:01:36,920 --> 00:01:37,959
+por cuatro columnas,
+
+58
+00:01:37,959 --> 00:01:39,879
+lo cual será ID categoría,
+
+59
+00:01:39,879 --> 00:01:42,120
+código, nombre y descripción.
+
+60
+00:01:42,120 --> 00:01:43,480
+Si te das cuenta, aparte
+
+61
+00:01:43,480 --> 00:01:45,719
+de My ID categoría, tengo otra columna
+
+62
+00:01:45,719 --> 00:01:46,760
+que es mi código.
+
+63
+00:01:46,760 --> 00:01:48,840
+La mayoría de las personas dejan el ID
+
+64
+00:01:48,840 --> 00:01:51,159
+de categoría, que es el Primary Key,
+
+65
+00:01:51,159 --> 00:01:53,000
+como su código de la tabla.
+
+66
+00:01:53,000 --> 00:01:53,560
+Pero
+
+67
+00:01:53,560 --> 00:01:54,760
+en este caso yo he
+
+68
+00:01:54,760 --> 00:01:56,200
+aumentado otra columna más,
+
+69
+00:01:56,200 --> 00:01:57,319
+que sería el código,
+
+70
+00:01:57,319 --> 00:01:58,519
+lo cual yo lo hago para
+
+71
+00:01:58,519 --> 00:01:59,719
+que la tabla tenga su
+
+72
+00:01:59,719 --> 00:02:00,730
+código personalizado.
+
+73
+00:02:01,569 --> 00:02:02,040
+Ahora,
+
+74
+00:02:02,040 --> 00:02:02,599
+el ID
+
+75
+00:02:02,599 --> 00:02:04,680
+de categoría es nuestro Primary K.
+
+76
+00:02:04,680 --> 00:02:06,040
+La columna código viene
+
+77
+00:02:06,040 --> 00:02:08,038
+a ser como un reemplazo hacia él.
+
+78
+00:02:08,038 --> 00:02:08,758
+Todos sabemos
+
+79
+00:02:08,758 --> 00:02:09,560
+que nuestra primera
+
+80
+00:02:09,560 --> 00:02:11,639
+columna es autoincrementable.
+
+81
+00:02:11,639 --> 00:02:13,560
+Y lo mismo pasaría con el código,
+
+82
+00:02:13,560 --> 00:02:14,520
+pero como te digo
+
+83
+00:02:14,520 --> 00:02:16,360
+que es una tabla personalizada,
+
+84
+00:02:16,360 --> 00:02:17,319
+si te das cuenta,
+
+85
+00:02:17,319 --> 00:02:18,680
+personalizamos más la tabla
+
+86
+00:02:18,680 --> 00:02:20,360
+y bueno, como es categoría,
+
+87
+00:02:20,360 --> 00:02:22,599
+abreviamos y le ponemos CT,
+
+88
+00:02:22,599 --> 00:02:23,080
+y bueno,
+
+89
+00:02:23,080 --> 00:02:25,129
+lo demás al insertar se autoincrementará.
+
+90
+00:02:25,775 --> 00:02:26,900
+Pero como te había dicho,
+
+91
+00:02:26,900 --> 00:02:28,014
+nuestro código reemplaza
+
+92
+00:02:28,014 --> 00:02:29,014
+a nuestra primera columna.
+
+93
+00:02:29,599 --> 00:02:31,110
+En nuestro sistema, lo único
+
+94
+00:02:31,110 --> 00:02:32,789
+que se visualizará será
+
+95
+00:02:32,789 --> 00:02:33,590
+nuestro código,
+
+96
+00:02:33,590 --> 00:02:35,080
+más no el ID de categoría.
+
+97
+00:02:35,764 --> 00:02:36,729
+Como te puedes dar cuenta
+
+98
+00:02:36,729 --> 00:02:37,530
+ahí en la imagen,
+
+99
+00:02:37,530 --> 00:02:39,610
+nuestra I de categoría no se ve,
+
+100
+00:02:39,610 --> 00:02:41,129
+y si te preguntas dónde está,
+
+101
+00:02:41,129 --> 00:02:42,650
+bueno, solo le hemos ocultado
+
+102
+00:02:42,650 --> 00:02:43,650
+en nuestro sistema.
+
+103
+00:02:44,099 --> 00:02:45,530
+Pero seguro te estarás preguntando,
+
+104
+00:02:45,530 --> 00:02:46,490
+¿por qué en vez de crear
+
+105
+00:02:46,490 --> 00:02:48,330
+otra columna no personalizas
+
+106
+00:02:48,330 --> 00:02:49,284
+nuestra primera columna
+
+107
+00:02:49,284 --> 00:02:50,650
+que es el Primary Key?
+
+108
+00:02:50,650 --> 00:02:52,330
+Y pues lo personalizas
+
+109
+00:02:52,330 --> 00:02:53,530
+como en la columna código.
+
+110
+00:02:53,530 --> 00:02:53,849
+Y es
+
+111
+00:02:53,849 --> 00:02:54,810
+que en realidad el
+
+112
+00:02:54,810 --> 00:02:56,169
+Primary Key de la columna
+
+113
+00:02:56,169 --> 00:02:58,650
+solo acepta tipos de dato Barchar.
+
+114
+00:02:58,650 --> 00:03:00,490
+Pero, como es Primary Key,
+
+115
+00:03:00,490 --> 00:03:02,009
+no se puede autoincrementar,
+
+116
+00:03:02,009 --> 00:03:04,169
+ya que Z01, Z02,
+
+117
+00:03:04,169 --> 00:03:06,250
+Z03 son caracteres combinados
+
+118
+00:03:06,250 --> 00:03:06,810
+con números,
+
+119
+00:03:06,810 --> 00:03:08,889
+y en Primary Key no se puede,
+
+120
+00:03:08,889 --> 00:03:09,449
+a menos
+
+121
+00:03:09,449 --> 00:03:11,530
+que la columna no sea Primary Key.
+
+122
+00:03:11,530 --> 00:03:12,090
+Es por eso
+
+123
+00:03:12,090 --> 00:03:12,889
+que nuestra columna
+
+124
+00:03:12,889 --> 00:03:14,650
+código sí se puede acceder
+
+125
+00:03:14,650 --> 00:03:16,409
+a poder autoincrementarse,
+
+126
+00:03:16,409 --> 00:03:18,969
+ya sea con caracteres y números.
+
+127
+00:03:18,969 --> 00:03:19,530
+Entonces,
+
+128
+00:03:19,530 --> 00:03:21,370
+para crear la tabla categoría,
+
+129
+00:03:21,370 --> 00:03:22,370
+vamos a decir.
+
+130
+00:03:24,229 --> 00:03:25,229
+Create table
+
+131
+00:03:27,284 --> 00:03:28,814
+Y el nombre de nuestra tabla que va
+
+132
+00:03:28,814 --> 00:03:29,814
+a ser categoría.
+
+133
+00:03:30,909 --> 00:03:32,580
+Abrimos y cerramos,
+
+134
+00:03:32,580 --> 00:03:33,699
+y aquí dentro vamos
+
+135
+00:03:33,699 --> 00:03:34,979
+a poner nuestras columnas.
+
+136
+00:03:34,979 --> 00:03:35,460
+Hemos dicho
+
+137
+00:03:35,460 --> 00:03:36,259
+que nuestra tabla
+
+138
+00:03:36,259 --> 00:03:37,620
+categoría se comprenden
+
+139
+00:03:37,620 --> 00:03:38,500
+por cuatro columnas,
+
+140
+00:03:38,500 --> 00:03:40,710
+que va a ser primero el ID categoría.
+
+141
+00:03:41,879 --> 00:03:42,879
+Le voy a poner
+
+142
+00:03:44,944 --> 00:03:46,629
+Le voy a poner que sea un int,
+
+143
+00:03:46,629 --> 00:03:48,389
+y como va a ser autoincrementable,
+
+144
+00:03:48,389 --> 00:03:50,360
+le voy a poner que sea un identity.
+
+145
+00:03:52,110 --> 00:03:53,479
+Y que vaya de uno en uno.
+
+146
+00:03:55,444 --> 00:03:56,490
+Le vamos a decir también
+
+147
+00:03:56,490 --> 00:03:58,060
+que va a ser nuestra llave primaria.
+
+148
+00:03:58,645 --> 00:03:59,740
+Y que no esté vacía.
+
+149
+00:04:02,310 --> 00:04:02,620
+Ahora,
+
+150
+00:04:02,620 --> 00:04:04,699
+aquí viene lo que te había comentado
+
+151
+00:04:04,699 --> 00:04:06,110
+sobre la columna código.
+
+152
+00:04:06,909 --> 00:04:08,789
+Tenemos que escribir lo siguiente.
+
+153
+00:04:09,310 --> 00:04:10,900
+Primero vamos a ponerle el nombre
+
+154
+00:04:10,900 --> 00:04:12,180
+de nuestra columna.
+
+155
+00:04:12,180 --> 00:04:13,534
+Luego le vamos a decir
+
+156
+00:04:16,259 --> 00:04:18,009
+Sea como la consulta que vamos
+
+157
+00:04:18,009 --> 00:04:18,810
+a poner ahora,
+
+158
+00:04:18,810 --> 00:04:20,329
+que a los datos guardados va
+
+159
+00:04:20,329 --> 00:04:22,699
+a empezar con la abreviatura DC.
+
+160
+00:04:23,870 --> 00:04:24,819
+Después le vamos a decir
+
+161
+00:04:24,819 --> 00:04:26,069
+que agrega a su derecha.
+
+162
+00:04:29,790 --> 00:04:30,790
+Dos ceros.
+
+163
+00:04:32,694 --> 00:04:34,189
+Por ahora tenemos cuatro letras.
+
+164
+00:04:34,819 --> 00:04:36,410
+Pero lo que yo quiero es
+
+165
+00:04:36,410 --> 00:04:38,089
+que se autogenere.
+
+166
+00:04:38,089 --> 00:04:39,529
+Ahora lo que vamos a hacer es
+
+167
+00:04:39,529 --> 00:04:41,769
+que estos dos ceros se conviertan
+
+168
+00:04:41,769 --> 00:04:42,970
+en un número entero.
+
+169
+00:04:42,970 --> 00:04:43,980
+¿Cómo podemos hacer esto?
+
+170
+00:04:44,740 --> 00:04:46,970
+Entonces, es muy fácil, le vamos
+
+171
+00:04:46,970 --> 00:04:48,220
+a decir que esos dos ceros.
+
+172
+00:04:50,720 --> 00:04:53,319
+Se conviertan con la función convert.
+
+173
+00:04:54,454 --> 00:04:56,459
+Lo que nos dice la función Conver es
+
+174
+00:04:56,459 --> 00:04:58,060
+que podemos convertir un tipo
+
+175
+00:04:58,060 --> 00:04:59,339
+de dato a otro.
+
+176
+00:04:59,339 --> 00:05:01,740
+Conver contiene dos parámetros,
+
+177
+00:05:01,740 --> 00:05:03,180
+que serían el tipo de dato
+
+178
+00:05:03,180 --> 00:05:06,459
+que queremos convertir y la expresión
+
+179
+00:05:06,459 --> 00:05:08,699
+a donde se hace referencia
+
+180
+00:05:08,699 --> 00:05:10,990
+a la columna que vamos a convertir.
+
+181
+00:05:12,100 --> 00:05:12,970
+En este caso,
+
+182
+00:05:12,970 --> 00:05:13,449
+el tipo
+
+183
+00:05:13,449 --> 00:05:14,564
+de dato que tenemos es
+
+184
+00:05:14,564 --> 00:05:17,050
+un bar charter representado
+
+185
+00:05:17,050 --> 00:05:18,089
+por dos ceros.
+
+186
+00:05:18,089 --> 00:05:18,649
+Ahora,
+
+187
+00:05:18,649 --> 00:05:19,449
+nosotros vamos
+
+188
+00:05:19,449 --> 00:05:20,970
+a convertir esos dos ceros
+
+189
+00:05:20,970 --> 00:05:22,089
+a una expresión,
+
+190
+00:05:22,089 --> 00:05:23,610
+el cual hace refererencia
+
+191
+00:05:23,610 --> 00:05:25,850
+a la columna que queremos convertir.
+
+192
+00:05:25,850 --> 00:05:27,449
+En este caso sería
+
+193
+00:05:27,449 --> 00:05:29,689
+nuestra columna ID categoría,
+
+194
+00:05:29,689 --> 00:05:31,209
+ya que hace refererencia
+
+195
+00:05:31,209 --> 00:05:33,449
+a esa columna, el cual también es como
+
+196
+00:05:33,449 --> 00:05:36,009
+si obtuviera todos sus superpoderes,
+
+197
+00:05:36,009 --> 00:05:37,290
+porque nuestra ID
+
+198
+00:05:37,290 --> 00:05:39,610
+categoría es autoincrementable.
+
+199
+00:05:39,610 --> 00:05:40,329
+Entonces lo
+
+200
+00:05:40,329 --> 00:05:42,329
+que pasaría fuera lo siguiente,
+
+201
+00:05:42,329 --> 00:05:43,365
+que mis dos ceros
+
+202
+00:05:43,365 --> 00:05:44,649
+se conviertan en un entero
+
+203
+00:05:44,649 --> 00:05:46,404
+y también se autoincrementarán
+
+204
+00:05:46,404 --> 00:05:47,404
+por sí solos.
+
+205
+00:05:47,810 --> 00:05:48,920
+Entonces vamos a hacerlo,
+
+206
+00:05:48,920 --> 00:05:50,040
+vamos a poner el tipo de dato
+
+207
+00:05:50,040 --> 00:05:50,935
+que...
+
+208
+00:05:50,935 --> 00:05:52,220
+es lo que vamos a convertir
+
+209
+00:05:52,220 --> 00:05:53,629
+que son estos dos ceros de acá
+
+210
+00:05:55,894 --> 00:05:57,500
+Y vamos a darle la expresión
+
+211
+00:05:57,500 --> 00:06:00,300
+o la columna del cual hace referencia,
+
+212
+00:06:00,300 --> 00:06:03,310
+que en este caso sería ID categoría.
+
+213
+00:06:04,725 --> 00:06:06,089
+Pero aquí no acaba la cosa,
+
+214
+00:06:06,089 --> 00:06:06,649
+aquí tenemos
+
+215
+00:06:06,649 --> 00:06:08,009
+que decirle cuántos
+
+216
+00:06:08,009 --> 00:06:09,579
+ceros le hemos agregado.
+
+217
+00:06:11,069 --> 00:06:12,550
+Que en este caso sería dos.
+
+218
+00:06:16,319 --> 00:06:17,910
+Así prácticamente hemos hecho
+
+219
+00:06:17,910 --> 00:06:18,870
+que nuestra columna
+
+220
+00:06:18,870 --> 00:06:20,230
+código se autogenere
+
+221
+00:06:20,230 --> 00:06:22,949
+aún teniendo caracteres con texto
+
+222
+00:06:22,949 --> 00:06:23,750
+y número.
+
+223
+00:06:23,750 --> 00:06:24,069
+Bueno,
+
+224
+00:06:24,069 --> 00:06:24,470
+ahora lo
+
+225
+00:06:24,470 --> 00:06:25,670
+que falta es agregar
+
+226
+00:06:25,670 --> 00:06:26,870
+las dos columnas más
+
+227
+00:06:26,870 --> 00:06:28,040
+que va a ser nombre.
+
+228
+00:06:28,819 --> 00:06:29,660
+Y le voy a poner un
+
+229
+00:06:29,660 --> 00:06:30,660
+en Bar Char Charchar.
+
+230
+00:06:32,014 --> 00:06:33,300
+Voy a ponerle que sea un
+
+231
+00:06:33,300 --> 00:06:35,139
+En Barchar30.
+
+232
+00:06:35,139 --> 00:06:37,620
+Y le voy a decir que no esté vacío.
+
+233
+00:06:37,620 --> 00:06:39,699
+Porque ese campo va a ser obligatorio.
+
+234
+00:06:39,699 --> 00:06:40,740
+Ahora, por último,
+
+235
+00:06:40,740 --> 00:06:42,420
+voy a ponerle nuestra columna
+
+236
+00:06:42,420 --> 00:06:43,139
+de descripción.
+
+237
+00:06:43,139 --> 00:06:44,550
+Que también va a ser un En Barchar.
+
+238
+00:06:50,800 --> 00:06:51,959
+Y le voy a poner un null,
+
+239
+00:06:51,959 --> 00:06:53,074
+ya que no es obligatorio
+
+240
+00:06:53,074 --> 00:06:54,074
+la descripción.
+
+241
+00:06:54,850 --> 00:06:55,160
+Entonces,
+
+242
+00:06:55,160 --> 00:06:56,360
+ahora ya acabado nuestra
+
+243
+00:06:56,360 --> 00:06:57,319
+tabla categoría,
+
+244
+00:06:57,319 --> 00:06:59,000
+vamos a ejecutar nuestra tabla
+
+245
+00:06:59,000 --> 00:07:00,000
+para que se crea.
+
+246
+00:07:02,579 --> 00:07:03,740
+Y bueno, nos está diciendo
+
+247
+00:07:03,740 --> 00:07:04,860
+que la consulta ha sido
+
+248
+00:07:04,860 --> 00:07:06,029
+ejecutada correctamente.
+
+249
+00:07:06,850 --> 00:07:07,000
+Bueno,
+
+250
+00:07:07,000 --> 00:07:08,600
+ahora vamos a insertar registros.
+
+251
+00:07:08,600 --> 00:07:10,199
+¿Cómo insertamos registros?
+
+252
+00:07:10,199 --> 00:07:12,089
+Ponemos insert, intel
+
+253
+00:07:13,199 --> 00:07:14,199
+Y le voy a decir
+
+254
+00:07:14,199 --> 00:07:15,959
+que quiero insertar dentro
+
+255
+00:07:15,959 --> 00:07:17,930
+de mi tabla categoría.
+
+256
+00:07:20,290 --> 00:07:21,290
+Los valores.
+
+257
+00:07:22,220 --> 00:07:24,149
+Y bueno, los valores que serían dos.
+
+258
+00:07:24,800 --> 00:07:26,470
+El nombre y la descripción.
+
+259
+00:07:26,470 --> 00:07:28,149
+Aunque solo sería el nombre,
+
+260
+00:07:28,149 --> 00:07:30,389
+porque el nombre es el único campo
+
+261
+00:07:30,389 --> 00:07:31,910
+que no debe estar vacío.
+
+262
+00:07:31,910 --> 00:07:33,665
+Bueno, la descripción, como te decía,
+
+263
+00:07:33,665 --> 00:07:34,709
+no es obligatoria.
+
+264
+00:07:34,709 --> 00:07:36,550
+Y bueno, ¿por qué ID categoría no
+
+265
+00:07:36,550 --> 00:07:37,910
+y código tampoco?
+
+266
+00:07:37,910 --> 00:07:38,870
+Porque como sabrás,
+
+267
+00:07:38,870 --> 00:07:40,230
+nuestra ID categoría la
+
+268
+00:07:40,230 --> 00:07:40,949
+hemos puesto que sea
+
+269
+00:07:40,949 --> 00:07:41,949
+autoincrementable.
+
+270
+00:07:42,629 --> 00:07:43,975
+Y nuestro código también
+
+271
+00:07:43,975 --> 00:07:45,819
+va a ser autoincrementable,
+
+272
+00:07:45,819 --> 00:07:47,819
+ya que va a tener la referencia
+
+273
+00:07:47,819 --> 00:07:49,149
+de nuestra ID categoría.
+
+274
+00:07:49,670 --> 00:07:52,459
+Entonces vamos a insertar valores
+
+275
+00:07:52,459 --> 00:07:54,139
+y le vamos a poner que una
+
+276
+00:07:54,139 --> 00:07:55,579
+de nuestras categorías
+
+277
+00:07:55,579 --> 00:07:56,990
+se llame herramientas.
+
+278
+00:07:58,819 --> 00:08:00,004
+Y también le voy a decir
+
+279
+00:08:01,310 --> 00:08:02,660
+que la descripción sea
+
+280
+00:08:02,660 --> 00:08:03,990
+las mejores herramientas
+
+281
+00:08:07,345 --> 00:08:08,345
+Al ejecutarlo
+
+282
+00:08:10,430 --> 00:08:10,899
+Vamos a ver
+
+283
+00:08:10,899 --> 00:08:12,740
+que una fila ha sido afectada,
+
+284
+00:08:12,740 --> 00:08:13,459
+que quiere decir
+
+285
+00:08:13,459 --> 00:08:15,459
+que un registro se ha agregado.
+
+286
+00:08:15,459 --> 00:08:17,110
+Bueno, vamos a agregar otro registro.
+
+287
+00:08:19,095 --> 00:08:20,095
+Y le voy a decir
+
+288
+00:08:21,250 --> 00:08:22,839
+que ahora los valores que quiero
+
+289
+00:08:22,839 --> 00:08:23,839
+que se agreguen
+
+290
+00:08:26,209 --> 00:08:27,370
+Sería pinturería.
+
+291
+00:08:29,329 --> 00:08:30,970
+Y bueno en la descripción le pongo
+
+292
+00:08:30,970 --> 00:08:32,860
+que son las mejores pinturas
+
+293
+00:08:35,200 --> 00:08:36,200
+Para tu casa.
+
+294
+00:08:37,740 --> 00:08:38,870
+Vamos a ejecutar de nuevo.
+
+295
+00:08:40,658 --> 00:08:41,100
+Y bueno,
+
+296
+00:08:41,100 --> 00:08:42,590
+otro registro ha sido agregado.
+
+297
+00:08:43,649 --> 00:08:43,798
+Bueno,
+
+298
+00:08:43,798 --> 00:08:44,595
+ahora quiero ver
+
+299
+00:08:44,595 --> 00:08:45,799
+los registros de mi tabla,
+
+300
+00:08:45,799 --> 00:08:46,919
+así que le voy a decir
+
+301
+00:08:46,919 --> 00:08:47,929
+que me seleccione.
+
+302
+00:08:48,750 --> 00:08:50,384
+Con el asterisco es, como un todos
+
+303
+00:08:52,465 --> 00:08:53,465
+Que me selecciona.
+
+304
+00:08:53,919 --> 00:08:54,950
+Todos los registros
+
+305
+00:08:54,950 --> 00:08:56,519
+de mi tabla categoría.
+
+306
+00:08:58,644 --> 00:08:59,644
+Vamos a ejecutar.
+
+307
+00:09:02,894 --> 00:09:04,259
+Y bueno, como puedes ver,
+
+308
+00:09:04,259 --> 00:09:06,259
+tenemos nuestros dos registros.
+
+309
+00:09:06,259 --> 00:09:07,779
+Como puedes darte cuenta también,
+
+310
+00:09:07,779 --> 00:09:09,299
+nuestra ID categoría es
+
+311
+00:09:09,299 --> 00:09:10,309
+autoincrementable.
+
+312
+00:09:12,085 --> 00:09:13,129
+Y nuestra columna del
+
+313
+00:09:13,129 --> 00:09:14,379
+código también lo es.
+
+314
+00:09:15,059 --> 00:09:15,419
+Y bueno,
+
+315
+00:09:15,419 --> 00:09:16,539
+así hemos creado nuestra
+
+316
+00:09:16,539 --> 00:09:17,500
+tabla de categoría
+
+317
+00:09:17,500 --> 00:09:19,019
+y es el mismo procedimiento
+
+318
+00:09:19,019 --> 00:09:20,940
+con las demás tablas, solo
+
+319
+00:09:20,940 --> 00:09:21,740
+que en la tabla
+
+320
+00:09:21,740 --> 00:09:23,500
+de productos hace referencia
+
+321
+00:09:23,500 --> 00:09:24,940
+a la tabla de categoría
+
+322
+00:09:24,940 --> 00:09:26,269
+y a la tabla de marcas.

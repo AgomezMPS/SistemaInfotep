@@ -1,0 +1,117 @@
+Hola amigos, ¿qué tal?
+Hoy comenzamos este mini
+curso y quiero enseñarles
+todo lo que aprenderás
+en esta introducción.
+Como puedes ver, tenemos
+en pantalla este diseño
+de un sistema de ventas.
+En este caso,
+estaba desarrollando
+este sistema de una
+ferretería y me animé
+a compartir mis conocimientos contigo.
+Como les dije,
+en este mini curso
+aprenderemos a hacer
+todo el mantenimiento de productos,
+tanto como el mantenimiento
+de categorías y marcas.
+Crearemos una base
+de datos desde cero
+a código limpio
+y aplicaremos iner join,
+ya que la tabla
+de productos está relacionada
+con la tabla de categorías
+y marcas.
+Aplicaremos también consultas
+con procedimientos
+almacenados tanto como
+el mantenimiento y actualización
+de datos de nuestros registros.
+En tiempo real,
+como puedes darte cuenta
+en mi vista
+de productos podemos notar el total
+de productos, categorías
+y marcas y bueno, el mayor de stock.
+Ahora si yo agrego un producto más,
+mi total de productos se actualiza,
+y así igual pasaría con categorías
+y marcas.
+En la parte de la
+programación veremos la
+programación en el patrón
+de arquitectura en capas,
+en
+donde aprenderemos a programar orientado
+a objetos y aplicar sus cuatro pilares
+de programación,
+que son la extracción,
+el encapsulamiento,
+la herencia y el polimorfismo.
+Te enseñaré distintas
+formas de guardar, eliminar,
+editar, mostrar y buscar registros,
+para que tú puedas elegir
+en tu futuro sistema
+cuál sería tu mejor opción.
+Por último te enseñaré
+a diseñar tu dashboard
+para tu sistema,
+con notificaciones amigables
+para darle un toque al estilo web.
+También usaremos el framework Bunifu
+que tiene componentes interesantes
+para nuestro diseño,
+aunque la verdad lo único
+que ves en pantalla
+y fue utilizado por el framework,
+solo son los botones,
+porque lo demás solo
+necesitas ingenio.
+¿Qué necesitas
+para poder seguir este mini curso?
+Lo primero es tener una
+base en el lenguaje
+de programación C Sharp
+y saber programación orientada
+a objetos,
+obviamente tener instalado
+Visual Studio y
+para la base de datos
+tener instalado SQL Server.
+Para el diseño,
+tener instalado Just Color Picker
+para obtener el código de colores
+que tú desees.
+Instalar Acon Eight para los iconos
+de nuestro sistema.
+Y aunque te parezca raro,
+también necesitamos
+tener instalado PowerPoint,
+que de seguro ya lo tienes.
+Y por último instalar
+el framework Bunifu,
+que te lo dejaré en la
+descripción de este video,
+la cual te enseñaré cómo
+agregarlo a tu proyecto.
+No es el pack completo,
+pero tienes la mayoría de componentes
+y no te preocupes que no es de paga.
+Los programas Just Color
+Paker y el Icon8 te
+dejaré los enlaces
+para que te los descargues.
+Son muy fáciles de instalar.
+Al tener todos estos requerimientos,
+bueno, ya estamos listos
+para empezar.
+Bueno,
+espero
+que sea de tu agrado
+todo el explicado y nos vemos
+en las próximas clases.
+Un saludo.

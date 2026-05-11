@@ -1,0 +1,246 @@
+Hoy vamos a ver una breve introducción
+sobre qué son y
+para qué sirven los
+patrones de arquitectura
+y por qué es muy importante
+como programadores informarnos
+de ella.
+¿Alguna vez te preguntaste
+cómo se diseñan los
+grandes sistemas empresariales?
+Antes de que se comience
+un importante desarrollo
+de software,
+debemos elegir una
+arquitectura adecuada
+que nos proporcione
+la funcionalidad deseada
+y los atributos de calidad
+de nuestro sistema, por lo tanto,
+debemos entender diferentes
+arquitecturas antes de aplicarlas
+a nuestro software.
+Entonces, ¿qué entendemos
+por patrones de arquitectura?
+Un patrón
+de arquitectura es una
+solución general irreutilizable
+a un problema común
+en la arquitectura de software.
+Es por eso que se dice
+que los patrones
+de arquitectura expresan
+sistema de todos los niveles
+para cualquier sistema de software.
+Como cada sistema también
+establece sus sistemas definidos
+en los cuales encontramos
+responsabilidades y comportamientos.
+Hay muchos patrones de arquitectura,
+los10 patrones más comunes son los
+que ves en pantalla.
+Lo cual se desarrollará este curso,
+los patrones en capas, y bueno,
+el patrón más conocido
+como el modelo Vista y Controlador.
+Como puedes ver,
+hay muchos patrones de arquitectura.
+Pero qué patrón es mejor
+que otro
+o qué patrón ocupa todas las funcionalidades
+que un sistema requiere.
+Martin Fowler,
+una de las personas más
+emblemáticas de nuestra carrera,
+un ingeniero de software
+nos dice: Cada vez me doy cuenta
+que no hay una sola
+manera de establecer una arquitectura
+de un sistema,
+más bien hay múltiples arquitecturas
+en un sistema.
+Ahora veremos qué es el
+patrón de arquitectura en capas
+y por qué varios
+programadores la usan.
+Una de las características
+principales es
+que podemos hacer sistemas pequeños,
+medianos y de gran escala,
+ya sea el patrón de diseño
+que usemos.
+En este curso usaremos
+un patrón de diseño básico,
+el MBC,
+en la cual respetaremos el principio
+de dependencia única.
+Como la mayoría ya sabe,
+hay tres capas principales:
+la capa de datos, la capa
+de negocio y la capa de presentación,
+que informalmente se ha
+llamado programación en tres capas.
+Ahora bien, estas capas trabajan
+en conjunto.
+La capa de datos es la capa
+donde se verán las conexiones,
+las consultas
+y los procedimientos almacenados,
+con una base de datos ya sea MySQL,
+Postgres y SQL Server.
+En la capa de negocio
+está el corazón del sistema.
+Aquí es donde se describen
+las operaciones del mundo real,
+o sea aquí es donde la abstracción,
+el primer pilar de la programación
+de orientado a objetos,
+cumple su trabajo.
+En describir una clase,
+en sus atributos y comportamientos.
+Aquí también podemos
+ver el flujo del trabajo del software,
+ya
+que este se comunica con la capa de datos
+y, bueno,
+también es un intermediario
+entre la capa de presentación
+y la capa de datos.
+La capa de presentación es
+donde podemos ver la
+interfaz del usuario.
+Debemos saber
+que para el usuario debe ser amigable
+y entendible la interfaz.
+Por ende,
+aquí vienen todos nuestros formularios,
+tanto como las aplicaciones
+de escritorio o nuestros webforms,
+como para web.
+La manera
+en cómo trabaja estas
+capas es que el usuario da una orden
+en nuestra vista
+que se encuentra en la
+capa presentación,
+ella solicita una petición
+en la capa de negocio
+y esta aplica las
+peticiones comunicándole
+los datos al modelo o a la capa
+de datos, la cual extrae los datos
+en la base de datos.
+Luego la información es
+obtenida nuevamente a la capa
+de negocio
+y estos datos se llevarán a la vista
+de la capa de presentación,
+lo cual responde
+visualmente la petición del usuario,
+dándose así la programación
+en tres capas en el patrón
+de diseño MBC.
+Pero si tú en verdad quieres programar
+en programación orientada
+a objetos, debemos programar
+en cuatro capas,
+ya que es una de las formas
+de patrones de arquitectura
+de software más emblemáticas
+y más usadas.
+Aplicamos también mucha lógica
+de programación y podemos notar
+o empezar
+a darnos cuenta el ciclo
+de vida de un software.
+¿Es malo programar en tres capas?
+No, no es malo.
+Como te digo,
+depende
+de cada programador
+adecuarse al patrón de arquitectura
+que el sistema requiere.
+Aquí en este patrón
+de arquitectura podemos
+ver una capa más.
+Esta capa es llamada la
+capa entidades.
+Esta capa
+si te das cuenta se
+comunica con todas las capas,
+ya
+que dentro de ella están
+los atributos de las clases
+que no te olvides
+que es el trabajo del
+primer pilar de programación
+de orientada objetos, la abstracción.
+Aquí también se encuentra la gestión
+de seguridad de nuestros atributos,
+como puedes ver los Gets
+y Sets.
+Gracias
+a esta capa podemos tener seguridad,
+comunicación, validación
+y muchas cosas más
+que solo se declaran una vez.
+La arquitectura
+en cuatro capas tiene su pro
+y en contra.
+Una de sus principales
+y por qué es tan usada es
+porque es muy flexible
+y tanto como sus clases
+y como el código es muy reducido
+y reutilizable.
+Es muy similar al patrón
+de TEO de Java Enterprise Edition.
+En sus contras,
+tenemos
+que su capacidad
+de evolución del sistema
+llega hasta un cierto tope.
+Contiene muy poca lógica
+de negocio y por ende solo es
+para sistemas pequeños
+y hasta medianos.
+Como puedes ver,
+hay muchos patrones de arquitectura.
+En la actualidad hay
+más de20 patrones de arquitectura,
+es por eso que yo te recomendaría
+que seas autodidáctico
+en elegir patrones para el sistema
+que deseas hacer.
+Esta arquitectura es uno de ellos,
+pero seguro te estarás
+preguntando cuál es la mejor
+o cuál es la indicada para un sistema.
+Martin Fowler, de nuevo,
+nos dice
+que cada programador
+tiene que elegir su forma de patrón,
+algunos basan su propio patrón
+en un libro de patrones clásicos
+y otros inventan los suyos.
+También dice que un patrón no es mejor
+que otro,
+ya
+que mientras el patrón
+esté correctamente hecho
+y cumpla con los principios
+de programación orientado
+a objetos,
+el sistema también lo estará.
+Es muy importante que sepas esto.
+Algunos programadores como yo pensaban
+que esto no tenía importancia,
+pero estábamos totalmente equivocados.
+Si conocemos muy bien el patrón
+que es correcto utilizar,
+nuestro sistema valdrá la pena.
+Cuando trabajes para una empresa,
+que ella estará trabajando
+con un patrón de arquitectura,
+la cual, si no lo sabes,
+estarás obligado a aprender.

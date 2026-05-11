@@ -1,0 +1,377 @@
+Bueno,
+hoy vamos a saber un poco más sobre
+nuestra capa de datos.
+Como ya habíamos dicho antes,
+nuestra capa de datos, como
+su mismo nombre lo dice,
+es la
+capa que
+se encarga
+de las comunicaciones y hacer
+transacciones
+con nuestra base de datos.
+Aquí si hace la conexión que tendrá
+con nuestra base de datos y este al
+comunicarse con él,
+ya sea con consultas o
+procedimientos almacenados,
+la capa de datos es la capa donde
+podemos ver el molde de nuestra
+arquitectura.
+Y también podemos ver cómo va
+teniendo sentido todo.
+En
+pocas palabras, nuestros
+procedimientos almacenados
+son
+llamados aquí en la capa de datos,
+lo cual necesitaremos comunicación
+con nuestra capa de entidades,
+¿quién es él
+que tiene nuestros atributos,
+lo cual haremos nuestras relaciones
+correspondientes para finalmente
+llevar los
+datos a nuestra capa de negocio?
+Bueno, entonces estamos en nuestra
+capa de
+datos
+y en nuestra clase de categoría.
+Como puedes ver, nosotros
+ya tenemos lo más
+importante que es la conexión.
+¿Cómo sabemos nuestra capa de datos
+tiene una comunicación
+con nuestras capa de entidades?
+Así que no olvidamos usar esa
+referencia.
+Vamos a nombrarla
+ya que él tiene nuestros atributos.
+También
+vamos a referenciar System .data,
+la cual tiene como clases como data
+table para mostrar nuestras tablas,
+ese que le da a reader para
+leer filas de las tablas,
+ese que
+le coman que es muy importante,
+ya que sin él no podríamos hacer
+nuestras transacciones y por ende
+comunicarnos con nuestros
+procedimientos almacenados.
+Entonces vamos a crear nuestro
+primer método que va a ser y bueno,
+se va a encargar de buscar y listar
+nuestros registros.
+Voy a escribir public.
+Ahora quiero listar,
+pero quiero listar
+mis objetos, pero qué objetos?
+Estos objetos serían nuestros
+atributos que tenemos en nuestra
+capa de entidades.
+Ahora llamaré mi método listar
+categoría y tendré un parámetro,
+el cual será string y lo llamaré
+buscar. ¿De dónde
+saco este parámetro?
+Bueno, estoy respetando
+la lógica de mi
+procedimiento almacenado.
+Ese también tiene un parámetro,
+lo cual tenía como función que
+cuando escribíéramos en una
+búsqueda trayeras registros.
+Para que traiga estos registros
+necesitamos
+que alguien lea nuestros registros.
+Para eso,
+nuestra clase SQL,
+la data reader,
+se encarga de esos datos.
+Vamos a asignarle una variable de
+leer filas.
+Ahora vamos a invocar a
+nuestra clase que hace todas las
+transacciones. Vamos a instanciar
+un objeto con
+ello y yo le pondré CMD.
+Después de esto,
+aquí le pondremos como parámetro
+nuestro procedimiento almacenado.
+¿Qué sería ese p.
+buscar categoría?
+No
+te
+olvides que debe estar igual cómo
+lo pusimos en nuestra base de
+datos.
+Y también vamos a ponerle nuestra
+instancia de la conexión,
+la cual es la que nos hicimos
+arriba.
+Aunque nuestra base de datos tenga
+como
+parámetro nuestro procedimiento,
+él no
+sabe qué tipo de procedimiento es.
+Él
+puede suponer que
+sea un procedimiento de texto,
+o sea, una
+consulta o un procedimiento
+almacenado. Entonces,
+tenemos que decirle por nuestro
+jetos MRE que el tipo de comando es
+un store procedure.
+Para eso,
+cada vez que hagamos una
+transacción a la base de datos,
+tenemos que abrir una conexión y
+después es muy importante cerrarla.
+Entonces, vamos a
+abrir nuestra conexión y
+como ya
+te había dado cuenta nuestro
+procedimiento almacenado
+tiene un
+parámetro de nuestra base de datos.
+Nosotros
+tenemos que pasarle ese parámetro.
+En este caso,
+es solo uno.
+Por intermedo de nuestro jetos MRE,
+¿qué agregaré un parámetro con un
+valor que tiene como parámetros el
+parámetro de nuestro procedimiento
+almacenado que es él de acá?
+Y el otro que hace referencia,
+¿qué es el que pusimos aquí? ¿Qué
+es nuestro buscar?
+Después
+le diré a mi variable leer filas,
+que se asigne a mi objeto MRE para
+que lea la ejecución de mis filas.
+Ahora, hasta aquí,
+todo lo que hemos hecho es que
+busque mediante nuestro parámetro
+los resultados de
+una fila de registros,
+pero si te das cuenta no
+hemos dado ni una lista de objetos.
+Entonces,
+en pocas palabras,
+tampoco
+hemos dado una lista de registros.
+Entonces, vamos a agregar esa
+lista,
+vamos a poner list y damos de nuevo
+como clase y categoría para obtener
+mis
+atributos mediante una instancia,
+la cual llamaré el estar.
+Gracias a listar,
+yo los traeré y en el
+cual mediante un ciclo wild,
+le diré cómo condición
+que la variable leer filas,
+puede
+leer en cada ciclo mis registros.
+Aquí abajo
+es donde agregaré esos registros.
+Entonces, gracias a
+mi objeto listar,
+agrego desde
+mi clase y categoría mis atributos.
+El primero es mi id de categoría,
+lo cual asignó que mediante leer
+filas,
+obtenga de él su dato,
+que es
+un entero y como te había dicho,
+nuestro listo manipula listas
+mediante índices de nuestras
+tablas,
+de las columnas.
+Nuestra columna
+id de categoría estén el índice 0,
+acuerrate que la primera columna
+de una tabla no se empieza por el
+número 1,
+sino por el 0.
+Lo mismo hago con
+los demás atributos traidos
+desde mi
+capacidad de
+esconsurrespectivo tipo de dato.
+Ahora que ya hemos terminado,
+vamos a cerrar nuestra conexión ya
+que
+es muy importante siempre hacerlo.
+Y también vamos a cerrar leer filas
+y por último vamos a retornar un
+valor o
+un objeto que sea de la clase list,
+la cual en este caso
+que nos retorne nuestro listar.
+Esta es una de las formas en la
+cual puedes buscar registros y a la
+vez mostrar registros en una tabla.
+Puedes hacerlo mediante datate y
+vol, o
+también puedes hacerlo con SQL y
+adactar, así que no hay ningún
+problema.
+Bueno,
+vamos a empezar por nuestro otro
+método que será insertar categoría.
+Este tendrá como parámetro nuestra
+clase y categoría
+y como objeto de comunicación,
+categoría.
+Como siempre,
+vamos a instanciar cómo el método
+listar categoría a SQL y coman,
+mediante nuestro parámetro nuestro
+procedimiento almacenado y nuestro
+objeto de conexión.
+Lo siguiente,
+como sabemos es decirle que nuestro
+tipo de comando es un procedimiento
+almacenado
+y no una consulta de texto.
+Ahora abriremos conexión.
+Luego,
+mediante nuestro objeto de SQL,
+coman,
+le diremos que le pasaremos los
+parámetros correspondientes con la
+misma lógica que tiene nuestro
+procedimiento almacenado y insertar
+categoría.
+¿Cómo lo podemos ver ahora?
+Si te das cuenta,
+tiene dos parámetros.
+El cual
+será de nombre y la descripción.
+Ahora vamos a poner el primer
+parámetro que es nombre y aquí le
+damos la referencia mediante
+nuestro objeto de comunicación que
+es categoría que nos trae nuestro
+atributo que es nombre categoría.
+Lo mismo haremos con el último
+parámetro que es descripción.
+Y le paso de referencia a mi
+atributo de descripción categoría.
+Ahora, después de esto,
+tenemos que ejecutar
+nuestras consultas.
+Cada vez que tú quieras ejecutar
+consultas como insertar,
+editar y eliminar,
+siempre lo ejecutaremos por
+intermedio de nuestro objeto SQL,
+coman,
+lo cual ejecutaremos
+con un execute non query.
+Después de
+esto cerraremos la conexión.
+Vamos por nuestro otro
+método que será editar categoría.
+Este te ha entrado un parámetro que
+será nuestra clase e categoría y
+como objeto
+de comunicación será categoría.
+Puedes ponerle cualquier objeto de
+comunicación.
+Yo le estoy poniendo el mismo, pero
+no hay ningún problema que tú
+le pongas otro nombre.
+Como ya sabemos,
+vamos a instanciar cómo
+los métodos anteriores a SQL,
+coman,
+mediante nuestro objeto cmd y le
+pasaremos como parámetro nuestros
+procedimientos almacenados.
+Después nuestro objeto de conexión.
+Lo siguiente como sabemos es
+decirle que nuestro tipo de comando
+es un procedimiento almacenado.
+Ahora abriremos conexión y
+luego mediante nuestro objeto SQL,
+coman,
+le diremos que le pasaremos los
+parámetros correspondientes con
+la misma lógica que tienen nuestro
+procedimiento
+almacenado editar categoría.
+Si te das cuenta,
+solo vimos parámetros que en el
+método incitar categoría,
+pero en este caso hay uno más que
+es nuestro idí de categoría,
+ya que será por intermedo de él que
+podemos editar nuestra
+tabla. Entonces vamos a pasar a los
+parámetros que corresponden
+como los parámetros de nuestra
+base de
+datos y le damos primero
+el parámetro de idí de categoría y
+bueno vamos a hacer referencia
+mediante nuestro objeto de
+comunicación categoría que nos
+traiga el atributo idí de categoría
+y así vamos a hacerlos con los
+demás parámetros.
+Ahora después de esto como
+sabemos tenemos que jutar nuestras
+consultas,
+lo ejecutamos con un SQL non query,
+después
+de esto vamos a cerrar la conexión.
+Y bueno ya tenemos
+tres procedimientos almacenados que
+hemos llamado
+desde nuestro de categoría.
+Falte el último,
+el cual haremos con un método la
+cual llamaré el eminar categoría.
+Este también tendrá como parámetro
+nuestra clase e categoría y como
+objeto de comunicación categoría.
+Bueno ya sabemos que tenemos
+que instanciar nuestra clase SQL e
+Coman.
+Y daremos como parámetro el
+procedimiento almacenado
+y nuestro objeto de conexión.
+Después le decimos que
+tipo de comando es lo cual es un
+procedimiento almacenado.
+Luego abrimos la conexión y
+pasaremos los parámetros que les
+corresponden a este procedimiento.
+Que como puedes ver en la base
+de datos solo es uno ya que sólo
+necesitamos nuestro parámetro
+de categoría ya que es la llave en
+primaria para
+poder eliminar un registro.
+Entonces mediante el objeto SQL
+e Coman ejecutamos con este que un
+ocuere. Y
+por último vamos a cerrar la
+conexión.
+Y bueno así hemos completado todo
+lo que teníamos que
+hacer en nuestra capa de datos.
+Podríamos haberlo hecho
+con consultas de texto es una forma
+pero como ves con procedimientos
+almacenados es mucho más fácil y
+aparte
+ya sabemos cuáles son sus ventajas.
+Y bueno,

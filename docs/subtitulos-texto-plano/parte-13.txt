@@ -1,0 +1,348 @@
+Hola amigos, ¿cómo están?
+Hoy vamos con la segunda parte de
+las notificaciones y en esta parte
+vamos a darle un chance al usuario
+al clivente de cuando esté en el
+sistema,
+de que si va a poder o si está
+seguro de
+eliminar un registro o un producto,
+entonces para esto vamos a darle
+esa oportunidad y vamos a crear
+nuestro formulario,
+ya que si te das cuenta en nuestro
+sistema hasta
+ahora no hemos podido darle esa
+chance al usuario,
+entonces lo primero
+que haremos vamos a
+crear nuestro formulario,
+entonces vamos a decirle
+que su nombre se llama a frm,
+información o información
+y bueno vamos a agregarlo,
+vamos a darle el mismo ancho y
+alto que la habíamos dado al primer
+formulario
+y bueno como es el mismo,
+como es el
+mismo que el formulario anterior,
+lo único que vamos a hacer vamos a
+copiar todo esto con control A,
+control C y vamos a nuestro
+formulario de información y sólo lo
+pegamos y bueno
+así hemos ahorrado mucho tiempo,
+como puedes darte cuenta también
+está el bonifú el lixx y nuestro
+elemento
+componente de esclare ser for,
+entonces lo único que vamos a
+hacer vamos a cambiar los colores y
+después vamos a poder aporrar
+a marvos y aquí va a haber dos
+botones
+pero primero voy a cambiarle mi
+picture box como
+sabrás en el anterior vídeo
+te enseñé a hacer la imagen de
+información en
+el cual yo lo tengo aquí voy
+a crear otro label y en
+sus propiedades voy a
+cambiarle algunas cosas
+voy a decir que su
+fuente va a ser poppings
+me faltó
+ponerle enegrita porque va a ser un
+poquito más
+se me enegrita y le voy a poner
+que va a decir aviso y
+claro lo
+vamos a poner de color blanco
+para que resalte
+con nuestro
+formulario
+va a ver dos botones
+como te dije vamos a chicarlo y
+vamos a poner el
+botón aquí de asectar
+y sólo copiamos y pegamos
+ese mismo botón y vamos a poner
+el botón de cancelar acá vamos a
+cambiarle y le vamos a poner
+cancelar este cancelar va a tener
+el mismo color rojo así que
+le vamos a cambiar y aquí cambiamos
+también y ya no sería
+acción completamente completada
+correctamente
+sino que le pondría
+un mensaje como le voy a poner
+piensa bien la acción que va
+a elegir el hija cuidadosamente y
+bueno ya estaría lo único que
+faltaría sería bueno aquí ya tiene
+un nombre mi botón a sector y aquí
+sólo faltaría ponerle un nombre el
+cual le voy a poner ptn cancel
+de
+cancelar entonces también faltaría
+ponerle el fondo de nuestro
+background y si te das cuentas como
+que pasa este color de acá no pero
+creo que no afecta en realidad o
+bueno puedes ponerlo acá
+por
+si acaso ahora sí está quedando y
+bueno así
+quedaría en nuestro formulario tan
+fácil como ello
+ahora vamos a programarlo vamos a
+darle doble clic y bueno aquí vamos
+a decirle la acción del efecto
+que con el método yo asic queremos
+darle el efecto a un componente
+ese mismo componente es nuestro
+formulario así que ya sabemos que
+tenemos ponerle la palabra
+reservada 10 luego vamos a
+programar nuestros botones como te
+das cuenta nosotros le damos dos
+opciones al nuestro usuario que es
+el botón de aceptar y el botón de
+cancelar en estos dos botones va a
+ver un diálogo con el usuario que
+está manejando el sistema entonces
+nosotros tenemos que informarle
+al ordenador que va a ver
+un diálogo
+en esa notificación y esa persona
+felizmente de la programación lo
+único que tenemos que hacer vamos a
+nuestro formulario de información y
+aquí vamos a decirle en nuestro
+botón aceptar vamos a decir que
+este diálogo va a ser asignado
+a mi mismo diálogo resulta cuando
+apretemos la
+acción ok o sea que cuando nosotros
+apretemos el botón
+de aceptar es porque estamos
+confirmando ese diálogo ahora lo
+mismo es con el botón cancelar
+vamos a decirle que el resultado de
+ese diálogo va a ser asignado
+cuando nosotros no queremos
+confirmar de dicho acción entonces
+prácticamente es así ya tenemos
+nuestros botones programados
+ahora
+en el vídeo anterior que habíamos
+creado un método estático para
+poder tener una confirmación con un
+formulario que puede ser de marcas
+o de categoría ese método que cree
+sólo fue para poder
+abrir un formulario que sería mi
+notificación ya que sabes muy bien
+que ese método habría un formulario
+habría el formulario de mi
+notificación suces entonces en este
+caso no vamos a necesitar ese
+método estático para que nos ayude
+abrir ese formulario porque porque
+aquí es muy diferente aquí no
+necesitamos ese método estático
+para abrir ese formulario de allá
+entonces te estará preguntando cómo
+vamos a poder darle el mensaje que
+nosotros queremos hay dos formas de
+hacerlo el primero es haciendo un
+método estático como te comenté
+el segundo es tan sólo en el
+constructor dándole un parámetro
+sin ese método estático como lo
+habíamos hecho en el anterior
+formulario entonces porque no
+hiciste lo mismo es que era
+muy diferente más adelante lo vas a
+notar entonces aquí voy a seguir
+con lo mismo que hice en el vídeo
+anterior le voy a decir la iba el
+mensaje en su propiedad text va a
+ser asignado a mi mismo mensaje que
+le pasaré desde el otro formulario
+entonces vamos a
+ir a nuestro formulario de marca y
+aquí es donde
+se te va a aclarar todas estas
+dudas vamos acá y vamos a entrar y
+bueno vamos a buscar en el de botón
+eliminar por ejemplo nosotros ya
+tenemos todo esta parte de acá
+programada y no la vamos a borrar
+vamos a dejarlo ahí solo vamos a
+necesitar esta parte de acá ya que
+todo esto cambia pero vamos
+a colocarlo todo en nuestro trick
+para poder capturar
+un error si es que lo tenemos
+entonces lo primero
+que vamos a hacer en el tree como
+ya sabemos en el tree vamos a
+decirle lo que nosotros queremos
+que el botón eliminar haga como
+sabemos que estamos intentando
+dialogar con el ordenador aquí
+vamos a instanciar el diálogo
+resulto y le vamos a poner en una
+instancia la cual yo le llamaré
+resultado entonces instanciamos el
+diálogo resulto el diálogo resulto
+antes de factuarse la operación de
+que se elimine completamente
+nuestro registro antes de ello
+tiene que haber un formulario que
+tiene que preguntarnos cuál es la
+respuesta que el usuario va a
+hacer a afectar o va a ser cancelar
+entonces tenemos que llamar ese
+formular cuál es ese formulario el
+formulario de información entonces
+vamos a decirle que el formulario
+de información vamos a instanciar
+ese formulario y como sabrás me va
+a pedir un parámetro que es string
+este parámetro es el que se va a
+ver prácticamente en el formulario
+de notificación y cualquier que sea
+ese mensaje yo le voy a poner
+este mensaje y bueno aquí estamos
+instanciando el formulario pero aún
+no lo estamos llamando aún no lo
+estamos llamando pero cuando lo
+llamemos va a tener el mensaje de
+aquí personalizado en el label que
+bueno que tú ya sabes que está aquí
+para llamarlo tú sabes que tenemos
+que poner nuestra instancia y como
+es un diálogo
+un formulario de diálogo entonces
+tenemos que
+ponerle show diálogo aquí ya lo
+estaríamos llamando pero nosotros
+tenemos que asignarle
+lo que
+adentro de este diálogo va a ser
+nuestra respuesta entonces
+lo único que tendríamos
+que hacerlo con ese
+botón de asectar y cancelar para
+que tenga una interacción con mi
+diálogo resulta sería almacenar
+la respuesta en este resultado
+entonces cualquier cosa que yo
+pongo acá como ok o cancelar va a
+estar almacenado en mi resultado
+aquí recién de lo que yo elija va a
+ver el siguiente código entonces
+yo digo sí mi resultado es igual al
+diálogo punto ok entonces quiero
+que se efectue obviamente todo lo
+que está aquí y aquí mismo puedo
+llamar mi frm suces porque se ha
+eliminado correctamente entonces
+puedo decir frm suces llamó un
+método con firmación 4 y le pongo
+el mensaje eliminado
+copiaría lo de
+acá
+y sólo le doy si hay un error
+pues mi parámetro x y bueno esto ya
+no lo tendría
+entonces explico de
+nuevo nosotros tenemos que tener
+una interacción con el mensaje o
+con la opción que vamos a dar puede
+ser un botón de ok o un botón
+de cancelar esos botones ya están
+programados como puedes
+darte cuenta le he puesto aquí
+ahora
+cualquier opción
+que nosotros elijamos tenemos
+que almacenarlos
+tenemos que almacenarlos en una
+instancia pero insistancia debe ser
+del mismo diálogo resulta es por
+eso que hemos hecho esto de aquí
+ahora tenemos esta instancia de acá
+esta instancia de acá que necesita
+una respuesta de esa misma opción
+que nosotros le vamos a brindar en
+dicho formulario obviamente nuestro
+formulario de donde va a salir esa
+respuesta va a ser de frm
+información en el cual le estamos
+instanciando un frm le decimos que
+gracias a esta instancia vamos a
+abrir ese formulario
+y dependiendo de la opción que
+nosotros elijamos
+ahí recién vamos al nacional el
+resultado ahora si es el resultado
+es igual a ok entonces si es ok
+nosotros estamos aceptando eliminar
+ese registro entonces si aceptamos
+vamos a eliminar ese registro y si
+está eliminado bueno va a salir el
+formulario de confirmación de suces
+con el mensaje que se ha eliminado
+y pues si cancelamos bueno el
+formulario de información se
+ocultará el usuario seguirá usando
+el sistema normalmente y bueno
+vamos a probarlo a ver si está bien
+entonces vamos a iniciar y entonces
+estamos aquí vamos a agregar un
+nuevo producto yo voy a poner no sé
+voy a poner una nueva marca voy a
+poner forte voy a poner
+para candados y más y bueno voy a
+guardar al guardar me va a decir
+guardado bueno eso ya sabemos
+y
+bueno voy a eliminar este mismo
+producto si pongo eliminar me va a
+salir mi mensaje de notificación
+va a salir
+mi mensaje de notificación
+con el mensaje programado que
+le hemos puesto me va a decir pense
+bien la opción que va a elegir el
+hija cuidadosamente si yo pongo
+cancelar no pasa nada no se elimina
+mi registro ahora si pongo eliminar
+de nuevo y si quiero eliminar el
+registro vamos a ver qué sucede me
+sale mi notificación que bueno que
+ya esté eliminado y ahí recién si
+yo pongo a aceptar se verá
+qué mi registro se ha eliminado
+correctamente entonces así hemos
+acabado nuestras dos partes de las
+notificaciones tanto
+como confirmación cuando queremos
+aceptar algo o tanto de una
+notificación de eliminado cuando
+queremos darle la oportunidad al
+que maneja el sistema si queremos
+eliminar o
+no un registro espero que me hayan
+entendido y bueno no
+vemos en la
+próxima
+clase que va a ser el diseño
+completo del
+dashboard y bueno nos vemos

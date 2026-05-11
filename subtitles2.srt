@@ -1,0 +1,983 @@
+1
+00:00:00,480 --> 00:00:02,549
+Hoy vamos a ver una breve introducción
+
+2
+00:00:02,549 --> 00:00:03,589
+sobre qué son y
+
+3
+00:00:03,589 --> 00:00:04,469
+para qué sirven los
+
+4
+00:00:04,469 --> 00:00:05,669
+patrones de arquitectura
+
+5
+00:00:05,669 --> 00:00:06,950
+y por qué es muy importante
+
+6
+00:00:06,950 --> 00:00:08,470
+como programadores informarnos
+
+7
+00:00:08,470 --> 00:00:09,470
+de ella.
+
+8
+00:00:09,470 --> 00:00:10,740
+¿Alguna vez te preguntaste
+
+9
+00:00:10,740 --> 00:00:11,699
+cómo se diseñan los
+
+10
+00:00:11,699 --> 00:00:13,029
+grandes sistemas empresariales?
+
+11
+00:00:13,699 --> 00:00:14,890
+Antes de que se comience
+
+12
+00:00:14,890 --> 00:00:15,929
+un importante desarrollo
+
+13
+00:00:15,929 --> 00:00:16,730
+de software,
+
+14
+00:00:16,730 --> 00:00:17,690
+debemos elegir una
+
+15
+00:00:17,690 --> 00:00:18,730
+arquitectura adecuada
+
+16
+00:00:18,730 --> 00:00:19,605
+que nos proporcione
+
+17
+00:00:19,605 --> 00:00:20,804
+la funcionalidad deseada
+
+18
+00:00:20,804 --> 00:00:21,929
+y los atributos de calidad
+
+19
+00:00:21,929 --> 00:00:23,850
+de nuestro sistema, por lo tanto,
+
+20
+00:00:23,850 --> 00:00:25,210
+debemos entender diferentes
+
+21
+00:00:25,210 --> 00:00:26,969
+arquitecturas antes de aplicarlas
+
+22
+00:00:26,969 --> 00:00:27,969
+a nuestro software.
+
+23
+00:00:28,829 --> 00:00:29,940
+Entonces, ¿qué entendemos
+
+24
+00:00:29,940 --> 00:00:31,539
+por patrones de arquitectura?
+
+25
+00:00:31,539 --> 00:00:32,020
+Un patrón
+
+26
+00:00:32,020 --> 00:00:32,979
+de arquitectura es una
+
+27
+00:00:32,979 --> 00:00:34,740
+solución general irreutilizable
+
+28
+00:00:34,740 --> 00:00:35,615
+a un problema común
+
+29
+00:00:35,615 --> 00:00:36,789
+en la arquitectura de software.
+
+30
+00:00:37,524 --> 00:00:38,490
+Es por eso que se dice
+
+31
+00:00:38,490 --> 00:00:39,204
+que los patrones
+
+32
+00:00:39,204 --> 00:00:40,649
+de arquitectura expresan
+
+33
+00:00:40,649 --> 00:00:42,009
+sistema de todos los niveles
+
+34
+00:00:42,009 --> 00:00:43,340
+para cualquier sistema de software.
+
+35
+00:00:44,229 --> 00:00:45,340
+Como cada sistema también
+
+36
+00:00:45,340 --> 00:00:47,259
+establece sus sistemas definidos
+
+37
+00:00:47,259 --> 00:00:48,619
+en los cuales encontramos
+
+38
+00:00:48,619 --> 00:00:50,619
+responsabilidades y comportamientos.
+
+39
+00:00:50,619 --> 00:00:52,460
+Hay muchos patrones de arquitectura,
+
+40
+00:00:52,460 --> 00:00:54,460
+los10 patrones más comunes son los
+
+41
+00:00:54,460 --> 00:00:55,460
+que ves en pantalla.
+
+42
+00:00:56,039 --> 00:00:57,880
+Lo cual se desarrollará este curso,
+
+43
+00:00:57,880 --> 00:00:59,560
+los patrones en capas, y bueno,
+
+44
+00:00:59,560 --> 00:01:00,520
+el patrón más conocido
+
+45
+00:01:00,520 --> 00:01:02,359
+como el modelo Vista y Controlador.
+
+46
+00:01:02,359 --> 00:01:03,159
+Como puedes ver,
+
+47
+00:01:03,159 --> 00:01:04,569
+hay muchos patrones de arquitectura.
+
+48
+00:01:06,430 --> 00:01:07,620
+Pero qué patrón es mejor
+
+49
+00:01:07,620 --> 00:01:08,099
+que otro
+
+50
+00:01:08,099 --> 00:01:10,260
+o qué patrón ocupa todas las funcionalidades
+
+51
+00:01:10,260 --> 00:01:11,700
+que un sistema requiere.
+
+52
+00:01:11,700 --> 00:01:12,819
+Martin Fowler,
+
+53
+00:01:12,819 --> 00:01:13,780
+una de las personas más
+
+54
+00:01:13,780 --> 00:01:15,540
+emblemáticas de nuestra carrera,
+
+55
+00:01:15,540 --> 00:01:16,819
+un ingeniero de software
+
+56
+00:01:16,819 --> 00:01:18,579
+nos dice: Cada vez me doy cuenta
+
+57
+00:01:18,579 --> 00:01:19,459
+que no hay una sola
+
+58
+00:01:19,459 --> 00:01:21,140
+manera de establecer una arquitectura
+
+59
+00:01:21,140 --> 00:01:22,019
+de un sistema,
+
+60
+00:01:22,019 --> 00:01:24,099
+más bien hay múltiples arquitecturas
+
+61
+00:01:24,099 --> 00:01:25,099
+en un sistema.
+
+62
+00:01:25,760 --> 00:01:27,189
+Ahora veremos qué es el
+
+63
+00:01:27,189 --> 00:01:28,790
+patrón de arquitectura en capas
+
+64
+00:01:28,790 --> 00:01:29,670
+y por qué varios
+
+65
+00:01:29,670 --> 00:01:30,950
+programadores la usan.
+
+66
+00:01:30,950 --> 00:01:32,310
+Una de las características
+
+67
+00:01:32,310 --> 00:01:32,950
+principales es
+
+68
+00:01:32,950 --> 00:01:34,629
+que podemos hacer sistemas pequeños,
+
+69
+00:01:34,629 --> 00:01:36,069
+medianos y de gran escala,
+
+70
+00:01:36,069 --> 00:01:37,510
+ya sea el patrón de diseño
+
+71
+00:01:37,510 --> 00:01:38,510
+que usemos.
+
+72
+00:01:38,609 --> 00:01:39,689
+En este curso usaremos
+
+73
+00:01:39,689 --> 00:01:40,969
+un patrón de diseño básico,
+
+74
+00:01:40,969 --> 00:01:42,010
+el MBC,
+
+75
+00:01:42,010 --> 00:01:43,609
+en la cual respetaremos el principio
+
+76
+00:01:43,609 --> 00:01:44,700
+de dependencia única.
+
+77
+00:01:45,349 --> 00:01:46,700
+Como la mayoría ya sabe,
+
+78
+00:01:46,700 --> 00:01:48,060
+hay tres capas principales:
+
+79
+00:01:48,060 --> 00:01:49,340
+la capa de datos, la capa
+
+80
+00:01:49,340 --> 00:01:51,180
+de negocio y la capa de presentación,
+
+81
+00:01:51,180 --> 00:01:52,140
+que informalmente se ha
+
+82
+00:01:52,140 --> 00:01:53,709
+llamado programación en tres capas.
+
+83
+00:01:54,400 --> 00:01:56,069
+Ahora bien, estas capas trabajan
+
+84
+00:01:56,069 --> 00:01:56,709
+en conjunto.
+
+85
+00:01:56,709 --> 00:01:58,069
+La capa de datos es la capa
+
+86
+00:01:58,069 --> 00:01:59,430
+donde se verán las conexiones,
+
+87
+00:01:59,430 --> 00:02:00,069
+las consultas
+
+88
+00:02:00,069 --> 00:02:01,829
+y los procedimientos almacenados,
+
+89
+00:02:01,829 --> 00:02:04,549
+con una base de datos ya sea MySQL,
+
+90
+00:02:04,549 --> 00:02:06,519
+Postgres y SQL Server.
+
+91
+00:02:07,379 --> 00:02:08,300
+En la capa de negocio
+
+92
+00:02:08,300 --> 00:02:09,389
+está el corazón del sistema.
+
+93
+00:02:10,819 --> 00:02:11,930
+Aquí es donde se describen
+
+94
+00:02:11,930 --> 00:02:13,444
+las operaciones del mundo real,
+
+95
+00:02:13,444 --> 00:02:15,129
+o sea aquí es donde la abstracción,
+
+96
+00:02:15,129 --> 00:02:16,490
+el primer pilar de la programación
+
+97
+00:02:16,490 --> 00:02:17,689
+de orientado a objetos,
+
+98
+00:02:17,689 --> 00:02:18,689
+cumple su trabajo.
+
+99
+00:02:19,169 --> 00:02:20,360
+En describir una clase,
+
+100
+00:02:20,360 --> 00:02:22,520
+en sus atributos y comportamientos.
+
+101
+00:02:22,520 --> 00:02:23,479
+Aquí también podemos
+
+102
+00:02:23,479 --> 00:02:25,159
+ver el flujo del trabajo del software,
+
+103
+00:02:25,159 --> 00:02:25,400
+ya
+
+104
+00:02:25,400 --> 00:02:27,240
+que este se comunica con la capa de datos
+
+105
+00:02:27,240 --> 00:02:27,800
+y, bueno,
+
+106
+00:02:27,800 --> 00:02:29,159
+también es un intermediario
+
+107
+00:02:29,159 --> 00:02:30,520
+entre la capa de presentación
+
+108
+00:02:30,520 --> 00:02:31,879
+y la capa de datos.
+
+109
+00:02:31,879 --> 00:02:33,159
+La capa de presentación es
+
+110
+00:02:33,159 --> 00:02:34,039
+donde podemos ver la
+
+111
+00:02:34,039 --> 00:02:35,039
+interfaz del usuario.
+
+112
+00:02:35,969 --> 00:02:36,840
+Debemos saber
+
+113
+00:02:36,840 --> 00:02:38,680
+que para el usuario debe ser amigable
+
+114
+00:02:38,680 --> 00:02:40,520
+y entendible la interfaz.
+
+115
+00:02:40,520 --> 00:02:41,159
+Por ende,
+
+116
+00:02:41,159 --> 00:02:42,840
+aquí vienen todos nuestros formularios,
+
+117
+00:02:42,840 --> 00:02:43,960
+tanto como las aplicaciones
+
+118
+00:02:43,960 --> 00:02:46,360
+de escritorio o nuestros webforms,
+
+119
+00:02:46,360 --> 00:02:47,400
+como para web.
+
+120
+00:02:47,400 --> 00:02:47,800
+La manera
+
+121
+00:02:47,800 --> 00:02:48,840
+en cómo trabaja estas
+
+122
+00:02:48,840 --> 00:02:50,759
+capas es que el usuario da una orden
+
+123
+00:02:50,759 --> 00:02:51,719
+en nuestra vista
+
+124
+00:02:51,719 --> 00:02:52,525
+que se encuentra en la
+
+125
+00:02:52,525 --> 00:02:53,719
+capa presentación,
+
+126
+00:02:53,719 --> 00:02:55,080
+ella solicita una petición
+
+127
+00:02:55,080 --> 00:02:56,199
+en la capa de negocio
+
+128
+00:02:56,199 --> 00:02:57,319
+y esta aplica las
+
+129
+00:02:57,319 --> 00:02:58,599
+peticiones comunicándole
+
+130
+00:02:58,599 --> 00:03:00,439
+los datos al modelo o a la capa
+
+131
+00:03:00,439 --> 00:03:02,439
+de datos, la cual extrae los datos
+
+132
+00:03:02,439 --> 00:03:03,639
+en la base de datos.
+
+133
+00:03:03,639 --> 00:03:04,759
+Luego la información es
+
+134
+00:03:04,759 --> 00:03:06,360
+obtenida nuevamente a la capa
+
+135
+00:03:06,360 --> 00:03:07,080
+de negocio
+
+136
+00:03:07,080 --> 00:03:08,919
+y estos datos se llevarán a la vista
+
+137
+00:03:08,919 --> 00:03:10,280
+de la capa de presentación,
+
+138
+00:03:10,280 --> 00:03:11,240
+lo cual responde
+
+139
+00:03:11,240 --> 00:03:12,840
+visualmente la petición del usuario,
+
+140
+00:03:12,840 --> 00:03:14,120
+dándose así la programación
+
+141
+00:03:14,120 --> 00:03:15,560
+en tres capas en el patrón
+
+142
+00:03:15,560 --> 00:03:16,729
+de diseño MBC.
+
+143
+00:03:17,389 --> 00:03:18,710
+Pero si tú en verdad quieres programar
+
+144
+00:03:18,710 --> 00:03:19,669
+en programación orientada
+
+145
+00:03:19,669 --> 00:03:21,349
+a objetos, debemos programar
+
+146
+00:03:21,349 --> 00:03:22,550
+en cuatro capas,
+
+147
+00:03:22,550 --> 00:03:23,990
+ya que es una de las formas
+
+148
+00:03:23,990 --> 00:03:25,430
+de patrones de arquitectura
+
+149
+00:03:25,430 --> 00:03:27,185
+de software más emblemáticas
+
+150
+00:03:27,185 --> 00:03:28,185
+y más usadas.
+
+151
+00:03:28,990 --> 00:03:30,340
+Aplicamos también mucha lógica
+
+152
+00:03:30,340 --> 00:03:31,939
+de programación y podemos notar
+
+153
+00:03:31,939 --> 00:03:32,419
+o empezar
+
+154
+00:03:32,419 --> 00:03:33,775
+a darnos cuenta el ciclo
+
+155
+00:03:33,775 --> 00:03:34,775
+de vida de un software.
+
+156
+00:03:35,215 --> 00:03:36,819
+¿Es malo programar en tres capas?
+
+157
+00:03:36,819 --> 00:03:37,819
+No, no es malo.
+
+158
+00:03:38,210 --> 00:03:39,000
+Como te digo,
+
+159
+00:03:39,000 --> 00:03:39,400
+depende
+
+160
+00:03:39,400 --> 00:03:40,439
+de cada programador
+
+161
+00:03:40,439 --> 00:03:42,360
+adecuarse al patrón de arquitectura
+
+162
+00:03:42,360 --> 00:03:43,370
+que el sistema requiere.
+
+163
+00:03:44,000 --> 00:03:44,789
+Aquí en este patrón
+
+164
+00:03:44,789 --> 00:03:45,909
+de arquitectura podemos
+
+165
+00:03:45,909 --> 00:03:46,949
+ver una capa más.
+
+166
+00:03:46,949 --> 00:03:48,069
+Esta capa es llamada la
+
+167
+00:03:48,069 --> 00:03:49,030
+capa entidades.
+
+168
+00:03:49,030 --> 00:03:49,590
+Esta capa
+
+169
+00:03:49,590 --> 00:03:50,550
+si te das cuenta se
+
+170
+00:03:50,550 --> 00:03:51,990
+comunica con todas las capas,
+
+171
+00:03:51,990 --> 00:03:52,150
+ya
+
+172
+00:03:52,150 --> 00:03:53,185
+que dentro de ella están
+
+173
+00:03:53,185 --> 00:03:54,469
+los atributos de las clases
+
+174
+00:03:54,469 --> 00:03:55,349
+que no te olvides
+
+175
+00:03:55,349 --> 00:03:56,150
+que es el trabajo del
+
+176
+00:03:56,150 --> 00:03:57,270
+primer pilar de programación
+
+177
+00:03:57,270 --> 00:03:59,159
+de orientada objetos, la abstracción.
+
+178
+00:04:00,129 --> 00:04:01,479
+Aquí también se encuentra la gestión
+
+179
+00:04:01,479 --> 00:04:03,240
+de seguridad de nuestros atributos,
+
+180
+00:04:03,240 --> 00:04:04,680
+como puedes ver los Gets
+
+181
+00:04:04,680 --> 00:04:05,400
+y Sets.
+
+182
+00:04:05,400 --> 00:04:05,800
+Gracias
+
+183
+00:04:05,800 --> 00:04:07,879
+a esta capa podemos tener seguridad,
+
+184
+00:04:07,879 --> 00:04:09,240
+comunicación, validación
+
+185
+00:04:09,240 --> 00:04:10,199
+y muchas cosas más
+
+186
+00:04:10,199 --> 00:04:12,039
+que solo se declaran una vez.
+
+187
+00:04:12,039 --> 00:04:12,759
+La arquitectura
+
+188
+00:04:12,759 --> 00:04:14,280
+en cuatro capas tiene su pro
+
+189
+00:04:14,280 --> 00:04:15,159
+y en contra.
+
+190
+00:04:15,159 --> 00:04:16,278
+Una de sus principales
+
+191
+00:04:16,278 --> 00:04:17,800
+y por qué es tan usada es
+
+192
+00:04:17,800 --> 00:04:19,079
+porque es muy flexible
+
+193
+00:04:19,079 --> 00:04:20,519
+y tanto como sus clases
+
+194
+00:04:20,519 --> 00:04:22,519
+y como el código es muy reducido
+
+195
+00:04:22,519 --> 00:04:23,800
+y reutilizable.
+
+196
+00:04:23,800 --> 00:04:25,399
+Es muy similar al patrón
+
+197
+00:04:25,399 --> 00:04:27,959
+de TEO de Java Enterprise Edition.
+
+198
+00:04:27,959 --> 00:04:28,839
+En sus contras,
+
+199
+00:04:28,839 --> 00:04:29,160
+tenemos
+
+200
+00:04:29,160 --> 00:04:29,954
+que su capacidad
+
+201
+00:04:29,954 --> 00:04:31,079
+de evolución del sistema
+
+202
+00:04:31,079 --> 00:04:32,759
+llega hasta un cierto tope.
+
+203
+00:04:32,759 --> 00:04:34,279
+Contiene muy poca lógica
+
+204
+00:04:34,279 --> 00:04:36,040
+de negocio y por ende solo es
+
+205
+00:04:36,040 --> 00:04:37,240
+para sistemas pequeños
+
+206
+00:04:37,240 --> 00:04:38,600
+y hasta medianos.
+
+207
+00:04:38,600 --> 00:04:39,480
+Como puedes ver,
+
+208
+00:04:39,480 --> 00:04:41,319
+hay muchos patrones de arquitectura.
+
+209
+00:04:41,319 --> 00:04:42,355
+En la actualidad hay
+
+210
+00:04:42,355 --> 00:04:44,199
+más de20 patrones de arquitectura,
+
+211
+00:04:44,199 --> 00:04:45,720
+es por eso que yo te recomendaría
+
+212
+00:04:45,720 --> 00:04:47,079
+que seas autodidáctico
+
+213
+00:04:47,079 --> 00:04:48,759
+en elegir patrones para el sistema
+
+214
+00:04:48,759 --> 00:04:49,759
+que deseas hacer.
+
+215
+00:04:50,949 --> 00:04:52,699
+Esta arquitectura es uno de ellos,
+
+216
+00:04:52,699 --> 00:04:53,899
+pero seguro te estarás
+
+217
+00:04:53,899 --> 00:04:55,259
+preguntando cuál es la mejor
+
+218
+00:04:55,259 --> 00:04:56,990
+o cuál es la indicada para un sistema.
+
+219
+00:04:57,699 --> 00:04:59,129
+Martin Fowler, de nuevo,
+
+220
+00:04:59,129 --> 00:04:59,610
+nos dice
+
+221
+00:04:59,610 --> 00:05:00,569
+que cada programador
+
+222
+00:05:00,569 --> 00:05:02,410
+tiene que elegir su forma de patrón,
+
+223
+00:05:02,410 --> 00:05:03,850
+algunos basan su propio patrón
+
+224
+00:05:03,850 --> 00:05:05,610
+en un libro de patrones clásicos
+
+225
+00:05:05,610 --> 00:05:07,449
+y otros inventan los suyos.
+
+226
+00:05:07,449 --> 00:05:09,209
+También dice que un patrón no es mejor
+
+227
+00:05:09,209 --> 00:05:09,689
+que otro,
+
+228
+00:05:09,689 --> 00:05:09,930
+ya
+
+229
+00:05:09,930 --> 00:05:10,889
+que mientras el patrón
+
+230
+00:05:10,889 --> 00:05:12,170
+esté correctamente hecho
+
+231
+00:05:12,170 --> 00:05:13,449
+y cumpla con los principios
+
+232
+00:05:13,449 --> 00:05:14,569
+de programación orientado
+
+233
+00:05:14,569 --> 00:05:15,290
+a objetos,
+
+234
+00:05:15,290 --> 00:05:16,620
+el sistema también lo estará.
+
+235
+00:05:17,279 --> 00:05:19,350
+Es muy importante que sepas esto.
+
+236
+00:05:19,350 --> 00:05:22,149
+Algunos programadores como yo pensaban
+
+237
+00:05:22,149 --> 00:05:24,069
+que esto no tenía importancia,
+
+238
+00:05:24,069 --> 00:05:26,470
+pero estábamos totalmente equivocados.
+
+239
+00:05:26,470 --> 00:05:28,310
+Si conocemos muy bien el patrón
+
+240
+00:05:28,310 --> 00:05:29,750
+que es correcto utilizar,
+
+241
+00:05:29,750 --> 00:05:31,589
+nuestro sistema valdrá la pena.
+
+242
+00:05:31,589 --> 00:05:33,110
+Cuando trabajes para una empresa,
+
+243
+00:05:33,110 --> 00:05:34,310
+que ella estará trabajando
+
+244
+00:05:34,310 --> 00:05:35,829
+con un patrón de arquitectura,
+
+245
+00:05:35,829 --> 00:05:37,350
+la cual, si no lo sabes,
+
+246
+00:05:37,350 --> 00:05:38,439
+estarás obligado a aprender.

@@ -1,0 +1,1392 @@
+1
+00:00:03,260 --> 00:00:04,640
+Hola amigos, ¿cómo están?
+
+2
+00:00:04,840 --> 00:00:06,340
+Hoy vamos con la segunda parte de
+
+3
+00:00:06,340 --> 00:00:08,640
+las notificaciones y en esta parte
+
+4
+00:00:08,640 --> 00:00:11,580
+vamos a darle un chance al usuario
+
+5
+00:00:11,580 --> 00:00:14,480
+al clivente de cuando esté en el
+
+6
+00:00:14,480 --> 00:00:14,860
+sistema,
+
+7
+00:00:15,440 --> 00:00:18,480
+de que si va a poder o si está
+
+8
+00:00:18,480 --> 00:00:19,240
+seguro de
+
+9
+00:00:19,240 --> 00:00:21,580
+eliminar un registro o un producto,
+
+10
+00:00:22,080 --> 00:00:24,880
+entonces para esto vamos a darle
+
+11
+00:00:24,880 --> 00:00:26,700
+esa oportunidad y vamos a crear
+
+12
+00:00:26,700 --> 00:00:27,920
+nuestro formulario,
+
+13
+00:00:28,120 --> 00:00:30,340
+ya que si te das cuenta en nuestro
+
+14
+00:00:30,340 --> 00:00:31,040
+sistema hasta
+
+15
+00:00:31,040 --> 00:00:32,720
+ahora no hemos podido darle esa
+
+16
+00:00:32,720 --> 00:00:34,220
+chance al usuario,
+
+17
+00:00:34,560 --> 00:00:35,480
+entonces lo primero
+
+18
+00:00:35,480 --> 00:00:36,440
+que haremos vamos a
+
+19
+00:00:36,440 --> 00:00:38,260
+crear nuestro formulario,
+
+20
+00:00:38,480 --> 00:00:43,880
+entonces vamos a decirle
+
+21
+00:00:43,880 --> 00:00:46,340
+que su nombre se llama a frm,
+
+22
+00:00:46,540 --> 00:00:49,040
+información o información
+
+23
+00:00:49,040 --> 00:00:51,480
+y bueno vamos a agregarlo,
+
+24
+00:00:51,800 --> 00:00:57,780
+vamos a darle el mismo ancho y
+
+25
+00:00:57,780 --> 00:01:00,020
+alto que la habíamos dado al primer
+
+26
+00:01:00,020 --> 00:01:00,860
+formulario
+
+27
+00:01:00,860 --> 00:01:02,780
+y bueno como es el mismo,
+
+28
+00:01:03,020 --> 00:01:04,500
+como es el
+
+29
+00:01:04,500 --> 00:01:06,040
+mismo que el formulario anterior,
+
+30
+00:01:06,300 --> 00:01:08,260
+lo único que vamos a hacer vamos a
+
+31
+00:01:08,260 --> 00:01:11,100
+copiar todo esto con control A,
+
+32
+00:01:11,500 --> 00:01:15,360
+control C y vamos a nuestro
+
+33
+00:01:15,360 --> 00:01:18,680
+formulario de información y sólo lo
+
+34
+00:01:18,680 --> 00:01:21,420
+pegamos y bueno
+
+35
+00:01:21,420 --> 00:01:23,560
+así hemos ahorrado mucho tiempo,
+
+36
+00:01:23,940 --> 00:01:25,580
+como puedes darte cuenta también
+
+37
+00:01:25,580 --> 00:01:29,540
+está el bonifú el lixx y nuestro
+
+38
+00:01:29,540 --> 00:01:30,900
+elemento
+
+39
+00:01:30,900 --> 00:01:32,620
+componente de esclare ser for,
+
+40
+00:01:32,920 --> 00:01:34,360
+entonces lo único que vamos a
+
+41
+00:01:34,360 --> 00:01:36,260
+hacer vamos a cambiar los colores y
+
+42
+00:01:36,260 --> 00:01:37,860
+después vamos a poder aporrar
+
+43
+00:01:37,860 --> 00:01:40,880
+a marvos y aquí va a haber dos
+
+44
+00:01:40,880 --> 00:01:41,300
+botones
+
+45
+00:01:41,300 --> 00:01:43,680
+pero primero voy a cambiarle mi
+
+46
+00:01:43,680 --> 00:01:45,480
+picture box como
+
+47
+00:01:45,480 --> 00:01:48,100
+sabrás en el anterior vídeo
+
+48
+00:01:48,100 --> 00:01:51,240
+te enseñé a hacer la imagen de
+
+49
+00:01:51,240 --> 00:01:52,000
+información en
+
+50
+00:01:52,000 --> 00:01:55,460
+el cual yo lo tengo aquí voy
+
+51
+00:01:55,460 --> 00:02:05,180
+a crear otro label y en
+
+52
+00:02:05,180 --> 00:02:06,180
+sus propiedades voy a
+
+53
+00:02:06,180 --> 00:02:07,720
+cambiarle algunas cosas
+
+54
+00:02:08,360 --> 00:02:09,460
+voy a decir que su
+
+55
+00:02:09,460 --> 00:02:10,700
+fuente va a ser poppings
+
+56
+00:02:17,100 --> 00:02:18,220
+me faltó
+
+57
+00:02:18,220 --> 00:02:20,320
+ponerle enegrita porque va a ser un
+
+58
+00:02:20,320 --> 00:02:21,000
+poquito más
+
+59
+00:02:21,000 --> 00:02:26,820
+se me enegrita y le voy a poner
+
+60
+00:02:28,140 --> 00:02:34,740
+que va a decir aviso y
+
+61
+00:02:34,740 --> 00:02:35,140
+claro lo
+
+62
+00:02:35,140 --> 00:02:36,620
+vamos a poner de color blanco
+
+63
+00:02:36,620 --> 00:02:38,360
+para que resalte
+
+64
+00:02:39,340 --> 00:02:40,240
+con nuestro
+
+65
+00:02:40,240 --> 00:02:40,820
+formulario
+
+66
+00:02:49,140 --> 00:02:50,300
+va a ver dos botones
+
+67
+00:02:50,300 --> 00:02:53,240
+como te dije vamos a chicarlo y
+
+68
+00:02:53,240 --> 00:02:54,060
+vamos a poner el
+
+69
+00:02:54,060 --> 00:02:56,560
+botón aquí de asectar
+
+70
+00:02:57,360 --> 00:02:59,220
+y sólo copiamos y pegamos
+
+71
+00:02:59,220 --> 00:03:01,260
+ese mismo botón y vamos a poner
+
+72
+00:03:01,260 --> 00:03:04,920
+el botón de cancelar acá vamos a
+
+73
+00:03:04,920 --> 00:03:06,340
+cambiarle y le vamos a poner
+
+74
+00:03:06,340 --> 00:03:09,660
+cancelar este cancelar va a tener
+
+75
+00:03:09,660 --> 00:03:14,500
+el mismo color rojo así que
+
+76
+00:03:14,500 --> 00:03:21,660
+le vamos a cambiar y aquí cambiamos
+
+77
+00:03:21,660 --> 00:03:24,020
+también y ya no sería
+
+78
+00:03:24,020 --> 00:03:26,760
+acción completamente completada
+
+79
+00:03:26,760 --> 00:03:27,620
+correctamente
+
+80
+00:03:28,920 --> 00:03:31,520
+sino que le pondría
+
+81
+00:03:31,520 --> 00:03:34,200
+un mensaje como le voy a poner
+
+82
+00:03:34,200 --> 00:03:39,520
+piensa bien la acción que va
+
+83
+00:03:39,520 --> 00:03:43,900
+a elegir el hija cuidadosamente y
+
+84
+00:03:43,900 --> 00:03:45,640
+bueno ya estaría lo único que
+
+85
+00:03:45,640 --> 00:03:50,520
+faltaría sería bueno aquí ya tiene
+
+86
+00:03:50,520 --> 00:03:53,460
+un nombre mi botón a sector y aquí
+
+87
+00:03:53,460 --> 00:03:56,740
+sólo faltaría ponerle un nombre el
+
+88
+00:03:56,740 --> 00:03:59,420
+cual le voy a poner ptn cancel
+
+89
+00:04:00,360 --> 00:04:01,060
+de
+
+90
+00:04:01,060 --> 00:04:04,960
+cancelar entonces también faltaría
+
+91
+00:04:04,960 --> 00:04:07,280
+ponerle el fondo de nuestro
+
+92
+00:04:07,280 --> 00:04:10,640
+background y si te das cuentas como
+
+93
+00:04:10,640 --> 00:04:13,820
+que pasa este color de acá no pero
+
+94
+00:04:13,820 --> 00:04:17,280
+creo que no afecta en realidad o
+
+95
+00:04:17,280 --> 00:04:18,640
+bueno puedes ponerlo acá
+
+96
+00:04:19,540 --> 00:04:20,340
+por
+
+97
+00:04:20,340 --> 00:04:23,480
+si acaso ahora sí está quedando y
+
+98
+00:04:23,480 --> 00:04:24,060
+bueno así
+
+99
+00:04:24,060 --> 00:04:26,260
+quedaría en nuestro formulario tan
+
+100
+00:04:26,260 --> 00:04:27,220
+fácil como ello
+
+101
+00:04:27,220 --> 00:04:30,700
+ahora vamos a programarlo vamos a
+
+102
+00:04:30,700 --> 00:04:33,480
+darle doble clic y bueno aquí vamos
+
+103
+00:04:33,480 --> 00:04:36,440
+a decirle la acción del efecto
+
+104
+00:04:36,440 --> 00:04:40,380
+que con el método yo asic queremos
+
+105
+00:04:40,380 --> 00:04:44,380
+darle el efecto a un componente
+
+106
+00:04:44,380 --> 00:04:45,900
+ese mismo componente es nuestro
+
+107
+00:04:45,900 --> 00:04:47,360
+formulario así que ya sabemos que
+
+108
+00:04:47,360 --> 00:04:49,120
+tenemos ponerle la palabra
+
+109
+00:04:49,120 --> 00:04:51,600
+reservada 10 luego vamos a
+
+110
+00:04:51,600 --> 00:04:53,880
+programar nuestros botones como te
+
+111
+00:04:53,880 --> 00:04:56,540
+das cuenta nosotros le damos dos
+
+112
+00:04:56,540 --> 00:04:58,520
+opciones al nuestro usuario que es
+
+113
+00:04:58,520 --> 00:05:00,840
+el botón de aceptar y el botón de
+
+114
+00:05:00,840 --> 00:05:02,720
+cancelar en estos dos botones va a
+
+115
+00:05:02,720 --> 00:05:05,160
+ver un diálogo con el usuario que
+
+116
+00:05:05,160 --> 00:05:07,260
+está manejando el sistema entonces
+
+117
+00:05:07,260 --> 00:05:09,300
+nosotros tenemos que informarle
+
+118
+00:05:09,300 --> 00:05:10,640
+al ordenador que va a ver
+
+119
+00:05:10,640 --> 00:05:11,180
+un diálogo
+
+120
+00:05:11,180 --> 00:05:13,480
+en esa notificación y esa persona
+
+121
+00:05:13,480 --> 00:05:15,200
+felizmente de la programación lo
+
+122
+00:05:15,200 --> 00:05:16,920
+único que tenemos que hacer vamos a
+
+123
+00:05:16,920 --> 00:05:19,400
+nuestro formulario de información y
+
+124
+00:05:19,400 --> 00:05:22,600
+aquí vamos a decirle en nuestro
+
+125
+00:05:22,600 --> 00:05:26,500
+botón aceptar vamos a decir que
+
+126
+00:05:26,500 --> 00:05:35,960
+este diálogo va a ser asignado
+
+127
+00:05:35,960 --> 00:05:39,680
+a mi mismo diálogo resulta cuando
+
+128
+00:05:39,680 --> 00:05:41,440
+apretemos la
+
+129
+00:05:41,440 --> 00:05:45,720
+acción ok o sea que cuando nosotros
+
+130
+00:05:45,720 --> 00:05:46,660
+apretemos el botón
+
+131
+00:05:46,660 --> 00:05:48,420
+de aceptar es porque estamos
+
+132
+00:05:48,420 --> 00:05:51,780
+confirmando ese diálogo ahora lo
+
+133
+00:05:51,780 --> 00:05:54,140
+mismo es con el botón cancelar
+
+134
+00:05:54,140 --> 00:05:56,340
+vamos a decirle que el resultado de
+
+135
+00:05:56,340 --> 00:05:58,240
+ese diálogo va a ser asignado
+
+136
+00:05:58,240 --> 00:06:01,060
+cuando nosotros no queremos
+
+137
+00:06:01,060 --> 00:06:04,320
+confirmar de dicho acción entonces
+
+138
+00:06:04,320 --> 00:06:07,000
+prácticamente es así ya tenemos
+
+139
+00:06:07,000 --> 00:06:08,760
+nuestros botones programados
+
+140
+00:06:11,520 --> 00:06:12,360
+ahora
+
+141
+00:06:12,360 --> 00:06:14,160
+en el vídeo anterior que habíamos
+
+142
+00:06:14,160 --> 00:06:17,380
+creado un método estático para
+
+143
+00:06:17,380 --> 00:06:20,060
+poder tener una confirmación con un
+
+144
+00:06:20,060 --> 00:06:22,080
+formulario que puede ser de marcas
+
+145
+00:06:22,080 --> 00:06:25,180
+o de categoría ese método que cree
+
+146
+00:06:25,180 --> 00:06:26,800
+sólo fue para poder
+
+147
+00:06:26,800 --> 00:06:29,180
+abrir un formulario que sería mi
+
+148
+00:06:29,180 --> 00:06:31,460
+notificación ya que sabes muy bien
+
+149
+00:06:31,460 --> 00:06:33,520
+que ese método habría un formulario
+
+150
+00:06:33,520 --> 00:06:35,140
+habría el formulario de mi
+
+151
+00:06:35,140 --> 00:06:38,320
+notificación suces entonces en este
+
+152
+00:06:38,320 --> 00:06:41,120
+caso no vamos a necesitar ese
+
+153
+00:06:41,120 --> 00:06:43,140
+método estático para que nos ayude
+
+154
+00:06:43,140 --> 00:06:46,280
+abrir ese formulario porque porque
+
+155
+00:06:46,280 --> 00:06:48,460
+aquí es muy diferente aquí no
+
+156
+00:06:48,460 --> 00:06:50,100
+necesitamos ese método estático
+
+157
+00:06:50,100 --> 00:06:52,020
+para abrir ese formulario de allá
+
+158
+00:06:52,020 --> 00:06:54,140
+entonces te estará preguntando cómo
+
+159
+00:06:54,140 --> 00:06:56,020
+vamos a poder darle el mensaje que
+
+160
+00:06:56,020 --> 00:06:58,420
+nosotros queremos hay dos formas de
+
+161
+00:06:58,420 --> 00:07:00,480
+hacerlo el primero es haciendo un
+
+162
+00:07:00,480 --> 00:07:02,460
+método estático como te comenté
+
+163
+00:07:02,460 --> 00:07:06,560
+el segundo es tan sólo en el
+
+164
+00:07:06,560 --> 00:07:09,500
+constructor dándole un parámetro
+
+165
+00:07:09,500 --> 00:07:13,040
+sin ese método estático como lo
+
+166
+00:07:13,040 --> 00:07:14,460
+habíamos hecho en el anterior
+
+167
+00:07:14,460 --> 00:07:15,900
+formulario entonces porque no
+
+168
+00:07:15,900 --> 00:07:17,420
+hiciste lo mismo es que era
+
+169
+00:07:17,420 --> 00:07:19,560
+muy diferente más adelante lo vas a
+
+170
+00:07:19,560 --> 00:07:22,040
+notar entonces aquí voy a seguir
+
+171
+00:07:22,040 --> 00:07:23,740
+con lo mismo que hice en el vídeo
+
+172
+00:07:23,740 --> 00:07:26,220
+anterior le voy a decir la iba el
+
+173
+00:07:26,220 --> 00:07:30,240
+mensaje en su propiedad text va a
+
+174
+00:07:30,240 --> 00:07:33,120
+ser asignado a mi mismo mensaje que
+
+175
+00:07:33,120 --> 00:07:35,800
+le pasaré desde el otro formulario
+
+176
+00:07:37,180 --> 00:07:38,100
+entonces vamos a
+
+177
+00:07:38,100 --> 00:07:40,000
+ir a nuestro formulario de marca y
+
+178
+00:07:40,000 --> 00:07:41,080
+aquí es donde
+
+179
+00:07:41,080 --> 00:07:42,900
+se te va a aclarar todas estas
+
+180
+00:07:42,900 --> 00:07:45,620
+dudas vamos acá y vamos a entrar y
+
+181
+00:07:45,620 --> 00:07:48,260
+bueno vamos a buscar en el de botón
+
+182
+00:07:48,260 --> 00:07:51,200
+eliminar por ejemplo nosotros ya
+
+183
+00:07:51,200 --> 00:07:53,060
+tenemos todo esta parte de acá
+
+184
+00:07:53,060 --> 00:07:55,420
+programada y no la vamos a borrar
+
+185
+00:07:55,420 --> 00:07:57,380
+vamos a dejarlo ahí solo vamos a
+
+186
+00:07:57,380 --> 00:07:59,420
+necesitar esta parte de acá ya que
+
+187
+00:07:59,420 --> 00:08:01,480
+todo esto cambia pero vamos
+
+188
+00:08:01,480 --> 00:08:03,960
+a colocarlo todo en nuestro trick
+
+189
+00:08:03,960 --> 00:08:07,620
+para poder capturar
+
+190
+00:08:07,620 --> 00:08:10,100
+un error si es que lo tenemos
+
+191
+00:08:17,280 --> 00:08:18,800
+entonces lo primero
+
+192
+00:08:18,800 --> 00:08:20,740
+que vamos a hacer en el tree como
+
+193
+00:08:20,740 --> 00:08:24,220
+ya sabemos en el tree vamos a
+
+194
+00:08:24,220 --> 00:08:26,160
+decirle lo que nosotros queremos
+
+195
+00:08:26,160 --> 00:08:27,920
+que el botón eliminar haga como
+
+196
+00:08:27,920 --> 00:08:29,900
+sabemos que estamos intentando
+
+197
+00:08:29,900 --> 00:08:32,460
+dialogar con el ordenador aquí
+
+198
+00:08:32,460 --> 00:08:34,000
+vamos a instanciar el diálogo
+
+199
+00:08:34,000 --> 00:08:39,120
+resulto y le vamos a poner en una
+
+200
+00:08:39,120 --> 00:08:40,760
+instancia la cual yo le llamaré
+
+201
+00:08:40,760 --> 00:08:44,980
+resultado entonces instanciamos el
+
+202
+00:08:44,980 --> 00:08:47,940
+diálogo resulto el diálogo resulto
+
+203
+00:08:49,440 --> 00:08:51,360
+antes de factuarse la operación de
+
+204
+00:08:51,360 --> 00:08:53,440
+que se elimine completamente
+
+205
+00:08:53,440 --> 00:08:56,140
+nuestro registro antes de ello
+
+206
+00:08:57,400 --> 00:08:59,740
+tiene que haber un formulario que
+
+207
+00:08:59,740 --> 00:09:02,500
+tiene que preguntarnos cuál es la
+
+208
+00:09:02,500 --> 00:09:05,860
+respuesta que el usuario va a
+
+209
+00:09:05,860 --> 00:09:07,960
+hacer a afectar o va a ser cancelar
+
+210
+00:09:07,960 --> 00:09:10,020
+entonces tenemos que llamar ese
+
+211
+00:09:10,020 --> 00:09:11,820
+formular cuál es ese formulario el
+
+212
+00:09:11,820 --> 00:09:14,600
+formulario de información entonces
+
+213
+00:09:14,600 --> 00:09:17,420
+vamos a decirle que el formulario
+
+214
+00:09:17,420 --> 00:09:19,220
+de información vamos a instanciar
+
+215
+00:09:19,220 --> 00:09:22,180
+ese formulario y como sabrás me va
+
+216
+00:09:22,180 --> 00:09:24,400
+a pedir un parámetro que es string
+
+217
+00:09:24,400 --> 00:09:27,140
+este parámetro es el que se va a
+
+218
+00:09:27,140 --> 00:09:29,540
+ver prácticamente en el formulario
+
+219
+00:09:29,540 --> 00:09:31,380
+de notificación y cualquier que sea
+
+220
+00:09:31,380 --> 00:09:33,220
+ese mensaje yo le voy a poner
+
+221
+00:09:33,220 --> 00:09:44,900
+este mensaje y bueno aquí estamos
+
+222
+00:09:44,900 --> 00:09:48,000
+instanciando el formulario pero aún
+
+223
+00:09:48,000 --> 00:09:50,320
+no lo estamos llamando aún no lo
+
+224
+00:09:50,320 --> 00:09:52,040
+estamos llamando pero cuando lo
+
+225
+00:09:52,040 --> 00:09:54,040
+llamemos va a tener el mensaje de
+
+226
+00:09:54,040 --> 00:09:56,660
+aquí personalizado en el label que
+
+227
+00:09:56,660 --> 00:09:59,080
+bueno que tú ya sabes que está aquí
+
+228
+00:09:59,080 --> 00:10:01,240
+para llamarlo tú sabes que tenemos
+
+229
+00:10:01,240 --> 00:10:04,160
+que poner nuestra instancia y como
+
+230
+00:10:04,160 --> 00:10:04,800
+es un diálogo
+
+231
+00:10:04,800 --> 00:10:06,400
+un formulario de diálogo entonces
+
+232
+00:10:06,400 --> 00:10:06,900
+tenemos que
+
+233
+00:10:06,900 --> 00:10:09,280
+ponerle show diálogo aquí ya lo
+
+234
+00:10:09,280 --> 00:10:10,960
+estaríamos llamando pero nosotros
+
+235
+00:10:10,960 --> 00:10:12,600
+tenemos que asignarle
+
+236
+00:10:13,320 --> 00:10:14,140
+lo que
+
+237
+00:10:14,140 --> 00:10:16,420
+adentro de este diálogo va a ser
+
+238
+00:10:16,420 --> 00:10:18,320
+nuestra respuesta entonces
+
+239
+00:10:18,320 --> 00:10:19,660
+lo único que tendríamos
+
+240
+00:10:19,660 --> 00:10:20,640
+que hacerlo con ese
+
+241
+00:10:20,640 --> 00:10:22,700
+botón de asectar y cancelar para
+
+242
+00:10:22,700 --> 00:10:24,820
+que tenga una interacción con mi
+
+243
+00:10:24,820 --> 00:10:26,980
+diálogo resulta sería almacenar
+
+244
+00:10:26,980 --> 00:10:29,020
+la respuesta en este resultado
+
+245
+00:10:29,020 --> 00:10:31,020
+entonces cualquier cosa que yo
+
+246
+00:10:31,020 --> 00:10:33,720
+pongo acá como ok o cancelar va a
+
+247
+00:10:33,720 --> 00:10:35,780
+estar almacenado en mi resultado
+
+248
+00:10:35,780 --> 00:10:38,240
+aquí recién de lo que yo elija va a
+
+249
+00:10:38,240 --> 00:10:40,120
+ver el siguiente código entonces
+
+250
+00:10:40,120 --> 00:10:49,500
+yo digo sí mi resultado es igual al
+
+251
+00:10:49,500 --> 00:10:54,360
+diálogo punto ok entonces quiero
+
+252
+00:10:54,360 --> 00:10:56,920
+que se efectue obviamente todo lo
+
+253
+00:10:56,920 --> 00:10:59,260
+que está aquí y aquí mismo puedo
+
+254
+00:10:59,260 --> 00:11:02,060
+llamar mi frm suces porque se ha
+
+255
+00:11:02,060 --> 00:11:03,900
+eliminado correctamente entonces
+
+256
+00:11:03,900 --> 00:11:07,640
+puedo decir frm suces llamó un
+
+257
+00:11:07,640 --> 00:11:09,940
+método con firmación 4 y le pongo
+
+258
+00:11:10,900 --> 00:11:13,840
+el mensaje eliminado
+
+259
+00:11:17,720 --> 00:11:18,760
+copiaría lo de
+
+260
+00:11:18,760 --> 00:11:19,160
+acá
+
+261
+00:11:23,860 --> 00:11:26,200
+y sólo le doy si hay un error
+
+262
+00:11:26,200 --> 00:11:30,320
+pues mi parámetro x y bueno esto ya
+
+263
+00:11:30,320 --> 00:11:31,280
+no lo tendría
+
+264
+00:11:32,420 --> 00:11:33,640
+entonces explico de
+
+265
+00:11:33,640 --> 00:11:35,240
+nuevo nosotros tenemos que tener
+
+266
+00:11:35,240 --> 00:11:38,260
+una interacción con el mensaje o
+
+267
+00:11:38,260 --> 00:11:40,140
+con la opción que vamos a dar puede
+
+268
+00:11:40,140 --> 00:11:42,260
+ser un botón de ok o un botón
+
+269
+00:11:42,260 --> 00:11:44,940
+de cancelar esos botones ya están
+
+270
+00:11:44,940 --> 00:11:46,160
+programados como puedes
+
+271
+00:11:46,160 --> 00:11:47,940
+darte cuenta le he puesto aquí
+
+272
+00:11:49,240 --> 00:11:49,880
+ahora
+
+273
+00:11:49,880 --> 00:11:50,640
+cualquier opción
+
+274
+00:11:50,640 --> 00:11:52,100
+que nosotros elijamos tenemos
+
+275
+00:11:52,100 --> 00:11:52,980
+que almacenarlos
+
+276
+00:11:52,980 --> 00:11:54,480
+tenemos que almacenarlos en una
+
+277
+00:11:54,480 --> 00:11:56,180
+instancia pero insistancia debe ser
+
+278
+00:11:56,180 --> 00:11:58,020
+del mismo diálogo resulta es por
+
+279
+00:11:58,020 --> 00:11:59,740
+eso que hemos hecho esto de aquí
+
+280
+00:11:59,740 --> 00:12:02,200
+ahora tenemos esta instancia de acá
+
+281
+00:12:02,200 --> 00:12:05,620
+esta instancia de acá que necesita
+
+282
+00:12:05,620 --> 00:12:08,460
+una respuesta de esa misma opción
+
+283
+00:12:08,460 --> 00:12:10,180
+que nosotros le vamos a brindar en
+
+284
+00:12:10,180 --> 00:12:12,540
+dicho formulario obviamente nuestro
+
+285
+00:12:12,540 --> 00:12:14,580
+formulario de donde va a salir esa
+
+286
+00:12:14,580 --> 00:12:16,680
+respuesta va a ser de frm
+
+287
+00:12:16,680 --> 00:12:18,780
+información en el cual le estamos
+
+288
+00:12:18,780 --> 00:12:22,480
+instanciando un frm le decimos que
+
+289
+00:12:22,480 --> 00:12:24,100
+gracias a esta instancia vamos a
+
+290
+00:12:24,100 --> 00:12:25,420
+abrir ese formulario
+
+291
+00:12:25,420 --> 00:12:27,700
+y dependiendo de la opción que
+
+292
+00:12:27,700 --> 00:12:28,480
+nosotros elijamos
+
+293
+00:12:28,480 --> 00:12:30,400
+ahí recién vamos al nacional el
+
+294
+00:12:30,400 --> 00:12:33,220
+resultado ahora si es el resultado
+
+295
+00:12:33,220 --> 00:12:37,440
+es igual a ok entonces si es ok
+
+296
+00:12:37,440 --> 00:12:40,000
+nosotros estamos aceptando eliminar
+
+297
+00:12:40,000 --> 00:12:42,240
+ese registro entonces si aceptamos
+
+298
+00:12:42,240 --> 00:12:44,720
+vamos a eliminar ese registro y si
+
+299
+00:12:44,720 --> 00:12:47,180
+está eliminado bueno va a salir el
+
+300
+00:12:47,180 --> 00:12:49,320
+formulario de confirmación de suces
+
+301
+00:12:49,320 --> 00:12:51,560
+con el mensaje que se ha eliminado
+
+302
+00:12:51,560 --> 00:12:54,420
+y pues si cancelamos bueno el
+
+303
+00:12:54,420 --> 00:12:56,320
+formulario de información se
+
+304
+00:12:56,320 --> 00:12:58,740
+ocultará el usuario seguirá usando
+
+305
+00:12:58,740 --> 00:13:00,660
+el sistema normalmente y bueno
+
+306
+00:13:00,660 --> 00:13:02,320
+vamos a probarlo a ver si está bien
+
+307
+00:13:02,320 --> 00:13:05,180
+entonces vamos a iniciar y entonces
+
+308
+00:13:05,180 --> 00:13:07,200
+estamos aquí vamos a agregar un
+
+309
+00:13:07,200 --> 00:13:10,180
+nuevo producto yo voy a poner no sé
+
+310
+00:13:10,180 --> 00:13:13,540
+voy a poner una nueva marca voy a
+
+311
+00:13:13,540 --> 00:13:15,720
+poner forte voy a poner
+
+312
+00:13:15,720 --> 00:13:19,120
+para candados y más y bueno voy a
+
+313
+00:13:19,120 --> 00:13:21,640
+guardar al guardar me va a decir
+
+314
+00:13:21,640 --> 00:13:23,060
+guardado bueno eso ya sabemos
+
+315
+00:13:24,100 --> 00:13:24,660
+y
+
+316
+00:13:24,660 --> 00:13:27,200
+bueno voy a eliminar este mismo
+
+317
+00:13:27,200 --> 00:13:30,020
+producto si pongo eliminar me va a
+
+318
+00:13:30,020 --> 00:13:31,720
+salir mi mensaje de notificación
+
+319
+00:13:32,320 --> 00:13:33,000
+va a salir
+
+320
+00:13:33,000 --> 00:13:33,960
+mi mensaje de notificación
+
+321
+00:13:33,960 --> 00:13:35,820
+con el mensaje programado que
+
+322
+00:13:35,820 --> 00:13:37,880
+le hemos puesto me va a decir pense
+
+323
+00:13:37,880 --> 00:13:39,240
+bien la opción que va a elegir el
+
+324
+00:13:39,240 --> 00:13:41,040
+hija cuidadosamente si yo pongo
+
+325
+00:13:41,040 --> 00:13:45,040
+cancelar no pasa nada no se elimina
+
+326
+00:13:45,040 --> 00:13:47,900
+mi registro ahora si pongo eliminar
+
+327
+00:13:47,900 --> 00:13:50,020
+de nuevo y si quiero eliminar el
+
+328
+00:13:50,020 --> 00:13:54,140
+registro vamos a ver qué sucede me
+
+329
+00:13:54,140 --> 00:13:56,940
+sale mi notificación que bueno que
+
+330
+00:13:56,940 --> 00:14:00,260
+ya esté eliminado y ahí recién si
+
+331
+00:14:00,260 --> 00:14:02,060
+yo pongo a aceptar se verá
+
+332
+00:14:02,060 --> 00:14:04,840
+qué mi registro se ha eliminado
+
+333
+00:14:04,840 --> 00:14:07,280
+correctamente entonces así hemos
+
+334
+00:14:07,280 --> 00:14:10,220
+acabado nuestras dos partes de las
+
+335
+00:14:10,220 --> 00:14:11,280
+notificaciones tanto
+
+336
+00:14:11,280 --> 00:14:14,340
+como confirmación cuando queremos
+
+337
+00:14:14,340 --> 00:14:16,440
+aceptar algo o tanto de una
+
+338
+00:14:16,440 --> 00:14:18,040
+notificación de eliminado cuando
+
+339
+00:14:18,040 --> 00:14:19,380
+queremos darle la oportunidad al
+
+340
+00:14:19,380 --> 00:14:21,700
+que maneja el sistema si queremos
+
+341
+00:14:21,700 --> 00:14:22,840
+eliminar o
+
+342
+00:14:22,840 --> 00:14:25,040
+no un registro espero que me hayan
+
+343
+00:14:25,040 --> 00:14:26,120
+entendido y bueno no
+
+344
+00:14:26,120 --> 00:14:26,920
+vemos en la
+
+345
+00:14:26,920 --> 00:14:26,920
+próxima
+
+346
+00:14:26,920 --> 00:14:28,240
+clase que va a ser el diseño
+
+347
+00:14:28,240 --> 00:14:28,840
+completo del
+
+348
+00:14:28,840 --> 00:14:30,220
+dashboard y bueno nos vemos
+

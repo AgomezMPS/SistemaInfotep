@@ -1,0 +1,2148 @@
+1
+00:00:08,300 --> 00:00:10,180
+Hola amigos como están hoy vamos
+
+2
+00:00:10,180 --> 00:00:12,220
+a ver bueno la última parte de
+
+3
+00:00:12,220 --> 00:00:14,160
+nuestro mantenimiento de productos
+
+4
+00:00:14,160 --> 00:00:16,480
+y es que lo único que nos falta es
+
+5
+00:00:16,480 --> 00:00:17,040
+ver todos
+
+6
+00:00:17,040 --> 00:00:19,520
+los totales si quieres ver los
+
+7
+00:00:19,520 --> 00:00:20,700
+totales bueno en la parte
+
+8
+00:00:20,700 --> 00:00:23,480
+de SQL Server pues sólo tendríamos
+
+9
+00:00:23,480 --> 00:00:26,080
+que colocar estas partes de aquí
+
+10
+00:00:26,080 --> 00:00:28,200
+por ejemplo quiero contar cuántas
+
+11
+00:00:28,200 --> 00:00:30,020
+categorías hay en nuestra tabla de
+
+12
+00:00:30,020 --> 00:00:31,940
+categoría lo único que tengo poner
+
+13
+00:00:31,940 --> 00:00:34,040
+es quiero que me selecciones un
+
+14
+00:00:34,040 --> 00:00:35,800
+contador de todos los ideas
+
+15
+00:00:35,800 --> 00:00:39,640
+que tiene pues mi tabla categoría
+
+16
+00:00:39,640 --> 00:00:41,500
+quiero que a esa columna que
+
+17
+00:00:41,500 --> 00:00:43,260
+me bote ese contador quiero que se
+
+18
+00:00:43,260 --> 00:00:44,800
+toma el nombre de categorías
+
+19
+00:00:44,800 --> 00:00:47,980
+entonces lo mismo tendría que hacer
+
+20
+00:00:47,980 --> 00:00:50,460
+con bueno si selecciono cuántas
+
+21
+00:00:50,460 --> 00:00:53,820
+cuántas marcas quiero y cuántas más
+
+22
+00:00:53,820 --> 00:00:56,160
+hay cuántos productos también
+
+23
+00:00:56,160 --> 00:00:58,960
+hay actualmente en mi tabla de
+
+24
+00:00:58,960 --> 00:01:02,460
+productos vamos a ver qué me bota
+
+25
+00:01:02,460 --> 00:01:05,640
+este query esta consulta si oscuto
+
+26
+00:01:05,640 --> 00:01:09,140
+me bota 8 ha contado cuántos ideas
+
+27
+00:01:09,140 --> 00:01:13,160
+tengo mejor dicho ya sabes que los
+
+28
+00:01:13,160 --> 00:01:16,580
+ideas son diferentes no
+
+29
+00:01:16,580 --> 00:01:19,060
+son idénticos así que bueno me va a
+
+30
+00:01:19,060 --> 00:01:22,060
+contar cuántas categorías hay en mi
+
+31
+00:01:22,060 --> 00:01:24,280
+tabla de categoría y actualmente le
+
+32
+00:01:24,280 --> 00:01:26,740
+puesto que bueno me bote con una
+
+33
+00:01:26,740 --> 00:01:29,720
+columna llamada categorías y pues
+
+34
+00:01:29,720 --> 00:01:33,260
+me va a votar cuánto es el contador
+
+35
+00:01:33,260 --> 00:01:35,800
+de esa tabla y actualmente tengo 8
+
+36
+00:01:35,800 --> 00:01:38,720
+categorías ahora voy a hacerlo
+
+37
+00:01:38,720 --> 00:01:41,320
+mismo con la parte de mis marcas
+
+38
+00:01:41,320 --> 00:01:43,440
+así que voy a ejecutar y
+
+39
+00:01:43,440 --> 00:01:46,300
+actualmente tengo 7 marcas vamos a
+
+40
+00:01:46,300 --> 00:01:49,260
+ver cuántos productos tengo voy
+
+41
+00:01:49,260 --> 00:01:51,720
+a ejecutar y actualmente tengo 9
+
+42
+00:01:51,720 --> 00:01:56,120
+productos si quiero sumar una parte
+
+43
+00:01:56,120 --> 00:01:58,740
+bueno ya sea obviamente no este
+
+44
+00:01:58,740 --> 00:02:02,340
+datos enteros pues digo no quiero
+
+45
+00:02:02,340 --> 00:02:06,000
+que selecciones una suma una suma
+
+46
+00:02:06,000 --> 00:02:08,480
+de mi columna stock que tiene
+
+47
+00:02:08,480 --> 00:02:10,560
+la tabla de productos y obviamente
+
+48
+00:02:10,560 --> 00:02:11,400
+quiero que me las
+
+49
+00:02:11,400 --> 00:02:11,660
+sumes
+
+50
+00:02:11,660 --> 00:02:13,220
+entonces ya no sería cont sería
+
+51
+00:02:13,220 --> 00:02:15,440
+la palabra
+
+52
+00:02:15,440 --> 00:02:19,260
+clave sum entonces digo quiero que
+
+53
+00:02:19,260 --> 00:02:21,840
+me sumes al seleccionar de mi tabla
+
+54
+00:02:21,840 --> 00:02:25,260
+columna stock de mi tabla
+
+55
+00:02:25,260 --> 00:02:27,840
+de productos y bueno quiero que la
+
+56
+00:02:27,840 --> 00:02:30,600
+columna se llama total de productos
+
+57
+00:02:30,600 --> 00:02:35,400
+entonces ahora si yo ejecuto este
+
+58
+00:02:35,400 --> 00:02:35,760
+query
+
+59
+00:02:37,160 --> 00:02:39,420
+vamos a ver que actualmente
+
+60
+00:02:39,420 --> 00:02:41,720
+todo mi stock sumado de mis
+
+61
+00:02:41,720 --> 00:02:45,520
+productos equivalen a 670 entonces
+
+62
+00:02:45,520 --> 00:02:48,020
+así es como podemos hacer consultas
+
+63
+00:02:48,020 --> 00:02:50,780
+sencillas para obtener bueno
+
+64
+00:02:50,780 --> 00:02:53,320
+la cantidad de categorías marcas y
+
+65
+00:02:53,320 --> 00:02:55,480
+productos y también la categoría de
+
+66
+00:02:55,480 --> 00:02:57,360
+este la suma total es de productos
+
+67
+00:02:57,360 --> 00:02:59,000
+que tenemos en nuestro
+
+68
+00:02:59,000 --> 00:03:02,420
+mantenimiento de productos pero en
+
+69
+00:03:02,420 --> 00:03:04,200
+este caso tenemos que crear un
+
+70
+00:03:04,200 --> 00:03:06,360
+procedimiento almacenado como ya
+
+71
+00:03:06,360 --> 00:03:10,320
+sabemos entonces en esta parte es
+
+72
+00:03:10,320 --> 00:03:13,040
+create sólo que puse altar ya sabes
+
+73
+00:03:13,040 --> 00:03:13,880
+altar es para
+
+74
+00:03:14,980 --> 00:03:15,880
+actualizar tu
+
+75
+00:03:15,880 --> 00:03:18,480
+procedimiento almacenado entonces
+
+76
+00:03:18,480 --> 00:03:19,800
+puse que
+
+77
+00:03:19,800 --> 00:03:21,480
+bueno voy a crear un procedimiento
+
+78
+00:03:21,480 --> 00:03:22,440
+almacenado que lo voy
+
+79
+00:03:22,440 --> 00:03:25,640
+a llamar sumar y productos y pues
+
+80
+00:03:25,640 --> 00:03:33,960
+voy a crear cuatro para metros de
+
+81
+00:03:33,960 --> 00:03:35,200
+las cuales voy a utilizar cuando
+
+82
+00:03:35,200 --> 00:03:38,860
+esté en mi capa de datos y esas
+
+83
+00:03:38,860 --> 00:03:41,300
+esos para metros van a ser de
+
+84
+00:03:41,300 --> 00:03:44,240
+salida van a ser output porque van
+
+85
+00:03:44,240 --> 00:03:47,080
+a ser de salida porque va a ver
+
+86
+00:03:47,080 --> 00:03:49,220
+un para metro el cual va a recibir
+
+87
+00:03:49,220 --> 00:03:52,460
+estos estos parámetros para que
+
+88
+00:03:52,460 --> 00:03:55,740
+podamos alojar el conteo y la suma
+
+89
+00:03:55,740 --> 00:03:59,140
+tanto del cual le hemos puesto en
+
+90
+00:03:59,140 --> 00:04:02,580
+estas consultas entonces le puesto
+
+91
+00:04:02,580 --> 00:04:04,880
+los parámetros de total categoría
+
+92
+00:04:04,880 --> 00:04:06,720
+total de marcas total de productos
+
+93
+00:04:06,720 --> 00:04:08,540
+y suma de stock en la cual quiero
+
+94
+00:04:08,540 --> 00:04:10,460
+que se establezca que mi parámetro
+
+95
+00:04:10,460 --> 00:04:14,000
+de total de categoría pues sea el
+
+96
+00:04:14,000 --> 00:04:16,900
+conteo de todas las categorías que
+
+97
+00:04:16,900 --> 00:04:17,640
+hay actualmente
+
+98
+00:04:17,640 --> 00:04:18,680
+en mi mantenimiento de
+
+99
+00:04:18,680 --> 00:04:20,500
+productos lo mismo con el total
+
+100
+00:04:20,500 --> 00:04:22,180
+de marcas lo mismo con el total de
+
+101
+00:04:22,180 --> 00:04:26,460
+productos y lo mismo con el sumario
+
+102
+00:04:26,460 --> 00:04:28,460
+de stock no o sea la suma
+
+103
+00:04:28,460 --> 00:04:32,020
+de todo mi stock entonces sólo lo
+
+104
+00:04:32,020 --> 00:04:33,420
+ejecutamos y pues ya tenemos
+
+105
+00:04:33,420 --> 00:04:35,440
+nuestro procedimiento almacenado
+
+106
+00:04:35,440 --> 00:04:38,220
+que tiene todas estas función lo
+
+107
+00:04:38,220 --> 00:04:41,020
+único que he hecho es agregar los
+
+108
+00:04:41,020 --> 00:04:42,700
+ghettens anteriores que necesitamos
+
+109
+00:04:42,700 --> 00:04:45,940
+aquí tú si quieres lo puedes poner
+
+110
+00:04:45,940 --> 00:04:47,680
+en entero no hay ningún problema
+
+111
+00:04:47,680 --> 00:04:49,460
+pero acuérdate que vamos a tener
+
+112
+00:04:49,460 --> 00:04:52,600
+que convertirlo a un string porque
+
+113
+00:04:52,600 --> 00:04:56,120
+al final obviamente las partes de
+
+114
+00:04:56,120 --> 00:04:58,400
+aquí las partes que tenemos
+
+115
+00:04:58,400 --> 00:05:00,720
+acuérdate que son labels los labels
+
+116
+00:05:00,720 --> 00:05:03,380
+las cajas de texto que son labels
+
+117
+00:05:03,380 --> 00:05:05,680
+obviamente tenemos que volver las
+
+118
+00:05:05,680 --> 00:05:08,860
+string así que para lleno hacer esa
+
+119
+00:05:08,860 --> 00:05:15,260
+parte pues de una vez lo ponemos en
+
+120
+00:05:15,260 --> 00:05:17,840
+string como puedes ver aquí
+
+121
+00:05:17,840 --> 00:05:22,220
+y lo único que tenemos que hacer
+
+122
+00:05:22,220 --> 00:05:22,560
+como ya
+
+123
+00:05:22,560 --> 00:05:25,960
+sabes es hacerlo con los ghettens
+
+124
+00:05:25,960 --> 00:05:28,140
+anteriores como puedes ver están
+
+125
+00:05:28,140 --> 00:05:31,340
+aquí y eso es todo lo que tenemos
+
+126
+00:05:31,340 --> 00:05:33,460
+que hacer en la capa de entidades
+
+127
+00:05:33,460 --> 00:05:35,900
+ahora en la capa de datos como
+
+128
+00:05:35,900 --> 00:05:41,040
+puedes ver acá ya tengo todo lo
+
+129
+00:05:41,040 --> 00:05:43,520
+relacionado a esa parte entonces
+
+130
+00:05:43,520 --> 00:05:46,420
+lo único que cree fue un método de
+
+131
+00:05:46,420 --> 00:05:48,940
+show totales o sea que me muestre
+
+132
+00:05:48,940 --> 00:05:51,540
+todos los totales con un parámetro
+
+133
+00:05:51,540 --> 00:05:53,580
+bueno que viene de nuestra capa de
+
+134
+00:05:53,580 --> 00:05:55,620
+entidad y pues con una variada del
+
+135
+00:05:55,620 --> 00:05:58,200
+producto que me va o sea
+
+136
+00:05:58,200 --> 00:06:01,900
+me va a traer todos las propiedades
+
+137
+00:06:01,900 --> 00:06:03,460
+privadas que como momento les
+
+138
+00:06:03,460 --> 00:06:06,300
+puse a nuestra en nuestra capa de
+
+139
+00:06:06,300 --> 00:06:10,300
+entidad y me va a traer bueno
+
+140
+00:06:10,300 --> 00:06:11,880
+acá yo les he puesto que ya son
+
+141
+00:06:11,880 --> 00:06:15,300
+públicas entonces obviamente me la
+
+142
+00:06:15,300 --> 00:06:17,500
+va a traer en algún momento en toda
+
+143
+00:06:17,500 --> 00:06:19,140
+esta parte de aquí entonces
+
+144
+00:06:19,140 --> 00:06:21,180
+lo primero que tenemos que hacer es
+
+145
+00:06:21,180 --> 00:06:23,380
+como siempre lo hemos hecho tenemos
+
+146
+00:06:23,380 --> 00:06:25,520
+que crear bueno con el objeto
+
+147
+00:06:25,520 --> 00:06:28,720
+instanciamos ese huele común para
+
+148
+00:06:28,720 --> 00:06:32,240
+obtener pues primero decirle que
+
+149
+00:06:32,240 --> 00:06:33,240
+vamos a usar un procedimiento
+
+150
+00:06:33,240 --> 00:06:34,840
+almacenado un procedimiento
+
+151
+00:06:34,840 --> 00:06:36,660
+almacenado el cual segundo
+
+152
+00:06:36,660 --> 00:06:39,240
+parámetro le damos la conexión y le
+
+153
+00:06:39,240 --> 00:06:41,540
+decimos que bueno que es un tipo de
+
+154
+00:06:41,540 --> 00:06:45,920
+esto procedur luego vamos a decirle
+
+155
+00:06:45,920 --> 00:06:48,420
+que vamos a tener
+
+156
+00:06:49,240 --> 00:06:49,900
+agregarlos
+
+157
+00:06:49,900 --> 00:06:51,720
+los parámetros los parámetros que
+
+158
+00:06:51,720 --> 00:06:52,900
+tenemos actualmente en
+
+159
+00:06:52,900 --> 00:06:55,160
+nuestro SQL Server recuerda
+
+160
+00:06:55,620 --> 00:06:56,920
+que es un parámetro
+
+161
+00:06:56,920 --> 00:06:58,840
+de salida un parámetro de salida
+
+162
+00:06:58,840 --> 00:07:02,920
+que van a necesitar después que
+
+163
+00:07:02,920 --> 00:07:05,600
+nosotros le agregemos dicho
+
+164
+00:07:05,600 --> 00:07:08,460
+parámetro el cual va a venir de
+
+165
+00:07:08,460 --> 00:07:10,600
+nuestra capa de entidad lo primero
+
+166
+00:07:10,600 --> 00:07:12,980
+que hacemos es instanciar ese cual
+
+167
+00:07:12,980 --> 00:07:16,040
+para meter para decirle que por
+
+168
+00:07:16,040 --> 00:07:17,780
+intermedio de este objeto vamos a
+
+169
+00:07:17,780 --> 00:07:20,060
+decirle que la dirección de ese
+
+170
+00:07:20,060 --> 00:07:23,200
+parámetro va a ser un output como
+
+171
+00:07:23,200 --> 00:07:24,060
+lo tenemos aquí
+
+172
+00:07:24,060 --> 00:07:25,880
+como puede hacerte cuento
+
+173
+00:07:26,720 --> 00:07:29,260
+pero antes de eso también le
+
+174
+00:07:29,260 --> 00:07:30,960
+pasamos el parámetro que
+
+175
+00:07:30,960 --> 00:07:34,960
+equivale a ese parámetro entonces
+
+176
+00:07:35,860 --> 00:07:36,600
+como puedes
+
+177
+00:07:36,600 --> 00:07:38,460
+ver total de categoría le he puesto
+
+178
+00:07:38,460 --> 00:07:41,600
+aquí total de categoría y por
+
+179
+00:07:41,600 --> 00:07:42,900
+segundo le pasamos
+
+180
+00:07:43,370 --> 00:07:45,960
+un entero ya
+
+181
+00:07:45,960 --> 00:07:50,380
+que nuestro parámetro es entero lo
+
+182
+00:07:50,380 --> 00:07:51,620
+mismo hacemos con los demás
+
+183
+00:07:51,620 --> 00:07:53,740
+parámetros que el hemos colocado en
+
+184
+00:07:53,740 --> 00:07:55,760
+el SQL Server como puedes darte
+
+185
+00:07:55,760 --> 00:07:57,520
+cuenta total de marcas total de
+
+186
+00:07:57,520 --> 00:08:00,680
+productos y el sumario ahora vamos
+
+187
+00:08:00,680 --> 00:08:03,260
+a agregarle esos parámetros a esos
+
+188
+00:08:03,260 --> 00:08:05,140
+parámetros que les corresponden
+
+189
+00:08:05,140 --> 00:08:08,870
+gracias a los trojetos de SQL
+
+190
+00:08:08,870 --> 00:08:11,150
+Comand de SMD vamos a agregar
+
+191
+00:08:11,150 --> 00:08:12,830
+esos parámetros que cada uno que
+
+192
+00:08:12,830 --> 00:08:14,450
+corresponden luego vamos a
+
+193
+00:08:14,450 --> 00:08:17,050
+ejecutarla consulta y luego vamos a
+
+194
+00:08:17,050 --> 00:08:18,810
+hacer vamos a entregarle el
+
+195
+00:08:18,810 --> 00:08:22,050
+parámetro que está ligado a este a
+
+196
+00:08:22,050 --> 00:08:24,770
+este objeto que viene desde el
+
+197
+00:08:24,770 --> 00:08:27,570
+SQL Server entonces les decimos que
+
+198
+00:08:27,570 --> 00:08:29,290
+nuestro producto de total
+
+199
+00:08:29,290 --> 00:08:30,970
+categorías que viene de nuestra
+
+200
+00:08:30,970 --> 00:08:32,670
+capa de entidad es va a
+
+201
+00:08:32,670 --> 00:08:35,410
+ser asignado a pues al parámetro de
+
+202
+00:08:35,410 --> 00:08:38,570
+total categoría que está en nuestra
+
+203
+00:08:38,570 --> 00:08:40,990
+base de datos que no está en
+
+204
+00:08:40,990 --> 00:08:44,070
+nuestro SQL Server aquí es donde le
+
+205
+00:08:44,070 --> 00:08:46,190
+damos o le entregamos el parámetro
+
+206
+00:08:46,190 --> 00:08:48,430
+de salida como puedes darte cuenta
+
+207
+00:08:48,430 --> 00:08:51,990
+aquí como va a venir en va a venir
+
+208
+00:08:51,990 --> 00:08:53,570
+el número pues le decimos que
+
+209
+00:08:53,570 --> 00:08:57,110
+tomé el valor y que devuelve en una
+
+210
+00:08:57,110 --> 00:08:59,190
+cadena que nos nos devuelva en una
+
+211
+00:08:59,190 --> 00:09:01,850
+cadena eso lo hacemos igual de la
+
+212
+00:09:01,850 --> 00:09:04,250
+misma forma con cada uno de ellos
+
+213
+00:09:04,250 --> 00:09:06,650
+vamos a cerrar la conexión y pues
+
+214
+00:09:06,650 --> 00:09:09,090
+eso sería todo pues aquí ya estamos
+
+215
+00:09:09,090 --> 00:09:12,810
+ligando cada parte de nuestro
+
+216
+00:09:12,810 --> 00:09:15,230
+objeto de entidades lo que le hemos
+
+217
+00:09:15,230 --> 00:09:16,890
+colocado en los guedes dan cedars
+
+218
+00:09:16,890 --> 00:09:20,410
+con el parámetro que en SQL
+
+219
+00:09:20,410 --> 00:09:22,810
+Server nos pedía porque si nosotros
+
+220
+00:09:22,810 --> 00:09:24,750
+ejecuentamos este procedimiento
+
+221
+00:09:24,750 --> 00:09:27,190
+almacenado pues nos va a decir que
+
+222
+00:09:27,190 --> 00:09:29,530
+bueno en la función de sumar
+
+223
+00:09:29,530 --> 00:09:31,910
+y products pues espera un parámetro
+
+224
+00:09:31,910 --> 00:09:33,110
+de total de categoría
+
+225
+00:09:33,110 --> 00:09:36,330
+como puedes darte cuenta aquí falla
+
+226
+00:09:36,330 --> 00:09:39,110
+supuestamente pero es que cada
+
+227
+00:09:39,110 --> 00:09:41,670
+uno de estos parámetros necesita un
+
+228
+00:09:41,670 --> 00:09:44,410
+parámetro de salida que nosotros
+
+229
+00:09:44,410 --> 00:09:46,570
+tenemos que alojar y aquí es donde
+
+230
+00:09:46,570 --> 00:09:48,910
+nosotros le damos la referencia
+
+231
+00:09:48,910 --> 00:09:52,430
+con el producto total de categorías
+
+232
+00:09:52,430 --> 00:09:54,610
+producto tal brance que viene de
+
+233
+00:09:54,610 --> 00:09:57,090
+los guedes ansedars como ya le se
+
+234
+00:09:57,090 --> 00:09:59,010
+acaba de decir entonces eso es todo
+
+235
+00:09:59,010 --> 00:10:00,350
+lo que nosotros tenemos que hacer
+
+236
+00:10:00,350 --> 00:10:04,430
+en la parte de nuestra capa de
+
+237
+00:10:04,430 --> 00:10:06,250
+datos ahora vamos a ir a la capa de
+
+238
+00:10:06,250 --> 00:10:07,790
+negocio que es prácticamente
+
+239
+00:10:07,790 --> 00:10:10,230
+lo mismo que hicimos con los demás
+
+240
+00:10:10,230 --> 00:10:13,870
+métodos sólo hacemos un método
+
+241
+00:10:13,870 --> 00:10:15,890
+bueno yo le estoy poniendo un
+
+242
+00:10:15,890 --> 00:10:18,330
+sumario de totales un resumen de
+
+243
+00:10:18,330 --> 00:10:21,730
+totales y pues le doy el parámetro
+
+244
+00:10:21,730 --> 00:10:24,510
+de nuestra capacidad de edad y pues
+
+245
+00:10:24,510 --> 00:10:27,350
+gracias al objeto de la capa de
+
+246
+00:10:27,350 --> 00:10:29,630
+datos pues traigo ese método
+
+247
+00:10:29,630 --> 00:10:33,350
+el cual he hecho anteriormente y le
+
+248
+00:10:33,350 --> 00:10:36,390
+paso el objeto de producto de
+
+249
+00:10:36,390 --> 00:10:39,910
+entidades entonces ahora vamos a ir
+
+250
+00:10:39,910 --> 00:10:42,990
+a llevarlo a nuestra capa de
+
+251
+00:10:42,990 --> 00:10:45,850
+presentación y quería mostrarte de
+
+252
+00:10:45,850 --> 00:10:46,850
+que estos
+
+253
+00:10:46,850 --> 00:10:48,710
+labels ya tienen su propio nombre
+
+254
+00:10:51,550 --> 00:10:52,850
+como puedes darte
+
+255
+00:10:52,850 --> 00:10:56,590
+cuenta si yo pongo aquí en
+
+256
+00:10:56,590 --> 00:10:59,350
+propiedades pues le puesto a cada
+
+257
+00:10:59,350 --> 00:11:00,070
+uno
+
+258
+00:11:00,870 --> 00:11:03,090
+un nombre le puesto le vuelve
+
+259
+00:11:03,090 --> 00:11:06,050
+productos le volve de categorías le
+
+260
+00:11:06,050 --> 00:11:10,130
+vuelve marcas y también por último
+
+261
+00:11:11,310 --> 00:11:14,590
+label de total de esto así que
+
+262
+00:11:14,590 --> 00:11:16,610
+vamos a ver lo que vamos a hacer
+
+263
+00:11:16,610 --> 00:11:20,370
+con esos con esos labels entonces
+
+264
+00:11:20,370 --> 00:11:22,850
+vamos a ir al código y vamos a ir
+
+265
+00:11:22,850 --> 00:11:28,170
+acá donde dice donde he creado este
+
+266
+00:11:28,170 --> 00:11:30,530
+método este método de show total
+
+267
+00:11:30,530 --> 00:11:33,330
+que va a ser este show total bueno
+
+268
+00:11:33,330 --> 00:11:35,050
+este método de show total va a ser
+
+269
+00:11:35,050 --> 00:11:37,950
+como el de mostrar nuestra tabla de
+
+270
+00:11:37,950 --> 00:11:39,370
+productos va a ser como un
+
+271
+00:11:39,370 --> 00:11:43,090
+refrescador pues de todos de todos
+
+272
+00:11:43,090 --> 00:11:45,850
+lo que vayan vayan bueno si
+
+273
+00:11:45,850 --> 00:11:47,830
+guardamos un producto nuestra tabla
+
+274
+00:11:47,830 --> 00:11:50,770
+se va a ir actualizando es igual
+
+275
+00:11:50,770 --> 00:11:52,330
+con esto cada vez que nosotros
+
+276
+00:11:52,330 --> 00:11:54,090
+guardemos un producto pues
+
+277
+00:11:54,090 --> 00:11:57,050
+este método va a ser que nuestro el
+
+278
+00:11:57,050 --> 00:11:59,190
+número el número de de por ejemplo
+
+279
+00:11:59,190 --> 00:12:01,710
+si había ocho productos pues este
+
+280
+00:12:01,710 --> 00:12:05,810
+método actualiza esos esos cuantos
+
+281
+00:12:05,810 --> 00:12:07,550
+productos había no entonces si son
+
+282
+00:12:07,550 --> 00:12:09,590
+ocho pues se agrega uno va
+
+283
+00:12:09,590 --> 00:12:12,810
+a ser nueve entonces para hacer eso
+
+284
+00:12:12,810 --> 00:12:16,210
+tenemos que instanciar nuestro
+
+285
+00:12:16,210 --> 00:12:18,750
+nuestra capa de entidades de
+
+286
+00:12:18,750 --> 00:12:20,710
+productos y nuestra capa de negocio
+
+287
+00:12:20,710 --> 00:12:23,070
+como hemos visto anteriormente
+
+288
+00:12:23,070 --> 00:12:25,110
+ahora lo único que debemos hacer
+
+289
+00:12:25,110 --> 00:12:27,770
+es pues utilizar nuestra capa de
+
+290
+00:12:27,770 --> 00:12:30,830
+negocio y llamar al objeto y llamar
+
+291
+00:12:30,830 --> 00:12:34,190
+al método de resumen de totales el
+
+292
+00:12:34,190 --> 00:12:36,210
+cual contiene todas nuestras
+
+293
+00:12:36,210 --> 00:12:38,410
+entidades que vamos a estar
+
+294
+00:12:38,410 --> 00:12:40,790
+utilizando y que ellas están aquí
+
+295
+00:12:40,790 --> 00:12:42,530
+establecidas entonces lo único que
+
+296
+00:12:42,530 --> 00:12:43,990
+tenemos que hacer es decirle
+
+297
+00:12:43,990 --> 00:12:47,370
+que bueno en nuestro label de
+
+298
+00:12:47,370 --> 00:12:50,490
+categorías en la propiedad text
+
+299
+00:12:50,490 --> 00:12:53,670
+queremos decirle que nuestro jet
+
+300
+00:12:53,670 --> 00:12:56,070
+entidades ya contiene todo el total
+
+301
+00:12:56,070 --> 00:12:58,830
+de nuestras categorías y este se va
+
+302
+00:12:58,830 --> 00:13:00,770
+a lojar en el label de categorías
+
+303
+00:13:00,770 --> 00:13:03,570
+lo mismo va a ser con las demás
+
+304
+00:13:03,570 --> 00:13:06,290
+cajas de labels en el label de
+
+305
+00:13:06,290 --> 00:13:08,110
+marca su propiedad de text quiero
+
+306
+00:13:08,110 --> 00:13:11,750
+que se asigne al total de número de
+
+307
+00:13:11,750 --> 00:13:14,010
+marcas lo mismo con los productos
+
+308
+00:13:14,010 --> 00:13:16,350
+quiero que se asigne al total de
+
+309
+00:13:16,350 --> 00:13:19,170
+número de productos y quiero que al
+
+310
+00:13:19,170 --> 00:13:20,770
+final total desto
+
+311
+00:13:20,770 --> 00:13:22,230
+en la propiedad de text quiero
+
+312
+00:13:22,230 --> 00:13:23,170
+decir que se asigne
+
+313
+00:13:23,170 --> 00:13:25,050
+a mi objeto de entidades
+
+314
+00:13:25,050 --> 00:13:27,670
+que contiene el total de stock de
+
+315
+00:13:27,670 --> 00:13:30,370
+nuestros productos entonces aquí
+
+316
+00:13:30,370 --> 00:13:32,330
+ya tenemos todo nuestro productos
+
+317
+00:13:32,330 --> 00:13:36,010
+totales y ya están alojadas en
+
+318
+00:13:36,010 --> 00:13:38,870
+cada caja de labels o bueno en cada
+
+319
+00:13:38,870 --> 00:13:41,810
+label ya lo tenemos entonces para
+
+320
+00:13:41,810 --> 00:13:44,090
+que se muestre tenemos que llevarlo
+
+321
+00:13:44,090 --> 00:13:49,310
+arriba en la parte de iniciar los
+
+322
+00:13:49,310 --> 00:13:53,330
+componentes en la parte en la parte
+
+323
+00:13:53,330 --> 00:13:56,330
+en el cual contiene todo el inicio
+
+324
+00:13:56,330 --> 00:13:59,470
+de nuestros métodos que necesitamos
+
+325
+00:13:59,470 --> 00:14:02,090
+entonces no es la única forma aquí
+
+326
+00:14:02,090 --> 00:14:03,910
+en donde tenemos que llamar acuerda
+
+327
+00:14:03,910 --> 00:14:05,750
+que también tenemos que llamarlo
+
+328
+00:14:05,750 --> 00:14:08,430
+cuando por ejemplo llamemos al
+
+329
+00:14:08,430 --> 00:14:11,070
+botón del nuevo producto y pues el
+
+330
+00:14:11,070 --> 00:14:17,110
+nuevo producto nos va a mostrar el
+
+331
+00:14:17,110 --> 00:14:19,470
+formularo de un mantenimiento de
+
+332
+00:14:19,470 --> 00:14:22,230
+producto y cuando se guarde ya el
+
+333
+00:14:22,230 --> 00:14:24,390
+mantenimiento de producto un nuevo
+
+334
+00:14:24,390 --> 00:14:27,130
+producto y se cierre pues quiero
+
+335
+00:14:27,130 --> 00:14:28,930
+que al final cuando se cierre
+
+336
+00:14:28,930 --> 00:14:31,390
+así como me mostraba la tabla
+
+337
+00:14:31,390 --> 00:14:32,190
+actualizada pues
+
+338
+00:14:32,190 --> 00:14:33,970
+también quiero que me muestre los
+
+339
+00:14:33,970 --> 00:14:35,050
+datos actualizados
+
+340
+00:14:35,050 --> 00:14:37,310
+totales que hay arriba entonces
+
+341
+00:14:37,310 --> 00:14:39,510
+eso ocurre en el botón de nuevo
+
+342
+00:14:39,510 --> 00:14:41,610
+producto también ocurre cuando
+
+343
+00:14:41,610 --> 00:14:44,150
+eliminamos un producto lo tenemos
+
+344
+00:14:44,150 --> 00:14:46,010
+que agregar aquí acuerdote
+
+345
+00:14:47,390 --> 00:14:48,150
+y
+
+346
+00:14:48,150 --> 00:14:51,090
+también cuando editamos un producto
+
+347
+00:14:51,090 --> 00:14:55,510
+también en nuestro botón de
+
+348
+00:14:55,510 --> 00:14:57,730
+categoría ya sea si tú agregas una
+
+349
+00:14:57,730 --> 00:14:59,310
+nueva categoría pues también
+
+350
+00:14:59,310 --> 00:15:01,230
+llamemos este método para que se
+
+351
+00:15:01,230 --> 00:15:03,250
+refresque las categorías también
+
+352
+00:15:03,250 --> 00:15:05,310
+llamemos cuando agregamos una nueva
+
+353
+00:15:05,310 --> 00:15:07,010
+marca también queremos que hace
+
+354
+00:15:07,010 --> 00:15:09,650
+que se agregue un total de marcas
+
+355
+00:15:09,650 --> 00:15:11,670
+entonces lo mismo llamamos
+
+356
+00:15:11,670 --> 00:15:15,010
+aquí entonces vamos a iniciar como
+
+357
+00:15:15,010 --> 00:15:17,470
+puedes darte cuenta ya nuestras
+
+358
+00:15:17,470 --> 00:15:19,290
+labels que antes eran estáticas
+
+359
+00:15:19,290 --> 00:15:21,730
+pues ya contienen un número que
+
+360
+00:15:21,730 --> 00:15:24,750
+viene de nuestra SQL server en la
+
+361
+00:15:24,750 --> 00:15:26,230
+base de datos como puedes
+
+362
+00:15:26,230 --> 00:15:28,190
+darte cuenta actualmente tengo 9
+
+363
+00:15:28,190 --> 00:15:32,270
+productos tengo 8 categorías
+
+364
+00:15:33,270 --> 00:15:33,990
+y
+
+365
+00:15:33,990 --> 00:15:40,750
+tengo 7 marcas 1 2 3 4 5 6 y 7 como
+
+366
+00:15:40,750 --> 00:15:41,830
+puedes darte cuenta
+
+367
+00:15:41,830 --> 00:16:02,250
+actualmente en mis productos de los
+
+368
+00:16:04,690 --> 00:16:06,470
+Wincha y pongo
+
+369
+00:16:06,470 --> 00:16:11,050
+5 presíventa 6 el stop quiero que
+
+370
+00:16:11,050 --> 00:16:15,770
+sea de 20 y bueno le pongo que sea
+
+371
+00:16:15,770 --> 00:16:18,350
+de construcción que sea de marca
+
+372
+00:16:18,350 --> 00:16:20,330
+está li si guardamos bueno producto
+
+373
+00:16:20,330 --> 00:16:23,130
+guardado y pues como puede darte
+
+374
+00:16:23,130 --> 00:16:26,030
+cuenta se actualiza desde la base
+
+375
+00:16:26,030 --> 00:16:26,210
+de
+
+376
+00:16:26,210 --> 00:16:27,990
+datos como en tiempo real entonces
+
+377
+00:16:27,990 --> 00:16:29,310
+como puedes ver ya no es 9
+
+378
+00:16:29,310 --> 00:16:31,230
+sino 10 lo mismo pasaría
+
+379
+00:16:31,230 --> 00:16:33,510
+con categoría y marca entonces
+
+380
+00:16:33,510 --> 00:16:34,930
+prácticamente ya hemos terminado
+
+381
+00:16:34,930 --> 00:16:36,270
+todo nuestro mantenimiento de
+
+382
+00:16:36,270 --> 00:16:39,310
+productos ahora como un bueno
+
+383
+00:16:39,310 --> 00:16:41,910
+especial quiero mostrarte que en la
+
+384
+00:16:41,910 --> 00:16:45,910
+parte de nuestro botón Excel en la
+
+385
+00:16:45,910 --> 00:16:47,890
+parte de aquí vamos a ver que si le
+
+386
+00:16:47,890 --> 00:16:49,830
+doy doble click vamos a obtener
+
+387
+00:16:49,830 --> 00:16:51,790
+este código este código nos va a
+
+388
+00:16:51,790 --> 00:16:53,950
+mostrar o obtener todos nuestros
+
+389
+00:16:53,950 --> 00:16:57,070
+datos de nuestro data de data
+
+390
+00:16:57,070 --> 00:16:58,990
+grimil de nuestra tabla pues
+
+391
+00:16:59,850 --> 00:17:00,410
+va
+
+392
+00:17:00,410 --> 00:17:02,130
+conectar con excel y a la hora de
+
+393
+00:17:02,130 --> 00:17:03,910
+darle click al botón excel pues
+
+394
+00:17:03,910 --> 00:17:05,890
+vamos a ver nuestros registros ya
+
+395
+00:17:05,890 --> 00:17:08,550
+en el excel en tu caso sería la
+
+396
+00:17:08,550 --> 00:17:10,570
+capa de presentación va a salir a
+
+397
+00:17:10,570 --> 00:17:12,310
+referencias y va a agregar
+
+398
+00:17:12,310 --> 00:17:14,690
+una referencia va a agregar una
+
+399
+00:17:14,690 --> 00:17:16,150
+referencia que necesitas
+
+400
+00:17:16,150 --> 00:17:17,810
+capas uno de las tengas la verdad
+
+401
+00:17:17,810 --> 00:17:18,210
+que yo no
+
+402
+00:17:18,210 --> 00:17:22,030
+la tenía pero lo he agregado esa
+
+403
+00:17:22,030 --> 00:17:28,770
+referencia es Microsoft Office creo
+
+404
+00:17:28,770 --> 00:17:30,910
+que era bueno esta parte no es
+
+405
+00:17:30,910 --> 00:17:36,870
+lo que sí se fue vamos a ver este
+
+406
+00:17:36,870 --> 00:17:37,770
+tener esta parte de
+
+407
+00:17:37,770 --> 00:17:39,570
+aquí este es la referencia si llama
+
+408
+00:17:39,570 --> 00:17:40,030
+Microsoft
+
+409
+00:17:40,030 --> 00:17:43,570
+Office intero punto excel esta
+
+410
+00:17:43,570 --> 00:17:47,550
+referencia es la que debes tener no
+
+411
+00:17:47,550 --> 00:17:48,950
+estaba en la parte de las
+
+412
+00:17:48,950 --> 00:17:50,710
+referencias cuando la agregué pero
+
+413
+00:17:50,710 --> 00:17:52,910
+si fui a administrar package
+
+414
+00:17:52,910 --> 00:17:57,590
+natchet y pues aquí es donde busqué
+
+415
+00:17:57,590 --> 00:18:00,330
+esa referencia y lo único que hice
+
+416
+00:18:00,330 --> 00:18:03,370
+fue buscar y pues sólo lo que haces
+
+417
+00:18:03,370 --> 00:18:05,570
+es bueno aquí él lo tengo como
+
+418
+00:18:05,570 --> 00:18:10,390
+puedes darte cuenta escribir esta
+
+419
+00:18:10,390 --> 00:18:14,130
+referencia y pues aquí te vas a
+
+420
+00:18:14,130 --> 00:18:16,350
+ir para que tú la descargas a mí me
+
+421
+00:18:16,350 --> 00:18:18,170
+sale para eliminar porque yo ya lo
+
+422
+00:18:18,170 --> 00:18:19,910
+tengo obviamente pero tú te las vas
+
+423
+00:18:19,910 --> 00:18:20,990
+a descargar a la
+
+424
+00:18:20,990 --> 00:18:22,930
+hora que tú te las descargas pues
+
+425
+00:18:22,930 --> 00:18:24,130
+se va a agregar a tu
+
+426
+00:18:24,130 --> 00:18:25,610
+referencia de tu capa de
+
+427
+00:18:25,610 --> 00:18:27,450
+presentación entonces cuando ya lo
+
+428
+00:18:27,450 --> 00:18:28,910
+tengas agregado pues puedes
+
+429
+00:18:28,910 --> 00:18:30,430
+escribir este código que te voy a
+
+430
+00:18:30,430 --> 00:18:31,730
+explicar a continuación
+
+431
+00:18:31,730 --> 00:18:38,450
+entonces esa referencia nos hace la
+
+432
+00:18:38,450 --> 00:18:40,770
+posibilidad de poder instanciar un
+
+433
+00:18:40,770 --> 00:18:44,870
+objeto un objeto que pues que te va
+
+434
+00:18:44,870 --> 00:18:46,390
+a abrir la aplicación entonces
+
+435
+00:18:46,390 --> 00:18:51,490
+a ese objeto o instanciar esa
+
+436
+00:18:51,490 --> 00:18:53,670
+referencia de la aplicación
+
+437
+00:18:53,670 --> 00:18:56,450
+le vamos a agregar un app también
+
+438
+00:18:56,450 --> 00:18:59,210
+vamos a agregar el cuerpo de el
+
+439
+00:18:59,210 --> 00:19:01,150
+objeto de Microsoft Office que es
+
+440
+00:19:01,150 --> 00:19:02,870
+el Warbook también vamos a
+
+441
+00:19:02,870 --> 00:19:05,430
+instanciar el objeto de los árboles
+
+442
+00:19:05,430 --> 00:19:07,710
+que viene a ser como que la tabla
+
+443
+00:19:07,710 --> 00:19:10,150
+a la tabla inicial el cual va a
+
+444
+00:19:10,150 --> 00:19:12,170
+comenzar como un null luego
+
+445
+00:19:12,170 --> 00:19:15,070
+el objeto de los árboles vamos a
+
+446
+00:19:15,070 --> 00:19:18,790
+decirle que su nombre se va
+
+447
+00:19:18,790 --> 00:19:20,050
+a llamar products porque obviamente
+
+448
+00:19:20,050 --> 00:19:21,310
+estamos en el mantenimiento de
+
+449
+00:19:21,310 --> 00:19:22,990
+productos y aquí es donde va a
+
+450
+00:19:22,990 --> 00:19:25,150
+recorrer no le vamos a decir que
+
+451
+00:19:25,150 --> 00:19:27,870
+bueno con un fork que recorra desde
+
+452
+00:19:27,870 --> 00:19:30,390
+bueno yo le he puesto desde el 3
+
+453
+00:19:30,390 --> 00:19:32,690
+porque en realidad desde el índice
+
+454
+00:19:32,690 --> 00:19:35,250
+3 porque en realidad me va a salir
+
+455
+00:19:35,250 --> 00:19:38,170
+pues acuerda que en mantenimiento
+
+456
+00:19:38,170 --> 00:19:39,730
+de productos tenemos agregados dos
+
+457
+00:19:39,730 --> 00:19:41,730
+columnas que son editar eliminar
+
+458
+00:19:41,730 --> 00:19:44,090
+bueno no importa si sea 3
+
+459
+00:19:44,090 --> 00:19:48,930
+o 2 porque al final te va a agregar
+
+460
+00:19:48,930 --> 00:19:50,530
+esas dos columnas y en realidad
+
+461
+00:19:50,530 --> 00:19:51,510
+esas dos columnas no las queremos
+
+462
+00:19:51,510 --> 00:19:53,870
+en la tabla de Excel no sé cómo
+
+463
+00:19:53,870 --> 00:19:55,550
+eliminarlas estaría mintiendo antes
+
+464
+00:19:55,550 --> 00:19:57,270
+y te digo tendrías que eliminarlas
+
+465
+00:19:57,270 --> 00:19:59,010
+desde propio Excel pero bueno ya
+
+466
+00:19:59,010 --> 00:20:00,770
+vas a ver a lo que me refiero
+
+467
+00:20:00,770 --> 00:20:03,150
+entonces vamos a decirle que
+
+468
+00:20:03,150 --> 00:20:06,410
+recorra todas todas las columnas
+
+469
+00:20:06,410 --> 00:20:09,850
+de nuestra tabla producto con un
+
+470
+00:20:09,850 --> 00:20:12,150
+conteo bueno de mas uno y que
+
+471
+00:20:12,150 --> 00:20:15,450
+va recorriendo todas las celdas uno
+
+472
+00:20:15,450 --> 00:20:20,270
+por uno hasta el conteo de menos
+
+473
+00:20:20,270 --> 00:20:23,050
+uno en el en el cabezera en la
+
+474
+00:20:23,050 --> 00:20:25,910
+cabezera de texto esto
+
+475
+00:20:25,910 --> 00:20:29,110
+es esta parte es para la cabezera
+
+476
+00:20:29,110 --> 00:20:31,470
+obviamente y esta parte es el
+
+477
+00:20:31,470 --> 00:20:34,790
+recorrido de bueno de las celdas de
+
+478
+00:20:34,790 --> 00:20:36,210
+los datos de la datos de nuestro
+
+479
+00:20:36,210 --> 00:20:37,750
+tabla de productos como puede
+
+480
+00:20:37,750 --> 00:20:40,090
+hacerte cuenta aquí y todo lo
+
+481
+00:20:40,090 --> 00:20:44,730
+pone bueno en una cabena de texto y
+
+482
+00:20:44,730 --> 00:20:46,230
+bueno al final le decimos
+
+483
+00:20:46,230 --> 00:20:47,510
+que nuestra aplicación nuestra
+
+484
+00:20:47,510 --> 00:20:48,770
+aplicación de Excel pues
+
+485
+00:20:48,770 --> 00:20:53,190
+sea visible y lo ponemos en true y
+
+486
+00:20:53,190 --> 00:20:55,950
+cuando yo tengas este código vamos
+
+487
+00:20:55,950 --> 00:20:57,830
+a ver lo que sucede si le ponemos
+
+488
+00:20:57,830 --> 00:20:59,970
+en iniciar y vamos a
+
+489
+00:20:59,970 --> 00:21:02,030
+darle clic a nuestro botón de Excel
+
+490
+00:21:08,690 --> 00:21:09,810
+y como puede
+
+491
+00:21:09,810 --> 00:21:10,970
+hacerte cuenta tenemos todos estos
+
+492
+00:21:10,970 --> 00:21:12,690
+productos de nuestro mantenimiento
+
+493
+00:21:12,690 --> 00:21:17,150
+en Excel ahora obviamente te
+
+494
+00:21:17,150 --> 00:21:19,590
+hablaba de este tema de que me iba
+
+495
+00:21:19,590 --> 00:21:21,310
+a agregar editar eliminar porque
+
+496
+00:21:21,310 --> 00:21:23,810
+obviamente lo hemos agregado aquí
+
+497
+00:21:23,810 --> 00:21:27,650
+pero bueno ya en la parte de
+
+498
+00:21:27,650 --> 00:21:30,150
+producción obviamente el acontador
+
+499
+00:21:30,150 --> 00:21:32,170
+a no sé pues eliminará esta
+
+500
+00:21:32,170 --> 00:21:34,950
+parte porque obviamente no la va a
+
+501
+00:21:34,950 --> 00:21:35,630
+utilizar
+
+502
+00:21:37,130 --> 00:21:38,870
+lo eliminará uno por uno
+
+503
+00:21:40,130 --> 00:21:43,470
+como puedes ver y pues lo único que
+
+504
+00:21:43,470 --> 00:21:45,090
+hacería que hacer es agarrar todo
+
+505
+00:21:45,090 --> 00:21:46,930
+la parte de los datos que si
+
+506
+00:21:46,930 --> 00:21:49,430
+necesitamos y llevarlos al
+
+507
+00:21:49,430 --> 00:21:53,210
+lado izquierdo y bueno amigos como
+
+508
+00:21:53,210 --> 00:21:53,810
+puedes ver
+
+509
+00:21:53,810 --> 00:21:55,230
+hemos terminado todo nuestro
+
+510
+00:21:55,230 --> 00:21:56,470
+mantenimiento de productos
+
+511
+00:21:56,470 --> 00:21:59,530
+ya con bueno con el botón de Excel
+
+512
+00:21:59,530 --> 00:22:02,870
+y pues estoy muy feliz de verdad
+
+513
+00:22:02,870 --> 00:22:04,410
+porque he terminado lo que
+
+514
+00:22:04,410 --> 00:22:06,510
+me propuse hace tiempo hacerlo la
+
+515
+00:22:06,510 --> 00:22:08,530
+verdad es que me he dado mucho no
+
+516
+00:22:08,530 --> 00:22:11,490
+debería haberme demorado pero son
+
+517
+00:22:11,490 --> 00:22:11,830
+muchas
+
+518
+00:22:11,830 --> 00:22:13,630
+cosas que tengo que hacer ahora
+
+519
+00:22:13,630 --> 00:22:15,130
+estoy en la parte de
+
+520
+00:22:15,130 --> 00:22:18,710
+programación web y pues esta parte
+
+521
+00:22:18,710 --> 00:22:21,610
+son es un bonito recuerdo que yo
+
+522
+00:22:21,610 --> 00:22:23,210
+tengo de haber este
+
+523
+00:22:24,050 --> 00:22:25,310
+aprendido sobre
+
+524
+00:22:25,310 --> 00:22:27,290
+las aplicaciones escritorio que
+
+525
+00:22:27,290 --> 00:22:29,130
+espero que bueno que te ha ayudado
+
+526
+00:22:29,130 --> 00:22:32,930
+mucho este curso y bueno si te
+
+527
+00:22:32,930 --> 00:22:34,850
+gustó y te ayuden algo pues
+
+528
+00:22:34,850 --> 00:22:36,370
+compártelo con tus amigos todos
+
+529
+00:22:36,370 --> 00:22:38,670
+merecen aprender todos merecen
+
+530
+00:22:38,670 --> 00:22:43,930
+saber algo más compártelo enseñalo
+
+531
+00:22:43,930 --> 00:22:45,870
+ya sabes que enseñando
+
+532
+00:22:45,870 --> 00:22:47,470
+es la única forma de aprender
+
+533
+00:22:48,030 --> 00:22:50,050
+y bueno me
+
+534
+00:22:50,050 --> 00:22:52,550
+despido cuídense mucho y bueno ya
+
+535
+00:22:52,550 --> 00:22:56,330
+será en otro próximo vídeo de una
+
+536
+00:22:56,330 --> 00:22:56,950
+aplicación de
+
+537
+00:22:56,950 --> 00:22:58,170
+escritorio hasta la próxima
+

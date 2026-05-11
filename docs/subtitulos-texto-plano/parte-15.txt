@@ -1,0 +1,439 @@
+Hola amigos como están?
+Bueno vamos a continuar con la
+creación de la base de
+datos de nuestra tabla productos.
+Esta tabla productos vamos a
+aprender a cómo interactuar con las
+otras tablas
+que sería nuestra tabla
+de categoría con la tabla de
+marca y también voy a explicarles
+para que sirve el InnerJoy.
+También vamos a aprender a cómo
+referenciar estas tablas.
+Entonces vamos a empezar.
+Lo primero que tenemos que ver es
+que bueno actualmente
+estemos en nuestra base de datos,
+nuestra base de datos
+que es mantenimiento productos,
+hay que verificar eso y bueno vamos
+a crear nuestra tabla productos.
+Al comienzo vamos a poner un criate
+table y vamos a ver que bueno,
+como ya sabemos en las otras dos
+tablas que hemos hecho vamos a
+decir que va a ser primar aquí
+nuestro id de producto y va a ser
+un criate table con el identity.
+En segundo vamos a darle el código
+personalizado,
+en este caso va a tener como
+comienzo las letras PR.
+A su derecha vamos a convertir los
+2 zeros que
+le hemos agregado y vamos a darle
+referencia a nuestro
+id de producto. Luego
+vamos a ponerle producto,
+el precio de compra que va a ser
+decimal,
+el precio de
+y ahí vienen nuestros for in keys.
+Nuestro
+for in keys viene a hacer las id's,
+los id's
+principales de nuestras tablas.
+Por ejemplo en este caso sería
+id de categoría con id de marca.
+Acuérate muy bien que
+id de categoría en nuestra tabla
+categoría en las columnas.
+Podemos ver que cada una de ellas
+tiene un primer
+i key que es el id principal,
+que sería id de marca y
+de categoría.
+A ellas tenemos que darle
+dos columnas que sean iguales e
+identicas a esas
+columnas de la su respectiva tabla.
+A estas columnas que son idénticas
+se le dice for in key porque
+necesitamos de esas columnas para
+referenciar o relacionar porque aún
+no hemos relacionado de estas dos
+columnas a cada tabla de categoría
+como de marca,
+vamos a referencial o relacionar.
+Comienza con
+constraint y le damos una variable,
+bueno,
+en este caso relacionar categoría y
+le decimos que el for in key de
+nuestra id de categoría de nuestra
+columna id de categoría
+de nuestra tabla productos
+queremos que se
+referencia con la tabla de
+categoría de id de categoría de su
+columna id de categoría.
+Lo mismo vamos a hacer con con
+marca,
+vamos a decir que relacionar a
+marca su for in key id de marca
+va a ser referente o sea vamos a
+referenciarlo con
+la tabla marca del id de marca.
+Entonces ahí ya hemos creado
+nuestras id de categoría y id de
+marca referenciado con nuestra
+tabla de productos y estas se
+relacionan con la tabla de
+categoría y la tabla de marcas.
+Entonces vamos a ejecutar
+este código y el comando ha sido
+completado correctamente.
+Entonces hasta aquí está todo bien,
+vamos a refrescar y vamos a dar
+nos cuenta que hemos creado nuestra
+tabla de productos y vamos a ver
+que en las columnas pues tenemos el
+id de producto, el código,
+el producto, el precio de compra,
+el
+precio de venta, el stock y bueno
+si te das cuenta
+tenemos nuestros dos for in key que
+bueno como puede haber nos dice que
+id de categoría y bueno también
+id de marca y prácticamente así es
+como creamos una tabla de productos
+referenciando a dos tablas que
+vamos a utilizar con su id de.
+Ahora he creado un procedimiento
+imaginado en el cual yo
+le he llamado listar productos este
+procedimiento imaginado que ahora
+bueno nos vamos a mostrar todos los
+productos que tengamos
+¿no? ¿Qué quiero que me muestre?
+Quiero que me muestre este cada vez
+que se ejecute que me muestre los
+siempre in
+primeros productos. Quiero que me
+muestre el id de
+producto, quiero que me muestre el
+código,
+quiero
+que me muestre una columna con
+producto,
+quiero que me muestre una columna
+con con nombre y de categoría y
+aquí viene el interesante.
+Quiero que me muestre de mitad la
+categoría nombre,
+quiero que me muestre y bueno y
+quiero que tengo un sobre nombre
+llamado categoría,
+que tenga
+un sobre nombre llamado categoría,
+luego quiero que
+me muestre de mitad la producto,
+el id de marca y también aquí
+quiero que me muestre de mi marca,
+limitaba
+la marca nombre como marca,
+del luego producto de precio de
+compra,
+quiero que me muestre el estoc.
+Ahora hasta aquí categoría nombre
+bueno me
+da mostrar como categoría y marca
+nombre me voy a mostrar una
+columna llamada marca,
+capaz no me entiendas hasta ahora
+pero todavía
+no hemos aplicado el linear y hoy.
+Entonces básicamente
+ve que se trata de inner y hoy.
+Inner y hoy nos da la chance de
+poder extraer internamente datos de
+columnas,
+el cual entre tablas ya han sido
+relacionadas.
+En este caso pues ya tenemos dos
+tablas,
+bueno dos tablas que han sido
+relacionadas, tablas de
+productos con mi tabla de
+categorías y bueno tabla de
+productos con mi tabla de marcas.
+Entonces actualmente nuestra
+columna nuestro procedimiento
+almacenado que hemos puesto
+del estar productos,
+hemos creado dos,
+como hemos creado dos columnas
+nuevas,
+una columna nueva que hace
+referencia a mi columna categoría,
+el nombre de dicha categoría y una
+columna de marca,
+cuál hace referencia al nombre de
+marca,
+el cual nosotros vamos a ingresar.
+Por intermedio de sus IDs,
+entonces internamente,
+nosotros necesitamos extraer
+esos nombres de dichas columnas.
+¿Qué necesitamos para hacer eso?
+Necesitamos el permiso del padre de
+dicha tabla,
+del padre de la tabla que lo
+contiene,
+en este caso sería nuestra tabla
+producto y
+necesitamos el permiso de la tabla,
+como se puede decir, que
+hace referencia a nuestra tabla
+producto,
+que bueno ya sea tabla categoría o
+ya sea tabla marca,
+por intermedio de sus IDs.
+Entonces, ¿cómo
+sería nuestra tabla producto
+contiene un ID
+de categoría? Entonces yo le digo,
+entonces necesito el nombre de la
+columna de la tabla categoría.
+Entonces, digo,
+de la tabla producto de la idica
+categoría hago referencia a la
+idica
+categoría de la tabla categoría.
+Entonces,
+a la ser esta referencia,
+internamente me va a extraer el
+nombre de la tabla categoría cuando
+yo inserté un valor, en este caso,
+en la idica categoría,
+a mi tabla de productos,
+este internamente me lo traerá,
+en este caso,
+pues yo insertaré
+una idica categoría con valor 1,
+ese le pertenece
+a la columna, ese le pertenece a la
+categoría de
+herramientas. Entonces,
+cuando yo hago esta operación,
+pues me va a traer el nombre de
+dicha categoría,
+en este caso herramientas,
+lo mismo pasa
+con nuestra tabla de marca,
+si
+es que nosotros queremos traer el
+nombre de dicha columna cuando
+nosotros pongamos
+un ID de marca, en este caso,
+bueno, el
+ID de marca que yo le voy a
+poner va a ser el número 8,
+el número de 8 me hace referencia a
+Stangley,
+entonces hago lo mismo,
+digo,
+en mi tabla producto de mi ID de
+marca,
+voy a hacer referencia a mi tabla
+marca de ID de marca.
+Entonces,
+internamente cuando yo ingrese
+una idica marca me va a traer
+el nombre
+de dicha marca,
+en este caso me va a traer,
+bueno, me va a traer columna marca,
+como le he puesto,
+el ID de 8 me va a traer Stangley,
+así que bueno, acuérdate
+que toda esta tabla viene
+de productos, así
+que vamos a aplicar InnerJoy y
+vamos a decir que de mi
+columna categoría que hemos creado,
+pues
+vamos a unir y va a ser referencia,
+aquí internamente se va a depositar
+el nombre de dicha categoría,
+gracias a los ID de mi tabla
+productos de ID de categoría que va
+a ser referencia a mi
+tabla categoría de ID de categoría,
+lo mismo, lo mismo con marcas,
+vamos a decirle que se aplicará
+una unión,
+que se aplicará una unión de
+mi columna marca que he creado mi
+tabla padre de productos de ID
+de marca que hace referencia a mi
+tabla
+marca de ID de marca. Entonces,
+cada vez que nosotros ingresemos
+una id de marca como a id de
+categoría va a ser referencia a
+nuestras columnas que hemos creado
+que va a ser categoría y marca,
+e internamente se van a depositar
+en dichas columnas.
+Y por último,
+vamos
+a darle cada vez que el istemos,
+bueno, nos vamos a mostrar en orden
+descendente nuestros productos.
+Entonces,
+vamos a ver que después de esto,
+si ejecutamos nuestro procedimiento
+almacenado, los productos,
+pues vamos a
+ver nuestra tabla que tiene
+que ver el ID de categoría,
+este también está nuestra
+columna categoría que hemos creado
+que
+viene de categoría nombre y es
+aquí en donde internamente vamos a
+obtener el nombre de dicho
+categoría cuando ingresemos el ID
+de categoría,
+luego también está la id de marca,
+lo mismo como
+categoría nuestra
+marca nombre que hace referencia a
+una columna marca,
+luego el precio de compra,
+precio de venta, el stock,
+y bueno,
+así es como hemos creado nuestra
+tabla.
+Ahora,
+lo que más nos interesa es
+poder insertar valores,
+no? Incertar todos estos valores
+que
+bueno, que para ahorra
+unos tiempos,
+los he puesto para que ya cuando
+creamos la tabla de productos o
+bueno, el diseño de productos,
+pues ya
+tengamos valores predeterminados.
+Entonces,
+vamos a ver cómo poder ingresar los
+valores, como ya te había dicho,
+tenemos
+que ingresar primero en el nombre,
+también
+de ahí viene el precio de compra,
+el precio de venta,
+el stock,
+y por
+último vienen los más importantes,
+que vienen a ser nuestras llaves
+franias,
+que vienen a ser el ID de categoría
+y el ID de marca,
+que están referenciadas
+y ya relacionadas,
+respectivamente con sus
+tablas como es el ID de categoría,
+como el ID de marca,
+de la tabla,
+categoría y de la tabla,
+marca.
+Entonces,
+en este caso,
+tenemos que ingresar, bueno,
+tanto,
+una ID de categoría como una ID de
+marca, como puedes ver,
+le he puesto a todos el mismo valor
+que hace referencia a dichos ID de
+dichas tablas. Entonces,
+si yo ejecuto,
+si yo ejecuto todo esto,
+bueno, vamos a ver que ya han sido
+guardadas,
+entonces vamos a ejecutar nuestra
+lista de productos de
+nuevo,
+y vamos a ver que efectivamente
+están tanto nuestra ID de producto,
+el código ya personalizado,
+nuestro producto,
+y ya que hemos aplicado InnerJoin,
+vamos a ver que en nuestra
+ID de categoría que tiene valor 1,
+hemos ingresado,
+pues se ha ingresado en nuestra
+columna categoría
+nuestra columna categoría,
+el nombre de dicha categoría que
+les pertenece a ID,
+que
+vendría a ser herramientas. Bueno,
+vamos a ver que si esto
+es verdad, vamos a ir a categoría,
+a nuestra tabla categoría, y vamos
+a ver que si tenemos en
+realidad ese ID de categoría,
+entonces vamos a ver en nuestra
+tabla categoría si es
+cierto, bueno,
+nuestra ID de categoría es 1,
+y bueno,
+nuestro nombre es herramientas,
+como puedes ver,
+pues
+si está cumpliendo con lo que hemos
+dicho,
+igual es con
+la ID de marca, le hemos puesto un
+ID con el número
+8, como puedes ver,
+y bueno,
+el nombre que nos trae es Estani,
+entonces como puedes ver, está,
+está,
+está,
+está, cumpliendo con el InnerJoin,
+y
+bueno, después sigue el precio
+compra,
+el precio 20
+que le hemos puesto y nuestro esto,
+y bueno
+amigos, así es como hemos aplicado
+InnerJoin y hemos creado
+nuestra tabla de productos,
+haciendo relación con los foreign
+keys,
+como la ID de categoría y la ID de
+marca,
+y también
+creando una tabla personalizada,
+creando, bueno,
+este,
+ya sea con unas como,
+le hemos puesto como categoría
+y marca,
+y hemos aplicado el InnerJoin
+para poder extraer datos de otras
+tablas,
+y espero que me hayas entendido,
+y bueno, cualquier cosa,
+cualquier duda, pues me preguntas,
+hasta luego nos vemos en el próximo
+vídeo.

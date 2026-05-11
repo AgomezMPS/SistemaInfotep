@@ -1,0 +1,251 @@
+Bueno vamos a continuar con la
+segunda y última parte del diseño
+del panel de productos.
+Entonces nos habíamos quedado en
+que ya
+había mostrado de la base de datos,
+todos los ratos de
+nuestros productos.
+Así que lo que vamos a
+hacer vamos a diseñar un poco esto,
+vamos a decir que la tabla pues
+ocupe hasta el lado derecho y
+también los botones vamos
+a ponerlos al lado derecho para que
+se vean bien. Hay que linear los
+bien
+y bueno
+vamos a evitar el data review.
+Primero en esta parte vamos a
+ponerle que se atrú
+y que se atrú, no te voy a olvidar.
+Y también la parte del background
+color de nuestro data review que
+sea white, un borde de style que
+sea known
+porque no queremos que tenga un
+borde.
+También le decimos que
+en Zelda Ball Style sea
+single horizontal.
+Y en el column GDB que sea known,
+no queremos que esté a esa flechita
+que nos indica
+que columna hemos marcado.
+Aquí no vamos a hacer nada,
+no vamos a editar nada.
+Aquí en GDB vamos
+a poner los false que no se vean.
+Aquí si vamos a...
+Esta es la parte de la tabla,
+vamos
+a decirle
+que el background sea white,
+el font color, vamos a decirle que
+sea poppings
+que tengo un size de 11.
+Vamos a decirle que su letra sea de
+color gris,
+que cuando se les seleccione sea de
+color blanco y cuando se lecciones
+sea su fuente de color gris igual.
+Vamos a darle un padding de 888
+para que tenga un espaciado.
+También
+vamos a decirle en la parte...
+bueno aquí creo que no hay nada
+que hacer.
+En la parte en rose,
+vamos a decirle que en rose headers
+borde style que sea known.
+Luego vamos a decirle que rose...
+en rose headers visible que
+sea false y vamos a decirle que en
+selection mode sea select y bueno
+verificas muy bien que todo está
+igual como lo estoy haciendo.
+Creo que aquí no,
+acá
+no tenemos que hacer nada tampoco,
+muestro ya está.
+Y creo que lo último que faltaría y
+lo más importante para que se vea
+bien sería que en autos size column
+mode,
+pongamos un fill para que ocupe
+todo el largo de
+nuestro data de review
+y en autos aliso row mode
+que sea al sales.
+Vamos a iniciar y vamos a ver que
+nuestra tabla de productos está
+como nosotros o bueno como en el
+curso se había
+planteado. Ahora lo que nosotros
+necesitamos
+hacer es agregar dos columnas,
+las columnas de eliminar y editar.
+Así que vamos a hacerlas. Vamos a
+dar clic a nuestro editar
+columnas,
+nuestra tabla de review y vamos a
+editar la primera columna.
+Vamos a agregar la columna editar y
+vamos a decir que el tipo sea un
+tabla de review y match column.
+Luego vamos a ir por
+la segunda, vamos a decir que se va
+a
+llamar
+eliminar
+y acuérdate que tiene que hacer el
+mismo tipo,
+tabla review y match column,
+agregamos y cerramos porque son las
+únicas dos que queremos. Vamos
+a decirle que en esta columna
+vamos a agregarle la imagen de
+editar.
+Vamos a agregar la imagen
+y vamos
+a poner que match la yo va a ser
+normal igual con el eliminar.
+Vamos a agregar la imagen de
+eliminar,
+aceptamos y bueno aceptamos.
+Ahora si iniciamos
+y colocamos en productos,
+vamos a ver que se han agregado
+dos columnas más que son el del
+eliminar y el delitar
+en las dos primeras columnas.
+Ahora lo que necesitamos es
+eliminar o ocultar las columnas de
+identity, las primar y k,
+que son estas y esta.
+Tenemos que ver que las columnas de
+nuestra tabla comienzas de 0, 1,
+2, 3,
+4,
+esas columnas que queremos ocultar,
+vamos a mover algunas columnas
+y también vamos a anchar algunas
+columnas, es por eso que voy a
+crear un
+método que se
+va a llamar ocultar, mover,
+anchar columnas.
+Aquí se me olvidó poner el boy.
+En
+lo primero que vamos a hacer vamos
+a ocultar,
+vamos a ocultar columnas. Entonces
+vamos a decir que en la
+tabla productos en
+su columna de índice,
+vamos a colocar,
+va a obtener el primer índice que
+nosotros queremos que es
+el índice 2,
+le vamos a decir que sea
+invisible, me lo voy a decir que
+sea en false
+para que se
+oculte. Ahora esto no es la única
+columna
+que queremos que se oculte, también
+queremos que se oculte en 2
+columnas más que me entregan
+ser la columna 5 y la columna 7,
+que serían los primariquiznos
+de la tabla productos.
+Ahora tenemos que poner el método
+al comienzo para que nos haga caso
+y bueno,
+vamos a ver que si ponemos en
+productos esas columnas ya no
+están se han ocultado y es lo que
+nosotros queremos. Ahora
+aquí tiene mucho espacio en
+nuestra columna de código
+de productos,
+vamos a ponerle un ancho para
+que ocupe un menor espacio,
+vamos a decir que la tabla de
+productos en la columna de índice 3
+vendría
+ser, le vamos a decir que su witch,
+ahora tengo un witch de
+60 pixeles, también en la tabla de
+productos en
+la columna bueno 4 que
+vendría ser la columna de producto,
+le vamos a decir que tengo un ancho
+de 200,
+ahora vamos a iniciar y vamos a dar
+unos cuentas que en la columna de
+código de
+producto bueno creo que se me pasó,
+debería estar así.
+Creo que se me pasó de 60,
+podría ser más así que le voy
+a poner un poco más,
+le voy a poner
+que sea 70 y si vemos del nuevo,
+vamos a dar unos
+cuentas que ahora sí está bien,
+ahora sí está bien y ahora el único
+que nos faltaría sería que estas
+dos primeras columnas que son de
+editario eliminar las llevemos al
+fondo,
+así que vamos a decirle que tabla
+de producto la columna que
+son primero la columna 0 que sea un
+display index,
+esa nos da la chance de poder
+llevar o mandar columnas hacia otro
+lado o bueno hacia la columna que
+nosotros queremos, hacia la
+posición que nosotros
+queremos, en
+este caso me he dado cuenta que
+a las dos primeras la voy a llevar
+a las columnas 11 o sea que estén
+alejadas de mis columnas normales,
+tú puedes ponerla en el lugar que
+tú deseas,
+eso ya está en ti pero yo las pongo
+en esa columna o en ese
+índice, así que si pongo productos,
+vas a darte cuenta que las columnas
+que estaban al comienzo pues ya
+están al lado extremo,
+al lado derecho y así es como
+puedes anchar editar,
+agregar columnas y bueno también
+ocultar columnas como ya sabíamos
+pero bueno como puedes darte cuenta
+está quedando bien,
+está quedando genial y pues lo
+único que faltaría sería agregar
+los labels que deben estar arriba
+de nuestro de nuestro
+de nuestra tabla,
+eso es una parte muy tediosa tienes
+que tú agregarlos de de de de
+ponerlos colocarlos y bueno ver que
+estén alineados con con tu tabla
+que respeten,
+así que yo lo voy a colocar ya para
+no ser largo el vídeo
+pero deben quedar algo como así
+y bueno el
+resultado final cuando iniciemos
+debe quedar algo así y bueno amigos
+eso es todo lo que representa
+al diseño de poner productos,
+espero que me haya entendido
+y bueno cualquier pregunta ya sabes
+puedes preguntarme,
+hasta luego cuídense mucho

@@ -1,0 +1,740 @@
+1
+00:00:02,860 --> 00:00:04,540
+Hola amigos, hoy vamos a crear
+
+2
+00:00:04,540 --> 00:00:05,280
+nuestro proyecto
+
+3
+00:00:05,280 --> 00:00:07,760
+desde cero y ya saben que va a ser
+
+4
+00:00:07,760 --> 00:00:09,320
+en el patrador de arquitectura en
+
+5
+00:00:09,320 --> 00:00:11,620
+capas y también vamos a conectarnos
+
+6
+00:00:11,620 --> 00:00:13,040
+a nuestra base de datos,
+
+7
+00:00:13,500 --> 00:00:15,580
+como ya sabemos nuestras capas
+
+8
+00:00:15,580 --> 00:00:17,860
+trabajan en conjunto comunicándose
+
+9
+00:00:17,860 --> 00:00:19,400
+entre así y respetando
+
+10
+00:00:19,400 --> 00:00:20,720
+los principios de programación
+
+11
+00:00:20,720 --> 00:00:21,940
+orientado jethos.
+
+12
+00:00:22,360 --> 00:00:24,580
+También sabemos que aparte de estas
+
+13
+00:00:24,580 --> 00:00:27,660
+capas existía una capa la cual
+
+14
+00:00:27,660 --> 00:00:29,740
+se comunicará con las demás capas.
+
+15
+00:00:30,780 --> 00:00:32,720
+Entonces vamos a abrir nuestro viso
+
+16
+00:00:32,720 --> 00:00:43,080
+el estudio y al entrar en él vamos
+
+17
+00:00:43,080 --> 00:00:46,520
+a ir a nuevo proyecto
+
+18
+00:00:46,520 --> 00:00:49,340
+y vamos a esperar que se abre una
+
+19
+00:00:54,840 --> 00:00:55,800
+ventana.
+
+20
+00:00:55,800 --> 00:00:58,560
+Habrá varias opciones pero nosotros
+
+21
+00:00:58,560 --> 00:01:01,720
+vamos a buscar otros tipos de
+
+22
+00:01:01,720 --> 00:01:03,240
+proyecto la
+
+23
+00:01:03,240 --> 00:01:05,260
+cual elegiremos solución en blanco.
+
+24
+00:01:08,500 --> 00:01:10,920
+Aquí abajo vamos a escribir
+
+25
+00:01:10,920 --> 00:01:12,420
+el nombre de nuestro proyecto.
+
+26
+00:01:18,360 --> 00:01:20,180
+Yo lo elegí donde guardar
+
+27
+00:01:20,180 --> 00:01:22,700
+los ideeseas y bueno aceptamos.
+
+28
+00:01:23,400 --> 00:01:24,540
+Entonces vamos a ver
+
+29
+00:01:24,540 --> 00:01:26,420
+que nuestro proyecto estaba sido.
+
+30
+00:01:27,080 --> 00:01:28,580
+Vamos a darle clic derecho y
+
+31
+00:01:28,580 --> 00:01:30,240
+vamos a agregar un proyecto.
+
+32
+00:01:32,640 --> 00:01:34,420
+Asegúrate de que nuestro proyecto
+
+33
+00:01:34,420 --> 00:01:36,280
+sea una biblioteca de clases de
+
+34
+00:01:36,280 --> 00:01:38,580
+punto de adfrengo y bueno este
+
+35
+00:01:38,580 --> 00:01:40,880
+proyecto será nuestra primera capa,
+
+36
+00:01:40,880 --> 00:01:42,160
+la capa de datos.
+
+37
+00:01:43,180 --> 00:01:45,880
+Asegtamos y esperamos que sea haya
+
+38
+00:01:45,880 --> 00:01:46,400
+creado.
+
+39
+00:01:53,700 --> 00:01:55,860
+Lo mismo haremos con nuestra otra
+
+40
+00:01:55,860 --> 00:01:56,280
+capa
+
+41
+00:01:56,280 --> 00:01:59,900
+que ahora será la capa de negocio.
+
+42
+00:02:05,320 --> 00:02:07,260
+Ahora lo mismo voy a hacerlo otra
+
+43
+00:02:07,260 --> 00:02:10,180
+vez agridamos un nuevo proyecto que
+
+44
+00:02:10,180 --> 00:02:11,780
+sea biblioteca de clases punto
+
+45
+00:02:11,780 --> 00:02:14,800
+adfrengo y este se llamará nuestra
+
+46
+00:02:14,800 --> 00:02:16,020
+capa en tidades.
+
+47
+00:02:24,620 --> 00:02:26,720
+Por último vamos a crear nuestra
+
+48
+00:02:26,720 --> 00:02:28,460
+última capa que ya no será
+
+49
+00:02:28,460 --> 00:02:31,000
+una biblioteca de clases sino una
+
+50
+00:02:31,000 --> 00:02:33,300
+aplicación de Windows 4 ya que aquí
+
+51
+00:02:33,300 --> 00:02:35,560
+estarán todos los domularios y este
+
+52
+00:02:35,560 --> 00:02:36,660
+será nuestra capa de
+
+53
+00:02:42,740 --> 00:02:43,400
+presentación.
+
+54
+00:02:47,280 --> 00:02:49,200
+Muy aparte que hayamos creado
+
+55
+00:02:49,200 --> 00:02:50,500
+nuestras capas, estas
+
+56
+00:02:50,500 --> 00:02:51,840
+también son bibliotecas de
+
+57
+00:02:51,840 --> 00:02:53,520
+clases porque van a contener
+
+58
+00:02:53,520 --> 00:02:55,540
+las clases con las cuales vamos a
+
+59
+00:02:55,540 --> 00:02:56,840
+trabajar. Entonces
+
+60
+00:02:56,840 --> 00:02:58,780
+cada capa debe tener que
+
+61
+00:02:58,780 --> 00:02:59,440
+referenciarse
+
+62
+00:02:59,440 --> 00:03:00,640
+con la capa que se debe.
+
+63
+00:03:01,500 --> 00:03:03,660
+Entonces habíamos dicho que nuestra
+
+64
+00:03:03,660 --> 00:03:05,760
+capa de datos debe referenciarse a
+
+65
+00:03:05,760 --> 00:03:14,460
+la capa de entidades y bueno
+
+66
+00:03:14,460 --> 00:03:16,760
+nuestra capa de entidades no se
+
+67
+00:03:16,760 --> 00:03:17,260
+referencia
+
+68
+00:03:17,260 --> 00:03:17,760
+con nadie.
+
+69
+00:03:18,660 --> 00:03:20,800
+Más bien es la capa la cual es
+
+70
+00:03:20,800 --> 00:03:21,560
+referenciada.
+
+71
+00:03:22,320 --> 00:03:24,160
+Nuestra capa de negocio si se
+
+72
+00:03:24,160 --> 00:03:26,140
+referencia con mi capa de datos
+
+73
+00:03:26,140 --> 00:03:36,200
+y mi capa de entidades y por último
+
+74
+00:03:36,200 --> 00:03:37,760
+mi capa de presentación se
+
+75
+00:03:37,760 --> 00:03:39,680
+referencia con mi capa de entidades
+
+76
+00:03:39,680 --> 00:03:40,920
+y mi capa de negocio.
+
+77
+00:03:50,280 --> 00:03:52,360
+Y bueno haci hemos cumplido con
+
+78
+00:03:52,360 --> 00:03:52,720
+nuestro
+
+79
+00:03:52,720 --> 00:03:54,380
+patrón de arquitectura en capas.
+
+80
+00:03:54,880 --> 00:03:56,500
+Lo queremos es eliminar
+
+81
+00:03:56,500 --> 00:03:58,160
+estas clases que se han creado por
+
+82
+00:03:58,160 --> 00:03:58,560
+defecto
+
+83
+00:04:08,820 --> 00:04:11,200
+y el formulario también.
+
+84
+00:04:15,860 --> 00:04:17,480
+Ahora ya que tenemos toda la
+
+85
+00:04:17,480 --> 00:04:19,040
+arquitectura vamos a conectarnos
+
+86
+00:04:19,040 --> 00:04:20,160
+a la base de datos.
+
+87
+00:04:20,160 --> 00:04:22,480
+Hay muchas formas de hacerlo una
+
+88
+00:04:22,480 --> 00:04:24,560
+de ellas es mediante el app config.
+
+89
+00:04:25,440 --> 00:04:27,380
+Así que vamos a nuestro app config
+
+90
+00:04:28,820 --> 00:04:32,260
+y aquí abajo es donde escribiremos
+
+91
+00:04:32,260 --> 00:04:34,040
+nuestra cadena de conexión.
+
+92
+00:04:55,100 --> 00:04:56,600
+Ponemos la etiqueta con
+
+93
+00:04:56,600 --> 00:04:57,480
+NexionString,
+
+94
+00:04:57,660 --> 00:04:59,000
+un tap,
+
+95
+00:04:59,460 --> 00:05:00,140
+otro
+
+96
+00:05:00,140 --> 00:05:03,300
+tap y dentro escribamos at name.
+
+97
+00:05:03,840 --> 00:05:05,400
+Aquí vamos a escribir el nombre
+
+98
+00:05:05,400 --> 00:05:07,020
+de la conexión que nos permitirá
+
+99
+00:05:07,020 --> 00:05:08,460
+conectarnos con otras clases.
+
+100
+00:05:09,100 --> 00:05:10,760
+Puedes poner cualquier nombre que
+
+101
+00:05:10,760 --> 00:05:11,300
+tú desees.
+
+102
+00:05:11,460 --> 00:05:12,900
+Yo le voy a poner conectar.
+
+103
+00:05:17,100 --> 00:05:19,180
+Luego vamos a escribir esa cadena
+
+104
+00:05:19,180 --> 00:05:21,820
+de conexión con ConnectionString y
+
+105
+00:05:21,820 --> 00:05:22,920
+aquí vamos a escribir el
+
+106
+00:05:22,920 --> 00:05:24,040
+nombre de nuestro servidor.
+
+107
+00:05:28,020 --> 00:05:29,340
+¿Cuál es el nombre de nuestro
+
+108
+00:05:29,340 --> 00:05:29,760
+servidor?
+
+109
+00:05:30,840 --> 00:05:31,940
+Es el que está aquí
+
+110
+00:05:31,940 --> 00:05:33,540
+por autentificación de Windows.
+
+111
+00:05:44,820 --> 00:05:47,860
+Vamos a decirle también que
+
+112
+00:05:47,860 --> 00:05:50,900
+la seguridad integrada va a ser sí
+
+113
+00:05:50,900 --> 00:05:53,140
+porque hemos entrado por
+
+114
+00:05:53,140 --> 00:05:55,060
+autentificación de Windows y por
+
+115
+00:05:55,060 --> 00:05:56,560
+último vamos a poner en nombre
+
+116
+00:05:56,560 --> 00:05:57,740
+de nuestra base de datos.
+
+117
+00:05:57,740 --> 00:05:59,200
+¿Qué es el mismo que
+
+118
+00:05:59,200 --> 00:06:00,860
+hemos creado en la base de datos?
+
+119
+00:06:14,660 --> 00:06:16,540
+Debes ponerlo como está no te
+
+120
+00:06:16,540 --> 00:06:18,700
+olvides y bueno lo que hemos hecho
+
+121
+00:06:18,700 --> 00:06:20,140
+es escribir nuestra cadena de
+
+122
+00:06:20,140 --> 00:06:22,060
+conexión que es el más senar aquí
+
+123
+00:06:22,060 --> 00:06:24,220
+en conectar para que pueda
+
+124
+00:06:24,220 --> 00:06:26,260
+comunicarse con nuestras clases en
+
+125
+00:06:26,260 --> 00:06:26,380
+la
+
+126
+00:06:26,380 --> 00:06:28,440
+capa de datos. Ahora lo que vamos
+
+127
+00:06:28,440 --> 00:06:29,000
+a hacer es
+
+128
+00:06:29,000 --> 00:06:30,440
+conectarnos con nuestra clase que
+
+129
+00:06:30,440 --> 00:06:31,080
+vamos a crear,
+
+130
+00:06:31,340 --> 00:06:33,060
+vamos a nuestra capa de datos y
+
+131
+00:06:33,060 --> 00:06:36,040
+bueno crearemos una clase la cual
+
+132
+00:06:36,040 --> 00:06:38,840
+yo la llamaré de categoría.
+
+133
+00:06:39,380 --> 00:06:40,760
+Aquí es donde nos conectaremos.
+
+134
+00:06:47,420 --> 00:06:49,540
+Lo primero que haremos será poner
+
+135
+00:06:49,540 --> 00:06:52,120
+en public a nuestra clase ya que no
+
+136
+00:06:52,120 --> 00:06:54,000
+te olvides que está se comunicará
+
+137
+00:06:54,000 --> 00:06:55,480
+con nuestra capa de negocio.
+
+138
+00:06:55,640 --> 00:06:56,980
+Si yo lo pondría en private,
+
+139
+00:06:57,420 --> 00:06:58,800
+aunque esté referenciado,
+
+140
+00:06:59,020 --> 00:07:00,540
+mi capa de negocio con mi capa
+
+141
+00:07:00,540 --> 00:07:02,260
+de datos no se podrán comunicar.
+
+142
+00:07:02,840 --> 00:07:04,980
+Entonces para conectarse a nuestra
+
+143
+00:07:04,980 --> 00:07:06,620
+base de datos necesitamos dos
+
+144
+00:07:06,620 --> 00:07:07,040
+cosas.
+
+145
+00:07:07,500 --> 00:07:09,360
+Una de ellas es referenciar nuestro
+
+146
+00:07:09,360 --> 00:07:14,620
+system .data .sqlClient ya que este
+
+147
+00:07:14,620 --> 00:07:16,980
+contiene la clase SQL connection,
+
+148
+00:07:17,280 --> 00:07:18,300
+la cual nos ayuda a
+
+149
+00:07:18,300 --> 00:07:19,860
+conectarnos con nuestra clase.
+
+150
+00:07:20,580 --> 00:07:22,760
+La segunda es referenciar system
+
+151
+00:07:22,760 --> 00:07:25,860
+.confibration que en nuestra capa
+
+152
+00:07:25,860 --> 00:07:27,380
+de datos como puedes darte
+
+153
+00:07:27,380 --> 00:07:28,020
+cuenta en las
+
+154
+00:07:28,020 --> 00:07:29,320
+referencias no lo tenemos.
+
+155
+00:07:30,580 --> 00:07:34,140
+Entonces vamos a agregar en
+
+156
+00:07:34,140 --> 00:07:38,400
+referencias esa biblioteca la cual
+
+157
+00:07:38,400 --> 00:07:40,460
+está en nuestro framework
+
+158
+00:07:40,460 --> 00:07:43,960
+lo buscamos y marcamos y aceptamos.
+
+159
+00:07:45,620 --> 00:07:47,680
+Ahora si podemos conectarnos.
+
+160
+00:07:49,860 --> 00:07:51,380
+Vamos a agregar también entonces
+
+161
+00:07:51,380 --> 00:07:51,740
+nuestra
+
+162
+00:07:51,740 --> 00:07:54,360
+biblioteca que hemos referenciado y
+
+163
+00:07:54,360 --> 00:07:55,700
+bueno ahora ponemos
+
+164
+00:07:55,700 --> 00:08:00,520
+la clase SQL connection y haremos
+
+165
+00:08:00,520 --> 00:08:02,580
+una instancia con ella la cual yo
+
+166
+00:08:02,580 --> 00:08:03,840
+la llamaré con exión.
+
+167
+00:08:04,860 --> 00:08:05,240
+Luego
+
+168
+00:08:06,080 --> 00:08:07,900
+le damos como parámetro
+
+169
+00:08:07,900 --> 00:08:11,180
+nuestra cadena de conexión y
+
+170
+00:08:11,180 --> 00:08:13,000
+gracias a nuestro administrador de
+
+171
+00:08:13,000 --> 00:08:14,320
+configuración que es
+
+172
+00:08:14,320 --> 00:08:16,160
+el configuración manager le diremos
+
+173
+00:08:16,160 --> 00:08:18,480
+que nuestra cadena de conexión con
+
+174
+00:08:18,480 --> 00:08:20,300
+la cual queremos comunicar será la
+
+175
+00:08:20,300 --> 00:08:21,360
+misma que la
+
+176
+00:08:21,360 --> 00:08:25,500
+tenemos acá en nuestro app .conf,
+
+177
+00:08:25,900 --> 00:08:27,920
+lo cual tiene nuestra cadena de
+
+178
+00:08:29,240 --> 00:08:29,960
+conexión.
+
+179
+00:08:41,520 --> 00:08:43,560
+Toda esta línea que hemos hecho
+
+180
+00:08:43,560 --> 00:08:46,580
+aquí siempre vamos a escribirla en
+
+181
+00:08:46,580 --> 00:08:48,700
+cada clase que nosotros creáramos
+
+182
+00:08:48,700 --> 00:08:51,260
+en nuestra capa de datos la cual
+
+183
+00:08:51,260 --> 00:08:52,900
+gracias a nuestra instancia
+
+184
+00:08:52,900 --> 00:08:54,920
+controlaremos cuando abrir y cuando
+
+185
+00:08:54,920 --> 00:08:56,620
+cerrar nuestras conexiones.
+

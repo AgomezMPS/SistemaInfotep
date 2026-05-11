@@ -1,0 +1,155 @@
+Bueno,
+vamos a crear los procedimientos
+almacenados
+de nuestra tabla categoría,
+pero antes de ello vamos a ver un
+poco por qué los procedimientos
+almacenados son usados
+por la mayoría de programadores y
+empresas.
+Primero dicen que son instrucciones
+que se utilizan para ejecutar
+acciones y quedan guardados en las
+base de datos, y
+a muy aparte hacen que se reduzca
+el tráfico de red entre el
+sistema y la base de datos.
+Gracias a los procedimientos
+almacenados se pueden administrar,
+crear modificar
+y eliminar registros,
+y además para distinguirlo
+se debe agregar un SCP,
+ya que esto indica que es
+un
+procedimiento almacenado.
+Tienen como ventaja a
+simplificar las tareas repetitivas
+y corren más
+rápidos que las mismas
+consultas escritas en un proyecto,
+y también pueden capturar errores
+antes que tus registros entren a tu
+base de datos. Entonces
+vamos a crear nuestros
+procedimientos almacenados
+para poder usarlos más adelante en
+nuestro proyecto en la
+capa de datos.
+El primer procedimiento será el
+de buscar categoría,
+entonces escribimos crear
+un procedimiento con el nombre SCP
+buscar categoría.
+Este tendrado un parámetro local,
+yo lo llamaré buscar,
+ya que gracias a este podemos
+buscar resultados
+en nuestra tabla categoría.
+Este tendrá una función de traer
+todos los registros de nuestra
+tabla categoría,
+en donde voy a decirle que se
+buscará por el nombre de categoría,
+y por la función la I buscará por
+el parámetro buscar,
+y después al escribir cualquier
+letra,
+mientras era los resultados ya sea
+con los caracteres que les siguen.
+Ahora crearemos el procedimiento
+almacenado y insertar categoría.
+Entonces vamos a escribir crear un
+procedimiento con
+el nombre insertar categoría.
+Este tendrá los
+parámetros que se ven a insertar en
+nuestra tabla,
+lo cual serán dos,
+el de nombre y descripción.
+Acuérdate
+que nuestra idea de categoría
+y nuestra columna código
+son autuncrementables,
+así que no es necesario que tengan
+parámetros.
+Después de esto su función serán
+insertar
+datos dentro de mi tabla categoría.
+Y bueno,
+los valores que hacen referencia
+que son para mí,
+mis parámetros,
+el de nombre y descripción.
+Bueno,
+seguimos con el
+procedimiento almacenado ahora
+de evitar
+categoría. Entonces,
+creamos ese
+procedimiento y le ponemos SCP,
+Editar, Categoria.
+Este tendrá tres
+parámetros, pero ¿por qué tres?
+Si queremos evitar una tabla,
+tenemos que usarla desde nuestra
+llave primaria,
+es por eso que aumentamos un
+parámetro más que sería
+una referencia a nuestro ID de
+categoría. Entonces,
+aparte de este parámetro,
+pondremos los dos parámetros que
+siguen,
+que sería el parámetro del nombre y
+mi parámetro de descripción.
+Y esto será como en función que
+actualice
+con un day nuestra tabla categoría,
+diciéndole que nuestra columna
+nombre sea igual al parámetro de
+nombre y lo mismo
+con nuestra columna descripción.
+¿Dónde se actualizará cuando
+mi ID de categoría sea igual que mi
+parámetro ID de categoría?
+Por último,
+vamos a
+crear el procedimiento almacenado
+eliminar categoría.
+Entonces,
+decimos crear un procedimiento
+almacenado y se llamará SCP,
+Eliminar Categoria.
+Como en Editar necesitábamos
+nuestra llave primaria lo mismo
+pasa aquí para eliminar un registro
+necesitamos decirle que vamos a
+tener sólo un parámetro
+que haga referencia a nuestra ID de
+categoría,
+ya que tenemos que eliminar desde
+nuestra llave primaria.
+¿Dónde le diremos que su función
+elimina
+el registro de mi tabla categoría,
+donde mi ID de categoría
+sea referente a mi parámetro ID de
+categoría? Y bueno,
+así hemos creado nuestros
+procedimientos almacenados que
+usaremos para poder comunicarnos
+en nuestra capa de datos.
+Lo que vamos a hacer ahora
+es ejecutar cada uno de ellos.
+Y bueno,
+ya que hemos ejecutado todos,
+si quieres ver dónde están nuestros
+procedimientos,
+vamos a actualizar nuestra base de
+datos.
+Yremos a programación,
+después a procedimientos
+almacenados y puedes ver
+que están aquí dentro de nuestros
+procedimientos almacenados.

@@ -1,0 +1,2644 @@
+1
+00:00:04,620 --> 00:00:06,380
+¿Cómo hemos visto?
+
+2
+00:00:06,620 --> 00:00:08,080
+Hemos podido ver cómo listar
+
+3
+00:00:08,080 --> 00:00:10,100
+categorías
+
+4
+00:00:10,100 --> 00:00:11,740
+y listar marcas en los con box.
+
+5
+00:00:12,420 --> 00:00:14,900
+Ahora tenemos que ver algunas cosas
+
+6
+00:00:14,900 --> 00:00:20,220
+que es muy necesaria que la veas.
+
+7
+00:00:20,220 --> 00:00:21,320
+Por ejemplo,
+
+8
+00:00:21,520 --> 00:00:25,380
+hay una parte aquí en productos.
+
+9
+00:00:26,120 --> 00:00:26,800
+Por ejemplo,
+
+10
+00:00:27,480 --> 00:00:31,940
+¿cómo poder hacer que al darklick
+
+11
+00:00:31,940 --> 00:00:34,900
+en la parte del icono
+
+12
+00:00:34,900 --> 00:00:38,140
+de evitar me abra el formulario?
+
+13
+00:00:39,060 --> 00:00:43,240
+Y pues los datos de los campos de
+
+14
+00:00:43,240 --> 00:00:47,320
+mi tabla de productos se pasen a el
+
+15
+00:00:47,320 --> 00:00:49,600
+nuevo formulario que he creado
+
+16
+00:00:49,600 --> 00:00:51,900
+el de mantenimiento de productos.
+
+17
+00:00:52,480 --> 00:00:52,780
+Eso
+
+18
+00:00:52,780 --> 00:00:54,900
+es lo que ahora te voy a explicar.
+
+19
+00:00:55,420 --> 00:00:58,660
+¿Cómo hacer ese traslado de
+
+20
+00:00:58,660 --> 00:01:02,560
+datos de una tabla a un formulario?
+
+21
+00:01:03,340 --> 00:01:03,840
+Entonces,
+
+22
+00:01:04,160 --> 00:01:06,760
+tienes que darte cuenta de algo.
+
+23
+00:01:06,760 --> 00:01:08,120
+Este es una tabla.
+
+24
+00:01:08,400 --> 00:01:10,180
+Este es nuestro data grid view.
+
+25
+00:01:10,920 --> 00:01:14,220
+Entonces, en el vídeo anterior,
+
+26
+00:01:14,420 --> 00:01:17,480
+te dije que en la parte de,
+
+27
+00:01:17,480 --> 00:01:19,060
+por ejemplo,
+
+28
+00:01:19,820 --> 00:01:22,940
+vamos a ver en la parte
+
+29
+00:01:22,940 --> 00:01:24,680
+de acá de nuestro data grid view.
+
+30
+00:01:26,560 --> 00:01:28,080
+Vamos a ver aquí.
+
+31
+00:01:29,240 --> 00:01:31,620
+Vamos a ver que en la parte donde
+
+32
+00:01:31,620 --> 00:01:33,820
+te dije que
+
+33
+00:01:33,820 --> 00:01:37,200
+era Select Road o Selection Mode,
+
+34
+00:01:37,640 --> 00:01:38,280
+te he
+
+35
+00:01:38,280 --> 00:01:41,740
+dicho que coloque Full Road Select,
+
+36
+00:01:42,200 --> 00:01:42,980
+pero
+
+37
+00:01:42,980 --> 00:01:46,860
+tenemos que ponerle que sea Select.
+
+38
+00:01:47,460 --> 00:01:49,660
+O sea que seleccione sólo una Zelda
+
+39
+00:01:49,660 --> 00:01:51,920
+que no seleccione toda la Zelda.
+
+40
+00:01:52,600 --> 00:01:53,160
+Ahora, esto
+
+41
+00:01:53,160 --> 00:01:55,040
+porque porque obviamente
+
+42
+00:01:55,040 --> 00:01:59,980
+cuando nosotros vamos a querer
+
+43
+00:01:59,980 --> 00:02:04,420
+editar una fila de nuestra tabla de
+
+44
+00:02:04,420 --> 00:02:04,940
+productos,
+
+45
+00:02:05,640 --> 00:02:09,220
+nosotros tenemos que elegir una
+
+46
+00:02:09,220 --> 00:02:10,620
+Zelda de ellas. Entonces,
+
+47
+00:02:10,840 --> 00:02:12,200
+la Zelda que vamos a elegir
+
+48
+00:02:12,200 --> 00:02:15,100
+va a ser la de editar y obviamente
+
+49
+00:02:15,100 --> 00:02:16,340
+también la de eliminar
+
+50
+00:02:16,340 --> 00:02:18,920
+porque va a cumplir dos funciones.
+
+51
+00:02:19,460 --> 00:02:22,020
+Al ayudar un clic al editar,
+
+52
+00:02:22,600 --> 00:02:26,200
+pues obviamente el botón de editar
+
+53
+00:02:26,200 --> 00:02:27,680
+de cada una de estas,
+
+54
+00:02:28,060 --> 00:02:30,220
+de cada una de estas filas en esta
+
+55
+00:02:30,220 --> 00:02:30,640
+Zelda,
+
+56
+00:02:31,980 --> 00:02:34,100
+pues su función va a ser que
+
+57
+00:02:34,100 --> 00:02:39,200
+podamos de esa fila
+
+58
+00:02:39,200 --> 00:02:40,860
+del cual yo he puesto de editar,
+
+59
+00:02:41,360 --> 00:02:43,240
+pues los datos sean traslados
+
+60
+00:02:43,240 --> 00:02:45,560
+a mi mantenimiento de productos.
+
+61
+00:02:45,560 --> 00:02:47,800
+Como puedes darte cuenta si
+
+62
+00:02:47,800 --> 00:02:50,920
+yo pongo acá al del último que ha
+
+63
+00:02:50,920 --> 00:02:51,460
+agregado,
+
+64
+00:02:52,280 --> 00:02:54,420
+que es regilla de 5 octavos,
+
+65
+00:02:54,600 --> 00:02:57,520
+pues doy en editar y pues
+
+66
+00:02:57,520 --> 00:03:01,560
+me muestra todos los datos que que
+
+67
+00:03:01,560 --> 00:03:03,500
+bueno que que
+
+68
+00:03:03,500 --> 00:03:05,640
+equivalen a lo que es en verdad.
+
+69
+00:03:06,980 --> 00:03:08,140
+Entonces, eso es lo que
+
+70
+00:03:08,140 --> 00:03:09,180
+vamos a ver y lo que
+
+71
+00:03:09,180 --> 00:03:10,740
+vamos a hacer. Como puedes
+
+72
+00:03:10,740 --> 00:03:11,720
+darte cuenta me ha
+
+73
+00:03:11,720 --> 00:03:13,860
+faltado colocar pues
+
+74
+00:03:13,860 --> 00:03:16,440
+la parte de los lejos de arriba,
+
+75
+00:03:17,020 --> 00:03:19,300
+pero es un interés ahora. Lo
+
+76
+00:03:19,300 --> 00:03:21,080
+que te quiero explicar es que
+
+77
+00:03:21,080 --> 00:03:22,880
+ahora como podemos trasladar
+
+78
+00:03:22,880 --> 00:03:25,100
+esos datos hacia otro fumulario.
+
+79
+00:03:25,680 --> 00:03:28,220
+Entonces, vamos a ir al código.
+
+80
+00:03:30,040 --> 00:03:31,400
+Vamos a ir al código,
+
+81
+00:03:31,660 --> 00:03:34,720
+voy a ocultar esta parte de aquí y
+
+82
+00:03:34,720 --> 00:03:35,400
+ese
+
+83
+00:03:35,920 --> 00:03:36,440
+código
+
+84
+00:03:36,440 --> 00:03:40,820
+es en la parte obviamente de aquí.
+
+85
+00:03:42,860 --> 00:03:47,320
+Ahora vamos a hacer una cosa.
+
+86
+00:03:48,260 --> 00:03:48,360
+En
+
+87
+00:03:48,360 --> 00:03:49,480
+nuestro tabla productos
+
+88
+00:03:49,480 --> 00:03:51,540
+acuérdate que en nuestra tabla
+
+89
+00:03:51,540 --> 00:03:54,620
+productos acuérate que esa Zelda
+
+90
+00:03:54,620 --> 00:03:55,620
+pertenece
+
+91
+00:03:55,620 --> 00:03:57,040
+a nuestra tabla productos.
+
+92
+00:03:58,020 --> 00:03:58,480
+Entonces,
+
+93
+00:03:58,760 --> 00:04:01,540
+hay una parte de nuestra tabla
+
+94
+00:04:01,540 --> 00:04:03,680
+productos que es un evento
+
+95
+00:04:03,680 --> 00:04:06,840
+que se llama Cell Content Click,
+
+96
+00:04:07,660 --> 00:04:08,040
+o sea,
+
+97
+00:04:08,640 --> 00:04:10,880
+el contenido de la Zelda.
+
+98
+00:04:11,940 --> 00:04:12,380
+Entonces,
+
+99
+00:04:12,640 --> 00:04:14,380
+este evento prácticamente nos va a
+
+100
+00:04:14,380 --> 00:04:15,120
+dar la chance
+
+101
+00:04:15,120 --> 00:04:17,220
+o la oportunidad de al dar click.
+
+102
+00:04:17,480 --> 00:04:20,200
+Vamos a ver qué función podemos
+
+103
+00:04:20,200 --> 00:04:22,840
+darle a ese contenido de esa Zelda.
+
+104
+00:04:24,640 --> 00:04:25,480
+Entonces,
+
+105
+00:04:26,040 --> 00:04:28,420
+le damos double click y como puedes
+
+106
+00:04:28,420 --> 00:04:29,080
+darte cuenta,
+
+107
+00:04:30,320 --> 00:04:32,900
+aquí está el código que estamos
+
+108
+00:04:32,900 --> 00:04:33,400
+haciendo.
+
+109
+00:04:35,460 --> 00:04:36,300
+Tables,
+
+110
+00:04:36,720 --> 00:04:38,120
+Cell Content
+
+111
+00:04:38,120 --> 00:04:40,760
+Click que vendría a ser el evento.
+
+112
+00:04:41,540 --> 00:04:44,840
+Ahora, qué hacemos o bueno,
+
+113
+00:04:45,180 --> 00:04:46,820
+qué hace este evento?
+
+114
+00:04:47,120 --> 00:04:47,360
+Lebo,
+
+115
+00:04:47,480 --> 00:04:49,000
+acá te voy a explicar.
+
+116
+00:04:50,160 --> 00:04:50,440
+Dice,
+
+117
+00:04:51,240 --> 00:04:51,760
+si en la
+
+118
+00:04:51,760 --> 00:04:53,960
+tabla de productos en nuestra fila,
+
+119
+00:04:53,960 --> 00:04:58,980
+en nuestra en el índice de la fila,
+
+120
+00:04:59,320 --> 00:05:00,460
+en la Zelda,
+
+121
+00:05:00,840 --> 00:05:02,140
+o sea, en la Zelda,
+
+122
+00:05:04,460 --> 00:05:05,100
+podemos
+
+123
+00:05:05,100 --> 00:05:07,440
+darle el nombre de esa Zelda.
+
+124
+00:05:09,940 --> 00:05:10,960
+Por ejemplo,
+
+125
+00:05:11,060 --> 00:05:11,860
+yo esa Zelda,
+
+126
+00:05:12,080 --> 00:05:12,920
+pues, bueno,
+
+127
+00:05:12,920 --> 00:05:14,140
+creo que es la única parte
+
+128
+00:05:14,140 --> 00:05:15,280
+que le puse en español.
+
+129
+00:05:16,120 --> 00:05:17,840
+Le puse eliminar.
+
+130
+00:05:18,260 --> 00:05:18,660
+Bueno,
+
+131
+00:05:18,880 --> 00:05:19,960
+tú
+
+132
+00:05:19,960 --> 00:05:22,140
+creo que lo pusiste en mayúscula,
+
+133
+00:05:22,280 --> 00:05:23,060
+así que le despono en
+
+134
+00:05:23,060 --> 00:05:23,820
+mayúscula acá.
+
+135
+00:05:24,760 --> 00:05:25,680
+Entonces, este
+
+136
+00:05:25,680 --> 00:05:27,220
+es la parte de eliminar,
+
+137
+00:05:27,700 --> 00:05:28,960
+ok? Entonces,
+
+138
+00:05:29,280 --> 00:05:29,940
+yo digo en
+
+139
+00:05:29,940 --> 00:05:32,420
+la tabla de productos en mi fila,
+
+140
+00:05:32,660 --> 00:05:33,400
+en la Zelda,
+
+141
+00:05:33,740 --> 00:05:34,420
+de eliminar,
+
+142
+00:05:34,460 --> 00:05:35,040
+o sea, en
+
+143
+00:05:35,040 --> 00:05:36,860
+la parte en donde aparece la X,
+
+144
+00:05:37,380 --> 00:05:39,440
+si yo selecciono, pues quiero que
+
+145
+00:05:39,440 --> 00:05:39,920
+suceda lo
+
+146
+00:05:39,920 --> 00:05:42,900
+siguiente. Quiero instanciar el
+
+147
+00:05:43,860 --> 00:05:44,380
+formulario
+
+148
+00:05:44,380 --> 00:05:44,480
+de
+
+149
+00:05:44,480 --> 00:05:45,860
+pregunta, te acuerdas
+
+150
+00:05:45,860 --> 00:05:46,760
+la performulario de
+
+151
+00:05:46,760 --> 00:05:48,520
+notificación, quiero estacionar
+
+152
+00:05:48,520 --> 00:05:49,200
+esa formulario de
+
+153
+00:05:49,200 --> 00:05:49,800
+notificación
+
+154
+00:05:49,800 --> 00:05:52,000
+y pues quiero mandarle un mensaje.
+
+155
+00:05:52,060 --> 00:05:53,400
+Quiero que aparezca y quiero que me
+
+156
+00:05:53,400 --> 00:05:54,960
+mande un mensaje donde me diga,
+
+157
+00:05:55,340 --> 00:05:56,460
+está seguro de eliminar el
+
+158
+00:05:56,460 --> 00:05:57,040
+producto,
+
+159
+00:05:57,820 --> 00:05:58,260
+pues,
+
+160
+00:05:58,600 --> 00:06:00,980
+en ese objeto voy a
+
+161
+00:06:03,360 --> 00:06:04,780
+editarle que,
+
+162
+00:06:04,920 --> 00:06:05,580
+bueno, que
+
+163
+00:06:05,580 --> 00:06:09,560
+se vea y también con diálogo
+
+164
+00:06:09,560 --> 00:06:12,120
+resulto voy a crear un objeto,
+
+165
+00:06:12,480 --> 00:06:15,680
+el cual va a ser equivalente a lo
+
+166
+00:06:15,680 --> 00:06:17,440
+que cuando aparezca
+
+167
+00:06:17,440 --> 00:06:19,920
+el formulario de notificación,
+
+168
+00:06:20,460 --> 00:06:20,900
+pues
+
+169
+00:06:20,900 --> 00:06:23,720
+ya sea si doy ok o doy cancelar,
+
+170
+00:06:24,220 --> 00:06:26,020
+pues va a suceder algo, ¿no?
+
+171
+00:06:26,420 --> 00:06:28,140
+Entonces si es resultado, te midiá
+
+172
+00:06:28,140 --> 00:06:28,780
+luego resulta,
+
+173
+00:06:28,780 --> 00:06:29,240
+es ok,
+
+174
+00:06:29,820 --> 00:06:32,100
+pues si yo quiero que se cansele,
+
+175
+00:06:32,380 --> 00:06:33,480
+o sea, más bien dicho,
+
+176
+00:06:33,600 --> 00:06:35,140
+si yo quiero que se elimine, pues
+
+177
+00:06:35,140 --> 00:06:36,260
+quiero que suceda lo
+
+178
+00:06:36,260 --> 00:06:39,660
+siguiente, pues como puedes ver,
+
+179
+00:06:39,700 --> 00:06:43,400
+le doy una variable entera,
+
+180
+00:06:43,620 --> 00:06:45,180
+porque obviamente es un número
+
+181
+00:06:45,180 --> 00:06:45,860
+entero,
+
+182
+00:06:45,980 --> 00:06:48,440
+nuestro,
+
+183
+00:06:48,440 --> 00:06:50,100
+nuestro primer aquí,
+
+184
+00:06:51,240 --> 00:06:52,000
+y bueno le digo,
+
+185
+00:06:52,160 --> 00:06:52,440
+pues, ¿no?
+
+186
+00:06:52,800 --> 00:06:55,880
+¿Qué? La
+
+187
+00:06:55,880 --> 00:06:58,060
+tabla productos de mi fila en el
+
+188
+00:06:58,060 --> 00:06:59,600
+índice de la celda 2,
+
+189
+00:06:59,900 --> 00:07:01,120
+¿por qué la celda 2?
+
+190
+00:07:01,280 --> 00:07:02,840
+¿Por qué acuerrate que la celda 2
+
+191
+00:07:02,840 --> 00:07:06,020
+es el que tiene el primer aquí?
+
+192
+00:07:07,160 --> 00:07:09,340
+O sea, es el que tiene,
+
+193
+00:07:09,420 --> 00:07:09,760
+pues,
+
+194
+00:07:10,040 --> 00:07:12,040
+el id del producto original,
+
+195
+00:07:12,700 --> 00:07:16,080
+entonces es lo que nosotros estamos
+
+196
+00:07:16,080 --> 00:07:16,840
+obteniendo acá,
+
+197
+00:07:17,420 --> 00:07:18,500
+ahora acá le estamos
+
+198
+00:07:18,500 --> 00:07:19,860
+convirtiendo en un string,
+
+199
+00:07:20,200 --> 00:07:21,840
+o bueno,
+
+200
+00:07:21,940 --> 00:07:24,400
+mejor dicho es un string lo que
+
+201
+00:07:24,400 --> 00:07:24,840
+tenemos,
+
+202
+00:07:25,360 --> 00:07:27,480
+pero vamos a convertirlo a un
+
+203
+00:07:27,480 --> 00:07:27,920
+entero,
+
+204
+00:07:28,080 --> 00:07:30,140
+porque acuerrate que es un entero,
+
+205
+00:07:31,080 --> 00:07:32,740
+entonces con nuestro,
+
+206
+00:07:33,460 --> 00:07:34,200
+bueno,
+
+207
+00:07:34,200 --> 00:07:36,560
+con nuestro objeto de negocio,
+
+208
+00:07:36,560 --> 00:07:38,100
+ya he instanciado de arriba,
+
+209
+00:07:38,480 --> 00:07:41,580
+le vamos a decir que elimine el
+
+210
+00:07:41,580 --> 00:07:44,720
+se dicho producto y solo le pasamos
+
+211
+00:07:44,720 --> 00:07:46,900
+bueno el objeto del cual aquí
+
+212
+00:07:46,900 --> 00:07:48,840
+ya está referenciado nuestro id,
+
+213
+00:07:49,040 --> 00:07:49,500
+no el id,
+
+214
+00:07:49,820 --> 00:07:53,040
+el id que corresponde a dicha fila
+
+215
+00:07:53,040 --> 00:07:53,880
+seleccionada,
+
+216
+00:07:54,320 --> 00:07:56,200
+ya sea el número 1,
+
+217
+00:07:56,440 --> 00:07:56,700
+el 2,
+
+218
+00:07:56,980 --> 00:07:57,280
+el 3,
+
+219
+00:07:57,580 --> 00:07:58,140
+el 4,
+
+220
+00:07:58,400 --> 00:07:59,000
+o bueno,
+
+221
+00:07:59,000 --> 00:08:01,780
+el id que le compete a esa fila,
+
+222
+00:08:01,900 --> 00:08:04,380
+entonces llamo,
+
+223
+00:08:04,600 --> 00:08:05,700
+llamo a mi
+
+224
+00:08:05,700 --> 00:08:09,260
+notificación de confirmado y bueno,
+
+225
+00:08:09,380 --> 00:08:10,120
+pues le mando
+
+226
+00:08:10,120 --> 00:08:11,960
+el mensaje que ha sido eliminado,
+
+227
+00:08:12,800 --> 00:08:17,420
+luego ya que se eliminó,
+
+228
+00:08:17,420 --> 00:08:20,460
+pues le digo que se refresque mi
+
+229
+00:08:20,460 --> 00:08:21,420
+tabla de productos,
+
+230
+00:08:21,920 --> 00:08:23,800
+que es el showproducts que vendría
+
+231
+00:08:23,800 --> 00:08:25,020
+a ser bueno, ya sabes,
+
+232
+00:08:25,380 --> 00:08:27,980
+para mostrar los productos, ¿no?
+
+233
+00:08:28,400 --> 00:08:29,000
+Entonces con
+
+234
+00:08:29,840 --> 00:08:30,480
+showproducts,
+
+235
+00:08:30,480 --> 00:08:33,060
+pues que vendría a ser este tabla
+
+236
+00:08:33,060 --> 00:08:34,260
+de productos o mostrar
+
+237
+00:08:34,260 --> 00:08:35,200
+tabla de productos,
+
+238
+00:08:35,460 --> 00:08:38,160
+pues me refresca en mi nueva
+
+239
+00:08:38,160 --> 00:08:40,760
+tabla de productos ya actualizado,
+
+240
+00:08:41,420 --> 00:08:45,560
+ahora lo mismo esto pasa cuando
+
+241
+00:08:45,560 --> 00:08:47,640
+yo apreto el botón de eliminar,
+
+242
+00:08:47,760 --> 00:08:49,760
+cuando yo apreto el
+
+243
+00:08:49,760 --> 00:08:51,780
+botón de eliminar en dicha celda,
+
+244
+00:08:52,360 --> 00:08:54,100
+ahora si no, o sea,
+
+245
+00:08:54,260 --> 00:08:55,000
+si no vos, si
+
+246
+00:08:55,000 --> 00:08:57,460
+no apreto el botón de eliminar,
+
+247
+00:08:57,540 --> 00:08:59,220
+pues quiero que pase lo
+
+248
+00:08:59,220 --> 00:09:01,480
+siguiente con el botón en la celda
+
+249
+00:09:02,400 --> 00:09:03,360
+de editar,
+
+250
+00:09:03,980 --> 00:09:04,320
+yo le
+
+251
+00:09:04,320 --> 00:09:06,460
+puesto editar también aquí, bueno,
+
+252
+00:09:06,680 --> 00:09:08,200
+era para ponerlo en inglés,
+
+253
+00:09:09,100 --> 00:09:10,500
+no sé qué me pasó,
+
+254
+00:09:10,680 --> 00:09:11,900
+pero bueno, tú,
+
+255
+00:09:12,080 --> 00:09:13,400
+estas dos cosas,
+
+256
+00:09:13,400 --> 00:09:15,120
+creo que la tienes que poner en
+
+257
+00:09:15,120 --> 00:09:16,400
+mayúscula porque es
+
+258
+00:09:16,400 --> 00:09:18,540
+así como está en el vídeo pasado,
+
+259
+00:09:19,060 --> 00:09:20,780
+entonces lo mismo,
+
+260
+00:09:21,020 --> 00:09:24,820
+si en la tabla si yo doy clic en la
+
+261
+00:09:24,820 --> 00:09:25,520
+tabla de la
+
+262
+00:09:25,520 --> 00:09:28,380
+celda de que representa al editar,
+
+263
+00:09:28,380 --> 00:09:29,960
+o sea, el botón de editar si
+
+264
+00:09:29,960 --> 00:09:30,500
+selecciono,
+
+265
+00:09:31,360 --> 00:09:35,340
+pues ya no llamo al bueno,
+
+266
+00:09:35,500 --> 00:09:36,760
+en este caso yo llamaba la
+
+267
+00:09:36,760 --> 00:09:37,880
+notificación, pero
+
+268
+00:09:37,880 --> 00:09:39,320
+acá yo no quiero llamar a la
+
+269
+00:09:39,320 --> 00:09:40,880
+notificación, qué quiero hacer,
+
+270
+00:09:41,040 --> 00:09:44,300
+quiero llamar al formulario
+
+271
+00:09:44,300 --> 00:09:45,940
+de mantenimiento de productos,
+
+272
+00:09:46,780 --> 00:09:48,500
+entonces aquí es donde voy a
+
+273
+00:09:48,500 --> 00:09:52,000
+trasladar todos los campos de dicha
+
+274
+00:09:52,000 --> 00:09:55,720
+fila hacia las cajas
+
+275
+00:09:55,720 --> 00:09:57,040
+de texto correspondientes,
+
+276
+00:09:57,460 --> 00:09:58,960
+entonces aquí instancia,
+
+277
+00:09:59,280 --> 00:10:03,680
+aquí instancia y en mi objeto en mi
+
+278
+00:10:03,680 --> 00:10:08,860
+objeto frm esta parte de aquí
+
+279
+00:10:10,600 --> 00:10:11,480
+verdad,
+
+280
+00:10:11,900 --> 00:10:13,280
+se me olvidó decirte,
+
+281
+00:10:13,880 --> 00:10:16,100
+así como en los vídeos pasados
+
+282
+00:10:16,100 --> 00:10:18,440
+cuando editamos o eliminamos,
+
+283
+00:10:18,440 --> 00:10:20,860
+habíamos creado pues una variable
+
+284
+00:10:20,860 --> 00:10:22,260
+buliana,
+
+285
+00:10:22,480 --> 00:10:25,380
+una variable buliana en el cual
+
+286
+00:10:25,380 --> 00:10:29,160
+pues si editabas
+
+287
+00:10:30,180 --> 00:10:32,140
+pues era true
+
+288
+00:10:32,140 --> 00:10:34,960
+y si no editabas pues era false,
+
+289
+00:10:34,960 --> 00:10:40,340
+entonces hay una parte,
+
+290
+00:10:40,600 --> 00:10:41,980
+entonces esta parte de aquí
+
+291
+00:10:42,380 --> 00:10:42,780
+del
+
+292
+00:10:42,780 --> 00:10:48,500
+cual yo obtengo el frm update es
+
+293
+00:10:48,500 --> 00:10:53,500
+lo que yo estoy obteniendo desde mi
+
+294
+00:10:53,500 --> 00:10:55,580
+frm de mantenimiento de productos,
+
+295
+00:10:56,420 --> 00:10:58,900
+entonces es por eso que aquí en
+
+296
+00:10:58,900 --> 00:11:00,360
+mantenimiento de productos,
+
+297
+00:11:01,020 --> 00:11:03,200
+aquí en esta parte vamos a ver el
+
+298
+00:11:03,200 --> 00:11:04,280
+código, yo
+
+299
+00:11:04,280 --> 00:11:05,720
+creo una variable buliana,
+
+300
+00:11:05,900 --> 00:11:07,040
+vez que comiencen
+
+301
+00:11:07,040 --> 00:11:11,640
+false y le digo que es pública,
+
+302
+00:11:11,640 --> 00:11:12,260
+ahora
+
+303
+00:11:12,260 --> 00:11:14,100
+cuando yo le digo que es pública,
+
+304
+00:11:14,860 --> 00:11:17,420
+ayúd instanciar en otro formulario
+
+305
+00:11:17,420 --> 00:11:20,120
+que vendría a ser la parte de aquí
+
+306
+00:11:20,120 --> 00:11:22,120
+obviamente el que contiene,
+
+307
+00:11:22,820 --> 00:11:24,120
+que sería esta parte de aquí,
+
+308
+00:11:24,440 --> 00:11:25,980
+quiero ponerlo pública, puedo
+
+309
+00:11:25,980 --> 00:11:27,640
+obtener esa,
+
+310
+00:11:28,940 --> 00:11:32,000
+o sea ya partir de decirles si
+
+311
+00:11:32,000 --> 00:11:33,640
+sigue siendo false o sigue siendo
+
+312
+00:11:33,640 --> 00:11:35,680
+true, pero como es editar,
+
+313
+00:11:35,760 --> 00:11:37,160
+o sea como estoy editando,
+
+314
+00:11:37,280 --> 00:11:40,820
+entonces desde mi frm puedo decirle
+
+315
+00:11:40,820 --> 00:11:41,240
+que
+
+316
+00:11:41,240 --> 00:11:44,440
+upday va a comenzar siendo true,
+
+317
+00:11:44,740 --> 00:11:45,960
+lo mismo,
+
+318
+00:11:46,540 --> 00:11:51,360
+ahora también quiero depositar
+
+319
+00:11:51,360 --> 00:11:52,020
+todos
+
+320
+00:11:52,020 --> 00:11:54,900
+los datos de mi fila a las cajas,
+
+321
+00:11:55,440 --> 00:11:59,920
+entonces estoy de positar esos
+
+322
+00:11:59,920 --> 00:12:05,320
+datos a las cajas pero de un lugar
+
+323
+00:12:05,320 --> 00:12:05,960
+hacia otro,
+
+324
+00:12:06,360 --> 00:12:08,660
+entonces como puedo depositar esas
+
+325
+00:12:08,660 --> 00:12:09,640
+cajas,
+
+326
+00:12:10,220 --> 00:12:13,160
+ahora tienes que depositarlas,
+
+327
+00:12:14,040 --> 00:12:16,540
+pero primero antes de eso debe
+
+328
+00:12:16,540 --> 00:12:18,620
+decir a tu diseño de mantenimiento
+
+329
+00:12:18,620 --> 00:12:20,800
+de productos y quiero que te
+
+330
+00:12:20,800 --> 00:12:24,000
+des cuenta de que la única forma de
+
+331
+00:12:24,000 --> 00:12:24,860
+depositarlas
+
+332
+00:12:24,860 --> 00:12:26,960
+es que todas tus cajas,
+
+333
+00:12:27,120 --> 00:12:28,180
+todas
+
+334
+00:12:28,180 --> 00:12:31,700
+tus cajas tienen que ser públicas,
+
+335
+00:12:32,040 --> 00:12:34,040
+al comienzo van a ser privadas,
+
+336
+00:12:34,560 --> 00:12:38,300
+así que tú debes decirle que en el
+
+337
+00:12:38,300 --> 00:12:39,200
+evento de modificar,
+
+338
+00:12:39,680 --> 00:12:41,280
+bueno en la propia vez de
+
+339
+00:12:41,280 --> 00:12:42,840
+modificadores, debes decirle que
+
+340
+00:12:42,840 --> 00:12:43,480
+sea pública,
+
+341
+00:12:43,720 --> 00:12:44,960
+tú lo vas a tener en privada,
+
+342
+00:12:45,320 --> 00:12:46,620
+tienes que ponerle en pública
+
+343
+00:12:46,620 --> 00:12:47,500
+porque si no
+
+344
+00:12:47,500 --> 00:12:51,880
+va a reconocer en la parte de aquí,
+
+345
+00:12:52,380 --> 00:12:53,580
+no lo va a reconocer,
+
+346
+00:12:53,780 --> 00:12:55,080
+te va a decir que no puedes
+
+347
+00:12:55,080 --> 00:12:58,840
+utilizar la caja porque bueno le
+
+348
+00:12:58,840 --> 00:13:00,160
+pertenece al de mantenimiento
+
+349
+00:13:00,160 --> 00:13:00,760
+producto,
+
+350
+00:13:01,720 --> 00:13:02,260
+aún así,
+
+351
+00:13:02,720 --> 00:13:04,320
+tú lo has instanciado,
+
+352
+00:13:04,660 --> 00:13:07,740
+no te va a dejar porque las cajas
+
+353
+00:13:07,740 --> 00:13:09,020
+no son públicas,
+
+354
+00:13:09,340 --> 00:13:12,780
+actualmente son privadas para ti,
+
+355
+00:13:13,000 --> 00:13:13,920
+entonces te desponernas las
+
+356
+00:13:13,920 --> 00:13:14,820
+públicas,
+
+357
+00:13:15,240 --> 00:13:17,500
+entonces ya que ahora son públicas,
+
+358
+00:13:17,740 --> 00:13:21,220
+ahora sí podemos depositar desde mi
+
+359
+00:13:21,220 --> 00:13:21,820
+fila
+
+360
+00:13:21,820 --> 00:13:24,480
+de mi tabla a las cajas de texto,
+
+361
+00:13:25,020 --> 00:13:26,720
+entonces le voy a decir
+
+362
+00:13:26,720 --> 00:13:29,040
+por ejemplo en el primer ejemplo,
+
+363
+00:13:29,160 --> 00:13:32,720
+le voy a decir que en mi caja de
+
+364
+00:13:32,720 --> 00:13:36,040
+takest id que vendría a ser el id,
+
+365
+00:13:37,540 --> 00:13:38,720
+le voy a decir que en
+
+366
+00:13:38,720 --> 00:13:42,940
+mi tabla de productos de la fila,
+
+367
+00:13:43,540 --> 00:13:47,900
+en mi celda id que vendría a ser el
+
+368
+00:13:47,900 --> 00:13:50,040
+nombre del id como lo tengo yo de
+
+369
+00:13:50,040 --> 00:13:53,320
+la base de datos del SQL server,
+
+370
+00:13:54,020 --> 00:13:59,260
+quiero que el valor se deposite en
+
+371
+00:13:59,260 --> 00:13:59,900
+esta caja de
+
+372
+00:13:59,900 --> 00:14:02,180
+texto, quiero que lo obtenga ahí,
+
+373
+00:14:02,640 --> 00:14:03,240
+lo mismo con
+
+374
+00:14:03,240 --> 00:14:05,000
+el código, de mi tabla de productos
+
+375
+00:14:05,000 --> 00:14:05,420
+en la
+
+376
+00:14:05,420 --> 00:14:05,940
+fila,
+
+377
+00:14:06,420 --> 00:14:22,860
+en el índice de la celda que tiene
+
+378
+00:14:22,860 --> 00:14:23,040
+que
+
+379
+00:14:23,040 --> 00:14:23,040
+ver,
+
+380
+00:14:23,320 --> 00:14:25,900
+por ejemplo el mío está en mi
+
+381
+00:14:25,900 --> 00:14:27,300
+núscula porque obviamente
+
+382
+00:14:27,300 --> 00:14:30,620
+el depósito de cajas de cada fila
+
+383
+00:14:30,620 --> 00:14:33,720
+depende del nombre de la cabezera,
+
+384
+00:14:33,980 --> 00:14:36,060
+del nombre de dicha columna,
+
+385
+00:14:36,800 --> 00:14:37,660
+ahora por ejemplo,
+
+386
+00:14:38,140 --> 00:14:40,400
+pues en mi SQL server de la base de
+
+387
+00:14:40,400 --> 00:14:41,540
+datos, por ejemplo,
+
+388
+00:14:41,740 --> 00:14:43,360
+todas mi parte
+
+389
+00:14:43,360 --> 00:14:51,880
+de la cabezera esté en mi núscula,
+
+390
+00:14:51,880 --> 00:14:52,200
+es por
+
+391
+00:14:52,760 --> 00:14:53,940
+en el vídeo anterior,
+
+392
+00:14:54,180 --> 00:14:56,000
+como puedes ver esto lo tiene
+
+393
+00:14:56,000 --> 00:14:57,220
+estuve en mi núscula, así que tú
+
+394
+00:14:57,220 --> 00:14:58,400
+tienes que ponerlo en mi
+
+395
+00:14:58,400 --> 00:15:00,440
+núscula para que puedas
+
+396
+00:15:00,440 --> 00:15:02,460
+depositar las cajas de texto,
+
+397
+00:15:02,840 --> 00:15:04,040
+como están establecidas,
+
+398
+00:15:04,660 --> 00:15:06,580
+ahora luego después de ponerlo
+
+399
+00:15:06,580 --> 00:15:07,300
+obviamente
+
+400
+00:15:07,300 --> 00:15:09,660
+ya cuando están colocadas,
+
+401
+00:15:10,300 --> 00:15:12,540
+pues vamos a decir que se abra que
+
+402
+00:15:12,540 --> 00:15:16,740
+sin instancia ese mantenimiento de
+
+403
+00:15:16,740 --> 00:15:19,040
+productos de formulario que se abra
+
+404
+00:15:19,040 --> 00:15:24,620
+y pues obviamente el formulario se
+
+405
+00:15:24,620 --> 00:15:24,840
+va a
+
+406
+00:15:24,840 --> 00:15:27,360
+abrir, entonces eso es lo que hace
+
+407
+00:15:27,360 --> 00:15:29,180
+prácticamente ya tenemos las
+
+408
+00:15:29,180 --> 00:15:31,180
+dos funciones de eliminar y editar,
+
+409
+00:15:31,660 --> 00:15:34,980
+aquí eliminamos y aquí pasamos
+
+410
+00:15:34,980 --> 00:15:38,060
+al darle clic al icono de editar,
+
+411
+00:15:38,060 --> 00:15:41,360
+aquí pasamos todos los campos
+
+412
+00:15:41,360 --> 00:15:44,460
+de las filas de data review a las
+
+413
+00:15:44,460 --> 00:15:46,260
+cajas correspondientes del
+
+414
+00:15:46,260 --> 00:15:48,420
+otro formulario de mantenimiento de
+
+415
+00:15:48,420 --> 00:15:48,980
+productos,
+
+416
+00:15:49,480 --> 00:15:53,280
+pero obviamente aquí no hemos
+
+417
+00:15:53,280 --> 00:15:54,220
+editado nada,
+
+418
+00:15:54,820 --> 00:15:56,020
+pero eso no,
+
+419
+00:15:56,120 --> 00:15:58,300
+esto nos va a servir para que en
+
+420
+00:15:58,300 --> 00:15:59,960
+el formulario de mantenimiento de
+
+421
+00:15:59,960 --> 00:16:02,740
+productos pues evitemos ya
+
+422
+00:16:08,060 --> 00:16:08,300
+por
+
+423
+00:16:08,300 --> 00:16:11,360
+último lo último que vamos a hacer
+
+424
+00:16:11,360 --> 00:16:13,440
+y que quiero que
+
+425
+00:16:13,440 --> 00:16:16,920
+veas es que solamente en el botón,
+
+426
+00:16:17,020 --> 00:16:18,600
+bueno estas son los métodos de los
+
+427
+00:16:18,600 --> 00:16:20,820
+dos botones de nuevo categoría y
+
+428
+00:16:20,820 --> 00:16:22,940
+nueva marca pues como puedes ver
+
+429
+00:16:22,940 --> 00:16:27,600
+solo la asistancia y aquí lo sabro
+
+430
+00:16:27,600 --> 00:16:28,820
+a cada uno de ellos,
+
+431
+00:16:29,100 --> 00:16:32,100
+bueno vamos a ver la última parte
+
+432
+00:16:32,100 --> 00:16:33,020
+que es
+
+433
+00:16:33,580 --> 00:16:35,400
+en el mantenimiento de
+
+434
+00:16:35,400 --> 00:16:38,420
+productos que vendría a ser ya el
+
+435
+00:16:38,420 --> 00:16:40,420
+guardado o editado gracias a
+
+436
+00:16:40,420 --> 00:16:42,360
+este botón de acá que vamos a darle
+
+437
+00:16:42,360 --> 00:16:43,000
+double clic,
+
+438
+00:16:43,560 --> 00:16:46,660
+entonces es lo que hicimos en el
+
+439
+00:16:46,660 --> 00:16:47,400
+vídeo santerio,
+
+440
+00:16:47,520 --> 00:16:51,220
+no cambia de nada para nada es lo
+
+441
+00:16:51,220 --> 00:16:54,900
+mismo si vamos a guardar o bueno si
+
+442
+00:16:54,900 --> 00:16:59,040
+vamos a acudar clic en nuevo se va
+
+443
+00:16:59,040 --> 00:16:59,220
+a
+
+444
+00:16:59,220 --> 00:16:59,220
+abrir
+
+445
+00:16:59,220 --> 00:17:00,060
+el nuevo formulario
+
+446
+00:17:00,060 --> 00:17:01,940
+entonces como va a ser nuevo pues
+
+447
+00:17:01,940 --> 00:17:04,940
+obviamente un day que vendría a ser
+
+448
+00:17:04,940 --> 00:17:06,800
+el buliano de aquí que comienza en
+
+449
+00:17:06,800 --> 00:17:08,260
+false pues
+
+450
+00:17:08,260 --> 00:17:10,480
+va a seguir su curso, va a decir
+
+451
+00:17:10,480 --> 00:17:11,760
+bueno si es false no va
+
+452
+00:17:11,760 --> 00:17:13,960
+a editar entonces va a guardar,
+
+453
+00:17:14,220 --> 00:17:17,560
+entonces damos los datos
+
+454
+00:17:17,560 --> 00:17:19,300
+correspondientes de cada
+
+455
+00:17:19,300 --> 00:17:21,780
+uno de ellos ya sea el producto,
+
+456
+00:17:21,980 --> 00:17:23,540
+el precio compra que viene
+
+457
+00:17:23,540 --> 00:17:28,880
+de lojeto de entidades y bueno le
+
+458
+00:17:28,880 --> 00:17:32,920
+damos lo que corresponde cada uno
+
+459
+00:17:32,920 --> 00:17:35,240
+de ellos no y también obviamente
+
+460
+00:17:35,240 --> 00:17:38,820
+tenemos que convertir cada cada
+
+461
+00:17:38,820 --> 00:17:40,820
+caja de texto que vino de la fila
+
+462
+00:17:40,820 --> 00:17:42,060
+obviamente era un string
+
+463
+00:17:42,060 --> 00:17:44,000
+acuérdate, la habíamos llevado
+
+464
+00:17:44,000 --> 00:17:44,560
+como string,
+
+465
+00:17:45,160 --> 00:17:46,000
+aquí tenemos que
+
+466
+00:17:46,000 --> 00:17:47,240
+convertirlo por ejemplo,
+
+467
+00:17:47,340 --> 00:17:48,860
+el precio compra, precio y venta
+
+468
+00:17:48,860 --> 00:17:50,120
+son desimales tienes
+
+469
+00:17:50,120 --> 00:17:50,960
+que convertirlo,
+
+470
+00:17:51,080 --> 00:17:51,560
+el stock,
+
+471
+00:17:52,100 --> 00:17:53,820
+tienes que convertirlo en un entero
+
+472
+00:17:53,820 --> 00:17:56,140
+igual con el ID,
+
+473
+00:17:56,420 --> 00:17:58,800
+aquí es donde esta cuarras
+
+474
+00:17:58,800 --> 00:18:02,460
+que habíamos dicho que la parte le
+
+475
+00:18:02,460 --> 00:18:05,000
+llevamos a darle el nombre pero
+
+476
+00:18:05,000 --> 00:18:07,220
+con ese amague con esa jugada pues
+
+477
+00:18:09,820 --> 00:18:11,520
+actualmente se deposita
+
+478
+00:18:11,520 --> 00:18:14,360
+el ID de dicha de dicha categoría,
+
+479
+00:18:14,600 --> 00:18:16,480
+entonces pues aquí ya tenemos el ID
+
+480
+00:18:16,480 --> 00:18:18,480
+de dicha categoría pero acuérdate
+
+481
+00:18:18,480 --> 00:18:18,620
+que
+
+482
+00:18:18,620 --> 00:18:20,340
+también viene como un string, así
+
+483
+00:18:20,340 --> 00:18:21,920
+que debemos convertirlo a un
+
+484
+00:18:21,920 --> 00:18:25,340
+entero ya que cuando referenciamos
+
+485
+00:18:25,340 --> 00:18:27,320
+en la base de datos acuérate que
+
+486
+00:18:27,320 --> 00:18:38,380
+tanto como ID de entonces después
+
+487
+00:18:38,380 --> 00:18:41,840
+de esto obviamente por mi objeto
+
+488
+00:18:41,840 --> 00:18:44,900
+negocio tenemos el método de crear
+
+489
+00:18:44,900 --> 00:18:47,240
+los productos o bueno de insertar
+
+490
+00:18:47,240 --> 00:18:51,240
+productos entonces ya con mi objeto
+
+491
+00:18:51,240 --> 00:18:54,240
+de entidades que contiene a todos a
+
+492
+00:18:54,240 --> 00:18:58,400
+todos sus datos pues solo
+
+493
+00:18:58,400 --> 00:19:04,680
+le entrego pues le doy a entregar
+
+494
+00:19:04,680 --> 00:19:05,440
+todos esos
+
+495
+00:19:05,440 --> 00:19:07,600
+datos, les pueden entregar todos
+
+496
+00:19:07,600 --> 00:19:07,820
+esos
+
+497
+00:19:07,820 --> 00:19:09,900
+datos pues voy a guardar y
+
+498
+00:19:09,900 --> 00:19:12,220
+pues me va a salir la notificación,
+
+499
+00:19:12,700 --> 00:19:13,600
+la notificación
+
+500
+00:19:13,600 --> 00:19:15,920
+que el producto ha sido guardado,
+
+501
+00:19:16,280 --> 00:19:19,080
+aquí tú lo tienes de otra forma,
+
+502
+00:19:19,180 --> 00:19:20,900
+yo le cuento con firmform pero tú
+
+503
+00:19:20,900 --> 00:19:24,200
+debes tenerlo de otro método así
+
+504
+00:19:24,200 --> 00:19:26,360
+que no te preocupes luego cerramos
+
+505
+00:19:26,360 --> 00:19:30,120
+el formulario de aguardado entonces
+
+506
+00:19:30,120 --> 00:19:36,060
+aquí también por ejemplo aquí
+
+507
+00:19:36,060 --> 00:19:40,120
+cerramos pero no refrescamos el la
+
+508
+00:19:40,120 --> 00:19:44,800
+tabla de productos porque acuérate
+
+509
+00:19:44,800 --> 00:19:48,300
+que para guardar depende del botón
+
+510
+00:19:48,300 --> 00:19:50,700
+de nuevo producto como puedes ver
+
+511
+00:19:50,700 --> 00:19:54,620
+aquí ya que al apretar
+
+512
+00:19:54,620 --> 00:19:56,520
+doble, el plato un clic a nuevo
+
+513
+00:19:56,520 --> 00:19:56,940
+producto
+
+514
+00:19:56,940 --> 00:19:58,300
+obviamente se va a abrir el
+
+515
+00:19:58,300 --> 00:20:01,180
+de mantenimiento de productos para
+
+516
+00:20:01,180 --> 00:20:04,400
+guardar entonces es por eso que
+
+517
+00:20:04,400 --> 00:20:08,320
+aquí cuando les decimos que vamos a
+
+518
+00:20:08,320 --> 00:20:10,740
+bueno a tener un nuevo producto
+
+519
+00:20:10,740 --> 00:20:13,380
+pues le decimos que comiense con
+
+520
+00:20:13,380 --> 00:20:15,180
+Dave Falls porque no vamos a editar
+
+521
+00:20:15,180 --> 00:20:16,900
+entonces le vamos a poner que sea
+
+522
+00:20:16,900 --> 00:20:20,660
+un Dave Falls y bueno cuando se
+
+523
+00:20:20,660 --> 00:20:22,780
+cierre cuando se cierre dicho pero
+
+524
+00:20:22,780 --> 00:20:25,420
+dicho este ya cuando ya cabe el
+
+525
+00:20:25,420 --> 00:20:28,920
+procedimiento de todo le ponemos un
+
+526
+00:20:28,920 --> 00:20:30,600
+shot product para que se actualice
+
+527
+00:20:30,600 --> 00:20:33,540
+la tabla cuando se haya guardado es
+
+528
+00:20:33,540 --> 00:20:37,180
+aquí en donde hace el guardado y el
+
+529
+00:20:37,180 --> 00:20:39,280
+actualizado de nuestro data gripeo
+
+530
+00:20:39,280 --> 00:20:41,580
+entonces vamos a seguir con
+
+531
+00:20:41,580 --> 00:20:43,220
+el mantenimiento de productos ya
+
+532
+00:20:43,220 --> 00:20:46,000
+explicamos lo que hace que cuando
+
+533
+00:20:46,000 --> 00:20:50,240
+guarde ahora hemos dicho que cuando
+
+534
+00:20:50,240 --> 00:20:53,360
+aprete el botón de lícono de editar
+
+535
+00:20:53,360 --> 00:20:56,200
+pues date se va a convertir en true
+
+536
+00:20:56,200 --> 00:20:58,320
+entonces aquí damos la condicional
+
+537
+00:20:58,320 --> 00:21:01,820
+que si es true entonces es porque
+
+538
+00:21:01,820 --> 00:21:04,880
+si va a editarse entonces como se
+
+539
+00:21:04,880 --> 00:21:06,650
+va a editar es lo mismo de lo que
+
+540
+00:21:06,650 --> 00:21:08,010
+vemos aquí todo
+
+541
+00:21:08,010 --> 00:21:10,010
+lo mismo como puedes
+
+542
+00:21:10,010 --> 00:21:11,390
+darte cuenta lo hemos hecho
+
+543
+00:21:11,390 --> 00:21:14,670
+igual como en categoría y marca el
+
+544
+00:21:14,670 --> 00:21:17,630
+lo mismo pero tú ya sabes que hay
+
+545
+00:21:17,630 --> 00:21:19,450
+una cosa que es diferencia que
+
+546
+00:21:19,450 --> 00:21:23,710
+vendría ser el id el id de dicho
+
+547
+00:21:23,710 --> 00:21:27,010
+producto lo necesitamos si o si
+
+548
+00:21:27,010 --> 00:21:32,510
+entonces acuérdate que yo tengo una
+
+549
+00:21:32,510 --> 00:21:34,830
+caja de texto que le ha agregado es
+
+550
+00:21:34,830 --> 00:21:37,690
+muy diferente a lo que hicimos en
+
+551
+00:21:37,690 --> 00:21:42,210
+en en marca como en categoría esta
+
+552
+00:21:42,210 --> 00:21:45,090
+caja de texto está agregado aquí y
+
+553
+00:21:45,090 --> 00:21:46,990
+es que lo necesitamos si o si
+
+554
+00:21:46,990 --> 00:21:51,890
+y pues es como una ayuda para que
+
+555
+00:21:51,890 --> 00:21:53,870
+podamos guardar este editar el
+
+556
+00:21:53,870 --> 00:21:57,170
+producto estos no son visibles en
+
+557
+00:21:57,170 --> 00:22:00,630
+los campos si te das cuentas si yo
+
+558
+00:22:00,630 --> 00:22:02,870
+le doy play y pues pongo un nuevo
+
+559
+00:22:02,870 --> 00:22:04,730
+producto esto no se ve y es que en
+
+560
+00:22:04,730 --> 00:22:07,350
+verdad no se tiene que ver y esto
+
+561
+00:22:07,350 --> 00:22:08,970
+el código sí se ve pero bueno
+
+562
+00:22:08,970 --> 00:22:11,110
+como como ya te dije tiene que ser
+
+563
+00:22:11,110 --> 00:22:12,930
+desabilitado ya que no
+
+564
+00:22:12,930 --> 00:22:15,850
+se puede editar ese campo entonces
+
+565
+00:22:18,810 --> 00:22:19,650
+ya le
+
+566
+00:22:19,650 --> 00:22:24,050
+ditarse pues llamamos bueno aquí
+
+567
+00:22:24,050 --> 00:22:26,310
+como puedes ver guardar te cuenta
+
+568
+00:22:26,310 --> 00:22:29,690
+aquí creamos pero aquí
+
+569
+00:22:30,250 --> 00:22:30,870
+hacemos
+
+570
+00:22:30,870 --> 00:22:34,290
+la actualización ahora ya que se
+
+571
+00:22:34,290 --> 00:22:36,270
+actualizó pues llamamos
+
+572
+00:22:36,270 --> 00:22:39,670
+al notificación de suces o sea la
+
+573
+00:22:39,670 --> 00:22:42,690
+notificación en donde vamos a
+
+574
+00:22:42,690 --> 00:22:44,650
+confirmar que se ha editado o no y
+
+575
+00:22:44,650 --> 00:22:46,770
+le ponemos que el producto ha sido
+
+576
+00:22:46,770 --> 00:22:50,990
+editado igual cerramos y cuando
+
+577
+00:22:50,990 --> 00:22:53,790
+acabe esto le decimos que vuelva
+
+578
+00:22:53,790 --> 00:22:56,950
+a falso ya que ha sido true que
+
+579
+00:22:56,950 --> 00:22:58,910
+comiencen de nuevo como false
+
+580
+00:22:58,910 --> 00:23:01,570
+así como lo hicimos en la tabla de
+
+581
+00:23:01,570 --> 00:23:02,890
+categorías y marcas
+
+582
+00:23:05,590 --> 00:23:06,730
+entonces como puedes
+
+583
+00:23:06,730 --> 00:23:07,870
+ver me he tomado el tiempo
+
+584
+00:23:07,870 --> 00:23:09,990
+de ya ponerle las etiquetas arriba
+
+585
+00:23:09,990 --> 00:23:12,670
+y colocarlas adecuadamente entonces
+
+586
+00:23:12,670 --> 00:23:14,510
+vamos a hacer una comprobación
+
+587
+00:23:14,510 --> 00:23:16,370
+vamos a poner un nuevo producto y
+
+588
+00:23:16,370 --> 00:23:19,550
+entonces vamos a decirle que bueno
+
+589
+00:23:19,550 --> 00:23:22,050
+vamos a decirle que vamos a agregar
+
+590
+00:23:22,050 --> 00:23:26,350
+tornillo de media presí el compra
+
+591
+00:23:26,350 --> 00:23:29,070
+le vamos a poner que sea de un sol
+
+592
+00:23:29,070 --> 00:23:32,990
+presiventa de dos o sea que
+
+593
+00:23:32,990 --> 00:23:35,470
+hay 200 tornillos bueno también que
+
+594
+00:23:36,610 --> 00:23:37,290
+sea
+
+595
+00:23:37,290 --> 00:23:40,470
+para serámica bueno cualquier
+
+596
+00:23:40,470 --> 00:23:43,990
+cosa ya está en lí que sea de igual
+
+597
+00:23:44,890 --> 00:23:45,830
+y si
+
+598
+00:23:45,830 --> 00:23:49,610
+guardamos vamos a ver que ya sale
+
+599
+00:23:49,610 --> 00:23:52,310
+producto guardado como puedes te
+
+600
+00:23:52,310 --> 00:23:53,670
+cuento también bueno
+
+601
+00:23:53,670 --> 00:23:57,170
+este rediseñado en la parte de la
+
+602
+00:23:57,170 --> 00:24:00,670
+notificación el puesto como que
+
+603
+00:24:00,670 --> 00:24:05,630
+un poco un poco más un poco de otra
+
+604
+00:24:05,630 --> 00:24:06,090
+forma
+
+605
+00:24:07,530 --> 00:24:09,590
+y bueno se sectamos vamos
+
+606
+00:24:09,590 --> 00:24:12,750
+a ver que se guarda automáticamente
+
+607
+00:24:12,750 --> 00:24:16,670
+ahora vamos a editar vamos a editar
+
+608
+00:24:16,670 --> 00:24:20,090
+esto vamos a decirle que lleno sea
+
+609
+00:24:20,090 --> 00:24:23,730
+200 sino que tenga 300 y lleno
+
+610
+00:24:23,730 --> 00:24:26,510
+sea de limpio si no para madería y
+
+611
+00:24:26,510 --> 00:24:28,450
+vamos a guardar y vamos a ver que
+
+612
+00:24:28,450 --> 00:24:32,030
+dice producto evitado aceptamos ha
+
+613
+00:24:32,030 --> 00:24:34,690
+cambiado madería y ahora el esto
+
+614
+00:24:34,690 --> 00:24:37,830
+es 300 si eliminamos o es decir que
+
+615
+00:24:37,830 --> 00:24:40,230
+está seguro eliminar el producto y
+
+616
+00:24:40,230 --> 00:24:42,910
+bueno vamos a aceptar se dice que
+
+617
+00:24:42,910 --> 00:24:44,210
+sea eliminado y bueno
+
+618
+00:24:44,210 --> 00:24:47,530
+va desaparecido ahora con nueva
+
+619
+00:24:47,530 --> 00:24:49,370
+categoría si damos click bueno
+
+620
+00:24:49,370 --> 00:24:51,770
+ahora ya podemos ver todo lo que
+
+621
+00:24:51,770 --> 00:24:54,250
+hicimos en las primeras tablas
+
+622
+00:24:54,250 --> 00:24:59,110
+podemos editar podemos poner un
+
+623
+00:24:59,110 --> 00:25:01,830
+nuevo bueno todo está igual como lo
+
+624
+00:25:01,830 --> 00:25:04,170
+hemos hecho puedo poner nueva marca
+
+625
+00:25:04,170 --> 00:25:04,790
+entonces acá
+
+626
+00:25:04,790 --> 00:25:06,350
+ya tenemos a nuestras marcas
+
+627
+00:25:06,350 --> 00:25:11,450
+entonces ya está acabando
+
+628
+00:25:11,450 --> 00:25:13,970
+este curso ya estamos terminando
+
+629
+00:25:13,970 --> 00:25:16,550
+y bueno lo único que faltaría sería
+
+630
+00:25:16,550 --> 00:25:18,630
+las partes ya que arriba las partes
+
+631
+00:25:18,630 --> 00:25:23,210
+totales de aquí bueno que te puedo
+
+632
+00:25:23,210 --> 00:25:26,410
+decir la verdad es que lo siento
+
+633
+00:25:26,410 --> 00:25:28,350
+mucho capaz y no te pareció que
+
+634
+00:25:28,350 --> 00:25:31,730
+bueno esta explicación hayas visto
+
+635
+00:25:31,730 --> 00:25:34,130
+pues que lo hay ha hecho de nuevo
+
+636
+00:25:34,130 --> 00:25:38,050
+en inglés la verdad es que por esa
+
+637
+00:25:38,050 --> 00:25:40,570
+parte me disculpo pero espero que
+
+638
+00:25:40,570 --> 00:25:42,670
+me has entendido cualquier cosa si
+
+639
+00:25:42,670 --> 00:25:44,950
+bueno si tienes alguna duda puedes
+
+640
+00:25:44,950 --> 00:25:48,270
+preguntarme yo con gusto pues te
+
+641
+00:25:48,270 --> 00:25:52,890
+voy a responder y pues también que
+
+642
+00:25:52,890 --> 00:25:55,150
+te lleva como un ideano de
+
+643
+00:25:55,150 --> 00:25:57,650
+que ya no programas en español sino
+
+644
+00:25:57,650 --> 00:26:00,610
+programas también en inglés porque
+
+645
+00:26:00,610 --> 00:26:03,930
+actualmente las empresas necesitan
+
+646
+00:26:03,930 --> 00:26:06,470
+personas programadoras que sepan
+
+647
+00:26:06,470 --> 00:26:11,030
+inglés y pues si no sabes inglés
+
+648
+00:26:11,030 --> 00:26:14,410
+pues estudia y pues si lo estás
+
+649
+00:26:14,410 --> 00:26:17,170
+haciendo pues termínalo y bueno son
+
+650
+00:26:17,170 --> 00:26:18,790
+consejos que uno te lo dice por
+
+651
+00:26:18,790 --> 00:26:21,290
+experiencia y espero que lo tome
+
+652
+00:26:21,290 --> 00:26:24,970
+sabía lo digo con mucho gusto
+
+653
+00:26:24,970 --> 00:26:28,050
+entonces ya nos vemos en el próximo
+
+654
+00:26:28,050 --> 00:26:31,970
+en el próximo vídeo y bueno espero
+
+655
+00:26:31,970 --> 00:26:35,870
+que me hayas entendido de nuevo y
+
+656
+00:26:35,870 --> 00:26:38,050
+bueno este el código fuente
+
+657
+00:26:38,050 --> 00:26:41,170
+y todo el script lo vas a tener la
+
+658
+00:26:41,170 --> 00:26:43,190
+descripción del vídeo y bueno
+
+659
+00:26:43,190 --> 00:26:44,770
+también los síconos como ya sabes
+
+660
+00:26:44,770 --> 00:26:45,270
+bueno
+
+661
+00:26:45,270 --> 00:26:47,330
+practica cuídate mucho y nos vemos
+

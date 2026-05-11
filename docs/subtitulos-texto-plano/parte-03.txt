@@ -1,0 +1,322 @@
+Hola amigos, ¿cómo están?
+Hoy vamos a crear la base de datos
+y también vamos
+a crear nuestra tabla categoría.
+Entonces me encuentro en ese QL Server
+y lo primero que vamos a hacer,
+vamos
+a conectarnos a nuestro servidor.
+Ahora voy a poner
+a una nueva consulta, ya
+que por intermedio de consultas
+y código, vamos a crear nuestra base
+de datos.
+Entonces, lo que tenemos
+que escribir va a ser
+Y ponemos aquí el nombre
+de nuestra base de datos.
+Yo
+en este caso le voy a poner mantenimiento.
+Productos.
+Ahora lo que vamos a hacer,
+vamos a ejecutar
+Esta consulta
+Y si te das cuenta nos está diciendo
+que se ha completado correctamente.
+Al actualizar nuestras bases de datos,
+Vamos a ver
+que mi base de datos
+se ha creado correctamente.
+Ahora.
+Actualmente estamos
+utilizando la base de datos Master,
+así que lo
+que nosotros queremos
+es utilizar nuestra base de datos
+que hemos creado.
+que tenemos que hacer es escribir use
+y nuestra base de datos
+que queremos usar
+Que sería en mi caso
+mantenimiento de productos,
+así que vamos
+a ejecutar de nuevo esta consulta,
+y bueno,
+puedes darte cuenta
+que se ha ejecutado
+correctamente de nuevo.
+Porque ya no sale la
+base de datos master,
+sino la de nosotros.
+Ahora vamos a crear nuestras tablas.
+La primera tabla que vamos
+a crear va a ser la tabla
+de categorías, en la cual vamos
+a ver
+que nuestra tabla categoría se comprende
+por cuatro columnas,
+lo cual será ID categoría,
+código, nombre y descripción.
+Si te das cuenta, aparte
+de My ID categoría, tengo otra columna
+que es mi código.
+La mayoría de las personas dejan el ID
+de categoría, que es el Primary Key,
+como su código de la tabla.
+Pero
+en este caso yo he
+aumentado otra columna más,
+que sería el código,
+lo cual yo lo hago para
+que la tabla tenga su
+código personalizado.
+Ahora,
+el ID
+de categoría es nuestro Primary K.
+La columna código viene
+a ser como un reemplazo hacia él.
+Todos sabemos
+que nuestra primera
+columna es autoincrementable.
+Y lo mismo pasaría con el código,
+pero como te digo
+que es una tabla personalizada,
+si te das cuenta,
+personalizamos más la tabla
+y bueno, como es categoría,
+abreviamos y le ponemos CT,
+y bueno,
+lo demás al insertar se autoincrementará.
+Pero como te había dicho,
+nuestro código reemplaza
+a nuestra primera columna.
+En nuestro sistema, lo único
+que se visualizará será
+nuestro código,
+más no el ID de categoría.
+Como te puedes dar cuenta
+ahí en la imagen,
+nuestra I de categoría no se ve,
+y si te preguntas dónde está,
+bueno, solo le hemos ocultado
+en nuestro sistema.
+Pero seguro te estarás preguntando,
+¿por qué en vez de crear
+otra columna no personalizas
+nuestra primera columna
+que es el Primary Key?
+Y pues lo personalizas
+como en la columna código.
+Y es
+que en realidad el
+Primary Key de la columna
+solo acepta tipos de dato Barchar.
+Pero, como es Primary Key,
+no se puede autoincrementar,
+ya que Z01, Z02,
+Z03 son caracteres combinados
+con números,
+y en Primary Key no se puede,
+a menos
+que la columna no sea Primary Key.
+Es por eso
+que nuestra columna
+código sí se puede acceder
+a poder autoincrementarse,
+ya sea con caracteres y números.
+Entonces,
+para crear la tabla categoría,
+vamos a decir.
+Create table
+Y el nombre de nuestra tabla que va
+a ser categoría.
+Abrimos y cerramos,
+y aquí dentro vamos
+a poner nuestras columnas.
+Hemos dicho
+que nuestra tabla
+categoría se comprenden
+por cuatro columnas,
+que va a ser primero el ID categoría.
+Le voy a poner
+Le voy a poner que sea un int,
+y como va a ser autoincrementable,
+le voy a poner que sea un identity.
+Y que vaya de uno en uno.
+Le vamos a decir también
+que va a ser nuestra llave primaria.
+Y que no esté vacía.
+Ahora,
+aquí viene lo que te había comentado
+sobre la columna código.
+Tenemos que escribir lo siguiente.
+Primero vamos a ponerle el nombre
+de nuestra columna.
+Luego le vamos a decir
+Sea como la consulta que vamos
+a poner ahora,
+que a los datos guardados va
+a empezar con la abreviatura DC.
+Después le vamos a decir
+que agrega a su derecha.
+Dos ceros.
+Por ahora tenemos cuatro letras.
+Pero lo que yo quiero es
+que se autogenere.
+Ahora lo que vamos a hacer es
+que estos dos ceros se conviertan
+en un número entero.
+¿Cómo podemos hacer esto?
+Entonces, es muy fácil, le vamos
+a decir que esos dos ceros.
+Se conviertan con la función convert.
+Lo que nos dice la función Conver es
+que podemos convertir un tipo
+de dato a otro.
+Conver contiene dos parámetros,
+que serían el tipo de dato
+que queremos convertir y la expresión
+a donde se hace referencia
+a la columna que vamos a convertir.
+En este caso,
+el tipo
+de dato que tenemos es
+un bar charter representado
+por dos ceros.
+Ahora,
+nosotros vamos
+a convertir esos dos ceros
+a una expresión,
+el cual hace refererencia
+a la columna que queremos convertir.
+En este caso sería
+nuestra columna ID categoría,
+ya que hace refererencia
+a esa columna, el cual también es como
+si obtuviera todos sus superpoderes,
+porque nuestra ID
+categoría es autoincrementable.
+Entonces lo
+que pasaría fuera lo siguiente,
+que mis dos ceros
+se conviertan en un entero
+y también se autoincrementarán
+por sí solos.
+Entonces vamos a hacerlo,
+vamos a poner el tipo de dato
+que...
+es lo que vamos a convertir
+que son estos dos ceros de acá
+Y vamos a darle la expresión
+o la columna del cual hace referencia,
+que en este caso sería ID categoría.
+Pero aquí no acaba la cosa,
+aquí tenemos
+que decirle cuántos
+ceros le hemos agregado.
+Que en este caso sería dos.
+Así prácticamente hemos hecho
+que nuestra columna
+código se autogenere
+aún teniendo caracteres con texto
+y número.
+Bueno,
+ahora lo
+que falta es agregar
+las dos columnas más
+que va a ser nombre.
+Y le voy a poner un
+en Bar Char Charchar.
+Voy a ponerle que sea un
+En Barchar30.
+Y le voy a decir que no esté vacío.
+Porque ese campo va a ser obligatorio.
+Ahora, por último,
+voy a ponerle nuestra columna
+de descripción.
+Que también va a ser un En Barchar.
+Y le voy a poner un null,
+ya que no es obligatorio
+la descripción.
+Entonces,
+ahora ya acabado nuestra
+tabla categoría,
+vamos a ejecutar nuestra tabla
+para que se crea.
+Y bueno, nos está diciendo
+que la consulta ha sido
+ejecutada correctamente.
+Bueno,
+ahora vamos a insertar registros.
+¿Cómo insertamos registros?
+Ponemos insert, intel
+Y le voy a decir
+que quiero insertar dentro
+de mi tabla categoría.
+Los valores.
+Y bueno, los valores que serían dos.
+El nombre y la descripción.
+Aunque solo sería el nombre,
+porque el nombre es el único campo
+que no debe estar vacío.
+Bueno, la descripción, como te decía,
+no es obligatoria.
+Y bueno, ¿por qué ID categoría no
+y código tampoco?
+Porque como sabrás,
+nuestra ID categoría la
+hemos puesto que sea
+autoincrementable.
+Y nuestro código también
+va a ser autoincrementable,
+ya que va a tener la referencia
+de nuestra ID categoría.
+Entonces vamos a insertar valores
+y le vamos a poner que una
+de nuestras categorías
+se llame herramientas.
+Y también le voy a decir
+que la descripción sea
+las mejores herramientas
+Al ejecutarlo
+Vamos a ver
+que una fila ha sido afectada,
+que quiere decir
+que un registro se ha agregado.
+Bueno, vamos a agregar otro registro.
+Y le voy a decir
+que ahora los valores que quiero
+que se agreguen
+Sería pinturería.
+Y bueno en la descripción le pongo
+que son las mejores pinturas
+Para tu casa.
+Vamos a ejecutar de nuevo.
+Y bueno,
+otro registro ha sido agregado.
+Bueno,
+ahora quiero ver
+los registros de mi tabla,
+así que le voy a decir
+que me seleccione.
+Con el asterisco es, como un todos
+Que me selecciona.
+Todos los registros
+de mi tabla categoría.
+Vamos a ejecutar.
+Y bueno, como puedes ver,
+tenemos nuestros dos registros.
+Como puedes darte cuenta también,
+nuestra ID categoría es
+autoincrementable.
+Y nuestra columna del
+código también lo es.
+Y bueno,
+así hemos creado nuestra
+tabla de categoría
+y es el mismo procedimiento
+con las demás tablas, solo
+que en la tabla
+de productos hace referencia
+a la tabla de categoría
+y a la tabla de marcas.

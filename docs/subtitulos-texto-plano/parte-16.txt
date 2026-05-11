@@ -1,0 +1,270 @@
+Hola amigos como están? Bueno
+vamos a seguir con nuestro
+curso de mantenimiento de productos
+y bueno vamos a hoy vamos a ver el
+diseño del panel de productos, esta
+va
+a ser la primera parte,
+así que vamos
+a empezar, lo primero que vamos
+a hacer vamos
+a ir a nuestro FLM productos
+y vamos a darle esta altura y bueno
+yo este ancho,
+lo siguiente que vamos a hacer
+vamos a hacer un flow layout panel,
+este nos va a servir para que
+cuando nosotros podamos tener
+paneles dentro de este pues se
+acomoden más rápidamente y bueno
+y podamos tener un estilo como de
+cajas para que podamos
+colocarlo, la primera caja que voy
+a
+poner va
+a hacer un panel y como puedes
+ver si yo cop y pego y agrego tres
+paneles
+más pues se alojan automáticamente,
+ahora voy a crear otro panel y
+lo pondré dentro del primer panel,
+ahora en este panel de aquí va
+a voy a darle una altura y un ancho
+también,
+recuerda que debes hacer igual que
+el video para que
+no tengas complicaciones después,
+entonces en este panel vamos a
+agregarle o bueno vamos a pintarle
+en nuestro background y image,
+la caja que lo va a contener,
+esta caja pues va a ser de color
+blanca y bueno estas cajas o todos
+los íconos del video la vas a
+poder descargar en la descripción,
+entonces lo que tenemos que hacer
+es poder primero darle un peer
+-chute box para poder darle nuestra
+primer imagen que va a representar
+nuestros productos,
+entonces vamos a importarlo
+y luego
+vamos
+a decirle que sea transparente,
+luego vamos a colocarle una
+un line shape,
+una línea
+y vamos a acomodarlo para
+que esté alineado correctamente
+ahora vamos a diseñar esa línea
+vamos a poner bueno que tenga el
+color silver y
+tengo un borde witch de dos pixels,
+luego vamos a poner un label en el
+cual le vamos a poner que bueno va
+a representar productos, entonces
+vamos a decirle que este
+va a ser los productos,
+vamos a decirle que va a ser
+popings y también transparente,
+vamos a dar este color y vamos a
+colocarlo bien, ahora voy a copiar
+y pegar este
+label y voy a colocar un label que
+va a ser estático ya que aquí se va
+a representar bueno cuántos
+productos tengo,
+recuerda que esto va a ser estático
+por ahora más adelante va en
+realidad este va a contar cuántos
+productos en verdad tengamos así
+que por
+ahora estoy que lo pongo estático,
+así que no te preocupes,
+ahora luego de colocarlo bien vamos
+a ver cómo está quedando,
+entonces está quedando bien,
+ahora vamos a copiar y
+pegar lo mismo en todos los paneles
+siguientes para que
+hagamos los paneles restantes como
+escategorías,
+como es marcas y también como es
+los productos
+totales que vamos a ver al final de
+este curso,
+entonces vamos
+a colocarlo paso a paso
+y recuerda que debes hacer
+bien
+paciente para hacer estos diseños,
+ahora si quieres ver un diseño bien
+amigable y bueno y bien bonito debe
+ser paciente en hacer todo esto
+como puedes ver ya acabado,
+así que ahora vamos a probar de
+nuevo y como puedes hacerte cuenta
+está quedando muy bien
+para que hagas esos paneles,
+para que hagas esos dibujos, pues
+lo único que tienes que hacer
+es como te dije ir a PowerPoint y
+puedes agregar un círculo y bueno
+un imagen,
+una vez imagen puede ser sbj y lo
+único que tienes que hacer en el
+círculo es quitarla en contorno y
+bueno ponerle un degradado, yo
+como puedes darte cuenta puedes
+ponerle las degradados que te guste
+y cuando ya esté solo bueno a la
+imagen del círculo ponerle una
+sombra para que le de un sombreado
+así no como un efecto bien bonito,
+ahora cuando ya esté tu ícono,
+pues lo único que haces es clic
+derecho y guardar como imagen y
+después yo lo puedes utilizar
+como puedes esperar aquí,
+entonces
+vamos a ver que falta
+arreglar esos círculos un poco así
+que voy a seleccionarlos y darle un
+tamaño exacto para que se vea mejor
+entonces ya que está todo listo
+después de esto vamos a agregar un
+nuevo panel
+este panel es el que va a contener
+nuestra tabla de
+productos y también las opciones
+para agregar un nuevo producto,
+una nueva categoría y una nueva
+marca vamos a estentar nuestro
+panel y igual como el panel de
+arriba que tiene su propia imagen
+voy a colocarle también su imagen
+que tiene este propio panel así que
+voy a importar ese imagen y la voy
+a agregar para le voy a decir que
+sea el stretch y pues solo
+lo coloca bien para que esté bien
+alineado
+ahora vamos a probarlo y
+como puede hacerte cuenta pues está
+quedando muy bien ahora el único
+que falta o bueno faltarían las
+opciones que voy a agregar que son
+los botones así que voy a agregar
+los botones los botones
+que vamos a utilizar aquí va a
+ser de beautiful
+the beautiful button el cual voy
+a agregar este primero y va a tener
+este color azul con este color
+agregale estos colores que estoy
+poniendo en todos los lugares
+y siguen los pasos del vídeo así
+voy
+a agregarle al color de fiel color
+y de fuera color el blanco también
+voy a cambiarle de fuente y voy a
+ponerle que este va a ser un nuevo
+producto voy a extendarlo un
+poco y por último le voy a dar un
+background transparente ahora voy
+a copiar y pegar cuatro botones más
+que van a representar algo
+de mi categorías a marcas y también
+imprimir y exportar excel cada uno
+de ellos bueno va a tener su propio
+nombre y su propio color
+aunque categorías y marcas y nuevos
+productos van
+a tener el mismo color
+a este color bueno al botón
+en primer voy a ponerle un
+color morado casi lila
+y al exportar
+excel voy a ponerle este
+color que es un poco verde claro
+y cuando yo
+tengamos estos botones pues vamos
+a decirle por último que hay que
+darle un color
+transparente entonces
+como puede darte cuenta
+está quedando muy bien
+vamos a agregar en la parte de la
+búsqueda
+sólo copie y pegue la parte que
+ya teníamos en categorías y marcas
+para no hacerlo muy largo porque
+además es lo mismo no así que
+estamos reutilizando componentes
+de diseño voy a agregarle el data
+review
+para poder mostrar mis productos
+para mostrar los
+productos de una vez así que voy
+a agregar el data review lo voy a
+expandir
+y bueno lo expando
+y le voy a poner un hombre que se
+va
+a
+llamar tablar productos
+ahora yo ya creí los archivos
+de entidades
+productos datos productos negocios
+productos y bueno en entidades
+productos como puedes ver no
+he hecho nada raro como en marcas y
+categorías hacemos el mismo proceso
+sólo creamos nuestros valores
+privados y andos de nuestros
+valores de nuestra tabla productos
+que en la base de datos y sólo
+vamos a encaxularlos luego en datos
+productos hago la cadena
+de conexión y abajo creo un método
+para listar mis productos
+esta es otra manera de mostrar tus
+productos instanciamos un objeto de
+tatábol luego creamos una variable
+que le era mis filas entregamos
+nuestro store procedur que es el
+listar productos y bueno y el
+objeto de la cadena de conexión a
+través de la distancia de SQL Coman
+gracias a este SQL Coman le decimos
+a nuestro objeto cmd que el tipo es
+un store procedur luego abrimos la
+conexión le decimos que lean
+nuestras columnas con sqrider y en
+nuestro objeto tabla en un método
+de carga load le damos que las
+filas ya leídas entonces luego
+cerramos tanto leer filas como
+nuestra conexión no
+te voy a olvidar y de por ver hemos
+nuestra
+tabla y acargada ahora en productos
+instanciamos el objeto dato para
+obtener aquí el listar productos
+que contiene nuestra tabla y ya al
+final de nuestro código del form
+instanciamos el objeto negocio y a
+nuestra tabla productos le
+agregamos el método listar
+productos que hemos traído desde
+nuestra capa de datos acuérate que
+debes iniciar
+y cargar nuestro método y
+iniciar vamos a ver que
+prácticamente hemos cargado los
+datos que tenemos en la misma en la
+base de datos como lo teníamos
+en el vídeo anterior y bueno en la
+segunda parte
+vamos a terminar con el diseño de
+esta tabla

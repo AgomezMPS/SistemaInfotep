@@ -1,0 +1,358 @@
+Bueno, ahora vamos
+a comenzar una breve
+introducción
+con la capa de presentación.
+nuestra capa de
+presentación es el receptor final,
+el
+cual obtiene los datos obtenidos en
+nuestra capa de negocio.
+Esta capa también se comunica
+con nuestra capa de entidades,
+es aquí en nuestra capa de
+presentación en donde se puede
+visualizar nuestro diseño
+y por ende aquí es donde están
+todos
+nuestros frumularios.
+nuestra interfaz gráfica se
+recomienda hacer amigable
+y entendible para el usuario.
+ya diseñado nuestro interfaz es
+dentro de él donde vamos a realizar
+nuestras
+acciones mediante los controles.
+ahora vamos a pasar al
+diseño de nuestra primera interfaz.
+vamos a entrar a nuestra capa
+de presentación y agregar un nuevo
+formulario.
+este formulario lo voy a llamar
+mfrm categoría.
+lo segundo es agregar nuestro
+uniform UI
+a nuestro cuadro de herramientas.
+en nuestro cuadro de herramientas
+vamos a ver varias herramientas y
+en ella vamos a
+agregar una nueva pestaña.
+esa nueva pestaña
+vamos a agregar nuestros elementos.
+al cagar si es a ventana vamos a ir
+a examinar y vamos a ir donde está
+nuestro uniform UI.
+abrimos el archivo que estará en la
+descripción del video y aceptamos.
+como puedes ver van a estar todos
+los componentes de uniform y
+list para poder ser usados.
+así que aceptamos
+y vamos a ver que en nuestra
+pestaña que se ha
+agregado van a estar todos
+los componentes de uniform UI.
+lo segundo que vamos a hacer vamos
+a hacer que nuestro formulario no
+tenga bordes.
+lo siguiente es crear un panel y
+este panel
+va a estar en la parte de arriba,
+en la parte de top. voy
+a decir que en el top este a en
+top y le voy a poner un color.
+este color va a ser el mismo que
+acá,
+pretamos control X en use call up
+picker.
+y bueno sólo nos reconoce cuando es
+punticoma, así que
+le ponemos punticoma.
+ahora lo que vamos
+a hacer es poner un picture box,
+un
+picture box para poner un imagen.
+como todavía no tenemos ninguna
+imagen vamos a crear una nueva
+carpeta
+en donde le pondremos imágenes.
+en esta carpeta vamos a poner todas
+las imágenes que nosotros vamos a
+querer. en
+este caso voy a poner mi imagen
+de
+mi logo y bueno este es opcional,
+yo lo pongo
+porque bueno, pero tú puedes tener
+tu propio logo
+y poner lo mismo que yo estoy
+poniendo.
+ahora
+lo segundo va a ser crear un label,
+en el cual le voy a poner el nombre
+o el título de mi formulario.
+voy a crear otro picture box,
+en el cual voy a ponerle un imagen
+que va a ser
+para acerrar mi formulario.
+así que abrimos a econ8 y aquí
+vamos a buscar la imagen o el icono
+que nosotros vamos a querer para
+que nos represente el botón de
+cerrar. así
+que elegimos esta imagen y
+bueno sólo aceptamos y la guardamos
+en nuestra carpeta de imágenes.
+y de aquí le pasaremos
+el imagen de nuestro picture box.
+ahora en el label que hemos hecho
+vamos a ponerle de fuente popings y
+le ponemos un tamaño y le
+vamos a poner el título de nuestra
+categoría.
+la letra de fuente o el tipo de
+fuente también lo vas a tener
+en la descripción de este video,
+si es que te gusta este tipo de
+fuente que te estoy enseñando.
+ahora vamos a usar este componente
+que se llama Unifu drag control.
+Esto
+funciona de una forma sencilla.
+vamos a ponerle un nombre primero y
+le voy a poner mover fumulario.
+ahora quiero que mi drag control
+mueva el panel que está arriba.
+así que le voy a decir que va a ser
+el panel que le he puesto como top
+formulario.
+para ejecutar bien nuestro programa
+actualmente nuestro proyecto
+no sabe cuál va a ser la capa de
+inicio. así que le vamos a decir
+que
+nuestra capa de inicio va a ser la
+capa de presentación porque ahí va
+a estar todos nuestros formularios.
+obviamente se va a iniciar viendo
+un formulario.
+así que le vamos a decir eso y en
+nuestro programa le vamos a decir
+que empiece con el formulario FRM
+Categoría.
+y por último le vamos a decir que
+al darle el double
+click a nuestro botón Serrar.
+le vamos a decir por ahora
+que salga de nuestra aplicación.
+ahora ya tendemos todo el listo
+hasta parte.
+lo que tenemos que hacer es crear
+nuestra caja de texto en donde
+vamos a buscar nuestros registros
+de nuestra tabla.
+esa caja de texto la vamos a hacer
+con Powerpoint.
+aquí en Powerpoint ponemos insertar
+y vamos a ponerle una figura en el
+cual va a ser un rectángulo pero
+encurvado en los lados.
+vamos a darle un color.
+cuando yo esté listo en nuestro
+imagen solo vamos a capturar toda
+la imagen y vamos a guardarlo en
+nuestra carpeta de imágenes. luego
+vamos a usarlo como un
+picture box.
+y bueno solo pasamos la imagen a
+nuestro proyecto.
+ahora para que nuestra imagen tenga
+el mismo color de
+nuestro formulario le voy a decir a
+mi
+formulario que el color de fondo
+va a ser un blanco.
+ahora vamos a poner otro picture
+box dentro de nuestra caja en el
+cual va a tener un icono de buscar.
+vamos a encontrar ese icono de
+buscar
+y bueno yo lo voy a poner este.
+y bueno al final
+solo lo colocamos y lo ponemos.
+ahora vamos a agregar nuestro
+componente de nuestro text box.
+aquí
+es donde vamos a buscar nuestro
+registro para nuestra
+tabla.
+así que vamos a decirle que su
+fuente también sea Poppins.
+que el color de fondo sea un blanco
+que su borde sea No.
+y bueno si te das cuenta está
+quedando bien podemos escribir
+cualquier cosa y así prácticamente
+se
+podrá visualizar en nuestra tabla.
+ahora lo siguiente que vamos a
+hacer vamos a poner con labels la
+identificación de cada columna de
+nuestra tabla.
+el primero
+como ya sabemos es el código,
+el nombre y la descripción.
+y yo te digo que es opcional que
+hagas esto el label si tú deseas
+no lo hagas y solo te guías con las
+columnas que te va a dar nuestra
+tabla.
+pero en este caso yo le he quitado
+la cabezera para que no se vea.
+al final es solo para darle un poco
+de estilo web.
+entonces vamos a crear nuestra
+tabla y vamos a diseñar nuestra
+tabla al
+cual yo le llamaré tabla categoría.
+lo primero
+que vamos a hacer vamos a
+darle un fondo blanco le voy a
+decir que no tengo un borde.
+la cabezera de la columna va a ser
+false o sea no se va a visualizar y
+en defaults al style le voy a decir
+que su color de fondo sea blanco.
+que su fuente sea popings y que su
+letra sea gris.
+ahora cuando se seleccione una fila
+quiero que su color sea este el
+mismo que hemos dado en el top del
+formulario.
+y cuando se seleccione una fila
+quiero que el color de
+fuente sea blanco.
+ahora le vamos a decir que también
+en el lado de izquierdo donde está
+una flechita que no se visualice.
+y la selección que al apretar una
+fila me seleccione toda la fila.
+por último le voy a decir que en
+autosai escolon mode le voy a decir
+que tenga un fil y en rose mode que
+tenga un alcels para
+que se acude al ancho de la fila.
+ahora voy a agregar mis botones.
+uno de ellos va a tener este color
+en el cual le voy a poner
+el mismo de nuestro panel top.
+ahora este botón va a ser el botón
+de nuevo.
+y bueno también le voy a
+decir que tenga la fuente popings.
+le voy a decir que tenga un borde
+de 7 de radio para que este ha
+curviado de las esquinas y busco
+en icon 8 el icono que yo deseo.
+en este caso voy a buscar un icono
+de nuevo y bueno voy a guardarlo y
+agregarlo a mi carpeta de imágenes.
+le voy a poner un zoom de mi icon o
+sea un tamaño y en 50 está bien
+como puedes darte cuenta y le voy a
+poner que se centre mi text alaí.
+lo mismo voy a hacer ya creando mis
+otros 4 botones más.
+que va a ser el botón de editar el
+botón de eliminar.
+el otro botón va a ser el botón de
+imprimir y el otro va a ser
+el botón de excel y por último el
+botón de guardar.
+cada uno de ellos va a tener sus
+botones.
+así que voy a encontrar esos
+síconos en icon 8 y los guardaré
+en mi carpeta de imágenes.
+y ahora
+voy a hacer un botón de suerte.
+y
+ahora
+voy a hacer un
+botón
+de suerte.
+y ahora
+voy a hacer un botón de suerte.
+ahora lo que vamos a hacer vamos a
+crear un tracaje de texto.
+ya lo que habíamos hecho en
+un tracaje de texto de buscar.
+y vamos a ponerle que el primero
+va a ser del código.
+el segundo va a ser de nombre y
+el tercero va a ser de descripción.
+así que cada uno lo ordenamos y en
+la parte de descripción vamos a ver
+que es una parte más
+grande. así que vamos a hacer de
+nuevo
+Powerpoint y vamos a crear uno
+pero que obviamente sea más grande.
+le ponemos un borde más pegado a
+la derecha para cada lado y vamos a
+ponerle un nombre y lo guardamos.
+ahora buscamos esa imagen en
+nuestra carpeta de imágenes
+y bueno sólo la llevamos a nuestro
+proyecto.
+ahora la granamos un poco ya que la
+descripción de nuestra tabla
+categoría va a ser un poquito más
+extensa
+que el de código y el de nombre.
+copiamos nuestra caja de texto
+y sólo la insertamos en cada cajita
+de texto de código,
+nombre y descripción.
+y en la parte de descripción en la
+caja de texto le vamos a poner que
+sea multi line para que
+podamos escribir en varias líneas.
+ahora podarle un toque de estilo
+vamos a darle en nuestro fórmulario
+un componente
+que se llama beautiful el x.
+este le
+da un radio a nuestro fórmulario.
+vamos a ponerle radio el x.
+y que nuestro radio sea de 7 como
+puedes ver mi fórmulario
+está un poco más redondial.
+ahora vamos a ponerle y colocarle
+los nombres que nos faltaban a
+todos nuestros componentes que
+vamos a usar.
+es muy importante ponerle los
+nombres en el cual tuta de juez más
+para que no te pierdas en hacer
+tu proyecto ya que los proyectos
+pueden ser inmensos y y tengas
+un estándar de cómo darle a cada
+componente un nombre para que
+se te pueda ser más fácil.
+ahora vamos
+a darle unos retotes más.
+y por último vamos a
+darle un imagen de fondo a nuestro
+fórmulario.
+vamos a bank account image y este
+imagen te la voy a descar
+también en la descripción de
+este video
+como todos los síconos y todas las
+imágenes que hemos usado aquí.
+así que vamos a darle iniciar
+y bueno así va quedando nuestro
+fórmulario para
+poder hacer el crew de insertar,
+editar, eliminar
+y buscar registros.

@@ -1,0 +1,537 @@
+Hola amigos como están hoy vamos
+a ver bueno la última parte de
+nuestro mantenimiento de productos
+y es que lo único que nos falta es
+ver todos
+los totales si quieres ver los
+totales bueno en la parte
+de SQL Server pues sólo tendríamos
+que colocar estas partes de aquí
+por ejemplo quiero contar cuántas
+categorías hay en nuestra tabla de
+categoría lo único que tengo poner
+es quiero que me selecciones un
+contador de todos los ideas
+que tiene pues mi tabla categoría
+quiero que a esa columna que
+me bote ese contador quiero que se
+toma el nombre de categorías
+entonces lo mismo tendría que hacer
+con bueno si selecciono cuántas
+cuántas marcas quiero y cuántas más
+hay cuántos productos también
+hay actualmente en mi tabla de
+productos vamos a ver qué me bota
+este query esta consulta si oscuto
+me bota 8 ha contado cuántos ideas
+tengo mejor dicho ya sabes que los
+ideas son diferentes no
+son idénticos así que bueno me va a
+contar cuántas categorías hay en mi
+tabla de categoría y actualmente le
+puesto que bueno me bote con una
+columna llamada categorías y pues
+me va a votar cuánto es el contador
+de esa tabla y actualmente tengo 8
+categorías ahora voy a hacerlo
+mismo con la parte de mis marcas
+así que voy a ejecutar y
+actualmente tengo 7 marcas vamos a
+ver cuántos productos tengo voy
+a ejecutar y actualmente tengo 9
+productos si quiero sumar una parte
+bueno ya sea obviamente no este
+datos enteros pues digo no quiero
+que selecciones una suma una suma
+de mi columna stock que tiene
+la tabla de productos y obviamente
+quiero que me las
+sumes
+entonces ya no sería cont sería
+la palabra
+clave sum entonces digo quiero que
+me sumes al seleccionar de mi tabla
+columna stock de mi tabla
+de productos y bueno quiero que la
+columna se llama total de productos
+entonces ahora si yo ejecuto este
+query
+vamos a ver que actualmente
+todo mi stock sumado de mis
+productos equivalen a 670 entonces
+así es como podemos hacer consultas
+sencillas para obtener bueno
+la cantidad de categorías marcas y
+productos y también la categoría de
+este la suma total es de productos
+que tenemos en nuestro
+mantenimiento de productos pero en
+este caso tenemos que crear un
+procedimiento almacenado como ya
+sabemos entonces en esta parte es
+create sólo que puse altar ya sabes
+altar es para
+actualizar tu
+procedimiento almacenado entonces
+puse que
+bueno voy a crear un procedimiento
+almacenado que lo voy
+a llamar sumar y productos y pues
+voy a crear cuatro para metros de
+las cuales voy a utilizar cuando
+esté en mi capa de datos y esas
+esos para metros van a ser de
+salida van a ser output porque van
+a ser de salida porque va a ver
+un para metro el cual va a recibir
+estos estos parámetros para que
+podamos alojar el conteo y la suma
+tanto del cual le hemos puesto en
+estas consultas entonces le puesto
+los parámetros de total categoría
+total de marcas total de productos
+y suma de stock en la cual quiero
+que se establezca que mi parámetro
+de total de categoría pues sea el
+conteo de todas las categorías que
+hay actualmente
+en mi mantenimiento de
+productos lo mismo con el total
+de marcas lo mismo con el total de
+productos y lo mismo con el sumario
+de stock no o sea la suma
+de todo mi stock entonces sólo lo
+ejecutamos y pues ya tenemos
+nuestro procedimiento almacenado
+que tiene todas estas función lo
+único que he hecho es agregar los
+ghettens anteriores que necesitamos
+aquí tú si quieres lo puedes poner
+en entero no hay ningún problema
+pero acuérdate que vamos a tener
+que convertirlo a un string porque
+al final obviamente las partes de
+aquí las partes que tenemos
+acuérdate que son labels los labels
+las cajas de texto que son labels
+obviamente tenemos que volver las
+string así que para lleno hacer esa
+parte pues de una vez lo ponemos en
+string como puedes ver aquí
+y lo único que tenemos que hacer
+como ya
+sabes es hacerlo con los ghettens
+anteriores como puedes ver están
+aquí y eso es todo lo que tenemos
+que hacer en la capa de entidades
+ahora en la capa de datos como
+puedes ver acá ya tengo todo lo
+relacionado a esa parte entonces
+lo único que cree fue un método de
+show totales o sea que me muestre
+todos los totales con un parámetro
+bueno que viene de nuestra capa de
+entidad y pues con una variada del
+producto que me va o sea
+me va a traer todos las propiedades
+privadas que como momento les
+puse a nuestra en nuestra capa de
+entidad y me va a traer bueno
+acá yo les he puesto que ya son
+públicas entonces obviamente me la
+va a traer en algún momento en toda
+esta parte de aquí entonces
+lo primero que tenemos que hacer es
+como siempre lo hemos hecho tenemos
+que crear bueno con el objeto
+instanciamos ese huele común para
+obtener pues primero decirle que
+vamos a usar un procedimiento
+almacenado un procedimiento
+almacenado el cual segundo
+parámetro le damos la conexión y le
+decimos que bueno que es un tipo de
+esto procedur luego vamos a decirle
+que vamos a tener
+agregarlos
+los parámetros los parámetros que
+tenemos actualmente en
+nuestro SQL Server recuerda
+que es un parámetro
+de salida un parámetro de salida
+que van a necesitar después que
+nosotros le agregemos dicho
+parámetro el cual va a venir de
+nuestra capa de entidad lo primero
+que hacemos es instanciar ese cual
+para meter para decirle que por
+intermedio de este objeto vamos a
+decirle que la dirección de ese
+parámetro va a ser un output como
+lo tenemos aquí
+como puede hacerte cuento
+pero antes de eso también le
+pasamos el parámetro que
+equivale a ese parámetro entonces
+como puedes
+ver total de categoría le he puesto
+aquí total de categoría y por
+segundo le pasamos
+un entero ya
+que nuestro parámetro es entero lo
+mismo hacemos con los demás
+parámetros que el hemos colocado en
+el SQL Server como puedes darte
+cuenta total de marcas total de
+productos y el sumario ahora vamos
+a agregarle esos parámetros a esos
+parámetros que les corresponden
+gracias a los trojetos de SQL
+Comand de SMD vamos a agregar
+esos parámetros que cada uno que
+corresponden luego vamos a
+ejecutarla consulta y luego vamos a
+hacer vamos a entregarle el
+parámetro que está ligado a este a
+este objeto que viene desde el
+SQL Server entonces les decimos que
+nuestro producto de total
+categorías que viene de nuestra
+capa de entidad es va a
+ser asignado a pues al parámetro de
+total categoría que está en nuestra
+base de datos que no está en
+nuestro SQL Server aquí es donde le
+damos o le entregamos el parámetro
+de salida como puedes darte cuenta
+aquí como va a venir en va a venir
+el número pues le decimos que
+tomé el valor y que devuelve en una
+cadena que nos nos devuelva en una
+cadena eso lo hacemos igual de la
+misma forma con cada uno de ellos
+vamos a cerrar la conexión y pues
+eso sería todo pues aquí ya estamos
+ligando cada parte de nuestro
+objeto de entidades lo que le hemos
+colocado en los guedes dan cedars
+con el parámetro que en SQL
+Server nos pedía porque si nosotros
+ejecuentamos este procedimiento
+almacenado pues nos va a decir que
+bueno en la función de sumar
+y products pues espera un parámetro
+de total de categoría
+como puedes darte cuenta aquí falla
+supuestamente pero es que cada
+uno de estos parámetros necesita un
+parámetro de salida que nosotros
+tenemos que alojar y aquí es donde
+nosotros le damos la referencia
+con el producto total de categorías
+producto tal brance que viene de
+los guedes ansedars como ya le se
+acaba de decir entonces eso es todo
+lo que nosotros tenemos que hacer
+en la parte de nuestra capa de
+datos ahora vamos a ir a la capa de
+negocio que es prácticamente
+lo mismo que hicimos con los demás
+métodos sólo hacemos un método
+bueno yo le estoy poniendo un
+sumario de totales un resumen de
+totales y pues le doy el parámetro
+de nuestra capacidad de edad y pues
+gracias al objeto de la capa de
+datos pues traigo ese método
+el cual he hecho anteriormente y le
+paso el objeto de producto de
+entidades entonces ahora vamos a ir
+a llevarlo a nuestra capa de
+presentación y quería mostrarte de
+que estos
+labels ya tienen su propio nombre
+como puedes darte
+cuenta si yo pongo aquí en
+propiedades pues le puesto a cada
+uno
+un nombre le puesto le vuelve
+productos le volve de categorías le
+vuelve marcas y también por último
+label de total de esto así que
+vamos a ver lo que vamos a hacer
+con esos con esos labels entonces
+vamos a ir al código y vamos a ir
+acá donde dice donde he creado este
+método este método de show total
+que va a ser este show total bueno
+este método de show total va a ser
+como el de mostrar nuestra tabla de
+productos va a ser como un
+refrescador pues de todos de todos
+lo que vayan vayan bueno si
+guardamos un producto nuestra tabla
+se va a ir actualizando es igual
+con esto cada vez que nosotros
+guardemos un producto pues
+este método va a ser que nuestro el
+número el número de de por ejemplo
+si había ocho productos pues este
+método actualiza esos esos cuantos
+productos había no entonces si son
+ocho pues se agrega uno va
+a ser nueve entonces para hacer eso
+tenemos que instanciar nuestro
+nuestra capa de entidades de
+productos y nuestra capa de negocio
+como hemos visto anteriormente
+ahora lo único que debemos hacer
+es pues utilizar nuestra capa de
+negocio y llamar al objeto y llamar
+al método de resumen de totales el
+cual contiene todas nuestras
+entidades que vamos a estar
+utilizando y que ellas están aquí
+establecidas entonces lo único que
+tenemos que hacer es decirle
+que bueno en nuestro label de
+categorías en la propiedad text
+queremos decirle que nuestro jet
+entidades ya contiene todo el total
+de nuestras categorías y este se va
+a lojar en el label de categorías
+lo mismo va a ser con las demás
+cajas de labels en el label de
+marca su propiedad de text quiero
+que se asigne al total de número de
+marcas lo mismo con los productos
+quiero que se asigne al total de
+número de productos y quiero que al
+final total desto
+en la propiedad de text quiero
+decir que se asigne
+a mi objeto de entidades
+que contiene el total de stock de
+nuestros productos entonces aquí
+ya tenemos todo nuestro productos
+totales y ya están alojadas en
+cada caja de labels o bueno en cada
+label ya lo tenemos entonces para
+que se muestre tenemos que llevarlo
+arriba en la parte de iniciar los
+componentes en la parte en la parte
+en el cual contiene todo el inicio
+de nuestros métodos que necesitamos
+entonces no es la única forma aquí
+en donde tenemos que llamar acuerda
+que también tenemos que llamarlo
+cuando por ejemplo llamemos al
+botón del nuevo producto y pues el
+nuevo producto nos va a mostrar el
+formularo de un mantenimiento de
+producto y cuando se guarde ya el
+mantenimiento de producto un nuevo
+producto y se cierre pues quiero
+que al final cuando se cierre
+así como me mostraba la tabla
+actualizada pues
+también quiero que me muestre los
+datos actualizados
+totales que hay arriba entonces
+eso ocurre en el botón de nuevo
+producto también ocurre cuando
+eliminamos un producto lo tenemos
+que agregar aquí acuerdote
+y
+también cuando editamos un producto
+también en nuestro botón de
+categoría ya sea si tú agregas una
+nueva categoría pues también
+llamemos este método para que se
+refresque las categorías también
+llamemos cuando agregamos una nueva
+marca también queremos que hace
+que se agregue un total de marcas
+entonces lo mismo llamamos
+aquí entonces vamos a iniciar como
+puedes darte cuenta ya nuestras
+labels que antes eran estáticas
+pues ya contienen un número que
+viene de nuestra SQL server en la
+base de datos como puedes
+darte cuenta actualmente tengo 9
+productos tengo 8 categorías
+y
+tengo 7 marcas 1 2 3 4 5 6 y 7 como
+puedes darte cuenta
+actualmente en mis productos de los
+Wincha y pongo
+5 presíventa 6 el stop quiero que
+sea de 20 y bueno le pongo que sea
+de construcción que sea de marca
+está li si guardamos bueno producto
+guardado y pues como puede darte
+cuenta se actualiza desde la base
+de
+datos como en tiempo real entonces
+como puedes ver ya no es 9
+sino 10 lo mismo pasaría
+con categoría y marca entonces
+prácticamente ya hemos terminado
+todo nuestro mantenimiento de
+productos ahora como un bueno
+especial quiero mostrarte que en la
+parte de nuestro botón Excel en la
+parte de aquí vamos a ver que si le
+doy doble click vamos a obtener
+este código este código nos va a
+mostrar o obtener todos nuestros
+datos de nuestro data de data
+grimil de nuestra tabla pues
+va
+conectar con excel y a la hora de
+darle click al botón excel pues
+vamos a ver nuestros registros ya
+en el excel en tu caso sería la
+capa de presentación va a salir a
+referencias y va a agregar
+una referencia va a agregar una
+referencia que necesitas
+capas uno de las tengas la verdad
+que yo no
+la tenía pero lo he agregado esa
+referencia es Microsoft Office creo
+que era bueno esta parte no es
+lo que sí se fue vamos a ver este
+tener esta parte de
+aquí este es la referencia si llama
+Microsoft
+Office intero punto excel esta
+referencia es la que debes tener no
+estaba en la parte de las
+referencias cuando la agregué pero
+si fui a administrar package
+natchet y pues aquí es donde busqué
+esa referencia y lo único que hice
+fue buscar y pues sólo lo que haces
+es bueno aquí él lo tengo como
+puedes darte cuenta escribir esta
+referencia y pues aquí te vas a
+ir para que tú la descargas a mí me
+sale para eliminar porque yo ya lo
+tengo obviamente pero tú te las vas
+a descargar a la
+hora que tú te las descargas pues
+se va a agregar a tu
+referencia de tu capa de
+presentación entonces cuando ya lo
+tengas agregado pues puedes
+escribir este código que te voy a
+explicar a continuación
+entonces esa referencia nos hace la
+posibilidad de poder instanciar un
+objeto un objeto que pues que te va
+a abrir la aplicación entonces
+a ese objeto o instanciar esa
+referencia de la aplicación
+le vamos a agregar un app también
+vamos a agregar el cuerpo de el
+objeto de Microsoft Office que es
+el Warbook también vamos a
+instanciar el objeto de los árboles
+que viene a ser como que la tabla
+a la tabla inicial el cual va a
+comenzar como un null luego
+el objeto de los árboles vamos a
+decirle que su nombre se va
+a llamar products porque obviamente
+estamos en el mantenimiento de
+productos y aquí es donde va a
+recorrer no le vamos a decir que
+bueno con un fork que recorra desde
+bueno yo le he puesto desde el 3
+porque en realidad desde el índice
+3 porque en realidad me va a salir
+pues acuerda que en mantenimiento
+de productos tenemos agregados dos
+columnas que son editar eliminar
+bueno no importa si sea 3
+o 2 porque al final te va a agregar
+esas dos columnas y en realidad
+esas dos columnas no las queremos
+en la tabla de Excel no sé cómo
+eliminarlas estaría mintiendo antes
+y te digo tendrías que eliminarlas
+desde propio Excel pero bueno ya
+vas a ver a lo que me refiero
+entonces vamos a decirle que
+recorra todas todas las columnas
+de nuestra tabla producto con un
+conteo bueno de mas uno y que
+va recorriendo todas las celdas uno
+por uno hasta el conteo de menos
+uno en el en el cabezera en la
+cabezera de texto esto
+es esta parte es para la cabezera
+obviamente y esta parte es el
+recorrido de bueno de las celdas de
+los datos de la datos de nuestro
+tabla de productos como puede
+hacerte cuenta aquí y todo lo
+pone bueno en una cabena de texto y
+bueno al final le decimos
+que nuestra aplicación nuestra
+aplicación de Excel pues
+sea visible y lo ponemos en true y
+cuando yo tengas este código vamos
+a ver lo que sucede si le ponemos
+en iniciar y vamos a
+darle clic a nuestro botón de Excel
+y como puede
+hacerte cuenta tenemos todos estos
+productos de nuestro mantenimiento
+en Excel ahora obviamente te
+hablaba de este tema de que me iba
+a agregar editar eliminar porque
+obviamente lo hemos agregado aquí
+pero bueno ya en la parte de
+producción obviamente el acontador
+a no sé pues eliminará esta
+parte porque obviamente no la va a
+utilizar
+lo eliminará uno por uno
+como puedes ver y pues lo único que
+hacería que hacer es agarrar todo
+la parte de los datos que si
+necesitamos y llevarlos al
+lado izquierdo y bueno amigos como
+puedes ver
+hemos terminado todo nuestro
+mantenimiento de productos
+ya con bueno con el botón de Excel
+y pues estoy muy feliz de verdad
+porque he terminado lo que
+me propuse hace tiempo hacerlo la
+verdad es que me he dado mucho no
+debería haberme demorado pero son
+muchas
+cosas que tengo que hacer ahora
+estoy en la parte de
+programación web y pues esta parte
+son es un bonito recuerdo que yo
+tengo de haber este
+aprendido sobre
+las aplicaciones escritorio que
+espero que bueno que te ha ayudado
+mucho este curso y bueno si te
+gustó y te ayuden algo pues
+compártelo con tus amigos todos
+merecen aprender todos merecen
+saber algo más compártelo enseñalo
+ya sabes que enseñando
+es la única forma de aprender
+y bueno me
+despido cuídense mucho y bueno ya
+será en otro próximo vídeo de una
+aplicación de
+escritorio hasta la próxima

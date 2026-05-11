@@ -1,0 +1,1432 @@
+1
+00:00:00,660 --> 00:00:01,820
+Bueno, ahora vamos
+
+2
+00:00:01,820 --> 00:00:02,840
+a comenzar una breve
+
+3
+00:00:02,840 --> 00:00:03,520
+introducción
+
+4
+00:00:03,520 --> 00:00:05,360
+con la capa de presentación.
+
+5
+00:00:05,580 --> 00:00:06,400
+nuestra capa de
+
+6
+00:00:06,400 --> 00:00:08,420
+presentación es el receptor final,
+
+7
+00:00:08,780 --> 00:00:08,900
+el
+
+8
+00:00:08,900 --> 00:00:10,720
+cual obtiene los datos obtenidos en
+
+9
+00:00:10,720 --> 00:00:12,020
+nuestra capa de negocio.
+
+10
+00:00:12,600 --> 00:00:14,340
+Esta capa también se comunica
+
+11
+00:00:14,340 --> 00:00:15,920
+con nuestra capa de entidades,
+
+12
+00:00:16,460 --> 00:00:18,280
+es aquí en nuestra capa de
+
+13
+00:00:18,280 --> 00:00:19,820
+presentación en donde se puede
+
+14
+00:00:19,820 --> 00:00:21,160
+visualizar nuestro diseño
+
+15
+00:00:21,160 --> 00:00:22,600
+y por ende aquí es donde están
+
+16
+00:00:22,600 --> 00:00:22,920
+todos
+
+17
+00:00:22,920 --> 00:00:23,920
+nuestros frumularios.
+
+18
+00:00:23,920 --> 00:00:26,020
+nuestra interfaz gráfica se
+
+19
+00:00:26,020 --> 00:00:27,600
+recomienda hacer amigable
+
+20
+00:00:27,600 --> 00:00:29,280
+y entendible para el usuario.
+
+21
+00:00:29,680 --> 00:00:31,720
+ya diseñado nuestro interfaz es
+
+22
+00:00:31,720 --> 00:00:33,820
+dentro de él donde vamos a realizar
+
+23
+00:00:33,820 --> 00:00:34,300
+nuestras
+
+24
+00:00:34,300 --> 00:00:35,900
+acciones mediante los controles.
+
+25
+00:00:36,460 --> 00:00:38,020
+ahora vamos a pasar al
+
+26
+00:00:38,020 --> 00:00:39,880
+diseño de nuestra primera interfaz.
+
+27
+00:00:40,420 --> 00:00:42,260
+vamos a entrar a nuestra capa
+
+28
+00:00:42,260 --> 00:00:44,040
+de presentación y agregar un nuevo
+
+29
+00:00:44,040 --> 00:00:44,740
+formulario.
+
+30
+00:00:45,100 --> 00:00:46,740
+este formulario lo voy a llamar
+
+31
+00:00:46,740 --> 00:00:47,920
+mfrm categoría.
+
+32
+00:00:47,920 --> 00:00:50,060
+lo segundo es agregar nuestro
+
+33
+00:00:50,060 --> 00:00:50,860
+uniform UI
+
+34
+00:00:50,860 --> 00:00:53,000
+a nuestro cuadro de herramientas.
+
+35
+00:00:53,640 --> 00:00:54,820
+en nuestro cuadro de herramientas
+
+36
+00:00:54,820 --> 00:00:56,800
+vamos a ver varias herramientas y
+
+37
+00:00:56,800 --> 00:00:57,780
+en ella vamos a
+
+38
+00:00:57,780 --> 00:00:59,140
+agregar una nueva pestaña.
+
+39
+00:01:03,720 --> 00:01:05,080
+esa nueva pestaña
+
+40
+00:01:05,080 --> 00:01:07,460
+vamos a agregar nuestros elementos.
+
+41
+00:01:09,400 --> 00:01:11,980
+al cagar si es a ventana vamos a ir
+
+42
+00:01:11,980 --> 00:01:14,180
+a examinar y vamos a ir donde está
+
+43
+00:01:14,180 --> 00:01:15,800
+nuestro uniform UI.
+
+44
+00:01:16,640 --> 00:01:18,600
+abrimos el archivo que estará en la
+
+45
+00:01:18,600 --> 00:01:20,300
+descripción del video y aceptamos.
+
+46
+00:01:20,740 --> 00:01:23,700
+como puedes ver van a estar todos
+
+47
+00:01:23,700 --> 00:01:25,960
+los componentes de uniform y
+
+48
+00:01:25,960 --> 00:01:27,880
+list para poder ser usados.
+
+49
+00:01:28,380 --> 00:01:29,460
+así que aceptamos
+
+50
+00:01:36,140 --> 00:01:38,020
+y vamos a ver que en nuestra
+
+51
+00:01:38,020 --> 00:01:38,800
+pestaña que se ha
+
+52
+00:01:38,800 --> 00:01:40,580
+agregado van a estar todos
+
+53
+00:01:40,580 --> 00:01:42,400
+los componentes de uniform UI.
+
+54
+00:01:43,940 --> 00:01:45,600
+lo segundo que vamos a hacer vamos
+
+55
+00:01:45,600 --> 00:01:49,020
+a hacer que nuestro formulario no
+
+56
+00:01:49,020 --> 00:01:49,600
+tenga bordes.
+
+57
+00:01:56,940 --> 00:02:00,120
+lo siguiente es crear un panel y
+
+58
+00:02:00,120 --> 00:02:00,720
+este panel
+
+59
+00:02:00,720 --> 00:02:02,840
+va a estar en la parte de arriba,
+
+60
+00:02:03,220 --> 00:02:05,200
+en la parte de top. voy
+
+61
+00:02:05,200 --> 00:02:07,520
+a decir que en el top este a en
+
+62
+00:02:07,520 --> 00:02:11,100
+top y le voy a poner un color.
+
+63
+00:02:11,860 --> 00:02:14,240
+este color va a ser el mismo que
+
+64
+00:02:14,240 --> 00:02:14,580
+acá,
+
+65
+00:02:14,840 --> 00:02:16,780
+pretamos control X en use call up
+
+66
+00:02:16,780 --> 00:02:17,400
+picker.
+
+67
+00:02:18,140 --> 00:02:20,820
+y bueno sólo nos reconoce cuando es
+
+68
+00:02:20,820 --> 00:02:21,940
+punticoma, así que
+
+69
+00:02:21,940 --> 00:02:23,020
+le ponemos punticoma.
+
+70
+00:02:29,220 --> 00:02:30,380
+ahora lo que vamos
+
+71
+00:02:30,380 --> 00:02:32,360
+a hacer es poner un picture box,
+
+72
+00:02:32,600 --> 00:02:33,080
+un
+
+73
+00:02:33,080 --> 00:02:35,360
+picture box para poner un imagen.
+
+74
+00:02:38,900 --> 00:02:41,020
+como todavía no tenemos ninguna
+
+75
+00:02:41,020 --> 00:02:42,960
+imagen vamos a crear una nueva
+
+76
+00:02:42,960 --> 00:02:43,520
+carpeta
+
+77
+00:02:43,520 --> 00:02:45,220
+en donde le pondremos imágenes.
+
+78
+00:02:45,760 --> 00:02:49,000
+en esta carpeta vamos a poner todas
+
+79
+00:02:49,000 --> 00:02:52,020
+las imágenes que nosotros vamos a
+
+80
+00:02:52,020 --> 00:02:52,980
+querer. en
+
+81
+00:02:52,980 --> 00:02:54,720
+este caso voy a poner mi imagen
+
+82
+00:02:54,720 --> 00:02:55,060
+de
+
+83
+00:02:55,060 --> 00:02:56,880
+mi logo y bueno este es opcional,
+
+84
+00:02:56,880 --> 00:02:57,420
+yo lo pongo
+
+85
+00:02:57,420 --> 00:02:59,220
+porque bueno, pero tú puedes tener
+
+86
+00:02:59,220 --> 00:02:59,920
+tu propio logo
+
+87
+00:02:59,920 --> 00:03:01,380
+y poner lo mismo que yo estoy
+
+88
+00:03:01,380 --> 00:03:01,900
+poniendo.
+
+89
+00:03:02,980 --> 00:03:03,520
+ahora
+
+90
+00:03:03,520 --> 00:03:05,680
+lo segundo va a ser crear un label,
+
+91
+00:03:06,420 --> 00:03:08,620
+en el cual le voy a poner el nombre
+
+92
+00:03:08,620 --> 00:03:10,720
+o el título de mi formulario.
+
+93
+00:03:12,160 --> 00:03:14,660
+voy a crear otro picture box,
+
+94
+00:03:15,380 --> 00:03:17,660
+en el cual voy a ponerle un imagen
+
+95
+00:03:17,660 --> 00:03:18,620
+que va a ser
+
+96
+00:03:18,620 --> 00:03:19,920
+para acerrar mi formulario.
+
+97
+00:03:20,680 --> 00:03:23,160
+así que abrimos a econ8 y aquí
+
+98
+00:03:23,160 --> 00:03:26,400
+vamos a buscar la imagen o el icono
+
+99
+00:03:26,400 --> 00:03:28,300
+que nosotros vamos a querer para
+
+100
+00:03:28,300 --> 00:03:29,900
+que nos represente el botón de
+
+101
+00:03:29,900 --> 00:03:30,740
+cerrar. así
+
+102
+00:03:30,740 --> 00:03:32,440
+que elegimos esta imagen y
+
+103
+00:03:32,440 --> 00:03:35,040
+bueno sólo aceptamos y la guardamos
+
+104
+00:03:35,040 --> 00:03:36,580
+en nuestra carpeta de imágenes.
+
+105
+00:03:41,600 --> 00:03:43,840
+y de aquí le pasaremos
+
+106
+00:03:43,840 --> 00:03:45,740
+el imagen de nuestro picture box.
+
+107
+00:03:51,600 --> 00:03:53,600
+ahora en el label que hemos hecho
+
+108
+00:03:53,600 --> 00:03:58,620
+vamos a ponerle de fuente popings y
+
+109
+00:03:58,620 --> 00:04:00,820
+le ponemos un tamaño y le
+
+110
+00:04:00,820 --> 00:04:02,720
+vamos a poner el título de nuestra
+
+111
+00:04:02,720 --> 00:04:03,720
+categoría.
+
+112
+00:04:04,500 --> 00:04:07,100
+la letra de fuente o el tipo de
+
+113
+00:04:07,100 --> 00:04:08,300
+fuente también lo vas a tener
+
+114
+00:04:08,300 --> 00:04:09,560
+en la descripción de este video,
+
+115
+00:04:09,820 --> 00:04:11,580
+si es que te gusta este tipo de
+
+116
+00:04:11,580 --> 00:04:12,820
+fuente que te estoy enseñando.
+
+117
+00:04:15,760 --> 00:04:17,680
+ahora vamos a usar este componente
+
+118
+00:04:17,680 --> 00:04:19,740
+que se llama Unifu drag control.
+
+119
+00:04:20,160 --> 00:04:20,400
+Esto
+
+120
+00:04:20,400 --> 00:04:22,320
+funciona de una forma sencilla.
+
+121
+00:04:22,600 --> 00:04:24,100
+vamos a ponerle un nombre primero y
+
+122
+00:04:24,100 --> 00:04:26,080
+le voy a poner mover fumulario.
+
+123
+00:04:26,080 --> 00:04:28,720
+ahora quiero que mi drag control
+
+124
+00:04:28,720 --> 00:04:31,540
+mueva el panel que está arriba.
+
+125
+00:04:31,920 --> 00:04:33,660
+así que le voy a decir que va a ser
+
+126
+00:04:33,660 --> 00:04:35,260
+el panel que le he puesto como top
+
+127
+00:04:35,260 --> 00:04:36,100
+formulario.
+
+128
+00:04:40,500 --> 00:04:42,400
+para ejecutar bien nuestro programa
+
+129
+00:04:42,400 --> 00:04:44,400
+actualmente nuestro proyecto
+
+130
+00:04:44,400 --> 00:04:46,480
+no sabe cuál va a ser la capa de
+
+131
+00:04:46,480 --> 00:04:47,760
+inicio. así que le vamos a decir
+
+132
+00:04:47,760 --> 00:04:47,900
+que
+
+133
+00:04:47,900 --> 00:04:49,320
+nuestra capa de inicio va a ser la
+
+134
+00:04:49,320 --> 00:04:51,020
+capa de presentación porque ahí va
+
+135
+00:04:51,020 --> 00:04:52,460
+a estar todos nuestros formularios.
+
+136
+00:04:52,460 --> 00:04:54,660
+obviamente se va a iniciar viendo
+
+137
+00:04:54,660 --> 00:04:55,440
+un formulario.
+
+138
+00:04:55,740 --> 00:04:57,880
+así que le vamos a decir eso y en
+
+139
+00:04:57,880 --> 00:04:59,460
+nuestro programa le vamos a decir
+
+140
+00:04:59,460 --> 00:05:03,340
+que empiece con el formulario FRM
+
+141
+00:05:03,340 --> 00:05:04,400
+Categoría.
+
+142
+00:05:09,600 --> 00:05:12,040
+y por último le vamos a decir que
+
+143
+00:05:12,040 --> 00:05:13,240
+al darle el double
+
+144
+00:05:13,240 --> 00:05:14,760
+click a nuestro botón Serrar.
+
+145
+00:05:15,460 --> 00:05:17,140
+le vamos a decir por ahora
+
+146
+00:05:17,140 --> 00:05:19,540
+que salga de nuestra aplicación.
+
+147
+00:05:29,580 --> 00:05:30,960
+ahora ya tendemos todo el listo
+
+148
+00:05:30,960 --> 00:05:31,420
+hasta parte.
+
+149
+00:05:31,460 --> 00:05:33,320
+lo que tenemos que hacer es crear
+
+150
+00:05:33,320 --> 00:05:34,900
+nuestra caja de texto en donde
+
+151
+00:05:34,900 --> 00:05:36,340
+vamos a buscar nuestros registros
+
+152
+00:05:36,340 --> 00:05:37,100
+de nuestra tabla.
+
+153
+00:05:37,740 --> 00:05:39,760
+esa caja de texto la vamos a hacer
+
+154
+00:05:39,760 --> 00:05:40,440
+con Powerpoint.
+
+155
+00:05:40,920 --> 00:05:43,420
+aquí en Powerpoint ponemos insertar
+
+156
+00:05:43,420 --> 00:05:45,560
+y vamos a ponerle una figura en el
+
+157
+00:05:45,560 --> 00:05:47,140
+cual va a ser un rectángulo pero
+
+158
+00:05:47,140 --> 00:05:49,060
+encurvado en los lados.
+
+159
+00:05:49,060 --> 00:05:51,980
+vamos a darle un color.
+
+160
+00:06:01,460 --> 00:06:02,760
+cuando yo esté listo en nuestro
+
+161
+00:06:02,760 --> 00:06:04,780
+imagen solo vamos a capturar toda
+
+162
+00:06:04,780 --> 00:06:06,680
+la imagen y vamos a guardarlo en
+
+163
+00:06:06,680 --> 00:06:19,460
+nuestra carpeta de imágenes. luego
+
+164
+00:06:19,460 --> 00:06:21,380
+vamos a usarlo como un
+
+165
+00:06:21,380 --> 00:06:22,040
+picture box.
+
+166
+00:06:25,020 --> 00:06:27,820
+y bueno solo pasamos la imagen a
+
+167
+00:06:27,820 --> 00:06:28,940
+nuestro proyecto.
+
+168
+00:06:34,660 --> 00:06:36,500
+ahora para que nuestra imagen tenga
+
+169
+00:06:36,500 --> 00:06:37,240
+el mismo color de
+
+170
+00:06:37,240 --> 00:06:38,420
+nuestro formulario le voy a decir a
+
+171
+00:06:38,420 --> 00:06:38,520
+mi
+
+172
+00:06:38,520 --> 00:06:40,300
+formulario que el color de fondo
+
+173
+00:06:40,300 --> 00:06:41,340
+va a ser un blanco.
+
+174
+00:06:43,680 --> 00:06:45,940
+ahora vamos a poner otro picture
+
+175
+00:06:45,940 --> 00:06:48,560
+box dentro de nuestra caja en el
+
+176
+00:06:48,560 --> 00:06:50,740
+cual va a tener un icono de buscar.
+
+177
+00:06:51,720 --> 00:06:53,700
+vamos a encontrar ese icono de
+
+178
+00:06:53,700 --> 00:06:54,000
+buscar
+
+179
+00:06:54,000 --> 00:06:55,700
+y bueno yo lo voy a poner este.
+
+180
+00:07:03,940 --> 00:07:05,180
+y bueno al final
+
+181
+00:07:05,180 --> 00:07:06,900
+solo lo colocamos y lo ponemos.
+
+182
+00:07:16,940 --> 00:07:18,620
+ahora vamos a agregar nuestro
+
+183
+00:07:18,620 --> 00:07:20,320
+componente de nuestro text box.
+
+184
+00:07:20,880 --> 00:07:21,080
+aquí
+
+185
+00:07:21,080 --> 00:07:22,300
+es donde vamos a buscar nuestro
+
+186
+00:07:22,300 --> 00:07:23,320
+registro para nuestra
+
+187
+00:07:23,320 --> 00:07:23,780
+tabla.
+
+188
+00:07:24,480 --> 00:07:26,520
+así que vamos a decirle que su
+
+189
+00:07:26,520 --> 00:07:27,940
+fuente también sea Poppins.
+
+190
+00:07:39,320 --> 00:07:41,580
+que el color de fondo sea un blanco
+
+191
+00:07:41,580 --> 00:07:43,560
+que su borde sea No.
+
+192
+00:07:53,460 --> 00:07:55,660
+y bueno si te das cuenta está
+
+193
+00:07:55,660 --> 00:07:57,480
+quedando bien podemos escribir
+
+194
+00:07:57,480 --> 00:07:59,980
+cualquier cosa y así prácticamente
+
+195
+00:07:59,980 --> 00:08:00,380
+se
+
+196
+00:08:00,380 --> 00:08:02,860
+podrá visualizar en nuestra tabla.
+
+197
+00:08:12,980 --> 00:08:14,500
+ahora lo siguiente que vamos a
+
+198
+00:08:14,500 --> 00:08:16,480
+hacer vamos a poner con labels la
+
+199
+00:08:16,480 --> 00:08:18,160
+identificación de cada columna de
+
+200
+00:08:18,160 --> 00:08:18,860
+nuestra tabla.
+
+201
+00:08:26,740 --> 00:08:28,020
+el primero
+
+202
+00:08:28,020 --> 00:08:30,400
+como ya sabemos es el código,
+
+203
+00:08:30,920 --> 00:08:42,920
+el nombre y la descripción.
+
+204
+00:08:42,920 --> 00:08:44,320
+y yo te digo que es opcional que
+
+205
+00:08:44,320 --> 00:08:45,940
+hagas esto el label si tú deseas
+
+206
+00:08:45,940 --> 00:08:48,540
+no lo hagas y solo te guías con las
+
+207
+00:08:48,540 --> 00:08:49,740
+columnas que te va a dar nuestra
+
+208
+00:08:49,740 --> 00:08:50,080
+tabla.
+
+209
+00:08:50,420 --> 00:08:52,420
+pero en este caso yo le he quitado
+
+210
+00:08:52,420 --> 00:08:54,200
+la cabezera para que no se vea.
+
+211
+00:08:54,360 --> 00:08:56,180
+al final es solo para darle un poco
+
+212
+00:08:56,180 --> 00:08:56,920
+de estilo web.
+
+213
+00:09:00,780 --> 00:09:02,400
+entonces vamos a crear nuestra
+
+214
+00:09:02,400 --> 00:09:05,000
+tabla y vamos a diseñar nuestra
+
+215
+00:09:05,000 --> 00:09:05,740
+tabla al
+
+216
+00:09:05,740 --> 00:09:09,120
+cual yo le llamaré tabla categoría.
+
+217
+00:09:14,680 --> 00:09:15,280
+lo primero
+
+218
+00:09:15,280 --> 00:09:16,680
+que vamos a hacer vamos a
+
+219
+00:09:16,680 --> 00:09:18,800
+darle un fondo blanco le voy a
+
+220
+00:09:18,800 --> 00:09:21,080
+decir que no tengo un borde.
+
+221
+00:09:29,280 --> 00:09:31,740
+la cabezera de la columna va a ser
+
+222
+00:09:31,740 --> 00:09:36,020
+false o sea no se va a visualizar y
+
+223
+00:09:36,020 --> 00:09:38,040
+en defaults al style le voy a decir
+
+224
+00:09:38,040 --> 00:09:40,600
+que su color de fondo sea blanco.
+
+225
+00:09:42,020 --> 00:09:45,860
+que su fuente sea popings y que su
+
+226
+00:09:45,860 --> 00:09:47,060
+letra sea gris.
+
+227
+00:09:47,860 --> 00:09:50,860
+ahora cuando se seleccione una fila
+
+228
+00:09:50,860 --> 00:09:54,280
+quiero que su color sea este el
+
+229
+00:09:54,280 --> 00:09:57,080
+mismo que hemos dado en el top del
+
+230
+00:09:57,080 --> 00:09:58,020
+formulario.
+
+231
+00:09:59,960 --> 00:10:01,880
+y cuando se seleccione una fila
+
+232
+00:10:01,880 --> 00:10:03,580
+quiero que el color de
+
+233
+00:10:03,580 --> 00:10:04,760
+fuente sea blanco.
+
+234
+00:10:09,120 --> 00:10:11,400
+ahora le vamos a decir que también
+
+235
+00:10:11,400 --> 00:10:13,940
+en el lado de izquierdo donde está
+
+236
+00:10:13,940 --> 00:10:16,980
+una flechita que no se visualice.
+
+237
+00:10:20,980 --> 00:10:23,820
+y la selección que al apretar una
+
+238
+00:10:23,820 --> 00:10:26,760
+fila me seleccione toda la fila.
+
+239
+00:10:26,760 --> 00:10:28,800
+por último le voy a decir que en
+
+240
+00:10:28,800 --> 00:10:31,740
+autosai escolon mode le voy a decir
+
+241
+00:10:31,740 --> 00:10:35,820
+que tenga un fil y en rose mode que
+
+242
+00:10:35,820 --> 00:10:37,200
+tenga un alcels para
+
+243
+00:10:37,200 --> 00:10:39,680
+que se acude al ancho de la fila.
+
+244
+00:10:41,040 --> 00:10:42,860
+ahora voy a agregar mis botones.
+
+245
+00:10:47,140 --> 00:10:49,460
+uno de ellos va a tener este color
+
+246
+00:10:49,460 --> 00:10:51,560
+en el cual le voy a poner
+
+247
+00:10:51,560 --> 00:10:53,520
+el mismo de nuestro panel top.
+
+248
+00:11:04,020 --> 00:11:06,100
+ahora este botón va a ser el botón
+
+249
+00:11:06,100 --> 00:11:06,540
+de nuevo.
+
+250
+00:11:14,600 --> 00:11:15,940
+y bueno también le voy a
+
+251
+00:11:15,940 --> 00:11:18,480
+decir que tenga la fuente popings.
+
+252
+00:11:21,280 --> 00:11:23,060
+le voy a decir que tenga un borde
+
+253
+00:11:23,060 --> 00:11:26,420
+de 7 de radio para que este ha
+
+254
+00:11:26,420 --> 00:11:29,720
+curviado de las esquinas y busco
+
+255
+00:11:29,720 --> 00:11:32,500
+en icon 8 el icono que yo deseo.
+
+256
+00:11:32,920 --> 00:11:34,780
+en este caso voy a buscar un icono
+
+257
+00:11:34,780 --> 00:11:38,060
+de nuevo y bueno voy a guardarlo y
+
+258
+00:11:38,060 --> 00:11:39,640
+agregarlo a mi carpeta de imágenes.
+
+259
+00:11:47,480 --> 00:11:49,700
+le voy a poner un zoom de mi icon o
+
+260
+00:11:49,700 --> 00:11:52,220
+sea un tamaño y en 50 está bien
+
+261
+00:11:52,220 --> 00:11:54,900
+como puedes darte cuenta y le voy a
+
+262
+00:11:54,900 --> 00:11:57,440
+poner que se centre mi text alaí.
+
+263
+00:11:58,300 --> 00:12:00,880
+lo mismo voy a hacer ya creando mis
+
+264
+00:12:00,880 --> 00:12:03,160
+otros 4 botones más.
+
+265
+00:12:03,920 --> 00:12:08,840
+que va a ser el botón de editar el
+
+266
+00:12:08,840 --> 00:12:10,160
+botón de eliminar.
+
+267
+00:12:14,460 --> 00:12:16,560
+el otro botón va a ser el botón de
+
+268
+00:12:16,560 --> 00:12:19,720
+imprimir y el otro va a ser
+
+269
+00:12:19,720 --> 00:12:22,740
+el botón de excel y por último el
+
+270
+00:12:22,740 --> 00:12:23,740
+botón de guardar.
+
+271
+00:12:24,180 --> 00:12:26,520
+cada uno de ellos va a tener sus
+
+272
+00:12:26,520 --> 00:12:27,020
+botones.
+
+273
+00:12:36,620 --> 00:12:37,980
+así que voy a encontrar esos
+
+274
+00:12:37,980 --> 00:12:40,180
+síconos en icon 8 y los guardaré
+
+275
+00:12:40,180 --> 00:12:41,480
+en mi carpeta de imágenes.
+
+276
+00:13:28,840 --> 00:13:30,560
+y ahora
+
+277
+00:13:30,560 --> 00:13:32,500
+voy a hacer un botón de suerte.
+
+278
+00:13:32,700 --> 00:13:32,700
+y
+
+279
+00:13:32,700 --> 00:13:33,000
+ahora
+
+280
+00:13:33,000 --> 00:13:33,000
+voy a hacer un
+
+281
+00:13:33,000 --> 00:13:33,140
+botón
+
+282
+00:13:33,140 --> 00:13:33,140
+de suerte.
+
+283
+00:13:49,380 --> 00:13:52,180
+y ahora
+
+284
+00:13:52,180 --> 00:14:03,060
+voy a hacer un botón de suerte.
+
+285
+00:14:12,640 --> 00:14:14,360
+ahora lo que vamos a hacer vamos a
+
+286
+00:14:14,360 --> 00:14:15,820
+crear un tracaje de texto.
+
+287
+00:14:16,120 --> 00:14:17,480
+ya lo que habíamos hecho en
+
+288
+00:14:17,480 --> 00:14:18,960
+un tracaje de texto de buscar.
+
+289
+00:14:19,700 --> 00:14:22,580
+y vamos a ponerle que el primero
+
+290
+00:14:22,580 --> 00:14:23,600
+va a ser del código.
+
+291
+00:14:28,260 --> 00:14:33,680
+el segundo va a ser de nombre y
+
+292
+00:14:33,680 --> 00:14:35,920
+el tercero va a ser de descripción.
+
+293
+00:14:49,740 --> 00:14:52,580
+así que cada uno lo ordenamos y en
+
+294
+00:14:52,580 --> 00:14:54,920
+la parte de descripción vamos a ver
+
+295
+00:14:54,920 --> 00:14:56,520
+que es una parte más
+
+296
+00:14:56,520 --> 00:14:58,200
+grande. así que vamos a hacer de
+
+297
+00:14:58,200 --> 00:14:58,400
+nuevo
+
+298
+00:14:58,400 --> 00:15:01,260
+Powerpoint y vamos a crear uno
+
+299
+00:15:01,260 --> 00:15:03,600
+pero que obviamente sea más grande.
+
+300
+00:15:04,240 --> 00:15:06,000
+le ponemos un borde más pegado a
+
+301
+00:15:06,000 --> 00:15:08,780
+la derecha para cada lado y vamos a
+
+302
+00:15:08,780 --> 00:15:10,960
+ponerle un nombre y lo guardamos.
+
+303
+00:15:16,560 --> 00:15:19,500
+ahora buscamos esa imagen en
+
+304
+00:15:19,500 --> 00:15:20,860
+nuestra carpeta de imágenes
+
+305
+00:15:20,860 --> 00:15:23,140
+y bueno sólo la llevamos a nuestro
+
+306
+00:15:23,140 --> 00:15:23,580
+proyecto.
+
+307
+00:15:24,560 --> 00:15:26,940
+ahora la granamos un poco ya que la
+
+308
+00:15:26,940 --> 00:15:28,500
+descripción de nuestra tabla
+
+309
+00:15:28,500 --> 00:15:30,760
+categoría va a ser un poquito más
+
+310
+00:15:30,760 --> 00:15:31,180
+extensa
+
+311
+00:15:31,180 --> 00:15:33,220
+que el de código y el de nombre.
+
+312
+00:15:34,220 --> 00:15:36,040
+copiamos nuestra caja de texto
+
+313
+00:15:36,040 --> 00:15:39,260
+y sólo la insertamos en cada cajita
+
+314
+00:15:39,260 --> 00:15:40,520
+de texto de código,
+
+315
+00:15:41,140 --> 00:15:42,420
+nombre y descripción.
+
+316
+00:15:47,160 --> 00:15:49,300
+y en la parte de descripción en la
+
+317
+00:15:49,300 --> 00:15:51,000
+caja de texto le vamos a poner que
+
+318
+00:15:51,000 --> 00:15:52,600
+sea multi line para que
+
+319
+00:15:52,600 --> 00:15:54,540
+podamos escribir en varias líneas.
+
+320
+00:15:59,700 --> 00:16:01,720
+ahora podarle un toque de estilo
+
+321
+00:16:01,720 --> 00:16:03,600
+vamos a darle en nuestro fórmulario
+
+322
+00:16:03,600 --> 00:16:04,580
+un componente
+
+323
+00:16:04,580 --> 00:16:06,120
+que se llama beautiful el x.
+
+324
+00:16:06,300 --> 00:16:06,920
+este le
+
+325
+00:16:06,920 --> 00:16:09,000
+da un radio a nuestro fórmulario.
+
+326
+00:16:09,280 --> 00:16:11,220
+vamos a ponerle radio el x.
+
+327
+00:16:14,540 --> 00:16:17,080
+y que nuestro radio sea de 7 como
+
+328
+00:16:17,080 --> 00:16:18,380
+puedes ver mi fórmulario
+
+329
+00:16:18,380 --> 00:16:19,980
+está un poco más redondial.
+
+330
+00:16:20,920 --> 00:16:23,320
+ahora vamos a ponerle y colocarle
+
+331
+00:16:23,320 --> 00:16:25,140
+los nombres que nos faltaban a
+
+332
+00:16:25,140 --> 00:16:26,540
+todos nuestros componentes que
+
+333
+00:16:26,540 --> 00:16:27,220
+vamos a usar.
+
+334
+00:16:27,540 --> 00:16:29,380
+es muy importante ponerle los
+
+335
+00:16:29,380 --> 00:16:31,760
+nombres en el cual tuta de juez más
+
+336
+00:16:31,760 --> 00:16:33,620
+para que no te pierdas en hacer
+
+337
+00:16:33,620 --> 00:16:35,440
+tu proyecto ya que los proyectos
+
+338
+00:16:35,440 --> 00:16:37,520
+pueden ser inmensos y y tengas
+
+339
+00:16:37,520 --> 00:16:39,900
+un estándar de cómo darle a cada
+
+340
+00:16:39,900 --> 00:16:41,400
+componente un nombre para que
+
+341
+00:16:41,400 --> 00:16:42,880
+se te pueda ser más fácil.
+
+342
+00:16:59,740 --> 00:17:00,520
+ahora vamos
+
+343
+00:17:00,520 --> 00:17:01,800
+a darle unos retotes más.
+
+344
+00:17:03,720 --> 00:17:05,240
+y por último vamos a
+
+345
+00:17:05,240 --> 00:17:07,040
+darle un imagen de fondo a nuestro
+
+346
+00:17:07,040 --> 00:17:07,880
+fórmulario.
+
+347
+00:17:08,020 --> 00:17:10,140
+vamos a bank account image y este
+
+348
+00:17:10,140 --> 00:17:11,680
+imagen te la voy a descar
+
+349
+00:17:11,680 --> 00:17:13,060
+también en la descripción de
+
+350
+00:17:13,060 --> 00:17:13,540
+este video
+
+351
+00:17:13,540 --> 00:17:15,900
+como todos los síconos y todas las
+
+352
+00:17:15,900 --> 00:17:17,400
+imágenes que hemos usado aquí.
+
+353
+00:17:17,680 --> 00:17:19,460
+así que vamos a darle iniciar
+
+354
+00:17:19,460 --> 00:17:21,260
+y bueno así va quedando nuestro
+
+355
+00:17:21,260 --> 00:17:22,220
+fórmulario para
+
+356
+00:17:22,220 --> 00:17:23,940
+poder hacer el crew de insertar,
+
+357
+00:17:24,200 --> 00:17:25,080
+editar, eliminar
+
+358
+00:17:25,080 --> 00:17:26,120
+y buscar registros.
+

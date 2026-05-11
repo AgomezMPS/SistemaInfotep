@@ -1,0 +1,1004 @@
+1
+00:00:02,240 --> 00:00:03,880
+Bueno vamos a continuar con la
+
+2
+00:00:03,880 --> 00:00:05,760
+segunda y última parte del diseño
+
+3
+00:00:05,760 --> 00:00:07,320
+del panel de productos.
+
+4
+00:00:08,080 --> 00:00:09,760
+Entonces nos habíamos quedado en
+
+5
+00:00:09,760 --> 00:00:10,100
+que ya
+
+6
+00:00:10,100 --> 00:00:11,940
+había mostrado de la base de datos,
+
+7
+00:00:12,160 --> 00:00:13,080
+todos los ratos de
+
+8
+00:00:13,080 --> 00:00:13,980
+nuestros productos.
+
+9
+00:00:14,640 --> 00:00:15,660
+Así que lo que vamos a
+
+10
+00:00:15,660 --> 00:00:17,320
+hacer vamos a diseñar un poco esto,
+
+11
+00:00:17,440 --> 00:00:18,700
+vamos a decir que la tabla pues
+
+12
+00:00:18,700 --> 00:00:21,320
+ocupe hasta el lado derecho y
+
+13
+00:00:21,320 --> 00:00:22,740
+también los botones vamos
+
+14
+00:00:22,740 --> 00:00:25,520
+a ponerlos al lado derecho para que
+
+15
+00:00:25,520 --> 00:00:26,960
+se vean bien. Hay que linear los
+
+16
+00:00:26,960 --> 00:00:27,160
+bien
+
+17
+00:00:27,160 --> 00:00:27,500
+y bueno
+
+18
+00:00:27,500 --> 00:00:30,040
+vamos a evitar el data review.
+
+19
+00:00:30,540 --> 00:00:33,000
+Primero en esta parte vamos a
+
+20
+00:00:33,000 --> 00:00:34,040
+ponerle que se atrú
+
+21
+00:00:34,040 --> 00:00:36,320
+y que se atrú, no te voy a olvidar.
+
+22
+00:00:37,180 --> 00:00:39,620
+Y también la parte del background
+
+23
+00:00:39,620 --> 00:00:42,120
+color de nuestro data review que
+
+24
+00:00:42,120 --> 00:00:43,840
+sea white, un borde de style que
+
+25
+00:00:43,840 --> 00:00:44,200
+sea known
+
+26
+00:00:44,200 --> 00:00:45,540
+porque no queremos que tenga un
+
+27
+00:00:45,540 --> 00:00:45,820
+borde.
+
+28
+00:00:46,920 --> 00:00:47,640
+También le decimos que
+
+29
+00:00:47,640 --> 00:00:49,060
+en Zelda Ball Style sea
+
+30
+00:00:49,060 --> 00:00:50,340
+single horizontal.
+
+31
+00:00:52,300 --> 00:00:55,480
+Y en el column GDB que sea known,
+
+32
+00:00:55,720 --> 00:00:57,540
+no queremos que esté a esa flechita
+
+33
+00:00:57,540 --> 00:00:58,300
+que nos indica
+
+34
+00:00:58,300 --> 00:01:00,360
+que columna hemos marcado.
+
+35
+00:01:00,940 --> 00:01:02,680
+Aquí no vamos a hacer nada,
+
+36
+00:01:03,200 --> 00:01:05,580
+no vamos a editar nada.
+
+37
+00:01:07,160 --> 00:01:09,980
+Aquí en GDB vamos
+
+38
+00:01:09,980 --> 00:01:11,760
+a poner los false que no se vean.
+
+39
+00:01:11,920 --> 00:01:12,860
+Aquí si vamos a...
+
+40
+00:01:13,370 --> 00:01:15,600
+Esta es la parte de la tabla,
+
+41
+00:01:15,800 --> 00:01:15,800
+vamos
+
+42
+00:01:15,800 --> 00:01:16,300
+a decirle
+
+43
+00:01:16,300 --> 00:01:17,720
+que el background sea white,
+
+44
+00:01:18,200 --> 00:01:21,220
+el font color, vamos a decirle que
+
+45
+00:01:21,220 --> 00:01:21,920
+sea poppings
+
+46
+00:01:21,920 --> 00:01:23,980
+que tengo un size de 11.
+
+47
+00:01:26,080 --> 00:01:28,420
+Vamos a decirle que su letra sea de
+
+48
+00:01:28,420 --> 00:01:29,160
+color gris,
+
+49
+00:01:29,300 --> 00:01:32,220
+que cuando se les seleccione sea de
+
+50
+00:01:32,220 --> 00:01:34,040
+color blanco y cuando se lecciones
+
+51
+00:01:34,040 --> 00:01:36,580
+sea su fuente de color gris igual.
+
+52
+00:01:36,960 --> 00:01:38,880
+Vamos a darle un padding de 888
+
+53
+00:01:38,880 --> 00:01:41,300
+para que tenga un espaciado.
+
+54
+00:01:42,280 --> 00:01:42,640
+También
+
+55
+00:01:42,640 --> 00:01:45,820
+vamos a decirle en la parte...
+
+56
+00:01:45,820 --> 00:01:47,660
+bueno aquí creo que no hay nada
+
+57
+00:01:47,660 --> 00:01:48,200
+que hacer.
+
+58
+00:01:49,920 --> 00:01:54,940
+En la parte en rose,
+
+59
+00:01:55,300 --> 00:01:58,260
+vamos a decirle que en rose headers
+
+60
+00:01:58,260 --> 00:02:00,760
+borde style que sea known.
+
+61
+00:02:02,580 --> 00:02:07,040
+Luego vamos a decirle que rose...
+
+62
+00:02:07,040 --> 00:02:10,840
+en rose headers visible que
+
+63
+00:02:10,840 --> 00:02:16,960
+sea false y vamos a decirle que en
+
+64
+00:02:16,960 --> 00:02:21,680
+selection mode sea select y bueno
+
+65
+00:02:21,680 --> 00:02:26,760
+verificas muy bien que todo está
+
+66
+00:02:26,760 --> 00:02:28,080
+igual como lo estoy haciendo.
+
+67
+00:02:29,440 --> 00:02:31,460
+Creo que aquí no,
+
+68
+00:02:31,580 --> 00:02:31,760
+acá
+
+69
+00:02:31,760 --> 00:02:33,060
+no tenemos que hacer nada tampoco,
+
+70
+00:02:33,580 --> 00:02:35,260
+muestro ya está.
+
+71
+00:02:36,200 --> 00:02:38,280
+Y creo que lo último que faltaría y
+
+72
+00:02:38,280 --> 00:02:40,120
+lo más importante para que se vea
+
+73
+00:02:40,120 --> 00:02:42,920
+bien sería que en autos size column
+
+74
+00:02:42,920 --> 00:02:43,380
+mode,
+
+75
+00:02:43,560 --> 00:02:45,240
+pongamos un fill para que ocupe
+
+76
+00:02:45,240 --> 00:02:46,080
+todo el largo de
+
+77
+00:02:46,080 --> 00:02:47,720
+nuestro data de review
+
+78
+00:02:47,720 --> 00:02:48,980
+y en autos aliso row mode
+
+79
+00:02:48,980 --> 00:02:49,940
+que sea al sales.
+
+80
+00:02:50,460 --> 00:02:54,180
+Vamos a iniciar y vamos a ver que
+
+81
+00:02:54,180 --> 00:02:57,280
+nuestra tabla de productos está
+
+82
+00:02:57,280 --> 00:03:00,520
+como nosotros o bueno como en el
+
+83
+00:03:00,520 --> 00:03:01,460
+curso se había
+
+84
+00:03:01,460 --> 00:03:03,400
+planteado. Ahora lo que nosotros
+
+85
+00:03:03,400 --> 00:03:03,900
+necesitamos
+
+86
+00:03:03,900 --> 00:03:05,680
+hacer es agregar dos columnas,
+
+87
+00:03:05,920 --> 00:03:07,800
+las columnas de eliminar y editar.
+
+88
+00:03:08,740 --> 00:03:10,560
+Así que vamos a hacerlas. Vamos a
+
+89
+00:03:10,560 --> 00:03:12,120
+dar clic a nuestro editar
+
+90
+00:03:12,120 --> 00:03:12,760
+columnas,
+
+91
+00:03:13,040 --> 00:03:14,820
+nuestra tabla de review y vamos a
+
+92
+00:03:14,820 --> 00:03:16,080
+editar la primera columna.
+
+93
+00:03:16,080 --> 00:03:19,300
+Vamos a agregar la columna editar y
+
+94
+00:03:19,300 --> 00:03:20,660
+vamos a decir que el tipo sea un
+
+95
+00:03:20,660 --> 00:03:22,680
+tabla de review y match column.
+
+96
+00:03:23,460 --> 00:03:24,460
+Luego vamos a ir por
+
+97
+00:03:24,460 --> 00:03:26,020
+la segunda, vamos a decir que se va
+
+98
+00:03:26,020 --> 00:03:26,080
+a
+
+99
+00:03:26,080 --> 00:03:26,380
+llamar
+
+100
+00:03:26,380 --> 00:03:27,120
+eliminar
+
+101
+00:03:27,120 --> 00:03:29,460
+y acuérdate que tiene que hacer el
+
+102
+00:03:29,460 --> 00:03:30,020
+mismo tipo,
+
+103
+00:03:30,240 --> 00:03:31,760
+tabla review y match column,
+
+104
+00:03:32,320 --> 00:03:34,420
+agregamos y cerramos porque son las
+
+105
+00:03:34,420 --> 00:03:36,200
+únicas dos que queremos. Vamos
+
+106
+00:03:36,200 --> 00:03:37,520
+a decirle que en esta columna
+
+107
+00:03:37,520 --> 00:03:39,160
+vamos a agregarle la imagen de
+
+108
+00:03:39,160 --> 00:03:39,580
+editar.
+
+109
+00:03:43,400 --> 00:03:44,780
+Vamos a agregar la imagen
+
+110
+00:03:48,840 --> 00:03:49,560
+y vamos
+
+111
+00:03:49,560 --> 00:03:51,260
+a poner que match la yo va a ser
+
+112
+00:03:51,260 --> 00:03:54,000
+normal igual con el eliminar.
+
+113
+00:03:54,220 --> 00:03:56,000
+Vamos a agregar la imagen de
+
+114
+00:03:56,740 --> 00:03:57,260
+eliminar,
+
+115
+00:04:01,780 --> 00:04:03,980
+aceptamos y bueno aceptamos.
+
+116
+00:04:04,380 --> 00:04:05,460
+Ahora si iniciamos
+
+117
+00:04:15,500 --> 00:04:17,440
+y colocamos en productos,
+
+118
+00:04:18,040 --> 00:04:19,720
+vamos a ver que se han agregado
+
+119
+00:04:19,720 --> 00:04:21,900
+dos columnas más que son el del
+
+120
+00:04:21,900 --> 00:04:23,980
+eliminar y el delitar
+
+121
+00:04:23,980 --> 00:04:26,240
+en las dos primeras columnas.
+
+122
+00:04:26,420 --> 00:04:27,860
+Ahora lo que necesitamos es
+
+123
+00:04:27,860 --> 00:04:32,140
+eliminar o ocultar las columnas de
+
+124
+00:04:32,140 --> 00:04:33,440
+identity, las primar y k,
+
+125
+00:04:34,160 --> 00:04:37,040
+que son estas y esta.
+
+126
+00:04:39,480 --> 00:04:42,740
+Tenemos que ver que las columnas de
+
+127
+00:04:42,740 --> 00:04:44,280
+nuestra tabla comienzas de 0, 1,
+
+128
+00:04:44,320 --> 00:04:44,800
+2, 3,
+
+129
+00:04:44,920 --> 00:04:45,220
+4,
+
+130
+00:04:45,220 --> 00:04:49,200
+esas columnas que queremos ocultar,
+
+131
+00:04:49,260 --> 00:04:53,480
+vamos a mover algunas columnas
+
+132
+00:04:53,480 --> 00:04:55,480
+y también vamos a anchar algunas
+
+133
+00:04:55,480 --> 00:04:56,700
+columnas, es por eso que voy a
+
+134
+00:04:56,700 --> 00:04:57,080
+crear un
+
+135
+00:04:57,080 --> 00:04:57,740
+método que se
+
+136
+00:04:57,740 --> 00:04:58,940
+va a llamar ocultar, mover,
+
+137
+00:04:59,160 --> 00:05:00,120
+anchar columnas.
+
+138
+00:05:01,340 --> 00:05:03,120
+Aquí se me olvidó poner el boy.
+
+139
+00:05:04,880 --> 00:05:04,980
+En
+
+140
+00:05:04,980 --> 00:05:05,960
+lo primero que vamos a hacer vamos
+
+141
+00:05:05,960 --> 00:05:06,620
+a ocultar,
+
+142
+00:05:06,760 --> 00:05:08,580
+vamos a ocultar columnas. Entonces
+
+143
+00:05:08,580 --> 00:05:09,180
+vamos a decir que en la
+
+144
+00:05:09,180 --> 00:05:10,700
+tabla productos en
+
+145
+00:05:10,700 --> 00:05:13,020
+su columna de índice,
+
+146
+00:05:13,200 --> 00:05:14,020
+vamos a colocar,
+
+147
+00:05:14,360 --> 00:05:16,340
+va a obtener el primer índice que
+
+148
+00:05:16,340 --> 00:05:17,620
+nosotros queremos que es
+
+149
+00:05:17,620 --> 00:05:18,520
+el índice 2,
+
+150
+00:05:19,020 --> 00:05:19,940
+le vamos a decir que sea
+
+151
+00:05:19,940 --> 00:05:21,380
+invisible, me lo voy a decir que
+
+152
+00:05:21,380 --> 00:05:21,980
+sea en false
+
+153
+00:05:21,980 --> 00:05:23,220
+para que se
+
+154
+00:05:23,220 --> 00:05:25,280
+oculte. Ahora esto no es la única
+
+155
+00:05:25,280 --> 00:05:25,620
+columna
+
+156
+00:05:25,620 --> 00:05:26,880
+que queremos que se oculte, también
+
+157
+00:05:26,880 --> 00:05:28,000
+queremos que se oculte en 2
+
+158
+00:05:28,000 --> 00:05:29,620
+columnas más que me entregan
+
+159
+00:05:29,620 --> 00:05:32,440
+ser la columna 5 y la columna 7,
+
+160
+00:05:32,800 --> 00:05:35,180
+que serían los primariquiznos
+
+161
+00:05:35,180 --> 00:05:36,380
+de la tabla productos.
+
+162
+00:05:36,880 --> 00:05:40,240
+Ahora tenemos que poner el método
+
+163
+00:05:40,240 --> 00:05:42,040
+al comienzo para que nos haga caso
+
+164
+00:05:42,040 --> 00:05:44,760
+y bueno,
+
+165
+00:05:44,840 --> 00:05:46,320
+vamos a ver que si ponemos en
+
+166
+00:05:46,320 --> 00:05:48,060
+productos esas columnas ya no
+
+167
+00:05:48,060 --> 00:05:50,480
+están se han ocultado y es lo que
+
+168
+00:05:50,480 --> 00:05:52,220
+nosotros queremos. Ahora
+
+169
+00:05:52,220 --> 00:05:54,620
+aquí tiene mucho espacio en
+
+170
+00:05:54,620 --> 00:05:55,640
+nuestra columna de código
+
+171
+00:05:55,640 --> 00:05:56,300
+de productos,
+
+172
+00:05:56,460 --> 00:06:00,160
+vamos a ponerle un ancho para
+
+173
+00:06:00,160 --> 00:06:01,480
+que ocupe un menor espacio,
+
+174
+00:06:01,480 --> 00:06:02,480
+vamos a decir que la tabla de
+
+175
+00:06:02,480 --> 00:06:05,720
+productos en la columna de índice 3
+
+176
+00:06:05,720 --> 00:06:06,120
+vendría
+
+177
+00:06:06,120 --> 00:06:07,940
+ser, le vamos a decir que su witch,
+
+178
+00:06:08,160 --> 00:06:09,720
+ahora tengo un witch de
+
+179
+00:06:09,720 --> 00:06:12,360
+60 pixeles, también en la tabla de
+
+180
+00:06:12,360 --> 00:06:12,940
+productos en
+
+181
+00:06:12,940 --> 00:06:14,620
+la columna bueno 4 que
+
+182
+00:06:14,620 --> 00:06:17,520
+vendría ser la columna de producto,
+
+183
+00:06:18,140 --> 00:06:19,480
+le vamos a decir que tengo un ancho
+
+184
+00:06:19,480 --> 00:06:20,260
+de 200,
+
+185
+00:06:21,080 --> 00:06:25,800
+ahora vamos a iniciar y vamos a dar
+
+186
+00:06:25,800 --> 00:06:28,820
+unos cuentas que en la columna de
+
+187
+00:06:28,820 --> 00:06:29,380
+código de
+
+188
+00:06:29,380 --> 00:06:31,840
+producto bueno creo que se me pasó,
+
+189
+00:06:32,200 --> 00:06:33,600
+debería estar así.
+
+190
+00:06:37,460 --> 00:06:40,340
+Creo que se me pasó de 60,
+
+191
+00:06:40,720 --> 00:06:42,180
+podría ser más así que le voy
+
+192
+00:06:42,180 --> 00:06:43,220
+a poner un poco más,
+
+193
+00:06:44,200 --> 00:06:45,000
+le voy a poner
+
+194
+00:06:45,000 --> 00:06:52,640
+que sea 70 y si vemos del nuevo,
+
+195
+00:06:52,960 --> 00:06:54,440
+vamos a dar unos
+
+196
+00:06:54,440 --> 00:06:56,580
+cuentas que ahora sí está bien,
+
+197
+00:06:57,680 --> 00:06:59,360
+ahora sí está bien y ahora el único
+
+198
+00:06:59,360 --> 00:07:00,520
+que nos faltaría sería que estas
+
+199
+00:07:00,520 --> 00:07:02,040
+dos primeras columnas que son de
+
+200
+00:07:02,040 --> 00:07:03,880
+editario eliminar las llevemos al
+
+201
+00:07:03,880 --> 00:07:04,280
+fondo,
+
+202
+00:07:05,300 --> 00:07:07,000
+así que vamos a decirle que tabla
+
+203
+00:07:07,000 --> 00:07:12,740
+de producto la columna que
+
+204
+00:07:12,740 --> 00:07:17,080
+son primero la columna 0 que sea un
+
+205
+00:07:17,080 --> 00:07:18,000
+display index,
+
+206
+00:07:18,300 --> 00:07:20,580
+esa nos da la chance de poder
+
+207
+00:07:20,580 --> 00:07:23,860
+llevar o mandar columnas hacia otro
+
+208
+00:07:23,860 --> 00:07:25,640
+lado o bueno hacia la columna que
+
+209
+00:07:25,640 --> 00:07:26,740
+nosotros queremos, hacia la
+
+210
+00:07:26,740 --> 00:07:27,640
+posición que nosotros
+
+211
+00:07:27,640 --> 00:07:28,760
+queremos, en
+
+212
+00:07:28,760 --> 00:07:30,320
+este caso me he dado cuenta que
+
+213
+00:07:30,320 --> 00:07:34,660
+a las dos primeras la voy a llevar
+
+214
+00:07:34,660 --> 00:07:36,440
+a las columnas 11 o sea que estén
+
+215
+00:07:36,440 --> 00:07:38,860
+alejadas de mis columnas normales,
+
+216
+00:07:38,880 --> 00:07:41,160
+tú puedes ponerla en el lugar que
+
+217
+00:07:41,160 --> 00:07:41,740
+tú deseas,
+
+218
+00:07:41,880 --> 00:07:45,140
+eso ya está en ti pero yo las pongo
+
+219
+00:07:45,140 --> 00:07:47,540
+en esa columna o en ese
+
+220
+00:07:47,540 --> 00:07:49,240
+índice, así que si pongo productos,
+
+221
+00:07:50,040 --> 00:07:52,620
+vas a darte cuenta que las columnas
+
+222
+00:07:52,620 --> 00:07:54,460
+que estaban al comienzo pues ya
+
+223
+00:07:54,460 --> 00:07:57,260
+están al lado extremo,
+
+224
+00:07:57,260 --> 00:07:59,560
+al lado derecho y así es como
+
+225
+00:07:59,560 --> 00:08:01,300
+puedes anchar editar,
+
+226
+00:08:01,620 --> 00:08:04,020
+agregar columnas y bueno también
+
+227
+00:08:04,020 --> 00:08:06,080
+ocultar columnas como ya sabíamos
+
+228
+00:08:06,080 --> 00:08:09,920
+pero bueno como puedes darte cuenta
+
+229
+00:08:09,920 --> 00:08:11,960
+está quedando bien,
+
+230
+00:08:11,960 --> 00:08:15,580
+está quedando genial y pues lo
+
+231
+00:08:15,580 --> 00:08:18,040
+único que faltaría sería agregar
+
+232
+00:08:18,040 --> 00:08:20,720
+los labels que deben estar arriba
+
+233
+00:08:20,720 --> 00:08:22,140
+de nuestro de nuestro
+
+234
+00:08:22,140 --> 00:08:23,080
+de nuestra tabla,
+
+235
+00:08:23,680 --> 00:08:25,860
+eso es una parte muy tediosa tienes
+
+236
+00:08:25,860 --> 00:08:29,020
+que tú agregarlos de de de de
+
+237
+00:08:29,020 --> 00:08:33,140
+ponerlos colocarlos y bueno ver que
+
+238
+00:08:33,140 --> 00:08:35,540
+estén alineados con con tu tabla
+
+239
+00:08:35,540 --> 00:08:36,820
+que respeten,
+
+240
+00:08:36,820 --> 00:08:41,140
+así que yo lo voy a colocar ya para
+
+241
+00:08:41,140 --> 00:08:42,400
+no ser largo el vídeo
+
+242
+00:08:42,400 --> 00:08:45,120
+pero deben quedar algo como así
+
+243
+00:08:46,740 --> 00:08:47,980
+y bueno el
+
+244
+00:08:47,980 --> 00:08:49,900
+resultado final cuando iniciemos
+
+245
+00:08:51,760 --> 00:08:56,500
+debe quedar algo así y bueno amigos
+
+246
+00:08:56,500 --> 00:09:00,000
+eso es todo lo que representa
+
+247
+00:09:00,000 --> 00:09:01,800
+al diseño de poner productos,
+
+248
+00:09:01,800 --> 00:09:03,300
+espero que me haya entendido
+
+249
+00:09:03,300 --> 00:09:05,220
+y bueno cualquier pregunta ya sabes
+
+250
+00:09:05,220 --> 00:09:06,160
+puedes preguntarme,
+
+251
+00:09:06,520 --> 00:09:08,100
+hasta luego cuídense mucho
+

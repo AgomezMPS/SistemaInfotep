@@ -1,0 +1,1756 @@
+1
+00:00:00,000 --> 00:00:01,760
+Hola amigos como están?
+
+2
+00:00:01,960 --> 00:00:03,420
+Bueno vamos a continuar con la
+
+3
+00:00:03,420 --> 00:00:04,960
+creación de la base de
+
+4
+00:00:04,960 --> 00:00:06,780
+datos de nuestra tabla productos.
+
+5
+00:00:07,940 --> 00:00:09,880
+Esta tabla productos vamos a
+
+6
+00:00:09,880 --> 00:00:13,040
+aprender a cómo interactuar con las
+
+7
+00:00:13,040 --> 00:00:13,640
+otras tablas
+
+8
+00:00:13,640 --> 00:00:14,900
+que sería nuestra tabla
+
+9
+00:00:14,900 --> 00:00:17,020
+de categoría con la tabla de
+
+10
+00:00:17,020 --> 00:00:19,320
+marca y también voy a explicarles
+
+11
+00:00:19,320 --> 00:00:20,780
+para que sirve el InnerJoy.
+
+12
+00:00:21,900 --> 00:00:23,180
+También vamos a aprender a cómo
+
+13
+00:00:23,180 --> 00:00:24,700
+referenciar estas tablas.
+
+14
+00:00:25,120 --> 00:00:26,740
+Entonces vamos a empezar.
+
+15
+00:00:28,800 --> 00:00:30,920
+Lo primero que tenemos que ver es
+
+16
+00:00:30,920 --> 00:00:32,200
+que bueno actualmente
+
+17
+00:00:32,200 --> 00:00:35,140
+estemos en nuestra base de datos,
+
+18
+00:00:35,960 --> 00:00:36,880
+nuestra base de datos
+
+19
+00:00:36,880 --> 00:00:38,180
+que es mantenimiento productos,
+
+20
+00:00:38,960 --> 00:00:42,380
+hay que verificar eso y bueno vamos
+
+21
+00:00:42,380 --> 00:00:44,080
+a crear nuestra tabla productos.
+
+22
+00:00:44,940 --> 00:00:47,360
+Al comienzo vamos a poner un criate
+
+23
+00:00:47,360 --> 00:00:51,220
+table y vamos a ver que bueno,
+
+24
+00:00:51,440 --> 00:00:53,100
+como ya sabemos en las otras dos
+
+25
+00:00:53,100 --> 00:00:54,580
+tablas que hemos hecho vamos a
+
+26
+00:00:54,580 --> 00:00:56,120
+decir que va a ser primar aquí
+
+27
+00:00:56,120 --> 00:00:57,760
+nuestro id de producto y va a ser
+
+28
+00:00:57,760 --> 00:01:00,000
+un criate table con el identity.
+
+29
+00:01:00,600 --> 00:01:02,620
+En segundo vamos a darle el código
+
+30
+00:01:02,620 --> 00:01:03,440
+personalizado,
+
+31
+00:01:03,540 --> 00:01:05,720
+en este caso va a tener como
+
+32
+00:01:05,720 --> 00:01:09,320
+comienzo las letras PR.
+
+33
+00:01:09,720 --> 00:01:11,980
+A su derecha vamos a convertir los
+
+34
+00:01:11,980 --> 00:01:13,080
+2 zeros que
+
+35
+00:01:13,080 --> 00:01:16,000
+le hemos agregado y vamos a darle
+
+36
+00:01:16,000 --> 00:01:16,840
+referencia a nuestro
+
+37
+00:01:16,840 --> 00:01:18,140
+id de producto. Luego
+
+38
+00:01:18,140 --> 00:01:20,260
+vamos a ponerle producto,
+
+39
+00:01:20,540 --> 00:01:21,940
+el precio de compra que va a ser
+
+40
+00:01:21,940 --> 00:01:22,340
+decimal,
+
+41
+00:01:22,560 --> 00:01:25,500
+el precio de
+
+42
+00:01:26,280 --> 00:01:30,840
+y ahí vienen nuestros for in keys.
+
+43
+00:01:31,040 --> 00:01:31,440
+Nuestro
+
+44
+00:01:31,440 --> 00:01:35,560
+for in keys viene a hacer las id's,
+
+45
+00:01:35,560 --> 00:01:36,340
+los id's
+
+46
+00:01:36,340 --> 00:01:38,380
+principales de nuestras tablas.
+
+47
+00:01:38,800 --> 00:01:40,600
+Por ejemplo en este caso sería
+
+48
+00:01:40,600 --> 00:01:43,440
+id de categoría con id de marca.
+
+49
+00:01:44,220 --> 00:01:45,500
+Acuérate muy bien que
+
+50
+00:01:45,500 --> 00:01:48,260
+id de categoría en nuestra tabla
+
+51
+00:01:48,260 --> 00:01:51,320
+categoría en las columnas.
+
+52
+00:01:53,480 --> 00:01:55,840
+Podemos ver que cada una de ellas
+
+53
+00:01:55,840 --> 00:01:57,360
+tiene un primer
+
+54
+00:01:57,360 --> 00:01:59,400
+i key que es el id principal,
+
+55
+00:01:59,860 --> 00:02:01,120
+que sería id de marca y
+
+56
+00:02:01,120 --> 00:02:02,800
+de categoría.
+
+57
+00:02:03,000 --> 00:02:04,940
+A ellas tenemos que darle
+
+58
+00:02:04,940 --> 00:02:08,080
+dos columnas que sean iguales e
+
+59
+00:02:08,080 --> 00:02:11,640
+identicas a esas
+
+60
+00:02:11,640 --> 00:02:15,020
+columnas de la su respectiva tabla.
+
+61
+00:02:15,740 --> 00:02:17,780
+A estas columnas que son idénticas
+
+62
+00:02:17,780 --> 00:02:19,660
+se le dice for in key porque
+
+63
+00:02:19,660 --> 00:02:21,320
+necesitamos de esas columnas para
+
+64
+00:02:21,320 --> 00:02:24,060
+referenciar o relacionar porque aún
+
+65
+00:02:24,060 --> 00:02:26,620
+no hemos relacionado de estas dos
+
+66
+00:02:26,620 --> 00:02:30,320
+columnas a cada tabla de categoría
+
+67
+00:02:30,320 --> 00:02:31,600
+como de marca,
+
+68
+00:02:31,780 --> 00:02:34,460
+vamos a referencial o relacionar.
+
+69
+00:02:34,620 --> 00:02:35,240
+Comienza con
+
+70
+00:02:35,240 --> 00:02:38,200
+constraint y le damos una variable,
+
+71
+00:02:38,580 --> 00:02:38,820
+bueno,
+
+72
+00:02:38,820 --> 00:02:40,440
+en este caso relacionar categoría y
+
+73
+00:02:40,440 --> 00:02:42,880
+le decimos que el for in key de
+
+74
+00:02:42,880 --> 00:02:45,640
+nuestra id de categoría de nuestra
+
+75
+00:02:45,640 --> 00:02:46,480
+columna id de categoría
+
+76
+00:02:46,480 --> 00:02:47,820
+de nuestra tabla productos
+
+77
+00:02:47,820 --> 00:02:48,660
+queremos que se
+
+78
+00:02:48,660 --> 00:02:50,140
+referencia con la tabla de
+
+79
+00:02:50,140 --> 00:02:54,160
+categoría de id de categoría de su
+
+80
+00:02:54,160 --> 00:02:55,920
+columna id de categoría.
+
+81
+00:02:56,160 --> 00:02:58,680
+Lo mismo vamos a hacer con con
+
+82
+00:02:58,680 --> 00:02:59,080
+marca,
+
+83
+00:02:59,480 --> 00:03:02,520
+vamos a decir que relacionar a
+
+84
+00:03:02,520 --> 00:03:05,300
+marca su for in key id de marca
+
+85
+00:03:05,300 --> 00:03:07,320
+va a ser referente o sea vamos a
+
+86
+00:03:07,320 --> 00:03:08,220
+referenciarlo con
+
+87
+00:03:08,220 --> 00:03:10,380
+la tabla marca del id de marca.
+
+88
+00:03:12,380 --> 00:03:15,280
+Entonces ahí ya hemos creado
+
+89
+00:03:15,280 --> 00:03:17,160
+nuestras id de categoría y id de
+
+90
+00:03:17,160 --> 00:03:19,120
+marca referenciado con nuestra
+
+91
+00:03:19,120 --> 00:03:25,220
+tabla de productos y estas se
+
+92
+00:03:25,220 --> 00:03:26,540
+relacionan con la tabla de
+
+93
+00:03:26,540 --> 00:03:28,200
+categoría y la tabla de marcas.
+
+94
+00:03:29,460 --> 00:03:31,020
+Entonces vamos a ejecutar
+
+95
+00:03:31,020 --> 00:03:34,140
+este código y el comando ha sido
+
+96
+00:03:34,140 --> 00:03:35,540
+completado correctamente.
+
+97
+00:03:40,340 --> 00:03:43,520
+Entonces hasta aquí está todo bien,
+
+98
+00:03:43,760 --> 00:03:45,800
+vamos a refrescar y vamos a dar
+
+99
+00:03:45,800 --> 00:03:50,200
+nos cuenta que hemos creado nuestra
+
+100
+00:03:50,200 --> 00:03:52,800
+tabla de productos y vamos a ver
+
+101
+00:03:52,800 --> 00:03:55,980
+que en las columnas pues tenemos el
+
+102
+00:03:55,980 --> 00:03:57,180
+id de producto, el código,
+
+103
+00:03:57,540 --> 00:03:58,480
+el producto, el precio de compra,
+
+104
+00:03:58,740 --> 00:03:58,740
+el
+
+105
+00:03:58,740 --> 00:03:59,920
+precio de venta, el stock y bueno
+
+106
+00:03:59,920 --> 00:04:00,640
+si te das cuenta
+
+107
+00:04:00,640 --> 00:04:04,200
+tenemos nuestros dos for in key que
+
+108
+00:04:04,200 --> 00:04:06,220
+bueno como puede haber nos dice que
+
+109
+00:04:06,220 --> 00:04:08,940
+id de categoría y bueno también
+
+110
+00:04:08,940 --> 00:04:11,740
+id de marca y prácticamente así es
+
+111
+00:04:11,740 --> 00:04:15,600
+como creamos una tabla de productos
+
+112
+00:04:15,600 --> 00:04:19,300
+referenciando a dos tablas que
+
+113
+00:04:19,300 --> 00:04:21,800
+vamos a utilizar con su id de.
+
+114
+00:04:21,800 --> 00:04:23,140
+Ahora he creado un procedimiento
+
+115
+00:04:23,140 --> 00:04:24,660
+imaginado en el cual yo
+
+116
+00:04:24,660 --> 00:04:26,640
+le he llamado listar productos este
+
+117
+00:04:26,640 --> 00:04:27,860
+procedimiento imaginado que ahora
+
+118
+00:04:27,860 --> 00:04:29,380
+bueno nos vamos a mostrar todos los
+
+119
+00:04:29,380 --> 00:04:30,440
+productos que tengamos
+
+120
+00:04:30,440 --> 00:04:32,100
+¿no? ¿Qué quiero que me muestre?
+
+121
+00:04:32,760 --> 00:04:36,000
+Quiero que me muestre este cada vez
+
+122
+00:04:36,000 --> 00:04:37,640
+que se ejecute que me muestre los
+
+123
+00:04:37,640 --> 00:04:38,300
+siempre in
+
+124
+00:04:38,300 --> 00:04:40,120
+primeros productos. Quiero que me
+
+125
+00:04:40,120 --> 00:04:40,840
+muestre el id de
+
+126
+00:04:40,840 --> 00:04:42,980
+producto, quiero que me muestre el
+
+127
+00:04:42,980 --> 00:04:43,360
+código,
+
+128
+00:04:44,120 --> 00:04:44,440
+quiero
+
+129
+00:04:44,440 --> 00:04:46,020
+que me muestre una columna con
+
+130
+00:04:46,020 --> 00:04:46,820
+producto,
+
+131
+00:04:47,720 --> 00:04:49,100
+quiero que me muestre una columna
+
+132
+00:04:49,100 --> 00:04:54,180
+con con nombre y de categoría y
+
+133
+00:04:54,180 --> 00:04:55,240
+aquí viene el interesante.
+
+134
+00:04:55,460 --> 00:05:00,000
+Quiero que me muestre de mitad la
+
+135
+00:05:00,000 --> 00:05:00,900
+categoría nombre,
+
+136
+00:05:01,580 --> 00:05:04,460
+quiero que me muestre y bueno y
+
+137
+00:05:04,460 --> 00:05:05,720
+quiero que tengo un sobre nombre
+
+138
+00:05:05,720 --> 00:05:08,180
+llamado categoría,
+
+139
+00:05:08,520 --> 00:05:11,860
+que tenga
+
+140
+00:05:11,860 --> 00:05:14,940
+un sobre nombre llamado categoría,
+
+141
+00:05:14,940 --> 00:05:16,120
+luego quiero que
+
+142
+00:05:16,120 --> 00:05:18,740
+me muestre de mitad la producto,
+
+143
+00:05:18,740 --> 00:05:20,700
+el id de marca y también aquí
+
+144
+00:05:20,700 --> 00:05:23,080
+quiero que me muestre de mi marca,
+
+145
+00:05:23,080 --> 00:05:23,700
+limitaba
+
+146
+00:05:23,700 --> 00:05:27,600
+la marca nombre como marca,
+
+147
+00:05:27,860 --> 00:05:29,240
+del luego producto de precio de
+
+148
+00:05:29,240 --> 00:05:29,580
+compra,
+
+149
+00:05:29,660 --> 00:05:32,020
+quiero que me muestre el estoc.
+
+150
+00:05:32,520 --> 00:05:35,020
+Ahora hasta aquí categoría nombre
+
+151
+00:05:35,020 --> 00:05:35,440
+bueno me
+
+152
+00:05:35,440 --> 00:05:37,360
+da mostrar como categoría y marca
+
+153
+00:05:37,360 --> 00:05:38,820
+nombre me voy a mostrar una
+
+154
+00:05:38,820 --> 00:05:40,180
+columna llamada marca,
+
+155
+00:05:40,580 --> 00:05:42,220
+capaz no me entiendas hasta ahora
+
+156
+00:05:42,220 --> 00:05:43,540
+pero todavía
+
+157
+00:05:43,540 --> 00:05:45,800
+no hemos aplicado el linear y hoy.
+
+158
+00:05:48,280 --> 00:05:49,360
+Entonces básicamente
+
+159
+00:05:49,360 --> 00:05:51,080
+ve que se trata de inner y hoy.
+
+160
+00:05:51,380 --> 00:05:54,400
+Inner y hoy nos da la chance de
+
+161
+00:05:54,400 --> 00:05:58,060
+poder extraer internamente datos de
+
+162
+00:05:58,060 --> 00:05:59,800
+columnas,
+
+163
+00:05:59,800 --> 00:06:02,520
+el cual entre tablas ya han sido
+
+164
+00:06:02,520 --> 00:06:03,220
+relacionadas.
+
+165
+00:06:03,600 --> 00:06:07,340
+En este caso pues ya tenemos dos
+
+166
+00:06:07,340 --> 00:06:07,860
+tablas,
+
+167
+00:06:08,040 --> 00:06:10,080
+bueno dos tablas que han sido
+
+168
+00:06:10,080 --> 00:06:11,160
+relacionadas, tablas de
+
+169
+00:06:11,160 --> 00:06:13,020
+productos con mi tabla de
+
+170
+00:06:13,020 --> 00:06:14,860
+categorías y bueno tabla de
+
+171
+00:06:14,860 --> 00:06:16,560
+productos con mi tabla de marcas.
+
+172
+00:06:17,000 --> 00:06:18,640
+Entonces actualmente nuestra
+
+173
+00:06:18,640 --> 00:06:21,580
+columna nuestro procedimiento
+
+174
+00:06:21,580 --> 00:06:22,860
+almacenado que hemos puesto
+
+175
+00:06:22,860 --> 00:06:23,860
+del estar productos,
+
+176
+00:06:24,400 --> 00:06:25,540
+hemos creado dos,
+
+177
+00:06:25,840 --> 00:06:27,860
+como hemos creado dos columnas
+
+178
+00:06:27,860 --> 00:06:28,240
+nuevas,
+
+179
+00:06:28,540 --> 00:06:30,320
+una columna nueva que hace
+
+180
+00:06:30,320 --> 00:06:34,320
+referencia a mi columna categoría,
+
+181
+00:06:34,520 --> 00:06:37,520
+el nombre de dicha categoría y una
+
+182
+00:06:37,520 --> 00:06:38,960
+columna de marca,
+
+183
+00:06:39,360 --> 00:06:41,660
+cuál hace referencia al nombre de
+
+184
+00:06:41,660 --> 00:06:42,080
+marca,
+
+185
+00:06:42,900 --> 00:06:45,620
+el cual nosotros vamos a ingresar.
+
+186
+00:06:46,820 --> 00:06:48,840
+Por intermedio de sus IDs,
+
+187
+00:06:49,800 --> 00:06:52,200
+entonces internamente,
+
+188
+00:06:53,440 --> 00:06:55,460
+nosotros necesitamos extraer
+
+189
+00:06:55,460 --> 00:06:57,800
+esos nombres de dichas columnas.
+
+190
+00:06:58,840 --> 00:07:00,880
+¿Qué necesitamos para hacer eso?
+
+191
+00:07:01,160 --> 00:07:04,200
+Necesitamos el permiso del padre de
+
+192
+00:07:04,200 --> 00:07:04,840
+dicha tabla,
+
+193
+00:07:04,920 --> 00:07:06,500
+del padre de la tabla que lo
+
+194
+00:07:06,500 --> 00:07:06,980
+contiene,
+
+195
+00:07:07,280 --> 00:07:09,320
+en este caso sería nuestra tabla
+
+196
+00:07:09,320 --> 00:07:11,000
+producto y
+
+197
+00:07:11,000 --> 00:07:13,480
+necesitamos el permiso de la tabla,
+
+198
+00:07:13,480 --> 00:07:14,780
+como se puede decir, que
+
+199
+00:07:14,780 --> 00:07:16,420
+hace referencia a nuestra tabla
+
+200
+00:07:16,420 --> 00:07:16,920
+producto,
+
+201
+00:07:17,540 --> 00:07:20,220
+que bueno ya sea tabla categoría o
+
+202
+00:07:20,220 --> 00:07:21,180
+ya sea tabla marca,
+
+203
+00:07:21,680 --> 00:07:22,980
+por intermedio de sus IDs.
+
+204
+00:07:23,680 --> 00:07:24,480
+Entonces, ¿cómo
+
+205
+00:07:24,480 --> 00:07:26,020
+sería nuestra tabla producto
+
+206
+00:07:26,020 --> 00:07:27,340
+contiene un ID
+
+207
+00:07:27,340 --> 00:07:29,620
+de categoría? Entonces yo le digo,
+
+208
+00:07:29,860 --> 00:07:31,380
+entonces necesito el nombre de la
+
+209
+00:07:31,380 --> 00:07:33,040
+columna de la tabla categoría.
+
+210
+00:07:33,080 --> 00:07:33,840
+Entonces, digo,
+
+211
+00:07:34,320 --> 00:07:35,960
+de la tabla producto de la idica
+
+212
+00:07:35,960 --> 00:07:38,360
+categoría hago referencia a la
+
+213
+00:07:38,360 --> 00:07:38,660
+idica
+
+214
+00:07:38,660 --> 00:07:41,220
+categoría de la tabla categoría.
+
+215
+00:07:41,640 --> 00:07:42,120
+Entonces,
+
+216
+00:07:42,340 --> 00:07:43,720
+a la ser esta referencia,
+
+217
+00:07:44,160 --> 00:07:46,400
+internamente me va a extraer el
+
+218
+00:07:46,400 --> 00:07:48,920
+nombre de la tabla categoría cuando
+
+219
+00:07:48,920 --> 00:07:51,600
+yo inserté un valor, en este caso,
+
+220
+00:07:51,800 --> 00:07:53,200
+en la idica categoría,
+
+221
+00:07:53,220 --> 00:07:54,480
+a mi tabla de productos,
+
+222
+00:07:54,960 --> 00:07:56,700
+este internamente me lo traerá,
+
+223
+00:07:56,840 --> 00:07:57,480
+en este caso,
+
+224
+00:07:57,660 --> 00:08:00,460
+pues yo insertaré
+
+225
+00:08:00,460 --> 00:08:03,140
+una idica categoría con valor 1,
+
+226
+00:08:03,540 --> 00:08:04,780
+ese le pertenece
+
+227
+00:08:04,780 --> 00:08:08,100
+a la columna, ese le pertenece a la
+
+228
+00:08:08,100 --> 00:08:08,700
+categoría de
+
+229
+00:08:08,700 --> 00:08:09,940
+herramientas. Entonces,
+
+230
+00:08:10,420 --> 00:08:12,260
+cuando yo hago esta operación,
+
+231
+00:08:12,880 --> 00:08:15,400
+pues me va a traer el nombre de
+
+232
+00:08:15,400 --> 00:08:16,240
+dicha categoría,
+
+233
+00:08:16,380 --> 00:08:17,760
+en este caso herramientas,
+
+234
+00:08:18,080 --> 00:08:18,800
+lo mismo pasa
+
+235
+00:08:18,800 --> 00:08:21,500
+con nuestra tabla de marca,
+
+236
+00:08:21,800 --> 00:08:21,900
+si
+
+237
+00:08:21,900 --> 00:08:23,380
+es que nosotros queremos traer el
+
+238
+00:08:23,380 --> 00:08:27,580
+nombre de dicha columna cuando
+
+239
+00:08:27,580 --> 00:08:28,820
+nosotros pongamos
+
+240
+00:08:28,820 --> 00:08:30,520
+un ID de marca, en este caso,
+
+241
+00:08:30,660 --> 00:08:31,140
+bueno, el
+
+242
+00:08:31,140 --> 00:08:32,860
+ID de marca que yo le voy a
+
+243
+00:08:32,860 --> 00:08:35,060
+poner va a ser el número 8,
+
+244
+00:08:35,500 --> 00:08:38,180
+el número de 8 me hace referencia a
+
+245
+00:08:38,180 --> 00:08:38,800
+Stangley,
+
+246
+00:08:39,280 --> 00:08:41,160
+entonces hago lo mismo,
+
+247
+00:08:41,660 --> 00:08:42,060
+digo,
+
+248
+00:08:42,420 --> 00:08:44,360
+en mi tabla producto de mi ID de
+
+249
+00:08:44,360 --> 00:08:44,660
+marca,
+
+250
+00:08:44,780 --> 00:08:47,740
+voy a hacer referencia a mi tabla
+
+251
+00:08:47,740 --> 00:08:49,800
+marca de ID de marca.
+
+252
+00:08:51,020 --> 00:08:51,660
+Entonces,
+
+253
+00:08:51,800 --> 00:08:54,480
+internamente cuando yo ingrese
+
+254
+00:08:54,480 --> 00:08:58,260
+una idica marca me va a traer
+
+255
+00:08:59,580 --> 00:09:00,320
+el nombre
+
+256
+00:09:00,320 --> 00:09:01,260
+de dicha marca,
+
+257
+00:09:01,620 --> 00:09:02,900
+en este caso me va a traer,
+
+258
+00:09:02,940 --> 00:09:04,920
+bueno, me va a traer columna marca,
+
+259
+00:09:05,680 --> 00:09:06,600
+como le he puesto,
+
+260
+00:09:06,800 --> 00:09:08,620
+el ID de 8 me va a traer Stangley,
+
+261
+00:09:08,860 --> 00:09:10,580
+así que bueno, acuérdate
+
+262
+00:09:10,580 --> 00:09:11,840
+que toda esta tabla viene
+
+263
+00:09:11,840 --> 00:09:12,700
+de productos, así
+
+264
+00:09:12,700 --> 00:09:14,400
+que vamos a aplicar InnerJoy y
+
+265
+00:09:14,400 --> 00:09:16,360
+vamos a decir que de mi
+
+266
+00:09:16,360 --> 00:09:18,240
+columna categoría que hemos creado,
+
+267
+00:09:18,680 --> 00:09:18,880
+pues
+
+268
+00:09:18,880 --> 00:09:21,700
+vamos a unir y va a ser referencia,
+
+269
+00:09:21,900 --> 00:09:23,280
+aquí internamente se va a depositar
+
+270
+00:09:23,280 --> 00:09:26,740
+el nombre de dicha categoría,
+
+271
+00:09:26,880 --> 00:09:29,000
+gracias a los ID de mi tabla
+
+272
+00:09:29,000 --> 00:09:32,280
+productos de ID de categoría que va
+
+273
+00:09:32,280 --> 00:09:33,780
+a ser referencia a mi
+
+274
+00:09:33,780 --> 00:09:37,380
+tabla categoría de ID de categoría,
+
+275
+00:09:37,880 --> 00:09:39,660
+lo mismo, lo mismo con marcas,
+
+276
+00:09:39,800 --> 00:09:41,400
+vamos a decirle que se aplicará
+
+277
+00:09:42,160 --> 00:09:43,460
+una unión,
+
+278
+00:09:43,480 --> 00:09:46,580
+que se aplicará una unión de
+
+279
+00:09:46,580 --> 00:09:49,980
+mi columna marca que he creado mi
+
+280
+00:09:49,980 --> 00:09:51,840
+tabla padre de productos de ID
+
+281
+00:09:51,840 --> 00:09:54,160
+de marca que hace referencia a mi
+
+282
+00:09:54,160 --> 00:09:54,580
+tabla
+
+283
+00:09:54,580 --> 00:09:58,000
+marca de ID de marca. Entonces,
+
+284
+00:09:58,580 --> 00:10:01,480
+cada vez que nosotros ingresemos
+
+285
+00:10:01,480 --> 00:10:02,920
+una id de marca como a id de
+
+286
+00:10:02,920 --> 00:10:05,120
+categoría va a ser referencia a
+
+287
+00:10:05,120 --> 00:10:06,860
+nuestras columnas que hemos creado
+
+288
+00:10:06,860 --> 00:10:08,820
+que va a ser categoría y marca,
+
+289
+00:10:09,100 --> 00:10:11,840
+e internamente se van a depositar
+
+290
+00:10:11,840 --> 00:10:13,280
+en dichas columnas.
+
+291
+00:10:14,540 --> 00:10:15,520
+Y por último,
+
+292
+00:10:15,520 --> 00:10:16,100
+vamos
+
+293
+00:10:16,100 --> 00:10:18,680
+a darle cada vez que el istemos,
+
+294
+00:10:18,860 --> 00:10:21,880
+bueno, nos vamos a mostrar en orden
+
+295
+00:10:21,880 --> 00:10:24,740
+descendente nuestros productos.
+
+296
+00:10:26,920 --> 00:10:27,480
+Entonces,
+
+297
+00:10:27,640 --> 00:10:29,460
+vamos a ver que después de esto,
+
+298
+00:10:29,620 --> 00:10:32,140
+si ejecutamos nuestro procedimiento
+
+299
+00:10:32,140 --> 00:10:33,440
+almacenado, los productos,
+
+300
+00:10:34,160 --> 00:10:34,760
+pues vamos a
+
+301
+00:10:34,760 --> 00:10:41,940
+ver nuestra tabla que tiene
+
+302
+00:10:41,940 --> 00:10:43,340
+que ver el ID de categoría,
+
+303
+00:10:43,380 --> 00:10:47,460
+este también está nuestra
+
+304
+00:10:47,460 --> 00:10:49,800
+columna categoría que hemos creado
+
+305
+00:10:49,800 --> 00:10:49,980
+que
+
+306
+00:10:49,980 --> 00:10:53,560
+viene de categoría nombre y es
+
+307
+00:10:53,560 --> 00:10:55,980
+aquí en donde internamente vamos a
+
+308
+00:10:55,980 --> 00:10:57,640
+obtener el nombre de dicho
+
+309
+00:10:57,640 --> 00:10:59,960
+categoría cuando ingresemos el ID
+
+310
+00:10:59,960 --> 00:11:00,880
+de categoría,
+
+311
+00:11:01,440 --> 00:11:03,720
+luego también está la id de marca,
+
+312
+00:11:04,500 --> 00:11:05,400
+lo mismo como
+
+313
+00:11:05,920 --> 00:11:07,020
+categoría nuestra
+
+314
+00:11:07,020 --> 00:11:09,720
+marca nombre que hace referencia a
+
+315
+00:11:09,720 --> 00:11:11,380
+una columna marca,
+
+316
+00:11:11,880 --> 00:11:13,100
+luego el precio de compra,
+
+317
+00:11:13,420 --> 00:11:15,220
+precio de venta, el stock,
+
+318
+00:11:15,800 --> 00:11:17,580
+y bueno,
+
+319
+00:11:18,020 --> 00:11:21,980
+así es como hemos creado nuestra
+
+320
+00:11:21,980 --> 00:11:22,500
+tabla.
+
+321
+00:11:23,300 --> 00:11:23,600
+Ahora,
+
+322
+00:11:23,880 --> 00:11:25,260
+lo que más nos interesa es
+
+323
+00:11:25,260 --> 00:11:26,840
+poder insertar valores,
+
+324
+00:11:27,100 --> 00:11:28,820
+no? Incertar todos estos valores
+
+325
+00:11:28,820 --> 00:11:29,060
+que
+
+326
+00:11:29,060 --> 00:11:30,760
+bueno, que para ahorra
+
+327
+00:11:30,760 --> 00:11:31,780
+unos tiempos,
+
+328
+00:11:31,820 --> 00:11:36,880
+los he puesto para que ya cuando
+
+329
+00:11:36,880 --> 00:11:39,840
+creamos la tabla de productos o
+
+330
+00:11:39,840 --> 00:11:40,840
+bueno, el diseño de productos,
+
+331
+00:11:41,080 --> 00:11:41,940
+pues ya
+
+332
+00:11:41,940 --> 00:11:44,160
+tengamos valores predeterminados.
+
+333
+00:11:44,900 --> 00:11:45,560
+Entonces,
+
+334
+00:11:46,300 --> 00:11:48,920
+vamos a ver cómo poder ingresar los
+
+335
+00:11:48,920 --> 00:11:51,400
+valores, como ya te había dicho,
+
+336
+00:11:52,120 --> 00:11:52,840
+tenemos
+
+337
+00:11:52,840 --> 00:11:55,540
+que ingresar primero en el nombre,
+
+338
+00:11:56,220 --> 00:11:57,300
+también
+
+339
+00:11:57,300 --> 00:11:59,760
+de ahí viene el precio de compra,
+
+340
+00:12:00,040 --> 00:12:01,000
+el precio de venta,
+
+341
+00:12:01,200 --> 00:12:01,700
+el stock,
+
+342
+00:12:01,940 --> 00:12:03,400
+y por
+
+343
+00:12:03,400 --> 00:12:05,360
+último vienen los más importantes,
+
+344
+00:12:05,640 --> 00:12:06,560
+que vienen a ser nuestras llaves
+
+345
+00:12:06,560 --> 00:12:07,000
+franias,
+
+346
+00:12:07,180 --> 00:12:08,920
+que vienen a ser el ID de categoría
+
+347
+00:12:08,920 --> 00:12:09,880
+y el ID de marca,
+
+348
+00:12:10,420 --> 00:12:11,580
+que están referenciadas
+
+349
+00:12:11,580 --> 00:12:13,320
+y ya relacionadas,
+
+350
+00:12:13,520 --> 00:12:16,420
+respectivamente con sus
+
+351
+00:12:16,420 --> 00:12:20,100
+tablas como es el ID de categoría,
+
+352
+00:12:20,100 --> 00:12:21,640
+como el ID de marca,
+
+353
+00:12:22,480 --> 00:12:23,540
+de la tabla,
+
+354
+00:12:23,700 --> 00:12:25,060
+categoría y de la tabla,
+
+355
+00:12:25,240 --> 00:12:25,580
+marca.
+
+356
+00:12:26,640 --> 00:12:27,120
+Entonces,
+
+357
+00:12:27,600 --> 00:12:29,560
+en este caso,
+
+358
+00:12:30,400 --> 00:12:33,720
+tenemos que ingresar, bueno,
+
+359
+00:12:34,040 --> 00:12:34,900
+tanto,
+
+360
+00:12:35,200 --> 00:12:37,380
+una ID de categoría como una ID de
+
+361
+00:12:37,380 --> 00:12:38,180
+marca, como puedes ver,
+
+362
+00:12:38,420 --> 00:12:43,680
+le he puesto a todos el mismo valor
+
+363
+00:12:43,680 --> 00:12:49,440
+que hace referencia a dichos ID de
+
+364
+00:12:49,440 --> 00:12:51,560
+dichas tablas. Entonces,
+
+365
+00:12:52,620 --> 00:12:53,780
+si yo ejecuto,
+
+366
+00:12:53,780 --> 00:12:55,740
+si yo ejecuto todo esto,
+
+367
+00:12:56,520 --> 00:13:02,260
+bueno, vamos a ver que ya han sido
+
+368
+00:13:02,260 --> 00:13:02,780
+guardadas,
+
+369
+00:13:03,500 --> 00:13:05,340
+entonces vamos a ejecutar nuestra
+
+370
+00:13:05,340 --> 00:13:06,380
+lista de productos de
+
+371
+00:13:06,380 --> 00:13:06,680
+nuevo,
+
+372
+00:13:07,000 --> 00:13:09,820
+y vamos a ver que efectivamente
+
+373
+00:13:09,820 --> 00:13:12,960
+están tanto nuestra ID de producto,
+
+374
+00:13:13,220 --> 00:13:14,700
+el código ya personalizado,
+
+375
+00:13:15,240 --> 00:13:16,340
+nuestro producto,
+
+376
+00:13:17,220 --> 00:13:20,840
+y ya que hemos aplicado InnerJoin,
+
+377
+00:13:21,320 --> 00:13:23,640
+vamos a ver que en nuestra
+
+378
+00:13:23,640 --> 00:13:25,520
+ID de categoría que tiene valor 1,
+
+379
+00:13:28,000 --> 00:13:29,000
+hemos ingresado,
+
+380
+00:13:29,320 --> 00:13:31,940
+pues se ha ingresado en nuestra
+
+381
+00:13:31,940 --> 00:13:34,740
+columna categoría
+
+382
+00:13:34,740 --> 00:13:38,280
+nuestra columna categoría,
+
+383
+00:13:38,360 --> 00:13:40,340
+el nombre de dicha categoría que
+
+384
+00:13:40,340 --> 00:13:41,280
+les pertenece a ID,
+
+385
+00:13:41,600 --> 00:13:41,920
+que
+
+386
+00:13:41,920 --> 00:13:44,140
+vendría a ser herramientas. Bueno,
+
+387
+00:13:44,440 --> 00:13:45,420
+vamos a ver que si esto
+
+388
+00:13:45,420 --> 00:13:47,580
+es verdad, vamos a ir a categoría,
+
+389
+00:13:47,680 --> 00:13:49,680
+a nuestra tabla categoría, y vamos
+
+390
+00:13:49,680 --> 00:13:50,860
+a ver que si tenemos en
+
+391
+00:13:50,860 --> 00:13:53,700
+realidad ese ID de categoría,
+
+392
+00:13:54,620 --> 00:13:56,520
+entonces vamos a ver en nuestra
+
+393
+00:13:56,520 --> 00:13:57,440
+tabla categoría si es
+
+394
+00:13:57,440 --> 00:13:58,080
+cierto, bueno,
+
+395
+00:13:58,080 --> 00:13:59,200
+nuestra ID de categoría es 1,
+
+396
+00:13:59,200 --> 00:13:59,700
+y bueno,
+
+397
+00:13:59,820 --> 00:14:01,980
+nuestro nombre es herramientas,
+
+398
+00:14:02,160 --> 00:14:02,980
+como puedes ver,
+
+399
+00:14:03,380 --> 00:14:03,740
+pues
+
+400
+00:14:03,740 --> 00:14:06,160
+si está cumpliendo con lo que hemos
+
+401
+00:14:06,160 --> 00:14:06,460
+dicho,
+
+402
+00:14:06,780 --> 00:14:07,400
+igual es con
+
+403
+00:14:07,400 --> 00:14:11,200
+la ID de marca, le hemos puesto un
+
+404
+00:14:11,200 --> 00:14:13,200
+ID con el número
+
+405
+00:14:13,200 --> 00:14:14,640
+8, como puedes ver,
+
+406
+00:14:14,880 --> 00:14:15,540
+y bueno,
+
+407
+00:14:15,620 --> 00:14:17,560
+el nombre que nos trae es Estani,
+
+408
+00:14:18,120 --> 00:14:22,580
+entonces como puedes ver, está,
+
+409
+00:14:23,000 --> 00:14:23,380
+está,
+
+410
+00:14:23,920 --> 00:14:24,180
+está,
+
+411
+00:14:24,660 --> 00:14:26,160
+está, cumpliendo con el InnerJoin,
+
+412
+00:14:26,880 --> 00:14:26,880
+y
+
+413
+00:14:26,880 --> 00:14:27,940
+bueno, después sigue el precio
+
+414
+00:14:27,940 --> 00:14:28,380
+compra,
+
+415
+00:14:28,640 --> 00:14:29,460
+el precio 20
+
+416
+00:14:29,460 --> 00:14:32,080
+que le hemos puesto y nuestro esto,
+
+417
+00:14:32,500 --> 00:14:32,900
+y bueno
+
+418
+00:14:32,900 --> 00:14:34,900
+amigos, así es como hemos aplicado
+
+419
+00:14:34,900 --> 00:14:36,100
+InnerJoin y hemos creado
+
+420
+00:14:36,100 --> 00:14:37,820
+nuestra tabla de productos,
+
+421
+00:14:38,300 --> 00:14:40,320
+haciendo relación con los foreign
+
+422
+00:14:40,320 --> 00:14:40,560
+keys,
+
+423
+00:14:40,740 --> 00:14:42,320
+como la ID de categoría y la ID de
+
+424
+00:14:42,320 --> 00:14:42,640
+marca,
+
+425
+00:14:43,540 --> 00:14:44,160
+y también
+
+426
+00:14:44,160 --> 00:14:47,300
+creando una tabla personalizada,
+
+427
+00:14:47,780 --> 00:14:48,720
+creando, bueno,
+
+428
+00:14:48,920 --> 00:14:49,300
+este,
+
+429
+00:14:50,420 --> 00:14:52,540
+ya sea con unas como,
+
+430
+00:14:52,820 --> 00:14:54,260
+le hemos puesto como categoría
+
+431
+00:14:54,260 --> 00:14:54,660
+y marca,
+
+432
+00:14:56,200 --> 00:14:57,980
+y hemos aplicado el InnerJoin
+
+433
+00:14:57,980 --> 00:15:02,340
+para poder extraer datos de otras
+
+434
+00:15:02,340 --> 00:15:02,760
+tablas,
+
+435
+00:15:03,680 --> 00:15:05,160
+y espero que me hayas entendido,
+
+436
+00:15:05,420 --> 00:15:06,620
+y bueno, cualquier cosa,
+
+437
+00:15:06,760 --> 00:15:08,180
+cualquier duda, pues me preguntas,
+
+438
+00:15:09,020 --> 00:15:10,300
+hasta luego nos vemos en el próximo
+
+439
+00:15:10,300 --> 00:15:10,580
+vídeo.
+

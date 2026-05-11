@@ -1,0 +1,616 @@
+1
+00:00:08,080 --> 00:00:08,680
+Bueno,
+
+2
+00:00:08,740 --> 00:00:10,440
+vamos a ver ahora nuestra capa de
+
+3
+00:00:10,440 --> 00:00:10,940
+negocio.
+
+4
+00:00:11,300 --> 00:00:13,600
+La capa de negocio también conocida
+
+5
+00:00:13,600 --> 00:00:15,620
+como la capa de dominio cumple como
+
+6
+00:00:15,620 --> 00:00:17,200
+función de nuestra arquitectura de
+
+7
+00:00:17,200 --> 00:00:19,440
+patrones en capas en encargarse de
+
+8
+00:00:19,440 --> 00:00:21,700
+obtener los datos enviados desde la
+
+9
+00:00:21,700 --> 00:00:22,440
+capa de datos.
+
+10
+00:00:23,080 --> 00:00:24,920
+Aquí la capa de negocio hace de
+
+11
+00:00:24,920 --> 00:00:25,780
+intermediario,
+
+12
+00:00:26,220 --> 00:00:27,980
+entre la capa de datos y la capa de
+
+13
+00:00:27,980 --> 00:00:29,400
+presentación, este
+
+14
+00:00:29,400 --> 00:00:30,860
+se comunica con la capa de
+
+15
+00:00:30,860 --> 00:00:32,500
+entidades y la capa de datos
+
+16
+00:00:32,500 --> 00:00:34,820
+para obtener los adributos de este.
+
+17
+00:00:35,460 --> 00:00:37,760
+En el cual referencia y confirma al
+
+18
+00:00:37,760 --> 00:00:39,620
+traer los métodos que se han creado
+
+19
+00:00:39,620 --> 00:00:41,820
+en la capa de datos, en este patrón
+
+20
+00:00:41,820 --> 00:00:42,740
+de arquitectura se
+
+21
+00:00:42,740 --> 00:00:44,600
+ve muy poca lógica de negocio.
+
+22
+00:00:45,000 --> 00:00:46,420
+Hay otros patrones de arquitectura
+
+23
+00:00:46,420 --> 00:00:48,200
+en donde la capa de negocio cumple
+
+24
+00:00:48,200 --> 00:00:49,640
+otros roles importantes.
+
+25
+00:00:50,220 --> 00:00:52,180
+Hay patrones en donde aquí también
+
+26
+00:00:52,180 --> 00:00:54,120
+se aplica la extracción y él en
+
+27
+00:00:54,120 --> 00:00:54,760
+caxulamiento.
+
+28
+00:00:55,220 --> 00:00:56,440
+Eso depende del patrón de
+
+29
+00:00:56,440 --> 00:00:57,020
+arquitectura
+
+30
+00:00:57,020 --> 00:00:58,540
+que usemos. Pero bueno,
+
+31
+00:00:58,560 --> 00:01:00,560
+en este patrón lo que haría última
+
+32
+00:01:00,560 --> 00:01:02,580
+nuestra capa de negocio es enviar
+
+33
+00:01:02,580 --> 00:01:04,380
+los datos a petición de nuestra
+
+34
+00:01:04,380 --> 00:01:06,500
+capa de presentación a una interfaz
+
+35
+00:01:06,500 --> 00:01:07,440
+mostrando
+
+36
+00:01:07,440 --> 00:01:10,220
+los datos a petición de un usuario.
+
+37
+00:01:11,300 --> 00:01:13,100
+Entonces estamos aquí en nuestra
+
+38
+00:01:13,100 --> 00:01:15,600
+capa de negocio y voy a crear una
+
+39
+00:01:15,600 --> 00:01:16,180
+nueva clase
+
+40
+00:01:16,180 --> 00:01:21,600
+que la llamaré N Categoría.
+
+41
+00:01:28,180 --> 00:01:29,420
+Ahora, aquí como
+
+42
+00:01:29,420 --> 00:01:30,680
+ya habíamos dicho nuestra
+
+43
+00:01:30,680 --> 00:01:32,520
+capa de negocio se comunica con
+
+44
+00:01:32,520 --> 00:01:34,480
+nuestra capa de datos y también con
+
+45
+00:01:34,480 --> 00:01:35,480
+la capa de entidades.
+
+46
+00:01:36,420 --> 00:01:38,440
+Como podemos notar en nuestras
+
+47
+00:01:38,440 --> 00:01:39,060
+referencias.
+
+48
+00:01:39,680 --> 00:01:41,720
+Entonces vamos a usar las
+
+49
+00:01:41,720 --> 00:01:42,520
+referencias.
+
+50
+00:01:42,900 --> 00:01:45,320
+Vamos a poner juzing capa de
+
+51
+00:01:45,320 --> 00:01:48,120
+entidades y juventud
+
+52
+00:01:49,000 --> 00:01:49,680
+de datos.
+
+53
+00:01:50,740 --> 00:01:53,620
+Ahora quiero que sepas que aquí
+
+54
+00:01:53,620 --> 00:01:55,860
+podemos ver el porqué del llamado
+
+55
+00:01:55,860 --> 00:01:58,160
+programación orientado a objetos y
+
+56
+00:01:58,160 --> 00:01:59,800
+que son mediante los objetos en
+
+57
+00:01:59,800 --> 00:02:01,580
+el cual todo esto tiene sentido.
+
+58
+00:02:02,120 --> 00:02:03,780
+Sabemos que hasta aquí nuestra capa
+
+59
+00:02:03,780 --> 00:02:05,920
+de negocio se comunica con la capa
+
+60
+00:02:05,920 --> 00:02:07,120
+de datos y entidades.
+
+61
+00:02:07,600 --> 00:02:09,960
+Es mediante que los objetos es
+
+62
+00:02:09,960 --> 00:02:12,460
+necesario instanciarlos para que
+
+63
+00:02:12,460 --> 00:02:14,500
+nuestras clases correspondientes en
+
+64
+00:02:14,500 --> 00:02:17,080
+este caso sería la clase de
+
+65
+00:02:17,080 --> 00:02:19,980
+de categoría para traer todos los
+
+66
+00:02:19,980 --> 00:02:22,080
+métodos que
+
+67
+00:02:22,080 --> 00:02:23,720
+hemos usado en la capa de datos.
+
+68
+00:02:24,260 --> 00:02:25,580
+Entonces creo
+
+69
+00:02:25,580 --> 00:02:27,380
+primero mi instancia de mi clase,
+
+70
+00:02:27,740 --> 00:02:29,260
+o sea el objeto de mi clase de
+
+71
+00:02:29,260 --> 00:02:33,760
+categoría y a esto objeto lo
+
+72
+00:02:33,760 --> 00:02:36,480
+llamaré objeto datos y gracias
+
+73
+00:02:36,480 --> 00:02:38,260
+a este objeto yo otra haré a mis
+
+74
+00:02:38,260 --> 00:02:38,940
+métodos de mi
+
+75
+00:02:38,940 --> 00:02:40,260
+clase de la capa de datos.
+
+76
+00:02:43,200 --> 00:02:45,100
+Como puedes darte cuenta nuestro
+
+77
+00:02:45,100 --> 00:02:47,500
+primer método es una clase list.
+
+78
+00:02:47,860 --> 00:02:49,520
+Entonces nuestro método también
+
+79
+00:02:49,520 --> 00:02:52,500
+sería un public list y bueno
+
+80
+00:02:52,980 --> 00:02:55,080
+también listará mis objetos de
+
+81
+00:02:55,080 --> 00:02:57,560
+lista que en este caso están en mi
+
+82
+00:02:57,560 --> 00:02:59,240
+clase e categoría
+
+83
+00:02:59,240 --> 00:03:02,060
+y la llamaré listando categoría.
+
+84
+00:03:02,560 --> 00:03:03,560
+También darte cuenta que si
+
+85
+00:03:03,560 --> 00:03:05,720
+voy a traer mi método debo tener el
+
+86
+00:03:05,720 --> 00:03:06,900
+parámetro que él tiene.
+
+87
+00:03:07,220 --> 00:03:08,960
+En este caso voy a poner como
+
+88
+00:03:08,960 --> 00:03:11,500
+parámetro buscar y será un string.
+
+89
+00:03:12,200 --> 00:03:13,680
+Ahora la único que tengo que hacer
+
+90
+00:03:13,680 --> 00:03:15,700
+para traerlo es lo siguiente.
+
+91
+00:03:16,160 --> 00:03:17,860
+Primero como tengo un método public
+
+92
+00:03:17,860 --> 00:03:20,480
+con la clase list necesito retornar
+
+93
+00:03:20,480 --> 00:03:22,080
+un objeto de la clase list.
+
+94
+00:03:22,540 --> 00:03:23,800
+Así que diré retur
+
+95
+00:03:23,800 --> 00:03:26,800
+y diré que mediante mi instancia.
+
+96
+00:03:27,420 --> 00:03:29,700
+Ovejo datos que es mi objeto de
+
+97
+00:03:29,700 --> 00:03:31,780
+mi clase de categoría llamaré a mi
+
+98
+00:03:31,780 --> 00:03:33,820
+método listar categoría en el cual
+
+99
+00:03:33,820 --> 00:03:35,880
+le paso como parámetro el parámetro
+
+100
+00:03:35,880 --> 00:03:38,560
+que me pide en este caso mi buscar.
+
+101
+00:03:39,000 --> 00:03:40,400
+Ahora vamos a traer el segundo
+
+102
+00:03:40,400 --> 00:03:42,220
+método que fue insertar categoría.
+
+103
+00:03:43,120 --> 00:03:47,040
+Entonces public voy y lo llamaré
+
+104
+00:03:47,040 --> 00:03:48,960
+insertando categoría.
+
+105
+00:03:49,220 --> 00:03:50,420
+Como ese método me pide un
+
+106
+00:03:50,420 --> 00:03:52,460
+parámetro de clase le pondré mi
+
+107
+00:03:52,460 --> 00:03:55,620
+parámetro de mi clase y categoría y
+
+108
+00:03:55,620 --> 00:03:55,740
+mi
+
+109
+00:03:55,740 --> 00:03:57,820
+objeto de referencia categoría. Tú
+
+110
+00:03:57,820 --> 00:03:59,540
+puedes ponerle cualquier nombre
+
+111
+00:03:59,540 --> 00:04:01,300
+si tú deseas y bueno ahora
+
+112
+00:04:01,300 --> 00:04:03,500
+que es un boy no retornará nada.
+
+113
+00:04:04,000 --> 00:04:05,680
+Así que de frente le digo de nuevo
+
+114
+00:04:05,680 --> 00:04:08,500
+por mi objeto o bejo data llamo a
+
+115
+00:04:08,500 --> 00:04:10,820
+mi método insertar categoría el
+
+116
+00:04:10,820 --> 00:04:13,040
+cual tiene como parámetro un objeto
+
+117
+00:04:13,040 --> 00:04:15,200
+de clase al cualice referencia
+
+118
+00:04:15,200 --> 00:04:17,180
+y contiene todos estos atributos.
+
+119
+00:04:17,700 --> 00:04:18,760
+Lo mismo haremos con mi
+
+120
+00:04:18,760 --> 00:04:19,560
+tercer método
+
+121
+00:04:19,560 --> 00:04:21,440
+que es editar categoría.
+
+122
+00:04:22,060 --> 00:04:23,220
+También es un boy y
+
+123
+00:04:23,220 --> 00:04:26,600
+lo llamaré editando categoría.
+
+124
+00:04:26,840 --> 00:04:28,460
+También le pondré como parámetro un
+
+125
+00:04:28,460 --> 00:04:30,220
+objeto de mi clase y categoría.
+
+126
+00:04:35,560 --> 00:04:36,840
+Gracias a mi objeto
+
+127
+00:04:36,840 --> 00:04:39,200
+llamaré el método editar categoría.
+
+128
+00:04:45,300 --> 00:04:45,940
+Pasándole
+
+129
+00:04:45,940 --> 00:04:47,540
+nuestro parámetro de clases.
+
+130
+00:04:50,640 --> 00:04:52,620
+Y por último haremos lo mismo
+
+131
+00:04:52,620 --> 00:04:54,660
+con un nuestro último método a cual
+
+132
+00:04:54,660 --> 00:04:55,720
+vamos a llamar
+
+133
+00:04:55,720 --> 00:04:57,960
+que será el deliminar categoría.
+
+134
+00:04:58,360 --> 00:04:59,300
+Mi método en donde
+
+135
+00:04:59,300 --> 00:05:02,060
+lo llamaré en eliminando categoría.
+
+136
+00:05:03,080 --> 00:05:03,580
+Pongo como
+
+137
+00:05:03,580 --> 00:05:05,380
+parámetro un objeto de mi clase y
+
+138
+00:05:05,380 --> 00:05:08,660
+categoría y digo que
+
+139
+00:05:08,660 --> 00:05:10,760
+mediante mi objeto o bejo
+
+140
+00:05:10,760 --> 00:05:15,220
+data me traiga mi método eliminar
+
+141
+00:05:15,220 --> 00:05:16,060
+categoría.
+
+142
+00:05:17,960 --> 00:05:19,920
+A este también le pasó como
+
+143
+00:05:19,920 --> 00:05:21,880
+parámetro mi objeto de mi clase
+
+144
+00:05:21,880 --> 00:05:23,580
+lo cual tiene el atributo que tiene
+
+145
+00:05:23,580 --> 00:05:24,460
+como referencia.
+
+146
+00:05:25,180 --> 00:05:27,060
+Bueno como puedes darte cuenta así
+
+147
+00:05:27,060 --> 00:05:28,900
+de fácil hemos llevado y comunicado
+
+148
+00:05:28,900 --> 00:05:30,440
+nuestros métodos que tenían
+
+149
+00:05:30,440 --> 00:05:32,300
+comunicación a nuestra base
+
+150
+00:05:32,300 --> 00:05:34,820
+de datos desde la capa de datos y
+
+151
+00:05:34,820 --> 00:05:36,320
+llevando nuestra capa de negocio
+
+152
+00:05:36,320 --> 00:05:38,440
+para finalmente llevarlos así a
+
+153
+00:05:38,440 --> 00:05:39,880
+nuestra capa de presentación
+
+154
+00:05:39,880 --> 00:05:41,700
+en donde estará nuestra interface.
+

@@ -1,0 +1,1696 @@
+1
+00:00:06,220 --> 00:00:07,120
+Bueno, vamos
+
+2
+00:00:07,120 --> 00:00:08,480
+a hacer nuestro CRUDD en el
+
+3
+00:00:08,480 --> 00:00:09,920
+cual vamos a crear, mostrar,
+
+4
+00:00:10,280 --> 00:00:11,980
+actualizar y eliminar nuestros
+
+5
+00:00:11,980 --> 00:00:13,840
+registros de la tabla categoría.
+
+6
+00:00:14,260 --> 00:00:15,020
+Primero, daremos,
+
+7
+00:00:15,180 --> 00:00:17,040
+tuve click a nuestro formulario y
+
+8
+00:00:17,040 --> 00:00:18,620
+se abrirá un evento LOWAT.
+
+9
+00:00:18,780 --> 00:00:20,160
+El evento LOWAT nos permite
+
+10
+00:00:20,160 --> 00:00:22,160
+inicializar nuestros métodos de
+
+11
+00:00:22,160 --> 00:00:22,820
+acciones que
+
+12
+00:00:22,820 --> 00:00:24,140
+tengan nuestro formulario.
+
+13
+00:00:25,040 --> 00:00:26,420
+Después, vamos a referenciar
+
+14
+00:00:26,420 --> 00:00:27,100
+las capas que
+
+15
+00:00:27,100 --> 00:00:28,040
+están referenciadas
+
+16
+00:00:28,040 --> 00:00:30,000
+a nuestra capa de presentación.
+
+17
+00:00:33,320 --> 00:00:34,560
+Como puedes ver,
+
+18
+00:00:34,760 --> 00:00:36,620
+estamos yendo desde la capa de
+
+19
+00:00:36,620 --> 00:00:39,160
+datos a la capa de negocio y así
+
+20
+00:00:39,160 --> 00:00:41,700
+comunicando método tras métodos.
+
+21
+00:00:41,840 --> 00:00:43,460
+Para finalmente llevar los datos
+
+22
+00:00:43,460 --> 00:00:45,800
+de los métodos a mi capa de
+
+23
+00:00:45,800 --> 00:00:46,440
+presentación
+
+24
+00:00:46,440 --> 00:00:48,280
+para mostrarlos en pantalla.
+
+25
+00:00:48,780 --> 00:00:49,540
+Entonces, vamos a
+
+26
+00:00:49,540 --> 00:00:50,720
+dar inicio a mostrar en
+
+27
+00:00:50,720 --> 00:00:52,320
+nuestra tabla los datos de nuestra
+
+28
+00:00:52,320 --> 00:00:53,000
+base de datos.
+
+29
+00:00:53,820 --> 00:00:54,360
+Crearemos
+
+30
+00:00:54,360 --> 00:00:56,260
+un método la cual yo lo llamaré,
+
+31
+00:00:56,580 --> 00:00:58,040
+mostrar, buscar tabla.
+
+32
+00:00:58,560 --> 00:00:58,940
+Este
+
+33
+00:00:58,940 --> 00:01:01,260
+tendrá un parámetro string buscar.
+
+34
+00:01:01,980 --> 00:01:04,380
+Luego instanceré mi objeto con
+
+35
+00:01:04,380 --> 00:01:06,640
+n categoría que contiene el método
+
+36
+00:01:06,640 --> 00:01:08,220
+del listando categoría.
+
+37
+00:01:12,080 --> 00:01:12,760
+Entonces,
+
+38
+00:01:12,920 --> 00:01:15,480
+digo que mi tabla categoría con
+
+39
+00:01:15,480 --> 00:01:18,720
+data source traigo los datos y que
+
+40
+00:01:18,720 --> 00:01:20,860
+esos datos sean lo que mi objeto
+
+41
+00:01:20,860 --> 00:01:23,340
+negocio tiene como método que es
+
+42
+00:01:23,340 --> 00:01:24,780
+listando categoría,
+
+43
+00:01:25,040 --> 00:01:28,060
+que tiene como parámetro lo cual yo
+
+44
+00:01:28,060 --> 00:01:29,280
+le pondré mi parámetro de
+
+45
+00:01:29,280 --> 00:01:31,280
+referencia que es mi string buscar.
+
+46
+00:01:31,960 --> 00:01:32,920
+Y bueno, así de fácil ya
+
+47
+00:01:32,920 --> 00:01:33,460
+podemos ver
+
+48
+00:01:33,460 --> 00:01:35,520
+nuestros datos de nuestra tabla.
+
+49
+00:01:35,840 --> 00:01:37,320
+Pero para que esto ocurra debemos
+
+50
+00:01:37,320 --> 00:01:39,300
+iniciar nuestro método en el evento
+
+51
+00:01:39,300 --> 00:01:41,340
+LOWAT y como me pide un string,
+
+52
+00:01:41,780 --> 00:01:43,140
+colocaré una cadena vacía.
+
+53
+00:01:43,660 --> 00:01:46,480
+Ahora ejecutamos y vemos los datos
+
+54
+00:01:46,480 --> 00:01:49,220
+mostrados tal cual cómo lo tenemos
+
+55
+00:01:49,220 --> 00:01:50,460
+en nuestra base de datos.
+
+56
+00:01:51,160 --> 00:01:51,440
+Ahora
+
+57
+00:01:51,440 --> 00:01:53,660
+habíamos quedado en ocultar también
+
+58
+00:01:53,660 --> 00:01:54,860
+nuestra primera columna.
+
+59
+00:01:56,660 --> 00:01:57,120
+Entonces,
+
+60
+00:01:57,300 --> 00:01:59,340
+voy a crear un método donde estarán
+
+61
+00:01:59,340 --> 00:01:59,860
+acciones
+
+62
+00:01:59,860 --> 00:02:03,740
+de mi tabla que va a tener.
+
+63
+00:02:07,160 --> 00:02:08,000
+Decimos que
+
+64
+00:02:08,000 --> 00:02:10,660
+mi tabla categoría en la columna 0,
+
+65
+00:02:11,060 --> 00:02:11,420
+o sea,
+
+66
+00:02:11,840 --> 00:02:14,520
+la del ID en su propiedad visible
+
+67
+00:02:14,520 --> 00:02:15,380
+que sea
+
+68
+00:02:15,380 --> 00:02:17,480
+false en este caso que se oculte.
+
+69
+00:02:17,780 --> 00:02:19,120
+Acúérdate que para que esto tenga
+
+70
+00:02:19,120 --> 00:02:20,760
+efecto tenemos que llamar este
+
+71
+00:02:20,760 --> 00:02:21,160
+método
+
+72
+00:02:21,160 --> 00:02:23,260
+en el evento LOWAT. Si ejecutamos,
+
+73
+00:02:23,440 --> 00:02:25,000
+vemos que ya no está. Pero
+
+74
+00:02:25,000 --> 00:02:26,540
+si te das cuenta nuestra tabla
+
+75
+00:02:26,540 --> 00:02:28,020
+y sus columnas quedan
+
+76
+00:02:28,020 --> 00:02:30,020
+algo disparajas y no alineadas.
+
+77
+00:02:30,320 --> 00:02:31,660
+Entonces, vamos a cambiar
+
+78
+00:02:31,660 --> 00:02:32,520
+el ancho de cada
+
+79
+00:02:32,520 --> 00:02:33,140
+columna.
+
+80
+00:02:33,820 --> 00:02:34,380
+Decimos,
+
+81
+00:02:35,000 --> 00:02:36,460
+mi tabla categoría en
+
+82
+00:02:36,460 --> 00:02:40,500
+la columna 1 tengo un ancho de 60.
+
+83
+00:02:41,680 --> 00:02:43,780
+Y qué mi tabla categoría
+
+84
+00:02:44,520 --> 00:02:44,740
+en
+
+85
+00:02:44,740 --> 00:02:47,580
+la columna 2 tengo un ancho de 170.
+
+86
+00:02:48,260 --> 00:02:49,440
+Ejecutamos y puedes
+
+87
+00:02:49,440 --> 00:02:50,800
+ver que está quedando bien.
+
+88
+00:02:51,340 --> 00:02:52,680
+Si a ti no te estás aliendo igual,
+
+89
+00:02:52,920 --> 00:02:54,840
+tomate tu tiempo en alinearlas
+
+90
+00:02:54,840 --> 00:02:55,560
+correctamente.
+
+91
+00:02:55,740 --> 00:02:58,120
+Ahora vamos a buscar un registro en
+
+92
+00:02:58,120 --> 00:02:58,420
+tiempo
+
+93
+00:02:58,420 --> 00:02:58,700
+real.
+
+94
+00:02:58,980 --> 00:03:00,620
+Vamos a nuestra caja de texto te
+
+95
+00:03:00,620 --> 00:03:03,100
+quiste buscar y en su evento text
+
+96
+00:03:03,100 --> 00:03:05,820
+changuet es donde compirá con esa
+
+97
+00:03:05,820 --> 00:03:06,280
+función.
+
+98
+00:03:06,860 --> 00:03:08,640
+Acúérate de que no solo mi método
+
+99
+00:03:08,640 --> 00:03:10,320
+mostrar buscar tabla tiene como
+
+100
+00:03:10,320 --> 00:03:11,600
+función mostrar los datos,
+
+101
+00:03:12,140 --> 00:03:13,080
+sino buscar,
+
+102
+00:03:13,900 --> 00:03:15,720
+ya que es gracias al parámetro que
+
+103
+00:03:15,720 --> 00:03:16,060
+tiene
+
+104
+00:03:16,060 --> 00:03:17,840
+que viene de la base de datos,
+
+105
+00:03:18,300 --> 00:03:19,000
+la cual buscará
+
+106
+00:03:19,000 --> 00:03:20,720
+nuestros registros. Entonces,
+
+107
+00:03:21,300 --> 00:03:21,660
+solo lo
+
+108
+00:03:21,660 --> 00:03:23,540
+que haremos será poner nuestro
+
+109
+00:03:23,540 --> 00:03:23,980
+método,
+
+110
+00:03:24,260 --> 00:03:26,340
+mostrar buscar tabla y le daremos
+
+111
+00:03:26,340 --> 00:03:29,320
+cómo parámetro string nuestro tex
+
+112
+00:03:29,320 --> 00:03:31,160
+de buscar, ya que es el que
+
+113
+00:03:31,160 --> 00:03:32,060
+cuando escribamos,
+
+114
+00:03:32,220 --> 00:03:33,360
+compirá con esa función.
+
+115
+00:03:34,240 --> 00:03:35,820
+Si ejecutamos y escribimos
+
+116
+00:03:35,820 --> 00:03:37,100
+cualquier dato que tenga
+
+117
+00:03:37,100 --> 00:03:38,840
+que ver con nuestros registros,
+
+118
+00:03:39,000 --> 00:03:40,720
+verás que busca automáticamente.
+
+119
+00:03:42,260 --> 00:03:43,800
+Ahora vamos por nuestro método
+
+120
+00:03:43,800 --> 00:03:45,640
+nuevo. Su función será que cuando
+
+121
+00:03:45,640 --> 00:03:47,180
+cualquier caja de texto esté llena
+
+122
+00:03:47,180 --> 00:03:48,620
+a la pretar el botón nuevo,
+
+123
+00:03:49,020 --> 00:03:50,460
+este limpie esas cajas.
+
+124
+00:03:53,820 --> 00:03:54,380
+Entonces,
+
+125
+00:03:54,720 --> 00:03:57,100
+damos doble clic y le diré que mi
+
+126
+00:03:57,100 --> 00:03:59,000
+caja de texto tex teciste código.
+
+127
+00:04:00,560 --> 00:04:01,760
+Con la propiedad
+
+128
+00:04:01,760 --> 00:04:04,040
+text se asigne a un estrimvasivo,
+
+129
+00:04:04,640 --> 00:04:06,260
+lo mismo haré con las demás cajas,
+
+130
+00:04:06,800 --> 00:04:08,780
+que es el nombre y la descripción.
+
+131
+00:04:15,200 --> 00:04:16,300
+Por último,
+
+132
+00:04:16,460 --> 00:04:18,540
+diré que también mi tex te nombre
+
+133
+00:04:18,540 --> 00:04:20,820
+tenga en su propiedad focus, o sea,
+
+134
+00:04:21,420 --> 00:04:21,940
+me dará el
+
+135
+00:04:21,940 --> 00:04:23,760
+chance de empezar a escribir ahí.
+
+136
+00:04:24,760 --> 00:04:25,520
+Si ejecutamos y
+
+137
+00:04:25,520 --> 00:04:27,000
+escribimos cualquier cosa
+
+138
+00:04:27,000 --> 00:04:31,480
+y apretamos el botón
+
+139
+00:04:31,480 --> 00:04:32,480
+nuevo, verás cómo
+
+140
+00:04:32,480 --> 00:04:33,340
+se limpia nuestras
+
+141
+00:04:33,340 --> 00:04:33,760
+cajas.
+
+142
+00:04:39,240 --> 00:04:40,140
+Una forma,
+
+143
+00:04:40,360 --> 00:04:41,240
+esa se habla así.
+
+144
+00:04:43,540 --> 00:04:46,300
+Otra es crear un método y le pondré
+
+145
+00:04:46,300 --> 00:04:48,380
+el limpiar cajas y lo que había
+
+146
+00:04:48,380 --> 00:04:49,640
+puesto en el botón nuevo,
+
+147
+00:04:49,840 --> 00:04:54,660
+copio y pego el código aquí y en
+
+148
+00:04:54,660 --> 00:04:56,420
+nuestro botón le paso este método.
+
+149
+00:04:56,980 --> 00:04:58,560
+Y al final será lo mismo. Vamos a
+
+150
+00:04:58,560 --> 00:04:59,780
+ver que si ejecutamos,
+
+151
+00:05:00,160 --> 00:05:01,680
+vamos a ver que será igual.
+
+152
+00:05:12,560 --> 00:05:14,800
+Ahora vamos a pasar a nuestro botón
+
+153
+00:05:14,800 --> 00:05:15,220
+editar.
+
+154
+00:05:16,120 --> 00:05:18,100
+La función de este botón será que
+
+155
+00:05:18,100 --> 00:05:18,520
+cuando,
+
+156
+00:05:19,140 --> 00:05:20,760
+demos clic en una fila,
+
+157
+00:05:20,960 --> 00:05:22,940
+este al dark click en editar los
+
+158
+00:05:22,940 --> 00:05:24,840
+datos de cada celda vayan a las
+
+159
+00:05:24,840 --> 00:05:26,080
+cajas que les corresponde.
+
+160
+00:05:27,100 --> 00:05:28,260
+Antes de comenzar,
+
+161
+00:05:28,280 --> 00:05:28,620
+vamos a
+
+162
+00:05:28,620 --> 00:05:29,020
+declarar
+
+163
+00:05:29,020 --> 00:05:30,240
+una variable estrim privada,
+
+164
+00:05:30,500 --> 00:05:32,660
+la cual se llamará a idica teoría.
+
+165
+00:05:33,400 --> 00:05:35,140
+Este va a tomar el papel de un
+
+166
+00:05:35,140 --> 00:05:37,320
+reflejo como si tuviéramos una caja
+
+167
+00:05:37,320 --> 00:05:38,980
+de texto en nuestro formulario.
+
+168
+00:05:39,280 --> 00:05:39,820
+Si deseas
+
+169
+00:05:39,820 --> 00:05:41,640
+puedes crearlo tu en tu formulario,
+
+170
+00:05:42,260 --> 00:05:42,720
+pero esta
+
+171
+00:05:42,720 --> 00:05:44,160
+es una forma de hacerlo también.
+
+172
+00:05:58,800 --> 00:05:59,400
+Entonces,
+
+173
+00:05:59,800 --> 00:06:02,440
+vamos a decir que en nuestra tabla
+
+174
+00:06:02,440 --> 00:06:04,880
+de categoría la fila seleccionada,
+
+175
+00:06:05,420 --> 00:06:07,040
+si el conteo es mayor que cero,
+
+176
+00:06:07,200 --> 00:06:08,700
+o sea que si hemos seleccionado,
+
+177
+00:06:08,960 --> 00:06:10,260
+siquiera una sola fila,
+
+178
+00:06:10,500 --> 00:06:12,060
+entonces digo que mi idica
+
+179
+00:06:12,060 --> 00:06:14,500
+teoría se le asigne a las filas
+
+180
+00:06:14,500 --> 00:06:15,220
+seleccionada
+
+181
+00:06:15,220 --> 00:06:16,700
+de mitad a la categoría,
+
+182
+00:06:17,320 --> 00:06:18,380
+que sería el valor
+
+183
+00:06:18,380 --> 00:06:20,320
+de la celda de su propio índice,
+
+184
+00:06:20,480 --> 00:06:21,960
+que les corresponden en este caso.
+
+185
+00:06:23,040 --> 00:06:25,300
+Y lo mismo haremos con los demás,
+
+186
+00:06:26,600 --> 00:06:27,220
+pero en este
+
+187
+00:06:27,220 --> 00:06:28,860
+caso con nuestras cajas de texto,
+
+188
+00:06:29,880 --> 00:06:41,240
+con tex tecó digó tex
+
+189
+00:06:41,240 --> 00:06:58,620
+tec y le damos el papel de texto.
+
+190
+00:06:58,840 --> 00:06:59,560
+Ahora,
+
+191
+00:06:59,800 --> 00:07:02,200
+¿qué pasa si no elegimos una fila?
+
+192
+00:07:02,720 --> 00:07:04,180
+Entonces pondremos un mensaje que
+
+193
+00:07:04,180 --> 00:07:05,920
+nos diga que seleccione la fila que
+
+194
+00:07:05,920 --> 00:07:06,980
+deseamos editar.
+
+195
+00:07:09,600 --> 00:07:10,320
+Ahora,
+
+196
+00:07:10,460 --> 00:07:13,260
+este mensaje nunca me saldrá ya que
+
+197
+00:07:13,260 --> 00:07:15,340
+si te das cuenta cuando ejecuto mi
+
+198
+00:07:15,340 --> 00:07:15,700
+tabla
+
+199
+00:07:15,700 --> 00:07:17,580
+ya está una fila seleccionada.
+
+200
+00:07:18,260 --> 00:07:20,480
+Lo queremos será decirle en nuestro
+
+201
+00:07:20,480 --> 00:07:21,940
+método de acciones de mi tabla,
+
+202
+00:07:22,260 --> 00:07:24,840
+que aquí al empezar mi tabla
+
+203
+00:07:24,840 --> 00:07:27,100
+categoría con la propiedad Clear
+
+204
+00:07:27,100 --> 00:07:27,700
+Selection,
+
+205
+00:07:28,000 --> 00:07:30,100
+o sea que limpia la selección de
+
+206
+00:07:30,100 --> 00:07:31,100
+nuestra tabla. Ahora,
+
+207
+00:07:31,220 --> 00:07:32,160
+si ejecutamos, vamos a
+
+208
+00:07:32,160 --> 00:07:33,340
+ver que mi tabla no está
+
+209
+00:07:33,340 --> 00:07:35,540
+seleccionada y si ponemos editar,
+
+210
+00:07:35,540 --> 00:07:37,240
+nos dirá que seleccionemos una
+
+211
+00:07:37,240 --> 00:07:37,640
+fila.
+
+212
+00:07:38,160 --> 00:07:39,560
+Al seleccionar y apretar de nuevo
+
+213
+00:07:39,560 --> 00:07:41,340
+editar verás cómo se pasan los
+
+214
+00:07:41,340 --> 00:07:43,220
+datos de mi tabla a las cajas de
+
+215
+00:07:43,220 --> 00:07:44,400
+texto correspondiente.
+
+216
+00:07:49,120 --> 00:07:50,840
+Ahora vamos por nuestro botón
+
+217
+00:07:50,840 --> 00:07:51,280
+guardar.
+
+218
+00:07:52,300 --> 00:07:54,020
+Aquí la función del botón guardar
+
+219
+00:07:54,020 --> 00:07:54,240
+será
+
+220
+00:07:54,240 --> 00:07:56,420
+que al apretarlo guarde y edite.
+
+221
+00:07:59,160 --> 00:08:00,340
+¿Cómo hacemos eso?
+
+222
+00:08:06,220 --> 00:08:06,220
+Me voy a ver.
+
+223
+00:08:13,940 --> 00:08:14,920
+Entonces decimos
+
+224
+00:08:14,920 --> 00:08:16,640
+primero en nuestro botón guardar.
+
+225
+00:08:17,140 --> 00:08:18,720
+Si editarse es igual a false,
+
+226
+00:08:20,020 --> 00:08:22,060
+entonces es porque no lo vamos a
+
+227
+00:08:22,060 --> 00:08:22,400
+editar
+
+228
+00:08:22,400 --> 00:08:24,340
+si no lo que haremos es guardar.
+
+229
+00:08:24,640 --> 00:08:26,240
+Entonces ponemos un treecatch
+
+230
+00:08:26,240 --> 00:08:32,040
+y en el tree irá nuestro código de
+
+231
+00:08:32,040 --> 00:08:32,580
+ejecución.
+
+232
+00:08:33,120 --> 00:08:34,480
+Aquí es donde nuestras capas
+
+233
+00:08:34,480 --> 00:08:35,720
+comunicadas hacen
+
+234
+00:08:35,720 --> 00:08:37,640
+su trabajo. Primero instanciaremos
+
+235
+00:08:37,640 --> 00:08:37,860
+que,
+
+236
+00:08:37,860 --> 00:08:38,840
+loualmente, nuestra
+
+237
+00:08:38,840 --> 00:08:40,540
+capa de entidades como
+
+238
+00:08:40,540 --> 00:08:41,840
+objeto entidad.
+
+239
+00:08:53,060 --> 00:08:54,720
+Con mi objeto entidad,
+
+240
+00:08:54,960 --> 00:08:56,440
+ya hemos los atributos que necesito
+
+241
+00:08:56,440 --> 00:08:58,260
+para referenciar cómo habíamos
+
+242
+00:08:58,260 --> 00:08:58,560
+dicho
+
+243
+00:08:58,560 --> 00:09:00,420
+con mis controles correspondientes.
+
+244
+00:09:00,560 --> 00:09:01,900
+En este caso te equiste
+
+245
+00:09:01,900 --> 00:09:03,780
+nombre y te equiste de ejecución.
+
+246
+00:09:04,420 --> 00:09:06,780
+Vamos a darle la propiedad a parte
+
+247
+00:09:06,780 --> 00:09:09,420
+de text la propiedad tu operator
+
+248
+00:09:09,420 --> 00:09:10,880
+para que al guardar nuestros
+
+249
+00:09:10,880 --> 00:09:12,560
+registros estén en mayúscula.
+
+250
+00:09:12,920 --> 00:09:14,440
+Y si decíamos en mi inúscula,
+
+251
+00:09:14,600 --> 00:09:16,380
+bueno si tú deseas es tu lower,
+
+252
+00:09:16,760 --> 00:09:18,020
+acuérdate que al guardar
+
+253
+00:09:18,020 --> 00:09:19,900
+solo necesitamos estos dos valores.
+
+254
+00:09:27,340 --> 00:09:29,960
+Lo siguiente es llamar a nuestra
+
+255
+00:09:29,960 --> 00:09:31,920
+otra capa que contiene nuestro
+
+256
+00:09:31,920 --> 00:09:33,980
+método de insertando categoría, que
+
+257
+00:09:33,980 --> 00:09:35,380
+es nuestra capa de negocio,
+
+258
+00:09:36,060 --> 00:09:38,060
+en la clase N categoría.
+
+259
+00:09:38,460 --> 00:09:42,620
+Así que lo instanciamos y gracias a
+
+260
+00:09:42,620 --> 00:09:45,180
+mi objeto llamo a mi método y por
+
+261
+00:09:45,180 --> 00:09:48,040
+último le paso como parámetro mi
+
+262
+00:09:48,040 --> 00:09:50,060
+objeto entidad que contiene ya los
+
+263
+00:09:50,060 --> 00:09:51,620
+atributos referenciados con mis
+
+264
+00:09:51,620 --> 00:09:52,080
+controles.
+
+265
+00:09:53,200 --> 00:09:54,900
+Ahora si todo esto está bien le
+
+266
+00:09:54,900 --> 00:09:56,400
+dire que mande un mensaje
+
+267
+00:09:56,400 --> 00:09:59,340
+que diga que guardó el registro.
+
+268
+00:10:05,200 --> 00:10:07,860
+Al guardar quiero que refresque mi
+
+269
+00:10:07,860 --> 00:10:10,420
+tabla con mi método mostrar buscar
+
+270
+00:10:10,420 --> 00:10:12,020
+tabla.
+
+271
+00:10:16,560 --> 00:10:17,860
+Y acá en mi cache,
+
+272
+00:10:18,120 --> 00:10:19,840
+capturo el error, si es que llega
+
+273
+00:10:19,840 --> 00:10:20,580
+a ocurrir algo
+
+274
+00:10:29,140 --> 00:10:29,580
+colocaré
+
+275
+00:10:29,580 --> 00:10:29,580
+este mensaje.
+
+276
+00:10:36,220 --> 00:10:37,760
+Ahora ¿qué pasa si editarse?
+
+277
+00:10:37,920 --> 00:10:39,980
+Es true. Si editarse es un true,
+
+278
+00:10:40,200 --> 00:10:41,460
+entonces al apretar guardar
+
+279
+00:10:41,460 --> 00:10:42,060
+editará,
+
+280
+00:10:42,400 --> 00:10:43,020
+entonces es
+
+281
+00:10:43,020 --> 00:10:44,400
+casi lo mismo que guardar,
+
+282
+00:10:44,820 --> 00:10:46,180
+así que vamos a copiar y
+
+283
+00:10:46,180 --> 00:10:47,840
+vamos a pegar todo este código.
+
+284
+00:10:48,920 --> 00:10:50,240
+Y sólo agregaremos nuestro
+
+285
+00:10:50,240 --> 00:10:51,100
+id de categoría.
+
+286
+00:10:54,300 --> 00:10:56,680
+Que trae nuestro J20dad y le
+
+287
+00:10:56,680 --> 00:10:58,900
+decimos que asigne a mi variable id
+
+288
+00:10:58,900 --> 00:10:59,780
+de categoría.
+
+289
+00:11:03,360 --> 00:11:05,300
+Pero mi id de categoría de mi
+
+290
+00:11:05,300 --> 00:11:07,260
+objeto entidad me está diciendo
+
+291
+00:11:07,260 --> 00:11:10,240
+que él es un entero y no un string,
+
+292
+00:11:11,120 --> 00:11:13,480
+ya que mi variable id de categoría
+
+293
+00:11:13,480 --> 00:11:14,820
+lo declaré como un string,
+
+294
+00:11:15,400 --> 00:11:16,460
+así que lo voy
+
+295
+00:11:16,460 --> 00:11:18,760
+a convertir de string a un entero.
+
+296
+00:11:19,260 --> 00:11:20,640
+Acuérdate que necesitamos a
+
+297
+00:11:20,640 --> 00:11:21,760
+nuestro id de categoría
+
+298
+00:11:21,760 --> 00:11:22,640
+para poder editar
+
+299
+00:11:22,640 --> 00:11:23,540
+nuestros registros.
+
+300
+00:11:24,020 --> 00:11:25,780
+Luego abajo ya no sería insertando
+
+301
+00:11:25,780 --> 00:11:26,520
+categoría,
+
+302
+00:11:26,660 --> 00:11:28,140
+si no editando categoría,
+
+303
+00:11:28,340 --> 00:11:30,180
+ya que viene de nuestra clase en la
+
+304
+00:11:30,180 --> 00:11:31,480
+categoría que lo contiene.
+
+305
+00:11:35,520 --> 00:11:37,140
+Entonces el mensaje que nos
+
+306
+00:11:37,140 --> 00:11:40,220
+mostrará será édito el registro y
+
+307
+00:11:40,220 --> 00:11:41,960
+después refrescará nuestra tabla.
+
+308
+00:11:42,480 --> 00:11:44,380
+Y en el cach para capturar el error
+
+309
+00:11:44,380 --> 00:11:44,820
+pondré
+
+310
+00:11:44,820 --> 00:11:46,740
+que no se pudo editar el registro.
+
+311
+00:11:47,400 --> 00:11:47,740
+Ahora,
+
+312
+00:11:48,080 --> 00:11:49,600
+para que esto surge efecto,
+
+313
+00:11:49,820 --> 00:11:50,460
+o sea para que
+
+314
+00:11:50,460 --> 00:11:51,580
+editemos nuestra tabla,
+
+315
+00:11:51,820 --> 00:11:53,560
+es aquí donde en el botón
+
+316
+00:11:53,560 --> 00:11:55,860
+de editar la variable editarse,
+
+317
+00:11:56,060 --> 00:11:57,140
+cambie en un true.
+
+318
+00:11:58,000 --> 00:11:59,840
+Y cada vez que termine de editarse
+
+319
+00:11:59,840 --> 00:12:00,440
+aquí abajo,
+
+320
+00:12:00,440 --> 00:12:02,340
+pondré que se cambia false.
+
+321
+00:12:13,580 --> 00:12:14,860
+También lo pondré en
+
+322
+00:12:14,860 --> 00:12:16,320
+nuestro método limpiar cajas,
+
+323
+00:12:16,720 --> 00:12:19,740
+ya que al poner en nuevo nos dará
+
+324
+00:12:19,740 --> 00:12:21,360
+entender que queremos guardar un
+
+325
+00:12:21,360 --> 00:12:23,180
+registro. También quiero que
+
+326
+00:12:23,180 --> 00:12:23,660
+después de
+
+327
+00:12:23,660 --> 00:12:25,060
+guardar un registro limpia
+
+328
+00:12:25,060 --> 00:12:26,200
+nuestra caja de texto.
+
+329
+00:12:33,200 --> 00:12:33,940
+Y lo
+
+330
+00:12:33,940 --> 00:12:35,500
+mismo cuando edito un registro.
+
+331
+00:12:36,400 --> 00:12:37,280
+Se ejecutamos,
+
+332
+00:12:37,360 --> 00:12:39,140
+vamos a poner a editar y me dice
+
+333
+00:12:39,140 --> 00:12:40,240
+que elija una fila.
+
+334
+00:12:40,700 --> 00:12:42,660
+Si le elijo y edito,
+
+335
+00:12:43,160 --> 00:12:45,860
+editar
+
+336
+00:12:45,860 --> 00:12:52,860
+esta columna y como puedes ver,
+
+337
+00:12:53,040 --> 00:12:54,060
+edita correctamente.
+
+338
+00:12:54,700 --> 00:12:56,920
+Seguido limpia las cajas y me da la
+
+339
+00:12:56,920 --> 00:12:58,300
+opción si deseo de continuar
+
+340
+00:12:58,300 --> 00:13:00,440
+guardando un registro en mi caja.
+
+341
+00:13:00,740 --> 00:13:01,940
+Nombres. Ahora
+
+342
+00:13:01,940 --> 00:13:03,420
+guardaré un nuevo registro,
+
+343
+00:13:03,920 --> 00:13:04,940
+ponga en tensión que
+
+344
+00:13:04,940 --> 00:13:09,360
+estoy escribiendo de mi nóscula y
+
+345
+00:13:09,360 --> 00:13:09,460
+al
+
+346
+00:13:09,460 --> 00:13:10,620
+guardar guardo
+
+347
+00:13:10,620 --> 00:13:12,260
+un nuevo registro en mayúsculas.
+
+348
+00:13:12,640 --> 00:13:13,300
+Voy a agregar
+
+349
+00:13:13,300 --> 00:13:29,720
+otro y de nuevo voy a editarlo.
+
+350
+00:13:36,400 --> 00:13:37,600
+Y como puedes ver,
+
+351
+00:13:37,760 --> 00:13:38,940
+todo está quedando bien.
+
+352
+00:13:43,120 --> 00:13:44,120
+Ahora por último
+
+353
+00:13:44,120 --> 00:13:45,880
+vamos por nuestro botón eliminar.
+
+354
+00:13:48,820 --> 00:13:49,840
+Le diremos casi
+
+355
+00:13:49,840 --> 00:13:51,080
+lo mismo que nuestro botón
+
+356
+00:13:51,080 --> 00:13:51,520
+y editar.
+
+357
+00:13:51,940 --> 00:13:53,300
+Si nuestra fila seleccionada
+
+358
+00:13:53,300 --> 00:13:54,680
+el conteo es mayor que cero,
+
+359
+00:13:55,140 --> 00:13:55,640
+entonces
+
+360
+00:13:55,640 --> 00:13:57,660
+si hemos seleccionado una fila,
+
+361
+00:13:58,200 --> 00:13:59,740
+acuérdate que para borrar una fila
+
+362
+00:13:59,740 --> 00:14:01,240
+solo nos necesitamos nuestro id de
+
+363
+00:14:01,240 --> 00:14:01,980
+categoría.
+
+364
+00:14:02,220 --> 00:14:03,640
+Así que decimos que nuestro objeto
+
+365
+00:14:03,640 --> 00:14:07,060
+de entidad de mayriz de categoría
+
+366
+00:14:07,060 --> 00:14:08,040
+de la círnea,
+
+367
+00:14:08,160 --> 00:14:09,860
+la celdad de mitabla categoría,
+
+368
+00:14:10,120 --> 00:14:12,560
+del valor de mi fila seleccionada.
+
+369
+00:14:12,680 --> 00:14:13,960
+¿Qué es el índice cero?
+
+370
+00:14:14,860 --> 00:14:16,660
+Y al cual el valor es un string.
+
+371
+00:14:17,080 --> 00:14:18,060
+Como sabrás, nuestro
+
+372
+00:14:18,060 --> 00:14:19,220
+jentidad nos dice que
+
+373
+00:14:19,220 --> 00:14:20,440
+nuestro id de categoría
+
+374
+00:14:20,440 --> 00:14:21,200
+es un entero.
+
+375
+00:14:21,520 --> 00:14:22,900
+Así que todo esto lo
+
+376
+00:14:22,900 --> 00:14:25,040
+convertiremos de string a entero.
+
+377
+00:14:26,200 --> 00:14:27,280
+Ahora gracias a nuestro objeto
+
+378
+00:14:27,280 --> 00:14:27,700
+negocio,
+
+379
+00:14:27,700 --> 00:14:28,920
+llamamos a nuestro método
+
+380
+00:14:28,920 --> 00:14:31,060
+eliminando categoría y le pasamos
+
+381
+00:14:31,060 --> 00:14:31,760
+como parámetro
+
+382
+00:14:31,760 --> 00:14:32,800
+nuestro objeto de entidad.
+
+383
+00:14:33,420 --> 00:14:34,880
+¿Qué contiene dichos atributos ya
+
+384
+00:14:34,880 --> 00:14:35,580
+referenciados?
+
+385
+00:14:39,160 --> 00:14:39,880
+Luego,
+
+386
+00:14:40,260 --> 00:14:41,560
+si elimina mi registro,
+
+387
+00:14:42,080 --> 00:14:43,800
+quiero que me muestre un
+
+388
+00:14:43,800 --> 00:14:45,940
+mensaje que se eliminó el registro
+
+389
+00:14:45,940 --> 00:14:46,840
+correctamente.
+
+390
+00:14:49,640 --> 00:14:51,880
+Y llamo a mi método mostrar,
+
+391
+00:14:52,020 --> 00:14:52,680
+buscar tabla
+
+392
+00:14:52,680 --> 00:14:54,280
+para refrescar mis registros.
+
+393
+00:14:54,880 --> 00:14:55,640
+Para ya acabar,
+
+394
+00:14:55,920 --> 00:14:57,920
+le decimos que si no ha sido
+
+395
+00:14:57,920 --> 00:14:58,720
+seleccionado que
+
+396
+00:14:58,720 --> 00:15:00,380
+me muestro un mensaje que diga que
+
+397
+00:15:00,380 --> 00:15:01,420
+seleccione la
+
+398
+00:15:01,420 --> 00:15:02,680
+fila crece a eliminar.
+
+399
+00:15:03,480 --> 00:15:04,860
+Entonces vamos a ejecutar por
+
+400
+00:15:04,860 --> 00:15:06,500
+último, voy a eliminar este
+
+401
+00:15:07,180 --> 00:15:08,320
+y se elimina
+
+402
+00:15:08,320 --> 00:15:08,980
+este registro.
+
+403
+00:15:09,780 --> 00:15:11,720
+Borraré otro y así puedo ir
+
+404
+00:15:11,720 --> 00:15:12,380
+eliminando,
+
+405
+00:15:12,600 --> 00:15:13,060
+editando,
+
+406
+00:15:13,240 --> 00:15:14,200
+guardando registros
+
+407
+00:15:14,200 --> 00:15:15,700
+y también puedo buscar registros
+
+408
+00:15:15,700 --> 00:15:16,200
+en nuestro
+
+409
+00:15:16,200 --> 00:15:17,440
+formulario. Y bueno,
+
+410
+00:15:17,700 --> 00:15:19,460
+espero que me hayan entendido de
+
+411
+00:15:19,460 --> 00:15:21,340
+aquí pueden hacer solo todo el
+
+412
+00:15:21,340 --> 00:15:22,860
+mantenimiento de la tabla de marcas
+
+413
+00:15:22,860 --> 00:15:24,680
+como práctica para que se vayan
+
+414
+00:15:24,680 --> 00:15:25,460
+acostumbrando a
+
+415
+00:15:25,460 --> 00:15:26,600
+programar en E -CAPAS.
+
+416
+00:15:26,980 --> 00:15:27,620
+Igual yo subíro
+
+417
+00:15:27,620 --> 00:15:27,620
+a
+
+418
+00:15:27,620 --> 00:15:27,760
+los
+
+419
+00:15:27,760 --> 00:15:29,520
+videos del mantenimiento de marcas
+
+420
+00:15:29,520 --> 00:15:30,520
+y cualquier
+
+421
+00:15:30,520 --> 00:15:32,280
+duda ya saben me preguntan,
+
+422
+00:15:32,480 --> 00:15:33,500
+estudien y bueno,
+
+423
+00:15:33,620 --> 00:15:33,720
+un
+
+424
+00:15:33,720 --> 00:15:34,080
+saludo.
+

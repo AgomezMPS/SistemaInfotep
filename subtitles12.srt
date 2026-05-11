@@ -1,0 +1,1216 @@
+1
+00:00:04,500 --> 00:00:06,320
+Hola amigos, siguiendo con el
+
+2
+00:00:06,320 --> 00:00:06,620
+curso,
+
+3
+00:00:06,940 --> 00:00:08,000
+hoy aprenderemos cómo
+
+4
+00:00:08,000 --> 00:00:09,640
+hacer nuestras notificaciones,
+
+5
+00:00:10,020 --> 00:00:10,920
+diseñarlas e
+
+6
+00:00:10,920 --> 00:00:12,740
+implementarlas en nuestro proyecto.
+
+7
+00:00:13,980 --> 00:00:15,780
+Vamos a crear nuestra primera
+
+8
+00:00:15,780 --> 00:00:16,520
+notificación,
+
+9
+00:00:17,140 --> 00:00:18,220
+esta será la de suces
+
+10
+00:00:18,220 --> 00:00:19,280
+o la de aprobado.
+
+11
+00:00:19,760 --> 00:00:21,860
+Aquí estarán algunas cosas como
+
+12
+00:00:21,860 --> 00:00:24,560
+el mensaje personalizado en editar,
+
+13
+00:00:25,240 --> 00:00:25,820
+igualrar.
+
+14
+00:00:26,550 --> 00:00:27,120
+Y bueno,
+
+15
+00:00:27,540 --> 00:00:28,820
+cuando yo esté creada,
+
+16
+00:00:29,100 --> 00:00:30,400
+no es trabajo formulario,
+
+17
+00:00:30,640 --> 00:00:31,620
+vamos a diseñarlo.
+
+18
+00:00:33,400 --> 00:00:35,440
+Lo primero que haremos como siempre
+
+19
+00:00:35,440 --> 00:00:36,020
+es quitarle
+
+20
+00:00:36,020 --> 00:00:38,260
+el borde, darlo un ancho y un alto.
+
+21
+00:00:40,480 --> 00:00:42,340
+Luego ponerle un fondo de color
+
+22
+00:00:42,340 --> 00:00:44,960
+blanco y que cuando se muestre este
+
+23
+00:00:44,960 --> 00:00:45,600
+formulario,
+
+24
+00:00:45,920 --> 00:00:46,800
+este en el centro,
+
+25
+00:00:48,080 --> 00:00:50,040
+le colocaré un beautiful elix,
+
+26
+00:00:50,260 --> 00:00:51,180
+el beautiful for,
+
+27
+00:00:51,580 --> 00:00:52,460
+fade transition.
+
+28
+00:00:53,200 --> 00:00:55,080
+Quiere decir transición desde
+
+29
+00:00:55,080 --> 00:00:55,860
+banicimiento.
+
+30
+00:00:56,600 --> 00:00:58,220
+Primero le pondré un nombre,
+
+31
+00:00:58,560 --> 00:00:58,940
+acuérate
+
+32
+00:00:58,940 --> 00:01:00,320
+que es muy importante darle
+
+33
+00:01:00,320 --> 00:01:01,880
+nombre a tus controles.
+
+34
+00:01:02,780 --> 00:01:02,840
+Y
+
+35
+00:01:02,840 --> 00:01:04,300
+bueno, aquí en el ley es el tiempo
+
+36
+00:01:04,300 --> 00:01:04,540
+que
+
+37
+00:01:04,540 --> 00:01:06,060
+quieres que tome tu formulario
+
+38
+00:01:06,060 --> 00:01:08,400
+en cuanto le va a tomar al for a
+
+39
+00:01:08,400 --> 00:01:08,980
+aclararse.
+
+40
+00:01:09,380 --> 00:01:10,940
+Yo le pondré en un segundo nomás,
+
+41
+00:01:11,300 --> 00:01:12,960
+así que bueno, ahora,
+
+42
+00:01:13,260 --> 00:01:13,460
+cómo
+
+43
+00:01:13,460 --> 00:01:13,860
+funciona
+
+44
+00:01:13,860 --> 00:01:15,500
+o cómo podemos ver este efecto,
+
+45
+00:01:15,660 --> 00:01:16,540
+es muy sencillo.
+
+46
+00:01:17,220 --> 00:01:19,200
+Vamos a darle doble clic a nuestro
+
+47
+00:01:19,200 --> 00:01:19,980
+formulario y
+
+48
+00:01:19,980 --> 00:01:21,300
+nuestro método formloat,
+
+49
+00:01:21,580 --> 00:01:21,740
+que
+
+50
+00:01:21,740 --> 00:01:23,220
+se encarga de ejecutar métodos o
+
+51
+00:01:23,220 --> 00:01:24,900
+funciones antes de lanzar nuestro
+
+52
+00:01:24,900 --> 00:01:25,140
+for,
+
+53
+00:01:25,540 --> 00:01:27,460
+le diremos que lance ese efecto.
+
+54
+00:01:30,200 --> 00:01:32,660
+Ya que este método me permite
+
+55
+00:01:32,660 --> 00:01:35,160
+lanzar el efecto al componente que
+
+56
+00:01:35,160 --> 00:01:35,720
+deseo.
+
+57
+00:01:37,820 --> 00:01:39,780
+Como quiero lanzar a mi mismo
+
+58
+00:01:39,780 --> 00:01:40,800
+formulario este
+
+59
+00:01:40,800 --> 00:01:42,500
+efecto, pues solo pongo la palabra
+
+60
+00:01:42,500 --> 00:01:43,400
+reservada diz.
+
+61
+00:01:43,400 --> 00:01:43,980
+Ahora,
+
+62
+00:01:44,000 --> 00:01:45,200
+lo único que queremos es
+
+63
+00:01:45,200 --> 00:01:47,400
+ejecutar para ver si es cierto.
+
+64
+00:01:48,000 --> 00:01:48,560
+A ejecutar
+
+65
+00:01:48,560 --> 00:01:51,680
+me sale el formulario de marca,
+
+66
+00:01:52,260 --> 00:01:53,400
+lo cual no quiero que se ejecute
+
+67
+00:01:53,400 --> 00:01:53,800
+primero,
+
+68
+00:01:54,120 --> 00:01:55,380
+acuérate que en programs
+
+69
+00:01:55,380 --> 00:01:56,880
+debemos cambiar el formulario,
+
+70
+00:01:57,480 --> 00:01:58,580
+que arrancará primero.
+
+71
+00:01:59,160 --> 00:02:01,000
+Y en este caso nuestra notificación
+
+72
+00:02:01,000 --> 00:02:01,880
+de formulario.
+
+73
+00:02:02,460 --> 00:02:02,880
+Ahora sí,
+
+74
+00:02:03,400 --> 00:02:04,640
+voy a dar ejecutar
+
+75
+00:02:04,640 --> 00:02:06,400
+y mira lo que sucede con nuestro
+
+76
+00:02:06,400 --> 00:02:06,900
+formulario.
+
+77
+00:02:09,080 --> 00:02:11,760
+A ejecutarse le tomo un segundo
+
+78
+00:02:11,760 --> 00:02:13,620
+a nuestro formulario a aclararse
+
+79
+00:02:13,620 --> 00:02:14,280
+completamente.
+
+80
+00:02:15,460 --> 00:02:17,500
+Y así de sencillo hemos hecho este
+
+81
+00:02:17,500 --> 00:02:18,880
+efecto. Ahora vamos
+
+82
+00:02:18,880 --> 00:02:19,640
+a diseñar nuestro
+
+83
+00:02:19,640 --> 00:02:20,200
+formulario.
+
+84
+00:02:20,760 --> 00:02:22,380
+Lo primero que haré es ponerle un
+
+85
+00:02:22,380 --> 00:02:22,680
+panel
+
+86
+00:02:22,680 --> 00:02:24,840
+en la posición del doc en top.
+
+87
+00:02:26,240 --> 00:02:29,800
+Este tendrá este color de aquí
+
+88
+00:02:29,800 --> 00:02:33,520
+y es aquí donde irá nuestra imagen,
+
+89
+00:02:33,840 --> 00:02:34,080
+que
+
+90
+00:02:34,080 --> 00:02:36,620
+nos involesa que todo está bien.
+
+91
+00:02:36,620 --> 00:02:38,080
+En este caso el check.
+
+92
+00:02:38,800 --> 00:02:40,780
+Tú puedes ponerle una imagen que tú
+
+93
+00:02:40,780 --> 00:02:41,260
+deseas,
+
+94
+00:02:41,420 --> 00:02:43,940
+puedes ir a Google y poner un
+
+95
+00:02:43,940 --> 00:02:47,300
+imagen como un check en png
+
+96
+00:02:47,300 --> 00:02:49,560
+y puedes ponerle la imagen que tú
+
+97
+00:02:49,560 --> 00:02:50,020
+deseas.
+
+98
+00:02:50,760 --> 00:02:52,200
+Pero primero pondré un label.
+
+99
+00:02:52,680 --> 00:02:54,440
+Este label es muy importante,
+
+100
+00:02:54,780 --> 00:02:56,780
+ya que será el indicador de
+
+101
+00:02:56,780 --> 00:02:58,420
+nuestros mensajes. O sea,
+
+102
+00:02:58,520 --> 00:02:58,620
+al
+
+103
+00:02:58,620 --> 00:02:59,760
+final de este label, si
+
+104
+00:02:59,760 --> 00:03:01,340
+el label estará guardado o
+
+105
+00:03:01,340 --> 00:03:02,880
+editado o también mensajes
+
+106
+00:03:02,880 --> 00:03:04,840
+como eliminado y bueno mensajes de
+
+107
+00:03:04,840 --> 00:03:05,940
+error, le
+
+108
+00:03:05,940 --> 00:03:07,480
+pondremos un nombre a nuestro
+
+109
+00:03:07,480 --> 00:03:09,840
+label y haremos estos cambios.
+
+110
+00:03:42,020 --> 00:03:43,000
+Después de esto,
+
+111
+00:03:43,200 --> 00:03:46,040
+copiaré y pegaré otro para ponerle
+
+112
+00:03:46,040 --> 00:03:47,660
+un mensaje personalizado a tu
+
+113
+00:03:47,660 --> 00:03:48,340
+notificación.
+
+114
+00:03:48,880 --> 00:03:49,140
+Si tú
+
+115
+00:03:49,140 --> 00:03:49,480
+deseas,
+
+116
+00:03:49,660 --> 00:03:51,180
+puedes poner este mensaje o
+
+117
+00:03:51,180 --> 00:03:53,220
+si no quieres no puedes poner nada,
+
+118
+00:03:53,640 --> 00:03:55,160
+yo lo hago porque le quiero dar en
+
+119
+00:03:55,160 --> 00:03:56,460
+entender al usuario de que el
+
+120
+00:03:56,460 --> 00:03:57,640
+sistema estará bien.
+
+121
+00:04:28,120 --> 00:04:30,500
+Después de esto colocamos nuestro
+
+122
+00:04:30,500 --> 00:04:32,640
+botón y lo personalizaremos.
+
+123
+00:05:19,200 --> 00:05:19,900
+Ahora,
+
+124
+00:05:19,900 --> 00:05:19,900
+vamos
+
+125
+00:05:19,900 --> 00:05:22,140
+a poner el imagen dentro de nuestro
+
+126
+00:05:22,140 --> 00:05:23,400
+panel que habíamos creado
+
+127
+00:05:23,400 --> 00:05:23,960
+previamente.
+
+128
+00:05:24,600 --> 00:05:26,140
+Este imagen lo hacemos en
+
+129
+00:05:26,140 --> 00:05:27,480
+PowerPoint. Como puedes ver,
+
+130
+00:05:27,760 --> 00:05:28,860
+yo ya los tengo hecho.
+
+131
+00:05:29,300 --> 00:05:30,840
+Tengo el primero que es el sombrado
+
+132
+00:05:30,840 --> 00:05:31,940
+que tiene nuestro
+
+133
+00:05:31,940 --> 00:05:33,000
+form, o que va a tener
+
+134
+00:05:33,000 --> 00:05:33,740
+nuestro form de
+
+135
+00:05:33,740 --> 00:05:34,340
+notificación.
+
+136
+00:05:34,900 --> 00:05:36,860
+El segundo es el check que irá en
+
+137
+00:05:36,860 --> 00:05:38,520
+nuestro formulario actual, que
+
+138
+00:05:38,520 --> 00:05:39,880
+estamos haciendo y el último
+
+139
+00:05:39,880 --> 00:05:41,860
+que será para nuestro formulario de
+
+140
+00:05:41,860 --> 00:05:42,380
+información.
+
+141
+00:05:43,060 --> 00:05:44,340
+Voy a enseñarte y
+
+142
+00:05:44,340 --> 00:05:45,820
+demuestra cómo hacer uno de ellos.
+
+143
+00:05:46,320 --> 00:05:48,560
+No te preocupes por los demás, ya
+
+144
+00:05:48,560 --> 00:05:50,480
+que estas imágenes lo tendrás en
+
+145
+00:05:50,480 --> 00:05:50,580
+la
+
+146
+00:05:50,580 --> 00:05:52,360
+descripción de este video. Así que,
+
+147
+00:05:52,480 --> 00:05:53,040
+comenzamos
+
+148
+00:05:53,040 --> 00:05:55,240
+con escoger la figura del círculo.
+
+149
+00:05:57,880 --> 00:05:59,420
+Le quitamos el contorno
+
+150
+00:05:59,420 --> 00:06:01,920
+y lo ponemos de relleno en blanco.
+
+151
+00:06:02,820 --> 00:06:04,120
+Por último, solo le damos una
+
+152
+00:06:04,120 --> 00:06:13,900
+sombra y ahora
+
+153
+00:06:13,900 --> 00:06:14,220
+vamos a
+
+154
+00:06:14,220 --> 00:06:15,400
+dibujar el palito de arriba.
+
+155
+00:06:16,180 --> 00:06:17,720
+Para eso seleccionaremos la figura
+
+156
+00:06:17,720 --> 00:06:18,400
+de trapezo.
+
+157
+00:06:22,060 --> 00:06:24,960
+Lo alargo un poco y lo acomodándole
+
+158
+00:06:24,960 --> 00:06:27,500
+la vuelta y hago lo mismo como lo
+
+159
+00:06:27,500 --> 00:06:28,360
+hice con el círculo.
+
+160
+00:06:35,960 --> 00:06:37,120
+Después de terminar,
+
+161
+00:06:38,040 --> 00:06:39,600
+la figura seleccionamos
+
+162
+00:06:39,600 --> 00:06:40,940
+todo y lo guardamos en la
+
+163
+00:06:40,940 --> 00:06:41,900
+carpeta donde están
+
+164
+00:06:41,900 --> 00:06:42,740
+nuestras imágenes.
+
+165
+00:06:45,720 --> 00:06:46,780
+Como puedes ver,
+
+166
+00:06:46,920 --> 00:06:48,760
+las demás yo ya las tengo guardada.
+
+167
+00:06:54,100 --> 00:06:55,100
+Y entonces,
+
+168
+00:06:55,440 --> 00:06:57,040
+en nuestro formulario vamos a poner
+
+169
+00:06:57,040 --> 00:07:00,340
+nuestra imagen en nuestro picture
+
+170
+00:07:00,340 --> 00:07:00,800
+box.
+
+171
+00:07:18,820 --> 00:07:20,940
+Y también para terminar nuestro
+
+172
+00:07:20,940 --> 00:07:22,460
+formulario tendrá el imagen de
+
+173
+00:07:22,460 --> 00:07:23,040
+sombrado.
+
+174
+00:07:34,840 --> 00:07:36,360
+Me había olvidado de darle
+
+175
+00:07:36,360 --> 00:07:38,640
+un nombre a nuestro botón y ahora
+
+176
+00:07:38,640 --> 00:07:39,580
+vamos a programar.
+
+177
+00:07:40,940 --> 00:07:42,520
+Vamos a programar mi botón a
+
+178
+00:07:42,520 --> 00:07:43,200
+sectar, solo
+
+179
+00:07:43,200 --> 00:07:44,560
+le pondré que al darle clic
+
+180
+00:07:44,560 --> 00:07:46,240
+bueno, este formulario se cerrará.
+
+181
+00:07:46,760 --> 00:07:48,380
+Y ahora vamos a ejecutar nuestro
+
+182
+00:07:48,380 --> 00:07:49,900
+formulario para ver cómo está
+
+183
+00:07:49,900 --> 00:07:50,340
+quedando.
+
+184
+00:07:54,680 --> 00:07:55,680
+Como puedes ver,
+
+185
+00:07:55,960 --> 00:07:57,660
+está quedando muy bien. Ahora
+
+186
+00:07:57,660 --> 00:08:00,000
+falta programar ese label de
+
+187
+00:08:00,000 --> 00:08:00,520
+mensaje.
+
+188
+00:08:00,520 --> 00:08:11,000
+Y ahora vamos a crear un método
+
+189
+00:08:11,000 --> 00:08:13,360
+estático llamado Confirmación Form.
+
+190
+00:08:14,100 --> 00:08:16,240
+Este método estático tendrá un
+
+191
+00:08:16,240 --> 00:08:16,760
+parámetro,
+
+192
+00:08:17,360 --> 00:08:19,640
+ese parámetro serón string y le
+
+193
+00:08:19,640 --> 00:08:20,480
+pondré mensaje.
+
+194
+00:08:21,180 --> 00:08:22,680
+Aquí dentro de este método
+
+195
+00:08:22,680 --> 00:08:24,600
+instancia de mi propio formulario,
+
+196
+00:08:25,140 --> 00:08:26,980
+al que le daré ese mensaje que
+
+197
+00:08:26,980 --> 00:08:28,200
+tenemos como parámetro.
+
+198
+00:08:43,940 --> 00:08:45,880
+Después le diré que gracias a mi
+
+199
+00:08:45,880 --> 00:08:47,380
+instancia al ser llamado
+
+200
+00:08:47,380 --> 00:08:50,840
+este método se abrirá este mismo
+
+201
+00:08:50,840 --> 00:08:52,640
+formulario que será un diálogo.
+
+202
+00:08:53,280 --> 00:08:53,660
+Ahora,
+
+203
+00:08:54,040 --> 00:08:54,180
+por
+
+204
+00:08:54,180 --> 00:08:55,680
+qué instancia mi propio formulario
+
+205
+00:08:55,680 --> 00:08:56,760
+y cómo es lo posible?
+
+206
+00:08:57,520 --> 00:08:57,980
+Es porque
+
+207
+00:08:57,980 --> 00:08:59,520
+le he puesto a mi método que es
+
+208
+00:08:59,520 --> 00:09:00,500
+estático y
+
+209
+00:09:00,500 --> 00:09:00,500
+ahora lo he
+
+210
+00:09:00,500 --> 00:09:00,500
+hecho.
+
+211
+00:09:00,500 --> 00:09:02,620
+Este editic cumple funciones como
+
+212
+00:09:02,620 --> 00:09:04,920
+estas y muy aparte que interactúa
+
+213
+00:09:04,920 --> 00:09:06,880
+con el formulario principal.
+
+214
+00:09:07,660 --> 00:09:10,200
+En este caso es el FRM suces.
+
+215
+00:09:11,020 --> 00:09:12,800
+Y como interactúa es que cuando un
+
+216
+00:09:12,800 --> 00:09:14,200
+método se estático ya no
+
+217
+00:09:14,200 --> 00:09:15,980
+necesitamos instanciar de la forma
+
+218
+00:09:15,980 --> 00:09:16,480
+normal,
+
+219
+00:09:16,880 --> 00:09:18,600
+así como hemos usado anteriormente
+
+220
+00:09:18,600 --> 00:09:19,340
+usando new.
+
+221
+00:09:20,120 --> 00:09:21,980
+Ya que ese estático solo desde el
+
+222
+00:09:21,980 --> 00:09:23,360
+otro formulario llamaríamos
+
+223
+00:09:23,360 --> 00:09:25,980
+a este formulario que es público y
+
+224
+00:09:25,980 --> 00:09:26,560
+libremente
+
+225
+00:09:26,560 --> 00:09:28,280
+podremos usar este método.
+
+226
+00:09:29,500 --> 00:09:30,720
+Pero ojo aquí
+
+227
+00:09:30,720 --> 00:09:33,500
+este método te pedirá un parámetro.
+
+228
+00:09:33,800 --> 00:09:35,900
+Este parámetro es nuestro mensaje.
+
+229
+00:09:36,400 --> 00:09:38,420
+Este mensaje es el mensaje que
+
+230
+00:09:38,420 --> 00:09:39,940
+nosotros queremos que se muestre
+
+231
+00:09:39,940 --> 00:09:41,960
+dependiendo de que acción sea y ha
+
+232
+00:09:41,960 --> 00:09:42,720
+sido guardado,
+
+233
+00:09:42,980 --> 00:09:44,340
+eliminado o editado.
+
+234
+00:09:44,760 --> 00:09:45,840
+Entonces llegará un momento en
+
+235
+00:09:45,840 --> 00:09:47,640
+que nosotros le daremos ese mensaje
+
+236
+00:09:47,640 --> 00:09:48,380
+o
+
+237
+00:09:48,380 --> 00:09:50,260
+en ese caso ese ser que nos pide.
+
+238
+00:09:50,260 --> 00:09:52,060
+Pero la hora de ejecutar el
+
+239
+00:09:52,060 --> 00:09:52,620
+formulario
+
+240
+00:09:52,620 --> 00:09:54,480
+nuestro mensaje no se verá.
+
+241
+00:09:54,980 --> 00:09:56,520
+Pero por qué? Porque
+
+242
+00:09:56,520 --> 00:09:58,020
+no basta componer el mensaje
+
+243
+00:09:58,020 --> 00:09:59,560
+que le hemos dado como parámetro.
+
+244
+00:10:00,200 --> 00:10:02,060
+Necesitamos iniciarlo en el
+
+245
+00:10:02,060 --> 00:10:03,520
+constructor de nuestra clase,
+
+246
+00:10:03,900 --> 00:10:06,720
+que en este caso sería FRM suces.
+
+247
+00:10:07,320 --> 00:10:09,360
+Entonces aquí es donde también
+
+248
+00:10:09,360 --> 00:10:12,020
+le pasaré el parámetro string y
+
+249
+00:10:12,020 --> 00:10:12,520
+ponerle
+
+250
+00:10:12,520 --> 00:10:14,140
+la misma variable de mensaje.
+
+251
+00:10:14,140 --> 00:10:16,200
+Y aquí ya estamos pasándole
+
+252
+00:10:16,200 --> 00:10:17,980
+el mensaje a nuestro formulario que
+
+253
+00:10:17,980 --> 00:10:19,500
+viene desde el otro formulario.
+
+254
+00:10:19,940 --> 00:10:21,280
+Pero este mensaje que viene del
+
+255
+00:10:21,280 --> 00:10:22,040
+otro formulario
+
+256
+00:10:22,040 --> 00:10:23,280
+aquí en se le asignó.
+
+257
+00:10:23,840 --> 00:10:24,980
+Aquí abajo es donde
+
+258
+00:10:24,980 --> 00:10:27,640
+inicializaremos los componentes.
+
+259
+00:10:29,280 --> 00:10:31,740
+Le diré que mi label mensaje,
+
+260
+00:10:32,160 --> 00:10:33,480
+el texto,
+
+261
+00:10:33,940 --> 00:10:36,600
+será asignado.
+
+262
+00:10:39,940 --> 00:10:42,380
+Ahora por último vamos a nuestro
+
+263
+00:10:42,380 --> 00:10:43,720
+formulario de marca y
+
+264
+00:10:43,720 --> 00:10:45,300
+aquí cambiaremos algunas cosas.
+
+265
+00:10:46,060 --> 00:10:46,420
+Como ya
+
+266
+00:10:46,420 --> 00:10:48,140
+tenemos nuestros notificaciones de
+
+267
+00:10:48,140 --> 00:10:48,720
+mensajes,
+
+268
+00:10:49,260 --> 00:10:50,540
+ya no necesitaremos nuestro
+
+269
+00:10:50,540 --> 00:10:51,160
+mensaje box.
+
+270
+00:10:51,700 --> 00:10:53,180
+Así que borrarémos esto
+
+271
+00:10:53,180 --> 00:10:55,800
+y aquí si pondremos lo siguiente.
+
+272
+00:10:57,620 --> 00:10:59,440
+Llamamos a nuestro FRM suces
+
+273
+00:10:59,440 --> 00:11:01,760
+y como tiene un método estático lo
+
+274
+00:11:01,760 --> 00:11:03,240
+llamamos y acuérdate que
+
+275
+00:11:03,240 --> 00:11:05,220
+esto método su función es abrir el
+
+276
+00:11:05,220 --> 00:11:07,060
+formulario que es mi notificación.
+
+277
+00:11:07,720 --> 00:11:09,320
+Como puedes ver nos pide el
+
+278
+00:11:09,320 --> 00:11:09,960
+parámetro
+
+279
+00:11:09,960 --> 00:11:12,260
+de mensaje y aquí es donde le
+
+280
+00:11:12,260 --> 00:11:13,520
+pondremos nuestro mensaje
+
+281
+00:11:13,520 --> 00:11:15,220
+que queremos en este caso.
+
+282
+00:11:16,000 --> 00:11:17,640
+Como está guardando,
+
+283
+00:11:17,900 --> 00:11:18,320
+bueno yo
+
+284
+00:11:18,320 --> 00:11:20,540
+le pondré que se ha guardado.
+
+285
+00:11:20,540 --> 00:11:21,380
+Lo
+
+286
+00:11:21,380 --> 00:11:23,500
+mismo podemos hacer cuando edite,
+
+287
+00:11:23,960 --> 00:11:28,280
+entonces le pondré editado y ahora
+
+288
+00:11:28,280 --> 00:11:30,840
+solo falta ejecutarlo y probarlo.
+
+289
+00:11:39,300 --> 00:11:41,880
+Bueno voy a guardar un producto.
+
+290
+00:11:50,540 --> 00:11:53,160
+Y bueno vamos a ver qué pasa si
+
+291
+00:11:53,160 --> 00:11:56,000
+apretó a guardar y mira se abre
+
+292
+00:11:56,000 --> 00:11:58,200
+nuestra notificación y nos sale que
+
+293
+00:11:58,200 --> 00:11:59,740
+el mensaje se ha guardado.
+
+294
+00:12:00,880 --> 00:12:02,940
+Ahora vamos a ver si editamos.
+
+295
+00:12:13,720 --> 00:12:15,120
+Y bueno ya está,
+
+296
+00:12:15,800 --> 00:12:18,120
+ahora nos sale que el mensaje se ha
+
+297
+00:12:18,120 --> 00:12:19,860
+editado. Y bueno amigos
+
+298
+00:12:19,860 --> 00:12:20,680
+así hemos creado
+
+299
+00:12:20,680 --> 00:12:22,380
+nuestra notificación de guardado y
+
+300
+00:12:22,380 --> 00:12:25,220
+editado y al deliminado no es igual
+
+301
+00:12:25,220 --> 00:12:27,080
+es un poco parecido pero eso
+
+302
+00:12:27,080 --> 00:12:28,720
+lo vamos a ver en el otro video.
+
+303
+00:12:29,020 --> 00:12:30,480
+Espero que me haya se entendido y
+
+304
+00:12:30,480 --> 00:12:31,260
+bueno un saludo.
+

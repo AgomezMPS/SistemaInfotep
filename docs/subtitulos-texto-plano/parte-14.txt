@@ -1,0 +1,465 @@
+Hola amigos, ¿cómo están?
+Me alegro que estén bien y vamos a
+comenzar rápidamente con este mini
+curso de cómo crear el formulario
+principal y vamos a hacerlos
+rápidamente.
+Vamos a crear nuestro formulario
+principal,
+vamos a escribir que se va a llamar
+FMR, FMR,
+me principal y como siempre vamos
+a quitar el borde del formulario,
+voy a darle
+este ancho y esta altura de 1440
+con 940 y voy a
+crear tres paneles principales,
+los lo más importantes
+estos tres
+paneles ocupan las tres partes
+de nuestro formulario principal,
+el primero es el Sidebar
+y así
+que con la propiedad doc vamos a
+ponerlo a la izquierda
+y vamos a darle un ancho de 270
+también voy a
+ponerle este mat crown de
+este color y ahora vamos por el GDR
+vamos a escribir o bueno vamos a
+llamar el GDR y vamos a decirle la
+propiedad doc que va ahí en top y
+que tenga una altura de 60
+y el más
+importante el Brapper,
+el
+contenedor que va a contener
+todos nuestros formularios que
+deseamos abrir con los botones
+vamos a escribir en el doc
+que se ha fil y bueno ya estaría la
+primera parte ya hecha vamos
+a darle también estos bat crowns a
+nuestro GDR
+y a nuestro Brapper como pueden ver
+y vamos después a
+ponerle
+un botón, vamos a crear un botón en
+la parte
+de la cabezera del GDR
+el icono
+de este botón que bueno que van a
+tener como todos los iconos
+que van a ver este video
+están en la
+descripción de este video así
+que no se preocupen ya está todos
+descargados para que bueno
+prácticamente solo lo copen y lo
+peguen y puedan usarlo a su
+disposición y para que se le hagas
+más fácil entonces vamos a
+escribirle un nombre a este botón,
+lo vamos a poner a salir y no se
+olviden que deben ponerle un centro
+al screen para que el formulario
+principal esté en el medio
+está en
+el medio pero el botón no funciona
+por ahora así que vamos a salir y
+bueno vamos a decirle también a
+este botón que bueno que esté en la
+parte de la derecha y la parte
+de arriba así es que se agranda,
+entonces para grandar esto
+esta parte bueno nosotros
+queremos que
+sea pantalla completa pero que
+no cupe toda la barretaria entonces
+vamos a decirle que el tamaño que
+queremos que esta pantalla ocupe
+sea que sea en el área de trabajo
+tanto como el tamaño como su
+locación o sea en que parte
+de nosotros queremos colocarlo
+este es
+la configuración para que cuando
+nosotros querramos poner un
+formulario
+que ocupe toda la pantalla pues
+que no sea en la
+barretaria bueno ya sabes que este
+método que hemos creado tiene que
+correr en el load y bueno cuando
+corramos vamos a ver que bueno como
+puedes darte cuenta no cupa
+la barretaria así que está quedando
+muy bien entonces
+ahora vamos a programar
+nuestro botón de salir es
+muy sencillo
+te acuerdas cuando habíamos
+helado de un chance para
+que nuestro botón cuando queremos
+eliminar algo pues no de la chance
+de eliminar lo mismo
+es ahora con este botón queremos
+que no de la
+chance de bueno de saber de querer
+si queremos salir o no querer o no
+salir entonces vamos a traer ese
+formulario de el cual queremos que
+nos denle la opción y bueno sabes
+que ese formulario pues nos da un
+mensaje
+ese mensaje es de que
+que nosotros queremos problemas que
+seguro que deseas salir del sistema
+y bueno con el diálogo resulta
+vamos a introducir el ese resultado
+en ese mensaje de diálogo no
+entonces si el resultado que
+nosotros pongamos es ok o sea que
+está bien entonces queremos que
+la aplicación pues salga o sea ya
+bueno de una vez salgamos de
+la aplicación
+a veces hay acciones que
+no pasa esto queremos salir pero
+puede ser que ya vemos aún no sé
+pues
+si tienes un formulario como un loy
+sino de para que te
+registres de nuevo si es que
+quieres entrar a un loy pues sólo
+pondrías este disc hate ya no sería
+la aplicación de exit ya bueno pero
+en ese caso
+entonces como puedes
+ver todo está yendo bien ahora lo
+que vamos a hacer vamos a
+entonces
+vamos a probar como puedes darte
+cuenta no da la chance
+y no dice que si queremos
+salir entonces
+ponemos ok y bueno ya hemos salido
+entonces todo está yendo muy bien
+ahora vamos a hacer toda la parte
+de nuestro cidebar nuestra parte de
+nuestra saidebar pero antes
+de esto bueno voy
+a colocarle este label
+que me diga que bueno que todo
+esto es un panel de administración
+que
+en inglés para lo que no saben
+pues se le conoce como un dashboard
+entonces voy a poner este label de
+dashboard y le voy a dar este color
+y lo voy a colocar bien así
+que bueno ya está quedando entonces
+vamos a a rellenar todo nuestro
+cidebar vamos a bueno yo le voy a
+poner este logo bueno mi logo tú
+puedes ponerle tu logo así que no
+hay ningún problema vamos a darles
+este tamaño y voy a copiar este
+label
+y lo voy a pegar aquí para no ser
+para ponerle bueno pues el
+nombre del canal y también le voy a
+dar un light shape o sea una línea
+para que dar un estilo a esa línea
+le voy a dar el color blanco y voy
+a colocar ahora voy a colocar
+un imagen que bueno que bueno
+capaz
+más adelante les enseñé a cómo
+introducir imágenes bueno pero ya
+salidas de la base de datos y que
+cada vez que el usuario entre al
+panel de administración pues la
+base de datos es reconocer cuál es
+el usuario y en vez de que sea una
+imagen como se llama estática pues
+que sea un imagen que reconozca
+la base de datos entonces vamos a
+seguir con con con los botones
+vamos a utilizar uniform uniform
+flat button y vamos a darles
+un
+color transparente y también vamos
+a decirle que está se atro esto
+es muy importante vamos a darle un
+nombre a nuestro
+ahora vamos
+a decirle que en econ ima eche pues
+vamos a darle el icono
+de la primera entrada como el icono
+cuando esté seleccionado que
+va a ser gris
+cuando esté normal va a
+ser el icono gris pero cuando esté
+seleccionado va a ser el icono
+verde vamos a darle también
+un espaciado al dashboard para que
+pues esté más entrado vamos a darle
+cuando cuando le de click pues que
+no se active el color vamos a
+ponerlo transparente también y
+vamos como puedes ver así va a ser
+todos los botones todos los botones
+lo vamos a hacer así vamos
+a cambiarlo bueno tú solo sigue los
+pasos del video y pues es lo mismo
+como como está en el formulario del
+cual al comienzo del curso pues
+te mostré para no estar perdiendo
+tiempo en estar
+poniendo todos los icons o o sea
+creo que creo que
+puedes hacerlo tú
+solo y pues lo único que tienes
+que hacer es poner
+bueno los iconos correspondientes
+en su lugar ya tanto sea para los
+normales como para gris y pues
+cuando yo esté pues pausa el video
+y pues ya podemos continuar
+entonces vamos a seleccionar todos
+los los botones porque vamos
+a programarlos pero antes de ello
+pues vamos a ponerle que cuando
+pasemos el mouse por cada uno de
+ellos pues tenga este color este
+mouse over este tech el color verde
+que le hemos puesto
+entonces ahora lo que nosotros
+queremos es que
+cuando nosotros le apretemos bueno
+apretemos click a cada botón pues
+el color cambio no porque solo
+cambia cuando pasamos por el mouse
+pasamos el mouse por el botón
+pero no cuando está seleccionado
+entonces para hacerlo lo primero
+que tenemos que es es ponerle a
+todos los botones un hombre como lo
+que es el color verde que es lo que
+nosotros queremos queremos que
+cambia el color del botón pues no
+entonces qué botón entonces
+este este método es en el sitio un
+parámetro este parámetro es el
+botón pues es el botón que nosotros
+queremos cambiarle de color que
+viene a ser el uniformo entonces le
+vamos a pasar como parámetro el
+uniform y con el objeto sender
+vamos a hacer estas cosas entonces
+cada vez que nosotros seleccionemos
+vamos a querer
+que bueno cada uno de nuestros
+botones que le hemos
+puesto que al comienzo que
+al comienzo de cada uno de estos
+botones pues su color principal
+se a blanco eso eso eso eso eso eso
+que nosotros queremos al comienzo
+que todos los botones se han de
+color blanco incluyendo incluyendo
+al que nosotros hemos dado click
+entonces pero como entonces
+cambiamos de color vamos a ver que
+cuando
+nuestro método sender
+obtiene todas las propiedades del
+uniform entonces le vamos a decir
+que sender con la propiedad selecto
+o sea cuando está seleccionado es
+true cuando es verdadero si un
+botón está seleccionado entonces
+decimos no si un botón si el botón
+que está seleccionado pues quiero
+que ese botón que esté seleccionado
+pues con su propiedad text
+color pues le cambiamos de color le
+ponemos un fron RGB para cambiar
+le voy a ponerle un color de RGB de
+este
+color no
+que vendría ser el verde el verde
+que nosotros le
+hemos colocado entonces para que
+esto surge efecto tenemos que ir a
+nuestra a nuestros botones y
+seleccionar cada uno de ellos para
+poder introducir los dentro de
+ellos a este método este método que
+nosotros hemos puesto que
+seleccionando botones lo vamos a
+colocar dentro de
+ellos entonces le vamos a decir que
+seleccionando
+botones recibe por parámetro un
+botón entonces que viene a ser el
+mismo botón de uniform y de uniform
+y y entonces le ponemos como
+parámetro ese botón y le ponemos lo
+mismo a todos los botones para que
+surge
+ese efecto entonces a lo hora de
+iniciar vamos a darnos cuenta
+que efectivamente cuando
+nosotros damos click pues
+el botón el cual
+nosotros le damos click pues cambia
+de color más los demás pues se
+quedan igual de igual manera
+de color blanco entonces todo está
+yendo muy bien todo está yendo
+perfecto entonces la hora de lo que
+le falta es vamos a crear la
+vigneta la flecha el cual pues da
+el seguimiento de que cuando
+nosotros damos click a un botón
+pues la flecha no sigue como
+diciendo dando una indicación que
+estás en tal formulario entonces
+con picture box vamos a introducir
+esa imagen de esa flecha como
+puedes ver está quedando la flecha
+si pero si te das cuenta
+si yo te va a yquílica los demás
+botones
+pues ni se mueve entonces vamos
+a hacer que se mueva a esa a esa
+flecha vamos a darle el nombre de
+flecha y bueno vamos a crear un
+método el cual vamos a llamarlo
+seguir botón este seguir botón pues
+obviamente recibió un parámetro
+ese parámetro es ese parámetro que
+recibe va a ser el mismo o sea va a
+ser un botón porque el botón es el
+que el que va a dar es acción de la
+flecha entonces solo le digo que mi
+flecha en su propiedad top sea
+igual a la locación en top de mi
+sender recuerda que
+sender representa mi botón que yo
+seleccione entonces cada vez que
+yo seleccione un botón la flecha
+estará
+en su parte más alta o sea en top
+ahora como en el método
+anterior deselucionando botones
+igual lo llamaré este método que
+hemos creado a cada botón creceo
+que la flecha tenga esta acción
+entonces sería en mi botón de
+productos bueno sería en todos los
+botones prácticamente para ver
+que cuando yo seleccione cada botón
+pues la flecha se mueva en su parte
+más alta entonces vamos a probar y
+si yo selecciono puede darte cuenta
+que la flecha no sigue y bueno está
+quedando bueno vacan está quedando
+chebre ahora voy a crear dos
+fórmularios para que puedas
+aprender a cómo pues insertar cómo
+insertar un fórmulario dentro
+de un panel entonces voy a crear un
+fórmulario de dashboard le voy
+a poner un y voy a crear también un
+fórmulario de productos este
+de productos si lo vamos a estar
+utilizando y si lo vamos a estar
+completando ya que para este es el
+minucurso
+el bueno el fórmulario de dashboard
+bueno lo creo para que
+este puedas ver una prueba
+de que cuando yo de en el botón de
+dashboard pues me va a abrir este
+fórmulario que estoy creando y lo
+mismo no si cuando ponga en
+el botón de productos pues me abra
+este fórmulario de productos
+el cual yo estoy creando también
+entonces estoy poniendo estos
+labels para que bueno nos diga no
+bueno nos
+señale en qué fórmulario estamos
+entonces ahora vamos a
+aprender cómo abrir un fórmulario
+dentro de nuestro panel que es el
+panel wrapper en este caso el
+wrapper como no queremos que se
+abran varios fórmularios a la vez
+ahora creamos un método para poder
+abrir nuestro
+fórmulario dentro de él
+y bueno este tendrá como para
+metro un fórmulario ahora
+si nuestro objeto que no tiene
+fórmulario de detecta que hay un
+fórmulario o sea que es diferente
+de null pues primero que se había
+un otro abierto pues que este se
+cierre
+también le decimos que este
+nuevo sea igual a un fórm también
+le decimos
+que en su propiedad todo level pues
+le decimos que no es que
+bueno que el fórmulario que no es
+un fórmulario padre sino un hijo de
+nuestro panel le decimos en
+false y también le decimos que este
+fórmulario hijo que se muestre y
+ocúpe todo el espacio con fil ahora
+nuestro panel wrapper en su
+propiedad control nos da la chance
+o la oportunidad de
+agregar este fórmulario
+le decimos también que
+gracias a su propiedad tag que
+ahora se establezca y obtenga todos
+los datos del nuevo fórmulario
+este
+nuevo fórm cada vez que lo llamemos
+lo pondremos al frente siempre
+adelante y bueno por último lo
+vamos
+a mostrar y bueno eso sería todo
+y ahora para que esto funcione
+para
+que esto funcione entonces tenemos
+que bueno instanciar no
+este método entonces llamamos
+al método que nosotros hemos creado
+abre fórmulario wrapper y bueno
+vamos a instanciar bueno en el caso
+del botón de productos bueno
+este nuestro fórmulario productos y
+bueno en el caso de
+nuestro botón de esboar vamos
+a instanciar el
+fórmulario del dashboard entonces
+ya para finalizar vamos a iniciar y
+bueno para como te das cuenta si
+nosotros damos click en el botón de
+dashboard pues me enseñala que
+estoy en el fórmulario dashboard y
+si como hemos terminado toda la
+parte de prácticamente la mayoría
+de nuestro fórmulario principal en
+la próxima clase vamos a ver ya la
+base de datos de los productos
+y vamos a aplicar inergón para ver
+como podemos crear productos usando
+datos de nuestra tabla categorías y
+marcas

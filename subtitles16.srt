@@ -1,0 +1,1080 @@
+1
+00:00:00,000 --> 00:00:01,920
+Hola amigos como están? Bueno
+
+2
+00:00:01,920 --> 00:00:03,140
+vamos a seguir con nuestro
+
+3
+00:00:03,140 --> 00:00:05,020
+curso de mantenimiento de productos
+
+4
+00:00:05,020 --> 00:00:07,380
+y bueno vamos a hoy vamos a ver el
+
+5
+00:00:07,380 --> 00:00:09,000
+diseño del panel de productos, esta
+
+6
+00:00:09,000 --> 00:00:09,100
+va
+
+7
+00:00:09,100 --> 00:00:10,220
+a ser la primera parte,
+
+8
+00:00:10,720 --> 00:00:11,720
+así que vamos
+
+9
+00:00:11,720 --> 00:00:13,400
+a empezar, lo primero que vamos
+
+10
+00:00:13,400 --> 00:00:13,920
+a hacer vamos
+
+11
+00:00:13,920 --> 00:00:15,740
+a ir a nuestro FLM productos
+
+12
+00:00:15,740 --> 00:00:19,120
+y vamos a darle esta altura y bueno
+
+13
+00:00:19,120 --> 00:00:20,620
+yo este ancho,
+
+14
+00:00:21,140 --> 00:00:22,860
+lo siguiente que vamos a hacer
+
+15
+00:00:22,860 --> 00:00:26,180
+vamos a hacer un flow layout panel,
+
+16
+00:00:26,440 --> 00:00:27,860
+este nos va a servir para que
+
+17
+00:00:27,860 --> 00:00:30,080
+cuando nosotros podamos tener
+
+18
+00:00:30,080 --> 00:00:32,740
+paneles dentro de este pues se
+
+19
+00:00:32,740 --> 00:00:36,400
+acomoden más rápidamente y bueno
+
+20
+00:00:36,400 --> 00:00:40,840
+y podamos tener un estilo como de
+
+21
+00:00:40,840 --> 00:00:43,200
+cajas para que podamos
+
+22
+00:00:43,200 --> 00:00:44,880
+colocarlo, la primera caja que voy
+
+23
+00:00:44,880 --> 00:00:44,960
+a
+
+24
+00:00:44,960 --> 00:00:45,360
+poner va
+
+25
+00:00:45,360 --> 00:00:47,040
+a hacer un panel y como puedes
+
+26
+00:00:47,040 --> 00:00:49,640
+ver si yo cop y pego y agrego tres
+
+27
+00:00:49,640 --> 00:00:50,060
+paneles
+
+28
+00:00:50,060 --> 00:00:53,120
+más pues se alojan automáticamente,
+
+29
+00:00:53,380 --> 00:00:54,580
+ahora voy a crear otro panel y
+
+30
+00:00:54,580 --> 00:00:56,900
+lo pondré dentro del primer panel,
+
+31
+00:00:57,300 --> 00:01:00,580
+ahora en este panel de aquí va
+
+32
+00:01:00,580 --> 00:01:03,540
+a voy a darle una altura y un ancho
+
+33
+00:01:03,540 --> 00:01:03,960
+también,
+
+34
+00:01:04,480 --> 00:01:05,880
+recuerda que debes hacer igual que
+
+35
+00:01:05,880 --> 00:01:06,740
+el video para que
+
+36
+00:01:06,740 --> 00:01:08,140
+no tengas complicaciones después,
+
+37
+00:01:09,180 --> 00:01:10,900
+entonces en este panel vamos a
+
+38
+00:01:10,900 --> 00:01:13,440
+agregarle o bueno vamos a pintarle
+
+39
+00:01:13,440 --> 00:01:15,120
+en nuestro background y image,
+
+40
+00:01:16,100 --> 00:01:17,560
+la caja que lo va a contener,
+
+41
+00:01:17,900 --> 00:01:20,560
+esta caja pues va a ser de color
+
+42
+00:01:20,560 --> 00:01:23,480
+blanca y bueno estas cajas o todos
+
+43
+00:01:23,480 --> 00:01:25,920
+los íconos del video la vas a
+
+44
+00:01:25,920 --> 00:01:28,800
+poder descargar en la descripción,
+
+45
+00:01:28,800 --> 00:01:31,940
+entonces lo que tenemos que hacer
+
+46
+00:01:31,940 --> 00:01:35,760
+es poder primero darle un peer
+
+47
+00:01:35,760 --> 00:01:38,420
+-chute box para poder darle nuestra
+
+48
+00:01:38,420 --> 00:01:41,080
+primer imagen que va a representar
+
+49
+00:01:41,080 --> 00:01:42,120
+nuestros productos,
+
+50
+00:01:43,020 --> 00:01:44,320
+entonces vamos a importarlo
+
+51
+00:01:57,820 --> 00:01:58,700
+y luego
+
+52
+00:01:58,700 --> 00:01:59,020
+vamos
+
+53
+00:01:59,020 --> 00:02:02,660
+a decirle que sea transparente,
+
+54
+00:02:02,780 --> 00:02:04,400
+luego vamos a colocarle una
+
+55
+00:02:04,400 --> 00:02:05,840
+un line shape,
+
+56
+00:02:06,160 --> 00:02:07,920
+una línea
+
+57
+00:02:09,820 --> 00:02:12,680
+y vamos a acomodarlo para
+
+58
+00:02:12,680 --> 00:02:14,580
+que esté alineado correctamente
+
+59
+00:02:24,980 --> 00:02:26,540
+ahora vamos a diseñar esa línea
+
+60
+00:02:26,540 --> 00:02:28,900
+vamos a poner bueno que tenga el
+
+61
+00:02:28,900 --> 00:02:31,380
+color silver y
+
+62
+00:02:31,380 --> 00:02:33,760
+tengo un borde witch de dos pixels,
+
+63
+00:02:34,180 --> 00:02:36,420
+luego vamos a poner un label en el
+
+64
+00:02:36,420 --> 00:02:38,240
+cual le vamos a poner que bueno va
+
+65
+00:02:38,240 --> 00:02:39,500
+a representar productos, entonces
+
+66
+00:02:39,500 --> 00:02:41,380
+vamos a decirle que este
+
+67
+00:02:41,380 --> 00:02:42,400
+va a ser los productos,
+
+68
+00:02:43,020 --> 00:02:46,980
+vamos a decirle que va a ser
+
+69
+00:02:46,980 --> 00:02:51,200
+popings y también transparente,
+
+70
+00:02:51,200 --> 00:02:55,960
+vamos a dar este color y vamos a
+
+71
+00:02:55,960 --> 00:02:58,720
+colocarlo bien, ahora voy a copiar
+
+72
+00:02:58,720 --> 00:02:59,380
+y pegar este
+
+73
+00:02:59,380 --> 00:03:03,120
+label y voy a colocar un label que
+
+74
+00:03:03,120 --> 00:03:05,900
+va a ser estático ya que aquí se va
+
+75
+00:03:05,900 --> 00:03:07,200
+a representar bueno cuántos
+
+76
+00:03:07,200 --> 00:03:08,000
+productos tengo,
+
+77
+00:03:08,400 --> 00:03:10,800
+recuerda que esto va a ser estático
+
+78
+00:03:10,800 --> 00:03:13,240
+por ahora más adelante va en
+
+79
+00:03:13,240 --> 00:03:15,740
+realidad este va a contar cuántos
+
+80
+00:03:15,740 --> 00:03:19,160
+productos en verdad tengamos así
+
+81
+00:03:19,160 --> 00:03:19,520
+que por
+
+82
+00:03:19,520 --> 00:03:21,300
+ahora estoy que lo pongo estático,
+
+83
+00:03:21,400 --> 00:03:23,620
+así que no te preocupes,
+
+84
+00:03:23,820 --> 00:03:28,240
+ahora luego de colocarlo bien vamos
+
+85
+00:03:28,240 --> 00:03:29,600
+a ver cómo está quedando,
+
+86
+00:03:29,900 --> 00:03:32,800
+entonces está quedando bien,
+
+87
+00:03:33,460 --> 00:03:35,040
+ahora vamos a copiar y
+
+88
+00:03:35,040 --> 00:03:37,260
+pegar lo mismo en todos los paneles
+
+89
+00:03:38,180 --> 00:03:39,500
+siguientes para que
+
+90
+00:03:39,500 --> 00:03:43,520
+hagamos los paneles restantes como
+
+91
+00:03:43,520 --> 00:03:45,500
+escategorías,
+
+92
+00:03:46,060 --> 00:03:49,300
+como es marcas y también como es
+
+93
+00:03:49,300 --> 00:03:50,220
+los productos
+
+94
+00:03:50,220 --> 00:03:52,020
+totales que vamos a ver al final de
+
+95
+00:03:52,020 --> 00:03:52,580
+este curso,
+
+96
+00:03:52,980 --> 00:03:53,920
+entonces vamos
+
+97
+00:03:53,920 --> 00:03:55,260
+a colocarlo paso a paso
+
+98
+00:03:59,020 --> 00:04:00,640
+y recuerda que debes hacer
+
+99
+00:04:00,640 --> 00:04:00,840
+bien
+
+100
+00:04:00,840 --> 00:04:02,480
+paciente para hacer estos diseños,
+
+101
+00:04:02,960 --> 00:04:04,240
+ahora si quieres ver un diseño bien
+
+102
+00:04:04,240 --> 00:04:07,780
+amigable y bueno y bien bonito debe
+
+103
+00:04:07,780 --> 00:04:10,500
+ser paciente en hacer todo esto
+
+104
+00:04:29,920 --> 00:04:32,060
+como puedes ver ya acabado,
+
+105
+00:04:32,260 --> 00:04:33,600
+así que ahora vamos a probar de
+
+106
+00:04:33,600 --> 00:04:35,900
+nuevo y como puedes hacerte cuenta
+
+107
+00:04:35,900 --> 00:04:36,960
+está quedando muy bien
+
+108
+00:04:42,060 --> 00:04:43,560
+para que hagas esos paneles,
+
+109
+00:04:43,620 --> 00:04:45,020
+para que hagas esos dibujos, pues
+
+110
+00:04:45,020 --> 00:04:45,960
+lo único que tienes que hacer
+
+111
+00:04:45,960 --> 00:04:47,980
+es como te dije ir a PowerPoint y
+
+112
+00:04:47,980 --> 00:04:50,440
+puedes agregar un círculo y bueno
+
+113
+00:04:50,440 --> 00:04:51,240
+un imagen,
+
+114
+00:04:51,240 --> 00:04:54,700
+una vez imagen puede ser sbj y lo
+
+115
+00:04:54,700 --> 00:04:55,820
+único que tienes que hacer en el
+
+116
+00:04:55,820 --> 00:04:57,520
+círculo es quitarla en contorno y
+
+117
+00:04:57,520 --> 00:04:58,740
+bueno ponerle un degradado, yo
+
+118
+00:04:58,740 --> 00:05:00,600
+como puedes darte cuenta puedes
+
+119
+00:05:00,600 --> 00:05:02,420
+ponerle las degradados que te guste
+
+120
+00:05:02,420 --> 00:05:05,500
+y cuando ya esté solo bueno a la
+
+121
+00:05:05,500 --> 00:05:07,740
+imagen del círculo ponerle una
+
+122
+00:05:07,740 --> 00:05:09,500
+sombra para que le de un sombreado
+
+123
+00:05:09,500 --> 00:05:12,800
+así no como un efecto bien bonito,
+
+124
+00:05:13,160 --> 00:05:17,000
+ahora cuando ya esté tu ícono,
+
+125
+00:05:17,420 --> 00:05:18,520
+pues lo único que haces es clic
+
+126
+00:05:18,520 --> 00:05:20,240
+derecho y guardar como imagen y
+
+127
+00:05:20,240 --> 00:05:21,500
+después yo lo puedes utilizar
+
+128
+00:05:21,500 --> 00:05:23,060
+como puedes esperar aquí,
+
+129
+00:05:23,820 --> 00:05:24,320
+entonces
+
+130
+00:05:25,780 --> 00:05:28,760
+vamos a ver que falta
+
+131
+00:05:28,760 --> 00:05:31,180
+arreglar esos círculos un poco así
+
+132
+00:05:31,180 --> 00:05:35,280
+que voy a seleccionarlos y darle un
+
+133
+00:05:35,280 --> 00:05:37,940
+tamaño exacto para que se vea mejor
+
+134
+00:05:43,840 --> 00:05:46,000
+entonces ya que está todo listo
+
+135
+00:05:46,000 --> 00:05:47,760
+después de esto vamos a agregar un
+
+136
+00:05:47,760 --> 00:05:48,240
+nuevo panel
+
+137
+00:05:54,340 --> 00:05:56,060
+este panel es el que va a contener
+
+138
+00:05:56,060 --> 00:05:56,860
+nuestra tabla de
+
+139
+00:05:56,860 --> 00:05:58,460
+productos y también las opciones
+
+140
+00:05:58,460 --> 00:06:00,880
+para agregar un nuevo producto,
+
+141
+00:06:01,340 --> 00:06:02,920
+una nueva categoría y una nueva
+
+142
+00:06:02,920 --> 00:06:04,980
+marca vamos a estentar nuestro
+
+143
+00:06:04,980 --> 00:06:06,880
+panel y igual como el panel de
+
+144
+00:06:06,880 --> 00:06:08,140
+arriba que tiene su propia imagen
+
+145
+00:06:08,140 --> 00:06:10,680
+voy a colocarle también su imagen
+
+146
+00:06:10,680 --> 00:06:14,460
+que tiene este propio panel así que
+
+147
+00:06:14,460 --> 00:06:18,980
+voy a importar ese imagen y la voy
+
+148
+00:06:18,980 --> 00:06:23,700
+a agregar para le voy a decir que
+
+149
+00:06:23,700 --> 00:06:25,780
+sea el stretch y pues solo
+
+150
+00:06:25,780 --> 00:06:28,300
+lo coloca bien para que esté bien
+
+151
+00:06:28,300 --> 00:06:28,780
+alineado
+
+152
+00:06:38,100 --> 00:06:41,080
+ahora vamos a probarlo y
+
+153
+00:06:41,080 --> 00:06:43,320
+como puede hacerte cuenta pues está
+
+154
+00:06:43,320 --> 00:06:45,060
+quedando muy bien ahora el único
+
+155
+00:06:45,060 --> 00:06:47,420
+que falta o bueno faltarían las
+
+156
+00:06:47,420 --> 00:06:50,140
+opciones que voy a agregar que son
+
+157
+00:06:50,140 --> 00:06:51,860
+los botones así que voy a agregar
+
+158
+00:07:06,880 --> 00:07:07,920
+los botones los botones
+
+159
+00:07:07,920 --> 00:07:09,400
+que vamos a utilizar aquí va a
+
+160
+00:07:09,400 --> 00:07:10,280
+ser de beautiful
+
+161
+00:07:10,280 --> 00:07:13,300
+the beautiful button el cual voy
+
+162
+00:07:13,300 --> 00:07:17,200
+a agregar este primero y va a tener
+
+163
+00:07:17,200 --> 00:07:22,040
+este color azul con este color
+
+164
+00:07:29,860 --> 00:07:31,320
+agregale estos colores que estoy
+
+165
+00:07:31,320 --> 00:07:34,580
+poniendo en todos los lugares
+
+166
+00:07:34,580 --> 00:07:37,260
+y siguen los pasos del vídeo así
+
+167
+00:07:37,960 --> 00:07:38,540
+voy
+
+168
+00:07:38,540 --> 00:07:41,440
+a agregarle al color de fiel color
+
+169
+00:07:41,440 --> 00:07:45,000
+y de fuera color el blanco también
+
+170
+00:07:45,000 --> 00:07:50,560
+voy a cambiarle de fuente y voy a
+
+171
+00:07:50,560 --> 00:07:52,180
+ponerle que este va a ser un nuevo
+
+172
+00:07:52,180 --> 00:07:54,420
+producto voy a extendarlo un
+
+173
+00:07:54,420 --> 00:07:59,000
+poco y por último le voy a dar un
+
+174
+00:07:59,000 --> 00:08:02,060
+background transparente ahora voy
+
+175
+00:08:02,060 --> 00:08:04,260
+a copiar y pegar cuatro botones más
+
+176
+00:08:04,260 --> 00:08:05,860
+que van a representar algo
+
+177
+00:08:05,860 --> 00:08:08,900
+de mi categorías a marcas y también
+
+178
+00:08:08,900 --> 00:08:13,960
+imprimir y exportar excel cada uno
+
+179
+00:08:13,960 --> 00:08:15,940
+de ellos bueno va a tener su propio
+
+180
+00:08:15,940 --> 00:08:18,740
+nombre y su propio color
+
+181
+00:08:18,740 --> 00:08:21,080
+aunque categorías y marcas y nuevos
+
+182
+00:08:21,080 --> 00:08:21,640
+productos van
+
+183
+00:08:21,640 --> 00:08:22,740
+a tener el mismo color
+
+184
+00:08:32,400 --> 00:08:34,260
+a este color bueno al botón
+
+185
+00:08:34,260 --> 00:08:35,400
+en primer voy a ponerle un
+
+186
+00:08:35,400 --> 00:08:37,120
+color morado casi lila
+
+187
+00:08:48,140 --> 00:08:49,980
+y al exportar
+
+188
+00:08:49,980 --> 00:08:52,040
+excel voy a ponerle este
+
+189
+00:08:52,040 --> 00:08:55,160
+color que es un poco verde claro
+
+190
+00:08:59,040 --> 00:09:00,180
+y cuando yo
+
+191
+00:09:00,180 --> 00:09:02,720
+tengamos estos botones pues vamos
+
+192
+00:09:02,720 --> 00:09:04,700
+a decirle por último que hay que
+
+193
+00:09:04,700 --> 00:09:05,680
+darle un color
+
+194
+00:09:05,680 --> 00:09:08,040
+transparente entonces
+
+195
+00:09:08,040 --> 00:09:09,100
+como puede darte cuenta
+
+196
+00:09:09,100 --> 00:09:10,200
+está quedando muy bien
+
+197
+00:09:13,180 --> 00:09:14,660
+vamos a agregar en la parte de la
+
+198
+00:09:14,660 --> 00:09:15,020
+búsqueda
+
+199
+00:09:15,020 --> 00:09:17,860
+sólo copie y pegue la parte que
+
+200
+00:09:17,860 --> 00:09:19,620
+ya teníamos en categorías y marcas
+
+201
+00:09:19,620 --> 00:09:21,280
+para no hacerlo muy largo porque
+
+202
+00:09:21,280 --> 00:09:23,100
+además es lo mismo no así que
+
+203
+00:09:23,100 --> 00:09:26,160
+estamos reutilizando componentes
+
+204
+00:09:26,160 --> 00:09:34,640
+de diseño voy a agregarle el data
+
+205
+00:09:34,640 --> 00:09:35,000
+review
+
+206
+00:09:35,000 --> 00:09:37,640
+para poder mostrar mis productos
+
+207
+00:09:44,180 --> 00:09:45,760
+para mostrar los
+
+208
+00:09:45,760 --> 00:09:47,600
+productos de una vez así que voy
+
+209
+00:09:47,600 --> 00:09:49,260
+a agregar el data review lo voy a
+
+210
+00:09:49,260 --> 00:09:49,840
+expandir
+
+211
+00:09:53,300 --> 00:09:57,320
+y bueno lo expando
+
+212
+00:09:57,320 --> 00:09:58,980
+y le voy a poner un hombre que se
+
+213
+00:09:58,980 --> 00:09:59,060
+va
+
+214
+00:09:59,060 --> 00:09:59,120
+a
+
+215
+00:09:59,120 --> 00:10:00,620
+llamar tablar productos
+
+216
+00:10:00,620 --> 00:10:03,160
+ahora yo ya creí los archivos
+
+217
+00:10:03,160 --> 00:10:03,780
+de entidades
+
+218
+00:10:03,780 --> 00:10:06,020
+productos datos productos negocios
+
+219
+00:10:06,020 --> 00:10:08,100
+productos y bueno en entidades
+
+220
+00:10:08,100 --> 00:10:09,520
+productos como puedes ver no
+
+221
+00:10:09,520 --> 00:10:11,640
+he hecho nada raro como en marcas y
+
+222
+00:10:11,640 --> 00:10:13,300
+categorías hacemos el mismo proceso
+
+223
+00:10:13,300 --> 00:10:15,120
+sólo creamos nuestros valores
+
+224
+00:10:15,120 --> 00:10:17,000
+privados y andos de nuestros
+
+225
+00:10:17,000 --> 00:10:18,360
+valores de nuestra tabla productos
+
+226
+00:10:18,360 --> 00:10:22,030
+que en la base de datos y sólo
+
+227
+00:10:22,030 --> 00:10:24,010
+vamos a encaxularlos luego en datos
+
+228
+00:10:24,010 --> 00:10:26,270
+productos hago la cadena
+
+229
+00:10:26,270 --> 00:10:28,310
+de conexión y abajo creo un método
+
+230
+00:10:28,310 --> 00:10:29,710
+para listar mis productos
+
+231
+00:10:29,710 --> 00:10:31,390
+esta es otra manera de mostrar tus
+
+232
+00:10:31,390 --> 00:10:34,010
+productos instanciamos un objeto de
+
+233
+00:10:34,010 --> 00:10:35,610
+tatábol luego creamos una variable
+
+234
+00:10:35,610 --> 00:10:37,910
+que le era mis filas entregamos
+
+235
+00:10:37,910 --> 00:10:39,570
+nuestro store procedur que es el
+
+236
+00:10:39,570 --> 00:10:42,830
+listar productos y bueno y el
+
+237
+00:10:42,830 --> 00:10:44,430
+objeto de la cadena de conexión a
+
+238
+00:10:44,430 --> 00:10:46,630
+través de la distancia de SQL Coman
+
+239
+00:10:46,630 --> 00:10:49,250
+gracias a este SQL Coman le decimos
+
+240
+00:10:49,250 --> 00:10:52,110
+a nuestro objeto cmd que el tipo es
+
+241
+00:10:52,110 --> 00:10:54,430
+un store procedur luego abrimos la
+
+242
+00:10:54,430 --> 00:10:56,390
+conexión le decimos que lean
+
+243
+00:10:56,390 --> 00:11:00,490
+nuestras columnas con sqrider y en
+
+244
+00:11:00,490 --> 00:11:02,950
+nuestro objeto tabla en un método
+
+245
+00:11:02,950 --> 00:11:05,170
+de carga load le damos que las
+
+246
+00:11:05,170 --> 00:11:07,190
+filas ya leídas entonces luego
+
+247
+00:11:07,190 --> 00:11:08,750
+cerramos tanto leer filas como
+
+248
+00:11:08,750 --> 00:11:09,610
+nuestra conexión no
+
+249
+00:11:09,610 --> 00:11:11,370
+te voy a olvidar y de por ver hemos
+
+250
+00:11:11,370 --> 00:11:11,750
+nuestra
+
+251
+00:11:11,750 --> 00:11:13,630
+tabla y acargada ahora en productos
+
+252
+00:11:13,630 --> 00:11:15,670
+instanciamos el objeto dato para
+
+253
+00:11:15,670 --> 00:11:17,350
+obtener aquí el listar productos
+
+254
+00:11:17,350 --> 00:11:19,910
+que contiene nuestra tabla y ya al
+
+255
+00:11:19,910 --> 00:11:21,830
+final de nuestro código del form
+
+256
+00:11:21,830 --> 00:11:24,830
+instanciamos el objeto negocio y a
+
+257
+00:11:24,830 --> 00:11:26,090
+nuestra tabla productos le
+
+258
+00:11:26,090 --> 00:11:27,750
+agregamos el método listar
+
+259
+00:11:27,750 --> 00:11:29,430
+productos que hemos traído desde
+
+260
+00:11:29,430 --> 00:11:32,050
+nuestra capa de datos acuérate que
+
+261
+00:11:32,050 --> 00:11:32,670
+debes iniciar
+
+262
+00:11:32,670 --> 00:11:34,390
+y cargar nuestro método y
+
+263
+00:11:34,390 --> 00:11:36,130
+iniciar vamos a ver que
+
+264
+00:11:36,130 --> 00:11:38,650
+prácticamente hemos cargado los
+
+265
+00:11:38,650 --> 00:11:40,890
+datos que tenemos en la misma en la
+
+266
+00:11:40,890 --> 00:11:42,510
+base de datos como lo teníamos
+
+267
+00:11:42,510 --> 00:11:44,910
+en el vídeo anterior y bueno en la
+
+268
+00:11:44,910 --> 00:11:45,550
+segunda parte
+
+269
+00:11:45,550 --> 00:11:47,730
+vamos a terminar con el diseño de
+
+270
+00:11:47,730 --> 00:11:48,250
+esta tabla
+
